@@ -55,16 +55,17 @@ self.addEventListener('fetch', function(evt) {
 
 // Detects if device is on iOS 
 isIos = function() {
-  const userAgent = window.navigator.userAgent.toLowerCase();
-  return /iphone|ipad|ipod/.test( userAgent );
+    var userAgent = navigator.userAgent.toLowerCase();
+    return /iphone|ipad|ipod/.test(userAgent);
 }
-
+  
 // Detects if device is in standalone mode
 isInStandaloneMode = function() {
-    return ('standalone' in window.navigator) && (window.navigator.standalone);
+    return ('standalone' in navigator) && (navigator.standalone);
 }
-
+  
 // Checks if should display install popup notification:
 if (isIos() && !isInStandaloneMode()) {
-  self.setState({ showInstallMessage: true });
+    self.setState({ showInstallMessage: true });
 }
+  
