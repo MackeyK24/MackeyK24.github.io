@@ -1,5 +1,5 @@
 // Application Service Worker Script
-var versionStamp = '50c6b455-fbc8-4c6c-8eca-68f943bcd1ff';
+var versionStamp = 'abc6b455-fbc8-4c6c-8eca-68f943bcd1ff';
 var installFiles = ['./', './index.html', './manifest.json', './scripts/CanvasTools.js', './scripts/playcanvas-ammo.js', './scripts/playcanvas-anim.js', './scripts/playcanvas-gltf.js', './scripts/playcanvas-stick.js', './scripts/playcanvas-tools.js', './scripts/playcanvas-webvr.js', './scripts/playcanvas.js', './scene/PlayCanvasToolkit.js', './scene/TestScene.bin', './scene/TestScene.gltf', './scene/assets/Country_env.dds', './scene/assets/Country_negx.png', './scene/assets/Country_negy.png', './scene/assets/Country_negz.png', './scene/assets/Country_posx.png', './scene/assets/Country_posy.png', './scene/assets/Country_posz.png', './scene/assets/TestScene_Lightmap-0_comp_light.png'];
 
 // Install Service Worker Cache Files
