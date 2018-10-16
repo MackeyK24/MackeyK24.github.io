@@ -33,23 +33,18 @@
     <!-- Favorite -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
-    <!-- Touch Images -->
-    <!--
-    <link rel="apple-touch-icon" href="icon/touch-icon-iphone.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icon/touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icon/touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="icon/touch-icon-ipad-retina.png">
-    -->
-    <!-- Splash Images -->
-    <!--
-    <link rel="apple-touch-startup-image" sizes="2048x2732" href="icon/apple_splash_2048.png">
-    <link rel="apple-touch-startup-image" sizes="1668x2224" href="icon/apple_splash_1668.png">
-    <link rel="apple-touch-startup-image" sizes="1536x2048" href="icon/apple_splash_1536.png">
-    <link rel="apple-touch-startup-image" sizes="1125x2436" href="icon/apple_splash_1125.png">
-    <link rel="apple-touch-startup-image" sizes="1242x2208" href="icon/apple_splash_1242.png">
-    <link rel="apple-touch-startup-image" sizes="750x1334" href="icon/apple_splash_750.png">
-    <link rel="apple-touch-startup-image" sizes="640x1136" href="icon/apple_splash_640.png">    
-    -->
+    <!-- Apple Images -->
+	<link rel="apple-touch-icon" href="icons/icon-96x96.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="167x167" href="icons/icon-167x167.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180x180.png">
+	<link rel="apple-touch-startup-image" sizes="2048x2732" href="icons/splash-2048x2732.png">
+	<link rel="apple-touch-startup-image" sizes="1668x2224" href="icons/splash-1668x2224.png">
+	<link rel="apple-touch-startup-image" sizes="1536x2048" href="icons/splash-1536x2048.png">
+	<link rel="apple-touch-startup-image" sizes="1125x2436" href="icons/splash-1125x2436.png">
+	<link rel="apple-touch-startup-image" sizes="1242x2208" href="icons/splash-1242x2208.png">
+	<link rel="apple-touch-startup-image" sizes="750x1334" href="icons/splash-750x1334.png">
+	<link rel="apple-touch-startup-image" sizes="640x1136" href="icons/splash-640x1136.png">
 
     <!-- Web Application -->
 	<link rel="manifest" href="manifest.json" />
@@ -441,6 +436,19 @@
             console.warn("GLTF Parse Error - Unsupported file format detected: " + scenename);
             removeSceneLoader();
         }
+        // Detects if device is on iOS 
+        //isIos = function() {
+        //  var userAgent = navigator.userAgent.toLowerCase();
+        //  return /iphone|ipad|ipod/.test(userAgent);
+        //}
+        // Detects if device is in standalone mode
+        //isInStandaloneMode = function() {
+        //    return ('standalone' in navigator) && (navigator.standalone);
+        //}
+        // Checks if should display install popup notification:
+        //if (isIos() && !isInStandaloneMode()) {
+        //  self.setState({ showInstallMessage: true });
+        //}
     </script>
 </body>
 </html>

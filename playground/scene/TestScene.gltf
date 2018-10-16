@@ -293,7 +293,7 @@
           }
         }
       },
-      "name": "M_WTF5.Instance.76744db3482a4d8daa25690a0d9d94da",
+      "name": "M_WTF5.Instance.995a771b9b974818be50d05a2a4a0067",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -326,7 +326,7 @@
           }
         }
       },
-      "name": "M_WTF6.Instance.5fa87a47b17e49048b5b1b64d7049b8b",
+      "name": "M_WTF6.Instance.8e98f788bfea44c7b3ac6fb1b3c3c062",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -359,7 +359,7 @@
           }
         }
       },
-      "name": "M_WTF7.Instance.4b63fa620c564c2d8efc7a41827693ae",
+      "name": "M_WTF7.Instance.1568b0917d2042c6ab6d1bb78f54c757",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -429,7 +429,7 @@
       "name": "SceneController",
       "extras": {
         "metadata": {
-          "id": 13872,
+          "id": 13868,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -472,7 +472,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "id": 13900,
+          "id": 13896,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -498,7 +498,7 @@
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "id": 13866,
+          "id": 13862,
           "tag": "MainCamera",
           "prefab": false,
           "joint": null,
@@ -613,7 +613,7 @@
       "name": "Plane",
       "extras": {
         "metadata": {
-          "id": 13858,
+          "id": 13854,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -654,7 +654,7 @@
       "name": "Cube 1",
       "extras": {
         "metadata": {
-          "id": 13894,
+          "id": 13890,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -717,7 +717,7 @@
       "name": "Cube 2",
       "extras": {
         "metadata": {
-          "id": 13884,
+          "id": 13880,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
