@@ -452,10 +452,18 @@
         //}
         // Checks if should display install popup notification:
         //if (isIos() && !isInStandaloneMode()) {
-        this.setState({ showInstallMessage: true });
-        //self.setState({ showInstallMessage: true });
-        alert("SetState Test This");
+        //  self.setState({ showInstallMessage: true });
         //}
+        
+        var wtf = this;
+        window.addEventListener('load', function(){
+            if (wtf.setState) {
+                wtf.setState({ showInstallMessage: true });
+                alert("Self Set State Test");
+            } else {
+                alert("No Set State");
+            }
+        });
     </script>
 </body>
 </html>
