@@ -454,16 +454,6 @@
         //if (isIos() && !isInStandaloneMode()) {
         //  self.setState({ showInstallMessage: true });
         //}
-        
-        var wtf = this;
-        window.addEventListener('load', function(){
-            if (wtf.setState) {
-                wtf.setState({ showInstallMessage: true });
-                alert("Self Set State Test");
-            } else {
-                alert("No Set State");
-            }
-        });
     </script>
 </body>
 </html>
