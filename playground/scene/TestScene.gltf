@@ -265,10 +265,6 @@
     {
       "uri": "assets/TestScene_Lightmap-0_comp_light.png",
       "name": "TestScene_Lightmap-0_comp_light"
-    },
-    {
-      "uri": "assets/TestScene_Lightmap-0_comp_light.png",
-      "name": "TestScene_Lightmap-0_comp_light"
     }
   ],
   "materials": [
@@ -293,7 +289,7 @@
           }
         }
       },
-      "name": "M_WTF5.Instance.2657ae35dbf447a8b4bc856eca8732e7",
+      "name": "M_WTF5.Instance.f8a4eb36dc5a417193114fb5df7b2ef6",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -314,39 +310,6 @@
           "extensions": {
             "KHR_texture_transform": {
               "offset": [
-                0.239268735,
-                0.7841906
-              ],
-              "scale": [
-                0.238089427,
-                0.238089427
-              ],
-              "texCoord": 1
-            }
-          }
-        }
-      },
-      "name": "M_WTF6.Instance.85f6452d8dd643fbacce5f36ecd112e8",
-      "extras": {
-        "metadata": {
-          "glossyreflections": true,
-          "specularhighlights": true
-        }
-      }
-    },
-    {
-      "pbrMetallicRoughness": {
-        "metallicFactor": 0.0,
-        "roughnessFactor": 0.5
-      },
-      "commonConstant": {
-        "hdrPacking": "none",
-        "lightmapTexture": {
-          "index": 2,
-          "texCoord": 1,
-          "extensions": {
-            "KHR_texture_transform": {
-              "offset": [
                 -0.0009656351,
                 0.7841906
               ],
@@ -359,7 +322,7 @@
           }
         }
       },
-      "name": "M_WTF7.Instance.f44471899c3c4367828f0af4663c2099",
+      "name": "M_WTF6.Instance.f25e50ab9aea491a91e568ce06110f54",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -400,22 +363,6 @@
         }
       ],
       "name": "Cube 1"
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TANGENT": 8,
-            "TEXCOORD_0": 9,
-            "TEXCOORD_1": 10
-          },
-          "indices": 11,
-          "material": 2
-        }
-      ],
-      "name": "Cube 2"
     }
   ],
   "nodes": [
@@ -429,7 +376,7 @@
       "name": "SceneController",
       "extras": {
         "metadata": {
-          "id": 13876,
+          "id": 13868,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -472,7 +419,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "id": 13904,
+          "id": 13896,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -498,7 +445,7 @@
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "id": 13870,
+          "id": 13862,
           "tag": "MainCamera",
           "prefab": false,
           "joint": null,
@@ -613,7 +560,7 @@
       "name": "Plane",
       "extras": {
         "metadata": {
-          "id": 13862,
+          "id": 13854,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -654,7 +601,7 @@
       "name": "Cube 1",
       "extras": {
         "metadata": {
-          "id": 13898,
+          "id": 13890,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -666,69 +613,6 @@
             "shadowcastingmode": {
               "Key": 1,
               "Value": "Cube 1 (UnityEngine.MeshRenderer)"
-            },
-            "receiveshadows": false,
-            "sortingorder": 0,
-            "sortinglayerid": 0,
-            "sortinglayername": "Default",
-            "renderinglayermask": 4294967295,
-            "allowdynamicocclusion": true,
-            "castshadowslightmap": true
-          },
-          "components": [
-            {
-              "alias": "boxcollider",
-              "material": null,
-              "istrigger": false,
-              "size": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              },
-              "size_x": 1.0,
-              "size_y": 1.0,
-              "size_z": 1.0,
-              "center": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "center_x": 0.0,
-              "center_y": 0.0,
-              "center_z": 0.0
-            }
-          ]
-        }
-      }
-    },
-    {
-      "mesh": 2,
-      "rotation": [
-        0.0,
-        0.0,
-        0.0,
-        -1.0
-      ],
-      "translation": [
-        -1.0,
-        0.5,
-        -0.727
-      ],
-      "name": "Cube 2",
-      "extras": {
-        "metadata": {
-          "id": 13888,
-          "tag": "Untagged",
-          "prefab": false,
-          "joint": null,
-          "layer": 0,
-          "layername": "Default",
-          "renderer": {
-            "lightmapstatic": true,
-            "lightmappermode": "Indirect",
-            "shadowcastingmode": {
-              "Key": 1,
-              "Value": "Cube 2 (UnityEngine.MeshRenderer)"
             },
             "receiveshadows": false,
             "sortingorder": 0,
@@ -783,8 +667,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ],
       "name": "TestScene",
       "extras": {
@@ -955,11 +838,6 @@
     {
       "sampler": 0,
       "source": 1,
-      "name": "TestScene_Lightmap-0_comp_light"
-    },
-    {
-      "sampler": 0,
-      "source": 2,
       "name": "TestScene_Lightmap-0_comp_light"
     }
   ]
