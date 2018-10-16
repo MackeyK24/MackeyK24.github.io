@@ -4,7 +4,9 @@
 // Progressive Web Application
 var progressiveApp = true;
 if (progressiveApp === true && 'serviceWorker' in navigator) {
-    navigator.serviceWorker.register('worker.js').then(function(reg) {
+    var stamp = window.hasOwnProperty('stamp') ? window.stamp : "0";
+    var worker = 'worker.js?versionCheck=' + encodeURIComponent(stamp);
+    navigator.serviceWorker.register(worker).then(function(reg) {
         console.log('Service worker registration succeeded. Scope is ' + reg.scope);
     }).catch(function(error) {
         console.warn('Service worker registration failed with ' + error);

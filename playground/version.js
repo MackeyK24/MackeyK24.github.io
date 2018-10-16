@@ -1,0 +1,1 @@
+window.stamp = 'fd87c37c-53fb-45d0-9bbf-2441975e0861';
