@@ -3,8 +3,8 @@
   "short_name": "PlayCanvas T",
   "theme_color": "#3B789A",
   "background_color": "#3B789A",
-  "orientation": "any",  
-  "display": "standalone",
+  "orientation": "portrait",  
+  "display": "fullscreen",
   "start_url": ".",
   "splash_pages": null,
   "icons": [
