@@ -265,6 +265,10 @@
     {
       "uri": "assets/TestScene_Lightmap-0_comp_light.png",
       "name": "TestScene_Lightmap-0_comp_light"
+    },
+    {
+      "uri": "assets/TestScene_Lightmap-0_comp_light.png",
+      "name": "TestScene_Lightmap-0_comp_light"
     }
   ],
   "materials": [
@@ -289,7 +293,7 @@
           }
         }
       },
-      "name": "M_WTF5.Instance.b318df85cc1e4def875372439fe5276d",
+      "name": "M_WTF5.Instance.936f825a351f48888b960b58de40dcba",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -310,6 +314,39 @@
           "extensions": {
             "KHR_texture_transform": {
               "offset": [
+                0.239268735,
+                0.7841906
+              ],
+              "scale": [
+                0.238089427,
+                0.238089427
+              ],
+              "texCoord": 1
+            }
+          }
+        }
+      },
+      "name": "M_WTF6.Instance.2673620b8948419995dcefb330431bf3",
+      "extras": {
+        "metadata": {
+          "glossyreflections": true,
+          "specularhighlights": true
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "commonConstant": {
+        "hdrPacking": "none",
+        "lightmapTexture": {
+          "index": 2,
+          "texCoord": 1,
+          "extensions": {
+            "KHR_texture_transform": {
+              "offset": [
                 -0.0009656351,
                 0.7841906
               ],
@@ -322,7 +359,7 @@
           }
         }
       },
-      "name": "M_WTF6.Instance.e58299b4c60440cfab13faa8fa7236c4",
+      "name": "M_WTF7.Instance.d2acae4dd84c4602b6b8920ba94663ab",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -363,6 +400,22 @@
         }
       ],
       "name": "Cube 1"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 2
+        }
+      ],
+      "name": "Cube 2"
     }
   ],
   "nodes": [
@@ -647,6 +700,69 @@
           ]
         }
       }
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        -1.0,
+        0.5,
+        -0.727
+      ],
+      "name": "Cube 2",
+      "extras": {
+        "metadata": {
+          "id": 13880,
+          "tag": "Untagged",
+          "prefab": false,
+          "joint": null,
+          "layer": 0,
+          "layername": "Default",
+          "renderer": {
+            "lightmapstatic": true,
+            "lightmappermode": "Indirect",
+            "shadowcastingmode": {
+              "Key": 1,
+              "Value": "Cube 2 (UnityEngine.MeshRenderer)"
+            },
+            "receiveshadows": false,
+            "sortingorder": 0,
+            "sortinglayerid": 0,
+            "sortinglayername": "Default",
+            "renderinglayermask": 4294967295,
+            "allowdynamicocclusion": true,
+            "castshadowslightmap": true
+          },
+          "components": [
+            {
+              "alias": "boxcollider",
+              "material": null,
+              "istrigger": false,
+              "size": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "size_x": 1.0,
+              "size_y": 1.0,
+              "size_z": 1.0,
+              "center": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "center_x": 0.0,
+              "center_y": 0.0,
+              "center_z": 0.0
+            }
+          ]
+        }
+      }
     }
   ],
   "samplers": [
@@ -667,7 +783,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "name": "TestScene",
       "extras": {
@@ -838,6 +955,11 @@
     {
       "sampler": 0,
       "source": 1,
+      "name": "TestScene_Lightmap-0_comp_light"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
       "name": "TestScene_Lightmap-0_comp_light"
     }
   ]
