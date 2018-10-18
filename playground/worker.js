@@ -1,11 +1,11 @@
-var versionStamp = '0b5d3bc1-74e4-4e03-b771-9015a51be050';
+var versionStamp = '29b91c2e-0780-424c-9509-26cd889b0870';
 var installFiles = ['./', './index.html', './favicon.ico', './manifest.json', './scripts/CanvasTools.js', './scripts/playcanvas-ammo.js', './scripts/playcanvas-anim.js', './scripts/playcanvas-gltf.js', './scripts/playcanvas-stick.js', './scripts/playcanvas-tools.js', './scripts/playcanvas-webvr.js', './scripts/playcanvas.js', './scene/PlayCanvasToolkit.js', './scene/TestScene.bin', './scene/TestScene.gltf', './scene/assets/Country_env.dds', './scene/assets/Country_negx.png', './scene/assets/Country_negy.png', './scene/assets/Country_negz.png', './scene/assets/Country_posx.png', './scene/assets/Country_posy.png', './scene/assets/Country_posz.png', './scene/assets/TestScene_Lightmap-0_comp_light.png'];
 
 // Install Service Worker Cache Files
 self.addEventListener('install', function(evt) {
     evt.waitUntil(
         caches.open(versionStamp).then(function(cache) {
-            console.warn("===> Install cache: " + versionStamp);
+            console.log("Installing Cache: " + versionStamp);
             return cache.addAll(installFiles);
         }).then(function() {
             return self.skipWaiting();
@@ -20,7 +20,7 @@ self.addEventListener('activate', function(evt) {
             return Promise.all(
                 cacheNames.map(function(cache) {
                     if (cache !== versionStamp) {
-                        console.warn("===> Clean cache: " + cache);
+                        console.log("Cleaning Cache: " + cache);
                         return caches.delete(cache);
                     }
                 })

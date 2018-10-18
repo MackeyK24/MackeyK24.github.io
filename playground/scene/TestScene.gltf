@@ -184,6 +184,96 @@
       "min": [
         0.0
       ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.99997353553771973
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.9999769926071167
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        0.65385353565216064
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ]
     }
   ],
   "asset": {
@@ -193,7 +283,7 @@
   "buffers": [
     {
       "uri": "TestScene.bin",
-      "byteLength": 10664
+      "byteLength": 48720
     }
   ],
   "bufferViews": [
@@ -255,13 +345,39 @@
       "buffer": 0,
       "byteOffset": 10520,
       "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10664,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16844,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23024,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 31264,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35384,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39504,
+      "byteLength": 9216
     }
   ],
   "images": [
-    {
-      "uri": "assets/TestScene_Lightmap-0_comp_light.png",
-      "name": "TestScene_Lightmap-0_comp_light"
-    },
     {
       "uri": "assets/TestScene_Lightmap-0_comp_light.png",
       "name": "TestScene_Lightmap-0_comp_light"
@@ -293,7 +409,7 @@
           }
         }
       },
-      "name": "M_WTF5.Instance.737c5832ea51487399e328f687488f8e",
+      "name": "M_WTF5.Instance.865096d4677d4a6283293620aebd50ff",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -314,39 +430,6 @@
           "extensions": {
             "KHR_texture_transform": {
               "offset": [
-                0.239268735,
-                0.7841906
-              ],
-              "scale": [
-                0.238089427,
-                0.238089427
-              ],
-              "texCoord": 1
-            }
-          }
-        }
-      },
-      "name": "M_WTF6.Instance.69c6c019a5554e96a9d9028f0aada0d2",
-      "extras": {
-        "metadata": {
-          "glossyreflections": true,
-          "specularhighlights": true
-        }
-      }
-    },
-    {
-      "pbrMetallicRoughness": {
-        "metallicFactor": 0.0,
-        "roughnessFactor": 0.5
-      },
-      "commonConstant": {
-        "hdrPacking": "none",
-        "lightmapTexture": {
-          "index": 2,
-          "texCoord": 1,
-          "extensions": {
-            "KHR_texture_transform": {
-              "offset": [
                 -0.0009656351,
                 0.7841906
               ],
@@ -359,7 +442,20 @@
           }
         }
       },
-      "name": "M_WTF7.Instance.ff347ab0a5d44718be2830c0b7768ca2",
+      "name": "M_WTF6.Instance.f8a689eabf2e415f845fc2b651fa6547",
+      "extras": {
+        "metadata": {
+          "glossyreflections": true,
+          "specularhighlights": true
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Default-Material",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -405,17 +501,17 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TANGENT": 8,
-            "TEXCOORD_0": 9,
-            "TEXCOORD_1": 10
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16
           },
-          "indices": 11,
+          "indices": 17,
           "material": 2
         }
       ],
-      "name": "Cube 2"
+      "name": "Sphere"
     }
   ],
   "nodes": [
@@ -710,27 +806,27 @@
         -1.0
       ],
       "translation": [
-        -1.0,
-        0.5,
-        -0.727
+        1.16,
+        1.79,
+        -0.98
       ],
-      "name": "Cube 2",
+      "name": "Sphere",
       "extras": {
         "metadata": {
-          "id": 13880,
+          "id": 15186,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
           "layer": 0,
           "layername": "Default",
           "renderer": {
-            "lightmapstatic": true,
+            "lightmapstatic": false,
             "lightmappermode": "Indirect",
             "shadowcastingmode": {
               "Key": 1,
-              "Value": "Cube 2 (UnityEngine.MeshRenderer)"
+              "Value": "Sphere (UnityEngine.MeshRenderer)"
             },
-            "receiveshadows": false,
+            "receiveshadows": true,
             "sortingorder": 0,
             "sortinglayerid": 0,
             "sortinglayername": "Default",
@@ -740,17 +836,10 @@
           },
           "components": [
             {
-              "alias": "boxcollider",
+              "alias": "spherecollider",
               "material": null,
               "istrigger": false,
-              "size": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              },
-              "size_x": 1.0,
-              "size_y": 1.0,
-              "size_z": 1.0,
+              "radius": 0.5,
               "center": {
                 "x": 0.0,
                 "y": 0.0,
@@ -955,11 +1044,6 @@
     {
       "sampler": 0,
       "source": 1,
-      "name": "TestScene_Lightmap-0_comp_light"
-    },
-    {
-      "sampler": 0,
-      "source": 2,
       "name": "TestScene_Lightmap-0_comp_light"
     }
   ]
