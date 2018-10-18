@@ -1,1 +1,0 @@
-window.stamp = 'be10d477-1a56-4839-ac4d-d1ac42723d6b';
