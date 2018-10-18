@@ -1,4 +1,4 @@
-var versionStamp = 'd7373a3e-5402-4fc4-ad68-eb84543e1d69';
+var versionStamp = 'd26db188-9565-4e10-9a08-9d25584e3332';
 var installFiles = ['./', './index.html', './favicon.ico', './manifest.json', './scripts/CanvasTools.js', './scripts/playcanvas-ammo.js', './scripts/playcanvas-anim.js', './scripts/playcanvas-gltf.js', './scripts/playcanvas-stick.js', './scripts/playcanvas-tools.js', './scripts/playcanvas-webvr.js', './scripts/playcanvas.js', './scene/PlayCanvasToolkit.js', './scene/TestScene.bin', './scene/TestScene.gltf', './scene/assets/Country_env.dds', './scene/assets/Country_negx.png', './scene/assets/Country_negy.png', './scene/assets/Country_negz.png', './scene/assets/Country_posx.png', './scene/assets/Country_posy.png', './scene/assets/Country_posz.png', './scene/assets/TestScene_Lightmap-0_comp_light.png'];
 // Install Service Worker Cache Files
 self.addEventListener('install', function(evt) {
@@ -27,9 +27,11 @@ self.addEventListener('activate', function(evt) {
 });
 // Fetch Service Worker Cache Files
 self.addEventListener('fetch', function(evt) {
-    evt.respondWith(
-        caches.match(evt.request).then(function(response) {
-            return response || fetch(evt.request);
-        })
-    );
+    if (evt.request.url.indexOf('version.json') < 0) {
+        evt.respondWith(
+            caches.match(evt.request).then(function(response) {
+                return response || fetch(evt.request);
+            })
+        );
+    }
 });
