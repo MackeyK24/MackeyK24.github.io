@@ -1,1 +1,1 @@
-window.stamp = 'f251050c-d5a1-4be8-b237-73b08a84ee7d';
+window.stamp = 'be10d477-1a56-4839-ac4d-d1ac42723d6b';
