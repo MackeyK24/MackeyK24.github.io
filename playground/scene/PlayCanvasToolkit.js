@@ -6,9 +6,37 @@ var progressiveApp = true;
 if (progressiveApp === true && 'serviceWorker' in navigator) {
     navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
         window.registration = reg;
-        console.log('===> Service worker registration succeeded. Scope is ' + reg.scope);
+        console.log('Service worker registered: ' + reg.scope);
+        // ..
+        // Check For Version Updates
+        // ..
+        var versionUrl = 'version.json?time=' + new Date().getTime().toString();
+        var versionCheck = window.hasOwnProperty('version') ? window.version : null;
+        if (versionCheck != null) {
+            fetch(versionUrl).then(function(response) {
+                if (!response.ok) throw Error(response.statusText);
+                return response.json();
+            }).then(function(versionStamp) {
+                if (versionStamp != null && versionStamp.hasOwnProperty('stamp')) {
+                    if (versionStamp.stamp !== versionCheck) {
+                        console.warn("Detected version update: " + versionStamp.stamp);
+                        if (window.registration != null) {
+                            window.registration.update();
+                            // ..
+                            // TODO: Show Pending Update Message
+                            // ..
+                            window.setTimeout(function() {
+                                alert("Pending Update Detected!!!");
+                            }, 3000);
+                        }
+                    }
+                }
+            }).catch(function(error) {
+                console.warn('Version stamp offline: ' + error);
+            });
+        }
     }).catch(function(error) {
-        console.warn('===> Service worker registration failed with ' + error);
+        console.warn('Service worker offline: ' + error);
     });
 }
 
