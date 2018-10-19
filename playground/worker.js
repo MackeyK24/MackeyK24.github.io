@@ -1,4 +1,4 @@
-var versionStamp = '5c63e74c-bb9f-4531-8273-9d65c28df4a7';
+var versionStamp = '3bc2696e-5416-4894-874f-e13b43694082';
 var installFiles = ['./', './index.html', './favicon.ico', './manifest.json', './scripts/CanvasTools.js', './scripts/playcanvas-ammo.js', './scripts/playcanvas-anim.js', './scripts/playcanvas-gltf.js', './scripts/playcanvas-stick.js', './scripts/playcanvas-tools.js', './scripts/playcanvas-webvr.js', './scripts/playcanvas.js', './scene/PlayCanvasToolkit.js', './scene/TestScene.bin', './scene/TestScene.gltf', './scene/assets/Country_env.dds', './scene/assets/Country_negx.png', './scene/assets/Country_negy.png', './scene/assets/Country_negz.png', './scene/assets/Country_posx.png', './scene/assets/Country_posy.png', './scene/assets/Country_posz.png', './scene/assets/TestScene_Lightmap-0_comp_light.png'];
 // ..
 // Install Service Worker File System
@@ -10,9 +10,6 @@ self.addEventListener('install', function(evt) {
             var cachePromises = installFiles.map(function(urlToPrefetch) {
                 var url = new URL(urlToPrefetch, location.href);
                 url.search += (url.search ? '&' : '?') + 'time=' + new Date().getTime().toString();
-                // ..
-                // Prefetch Service Worker Cache Files
-                // ..
                 var request = new Request(url, { mode: 'no-cors' });
                 return fetch(request, { cache: 'no-store' }).then(function(response) {
                     if (response.status >= 400) throw new Error('request for ' + urlToPrefetch + ' failed with status ' + response.statusText);
