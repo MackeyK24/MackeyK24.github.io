@@ -187,7 +187,6 @@
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "161c8ad7-5943-416c-95f1-81039262622c";
         var loaded = false, scene = null, downloaded = 0;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -275,7 +274,7 @@
                                 // New update available
                                 if (navigator.serviceWorker.controller) {
                                     console.log("Pending update detected");
-                                    var refresh = confirm("Pending Updated Detected. Refresh Page?");
+                                    var refresh = confirm("Pending Updated Detected. Refresh...?");
                                     if (refresh == true) window.location.reload();
                                 }
                                 // No update available
