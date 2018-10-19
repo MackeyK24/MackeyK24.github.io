@@ -187,7 +187,7 @@
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "8880dc89-3425-45b2-89f4-09329a37ed45";
+        var version = "223f063d-4d13-41ac-98d0-a41cb20331f4";
         var loaded = false, scene = null, downloaded = 0;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -266,36 +266,6 @@
                     console.log('Service worker registered: ' + reg.scope);
                 }).catch(function(error) {
                     console.log('Service worker offline: ' + error);
-                });
-            }
-        };
-        var checkServiceWorkerUpdates = function() {
-            var versionUrl = 'version.json?time=' + new Date().getTime().toString();
-            var versionCheck = window.hasOwnProperty('version') ? window.version : null;
-            if (versionCheck != null) {
-                fetch(versionUrl, { cache: "no-store" }).then(function(response) {
-                    if (!response.ok) throw Error(response.statusText);
-                    return response.json();
-                }).then(function(versionStamp) {
-                    if (versionStamp != null && versionStamp.hasOwnProperty('stamp')) {
-                        
-                        console.log("*** VERSION STAMP ***");
-                        console.log(versionStamp);
-
-                        if (versionStamp.stamp !== versionCheck) {
-                            console.log("Detected version update: " + versionStamp.stamp);
-                            caches.keys().then(function(keyList) {
-                                keyList.map(function(key) {
-                                    caches.delete(key).then(function(success) {
-                                        console.log("Cleaning old cache " + key);
-                                    });
-                                })                                
-                            })
-                            alert("Pending Update Detected !!!");
-                        }
-                    }
-                }).catch(function(error) {
-                    console.log('Version stamp offline: ' + error);
                 });
             }
         };
@@ -493,19 +463,6 @@
             console.warn("GLTF Parse Error - Unsupported file format detected: " + scenename);
             removeSceneLoader();
         }
-        // Detects if device is on iOS 
-        //isIos = function() {
-        //  var userAgent = navigator.userAgent.toLowerCase();
-        //  return /iphone|ipad|ipod/.test(userAgent);
-        //}
-        // Detects if device is in standalone mode
-        //isInStandaloneMode = function() {
-        //    return ('standalone' in navigator) && (navigator.standalone);
-        //}
-        // Checks if should display install popup notification:
-        //if (isIos() && !isInStandaloneMode()) {
-        //  self.setState({ showInstallMessage: true });
-        //}
     </script>
 </body>
 </html>
