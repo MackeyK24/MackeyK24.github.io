@@ -186,8 +186,8 @@
 
     <!-- Page Loader Script -->
     <script type="text/javascript">
-        var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "e7ee5826-5b0a-4d70-ac3e-71281d5e1c0b";
+        var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
+        var version = "8880dc89-3425-45b2-89f4-09329a37ed45";
         var loaded = false, scene = null, downloaded = 0;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -259,12 +259,57 @@
             app.root.addChild(light);
             light.setEulerAngles(45, 0, 45);
         };
+        var initProgressiveWebApp = function() {
+            if (pwa === true && 'serviceWorker' in navigator) {
+                navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
+                    window.registration = reg;
+                    console.log('Service worker registered: ' + reg.scope);
+                }).catch(function(error) {
+                    console.log('Service worker offline: ' + error);
+                });
+            }
+        };
+        var checkServiceWorkerUpdates = function() {
+            var versionUrl = 'version.json?time=' + new Date().getTime().toString();
+            var versionCheck = window.hasOwnProperty('version') ? window.version : null;
+            if (versionCheck != null) {
+                fetch(versionUrl, { cache: "no-store" }).then(function(response) {
+                    if (!response.ok) throw Error(response.statusText);
+                    return response.json();
+                }).then(function(versionStamp) {
+                    if (versionStamp != null && versionStamp.hasOwnProperty('stamp')) {
+                        
+                        console.log("*** VERSION STAMP ***");
+                        console.log(versionStamp);
+
+                        if (versionStamp.stamp !== versionCheck) {
+                            console.log("Detected version update: " + versionStamp.stamp);
+                            caches.keys().then(function(keyList) {
+                                keyList.map(function(key) {
+                                    caches.delete(key).then(function(success) {
+                                        console.log("Cleaning old cache " + key);
+                                    });
+                                })                                
+                            })
+                            alert("Pending Update Detected !!!");
+                        }
+                    }
+                }).catch(function(error) {
+                    console.log('Version stamp offline: ' + error);
+                });
+            }
+        };
+
+        // ************************************************************************ //
+        // INIT PWA - Progressive Web Application                                   //
+        // ************************************************************************ //
+        
+        initProgressiveWebApp();
 
         // ************************************************************************ //
         // LOAD SCENE - Load GLTF Scene Files                                       //
         // ************************************************************************ //
-        
-        // TODO: Get application settings from page template vars
+
         var app = new pc.Application(canvas, { });
 
         // Default Cross Origin Enabled
