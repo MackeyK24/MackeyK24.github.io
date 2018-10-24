@@ -413,7 +413,7 @@
           }
         }
       },
-      "name": "M_WTF5.Instance.83884fd45c6340f2b4268c17a94129c2",
+      "name": "M_WTF5.Instance.fc8bdfbdeb1d4974af85e47aa4b4a769",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -446,7 +446,7 @@
           }
         }
       },
-      "name": "M_WTF6.Instance.ea8cba2e32fa4befbc6293bfbc69ceea",
+      "name": "M_WTF6.Instance.7977f2bc0e4b418e8000151eb241b946",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -479,7 +479,7 @@
           }
         }
       },
-      "name": "M_WTF7.Instance.fe2904b3d3d4458cb22b5da351884474",
+      "name": "M_WTF7.Instance.7cdc824dac69400b935c25524b8b1898",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -968,6 +968,62 @@
           ]
         }
       }
+    },
+    {
+      "mesh": 3,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        -0.2,
+        1.79,
+        -0.98
+      ],
+      "name": "Sphere 2",
+      "extras": {
+        "metadata": {
+          "id": 13872,
+          "tag": "Untagged",
+          "prefab": false,
+          "joint": null,
+          "layer": 0,
+          "layername": "Default",
+          "renderer": {
+            "lightmapstatic": false,
+            "lightmappermode": "Indirect",
+            "shadowcastingmode": {
+              "Key": 1,
+              "Value": "Sphere 2 (UnityEngine.MeshRenderer)"
+            },
+            "receiveshadows": true,
+            "sortingorder": 0,
+            "sortinglayerid": 0,
+            "sortinglayername": "Default",
+            "renderinglayermask": 4294967295,
+            "allowdynamicocclusion": true,
+            "castshadowslightmap": true
+          },
+          "components": [
+            {
+              "alias": "spherecollider",
+              "material": null,
+              "istrigger": false,
+              "radius": 0.5,
+              "center": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "center_x": 0.0,
+              "center_y": 0.0,
+              "center_z": 0.0
+            }
+          ]
+        }
+      }
     }
   ],
   "samplers": [
@@ -990,7 +1046,8 @@
         3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "name": "TestScene",
       "extras": {
