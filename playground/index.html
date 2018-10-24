@@ -188,7 +188,7 @@
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "b7ff6d49-ce59-4404-8b15-4808e8c78afc";
+        var version = "20c766ac-ab2d-4abf-9e11-e746031497c3";
         var loaded = false, scene = null, downloaded = 0;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -264,25 +264,32 @@
         };
 
         // ************************************************************************ //
-        // SETUP PWA - Progressive Web Application                                   //
+        // SETUP PWA - Progressive Web Application                                  //
         // ************************************************************************ //
 
         if (pwa === true && 'serviceWorker' in navigator) window.addEventListener("load", function() {
+            var sendVersionCheckMessage = function() {
+                return new Promise(function (resolve, reject) {
+                    var msg_chan = new MessageChannel();
+                    msg_chan.port1.onmessage = function (event) {
+                        if (event.data.error) {
+                            reject(event.data.error);
+                        } else {
+                            resolve(event.data);
+                        }
+                    };
+                    navigator.serviceWorker.controller.postMessage('version', [msg_chan.port2]);
+                });
+            };
             navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
                 window.registration = reg;
                 console.log('Service worker registered: ' + reg.scope);
-                // ..
-                // Check Version Updates
-                // ..
-                reg.addEventListener('updatefound', function() {
+                if (version != null) {
                     window.setTimeout(function() {
-                        var versionUrl = 'version.json?time=' + new Date().getTime().toString();
-                        fetch(versionUrl, { cache: 'no-store' }).then(function (response) {
-                            if (response != null && response.ok) return response.json();
-                        }).then(function (versionCheck) {
-                            if (versionCheck != null && versionCheck.stamp != null && versionCheck.stamp !== version) {
-                                
-                                
+                        sendVersionCheckMessage().then(function(stamp) {
+                            console.log("Index Version: " + version);
+                            console.log("Stamp Version: " + stamp);
+                            if (stamp != null && stamp !== version) {
                                 console.log('"Pending updates detected: ' + reg.scope);
                                 iziToast.info({
                                     message: 'Pending Updates Detected',
@@ -290,12 +297,10 @@
                                     position: 'bottomCenter',
                                     timeout: 0
                                 });
-
-
                             }
                         });
-                    }, 1000);
-                });
+                    }, 3000);
+                }
             }).catch(function(error) {
                 console.log('Service worker offline: ' + error);
             });
