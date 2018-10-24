@@ -32,7 +32,7 @@
     <!-- Favorite -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <!-- Toaster - https://github.com/dolce/iziToast -->
-    <link href="toast.css" rel="stylesheet" type="text/css">
+    <link href="toaster.css" rel="stylesheet" type="text/css">
 
     <!-- Apple Touch -->
 	<link rel="apple-touch-icon-precomposed" href="icons/touch-57x57.png">
@@ -188,6 +188,7 @@
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
+        var version = "bf07b975-a290-4bdb-84ee-c4a5b9c75541";
         var loaded = false, scene = null, downloaded = 0;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -270,21 +271,30 @@
             navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
                 window.registration = reg;
                 console.log('Service worker registered: ' + reg.scope);
+                // ..
+                // Check Version Updates
+                // ..
                 reg.addEventListener('updatefound', function() {
-                    var updatedWorker = reg.installing;
-                    updatedWorker.addEventListener('statechange', function() {
-                        switch (updatedWorker.state) {
-                            case 'installed':
-                            console.log("Pending update detected: " + reg.scope);
-                            iziToast.info({
-                                message: 'Pending Updates Detected',
-                                buttons: [['<button>RELOAD</button>', function (instance, toast) { window.location.reload(); }, false]],
-                                position: 'bottomCenter',
-                                timeout: 0
-                            });
-                            break;
-                        }
-                    });
+                    window.setTimeout(function() {
+                        var versionUrl = 'version.json?time=' + new Date().getTime().toString();
+                        fetch(versionUrl, { cache: 'no-store' }).then(function (response) {
+                            if (response != null && response.ok) return response.json();
+                        }).then(function (versionCheck) {
+                            if (versionCheck != null && versionCheck.stamp != null && versionCheck.stamp !== version) {
+                                
+                                
+                                console.log('"Pending updates detected: ' + reg.scope);
+                                iziToast.info({
+                                    message: 'Pending Updates Detected',
+                                    buttons: [['<button>RELOAD</button>', function (instance, toast) { window.location.reload(); }, false]],
+                                    position: 'bottomCenter',
+                                    timeout: 0
+                                });
+
+
+                            }
+                        });
+                    }, 1000);
                 });
             }).catch(function(error) {
                 console.log('Service worker offline: ' + error);
