@@ -184,96 +184,6 @@
       "min": [
         0.0
       ]
-    },
-    {
-      "bufferView": 12,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "min": [
-        -0.5,
-        -0.5,
-        -0.5
-      ]
-    },
-    {
-      "bufferView": 13,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.99997496604919434,
-        1.0,
-        0.99997353553771973
-      ],
-      "min": [
-        -0.99997496604919434,
-        -1.0,
-        -0.9999769926071167
-      ]
-    },
-    {
-      "bufferView": 14,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC4",
-      "max": [
-        1.0,
-        0.056131001561880112,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.065983392298221588,
-        -1.0,
-        -1.0
-      ]
-    },
-    {
-      "bufferView": 15,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        0.99833369255065918,
-        0.98237103223800659
-      ],
-      "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
-      ]
-    },
-    {
-      "bufferView": 16,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        1.0000003576278687,
-        0.65385353565216064
-      ],
-      "min": [
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "bufferView": 17,
-      "componentType": 5125,
-      "count": 2304,
-      "type": "SCALAR",
-      "max": [
-        514.0
-      ],
-      "min": [
-        0.0
-      ]
     }
   ],
   "asset": {
@@ -283,7 +193,7 @@
   "buffers": [
     {
       "uri": "TestScene.bin",
-      "byteLength": 48720
+      "byteLength": 10664
     }
   ],
   "bufferViews": [
@@ -345,36 +255,6 @@
       "buffer": 0,
       "byteOffset": 10520,
       "byteLength": 144
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 10664,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 16844,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 23024,
-      "byteLength": 8240
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 31264,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 35384,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 39504,
-      "byteLength": 9216
     }
   ],
   "images": [
@@ -413,7 +293,7 @@
           }
         }
       },
-      "name": "M_WTF5.Instance.8258d201c16b40f6aac6d0076d7deafa",
+      "name": "M_WTF5.Instance.50e1980de6d84ea49224df4313eec85b",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -446,7 +326,7 @@
           }
         }
       },
-      "name": "M_WTF6.Instance.fb7d05ad2d3d43e983066e242d44c2a8",
+      "name": "M_WTF6.Instance.917f23170da048d28f706a23555f8562",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -479,20 +359,7 @@
           }
         }
       },
-      "name": "M_WTF7.Instance.31ea43913819452886c101d57bb62d5d",
-      "extras": {
-        "metadata": {
-          "glossyreflections": true,
-          "specularhighlights": true
-        }
-      }
-    },
-    {
-      "pbrMetallicRoughness": {
-        "metallicFactor": 0.0,
-        "roughnessFactor": 0.5
-      },
-      "name": "Default-Material",
+      "name": "M_WTF7.Instance.323c3ef0c09647e38873f2065f68c77e",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -549,22 +416,6 @@
         }
       ],
       "name": "Cube 2"
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 12,
-            "NORMAL": 13,
-            "TANGENT": 14,
-            "TEXCOORD_0": 15,
-            "TEXCOORD_1": 16
-          },
-          "indices": 17,
-          "material": 3
-        }
-      ],
-      "name": "Sphere 1"
     }
   ],
   "nodes": [
@@ -578,7 +429,7 @@
       "name": "SceneController",
       "extras": {
         "metadata": {
-          "id": 13884,
+          "id": 13894,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -621,7 +472,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "id": 13912,
+          "id": 13922,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -647,7 +498,7 @@
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "id": 13878,
+          "id": 13888,
           "tag": "MainCamera",
           "prefab": false,
           "joint": null,
@@ -762,7 +613,7 @@
       "name": "Plane",
       "extras": {
         "metadata": {
-          "id": 13870,
+          "id": 13880,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -803,7 +654,7 @@
       "name": "Cube 1",
       "extras": {
         "metadata": {
-          "id": 13906,
+          "id": 13916,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -866,7 +717,7 @@
       "name": "Cube 2",
       "extras": {
         "metadata": {
-          "id": 13896,
+          "id": 13906,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -912,118 +763,6 @@
           ]
         }
       }
-    },
-    {
-      "mesh": 3,
-      "rotation": [
-        0.0,
-        0.0,
-        0.0,
-        -1.0
-      ],
-      "translation": [
-        1.16,
-        1.79,
-        -0.98
-      ],
-      "name": "Sphere 1",
-      "extras": {
-        "metadata": {
-          "id": 13862,
-          "tag": "Untagged",
-          "prefab": false,
-          "joint": null,
-          "layer": 0,
-          "layername": "Default",
-          "renderer": {
-            "lightmapstatic": false,
-            "lightmappermode": "Indirect",
-            "shadowcastingmode": {
-              "Key": 1,
-              "Value": "Sphere 1 (UnityEngine.MeshRenderer)"
-            },
-            "receiveshadows": true,
-            "sortingorder": 0,
-            "sortinglayerid": 0,
-            "sortinglayername": "Default",
-            "renderinglayermask": 4294967295,
-            "allowdynamicocclusion": true,
-            "castshadowslightmap": true
-          },
-          "components": [
-            {
-              "alias": "spherecollider",
-              "material": null,
-              "istrigger": false,
-              "radius": 0.5,
-              "center": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "center_x": 0.0,
-              "center_y": 0.0,
-              "center_z": 0.0
-            }
-          ]
-        }
-      }
-    },
-    {
-      "mesh": 3,
-      "rotation": [
-        0.0,
-        0.0,
-        0.0,
-        -1.0
-      ],
-      "translation": [
-        -0.2,
-        1.79,
-        -0.98
-      ],
-      "name": "Sphere 2",
-      "extras": {
-        "metadata": {
-          "id": 7656,
-          "tag": "Untagged",
-          "prefab": false,
-          "joint": null,
-          "layer": 0,
-          "layername": "Default",
-          "renderer": {
-            "lightmapstatic": false,
-            "lightmappermode": "Indirect",
-            "shadowcastingmode": {
-              "Key": 1,
-              "Value": "Sphere 2 (UnityEngine.MeshRenderer)"
-            },
-            "receiveshadows": true,
-            "sortingorder": 0,
-            "sortinglayerid": 0,
-            "sortinglayername": "Default",
-            "renderinglayermask": 4294967295,
-            "allowdynamicocclusion": true,
-            "castshadowslightmap": true
-          },
-          "components": [
-            {
-              "alias": "spherecollider",
-              "material": null,
-              "istrigger": false,
-              "radius": 0.5,
-              "center": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "center_x": 0.0,
-              "center_y": 0.0,
-              "center_z": 0.0
-            }
-          ]
-        }
-      }
     }
   ],
   "samplers": [
@@ -1045,9 +784,7 @@
         2,
         3,
         4,
-        5,
-        6,
-        7
+        5
       ],
       "name": "TestScene",
       "extras": {
