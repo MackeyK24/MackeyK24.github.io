@@ -197,7 +197,7 @@
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "dced77a5-237d-4693-b76e-73f46b87a34e";
+        var version = "28689549-8c4b-4216-9231-0b6b207de7a5";
         var loaded = false, scene = null, downloaded = 0;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -276,20 +276,20 @@
         // SETUP PWA - Progressive Web Application                                  //
         // ************************************************************************ //
 
+        var sendVersionCheckMessage = function() {
+            return new Promise(function(resolve, reject) {
+                var msg_chan = new MessageChannel();
+                msg_chan.port1.onmessage = function(event) {
+                    if (event.data.error) {
+                        reject(event.data.error);
+                    } else {
+                        resolve(event.data);
+                    }
+                };
+                navigator.serviceWorker.controller.postMessage('version', [msg_chan.port2]);
+            });
+        };
         if (pwa === true && 'serviceWorker' in navigator) window.addEventListener("load", function() {
-            var sendVersionCheckMessage = function() {
-                return new Promise(function (resolve, reject) {
-                    var msg_chan = new MessageChannel();
-                    msg_chan.port1.onmessage = function (event) {
-                        if (event.data.error) {
-                            reject(event.data.error);
-                        } else {
-                            resolve(event.data);
-                        }
-                    };
-                    navigator.serviceWorker.controller.postMessage('version', [msg_chan.port2]);
-                });
-            };
             navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
                 window.registration = reg;
                 console.log('Service worker registered: ' + reg.scope);
@@ -306,7 +306,7 @@
                                 });
                             }
                         });
-                    }, 3000);
+                    }, 5000);
                 }
             }).catch(function(error) {
                 console.log('Service worker offline: ' + error);
