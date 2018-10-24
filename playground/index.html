@@ -196,9 +196,11 @@
         var label = document.getElementById("sts");
         var proj = document.getElementById("proj");
         var canvas = document.getElementById("cvs");
+
         // ************************************************************************ //
         // QUERY STRING - Parse Root Urls And Scene Name Parameters                 //
         // ************************************************************************ //
+
         var rooturl = "" + (getUrlParameter("root") || "");
         if (rooturl != null && rooturl !== "" && !rooturl.endsWith("/")) rooturl += "/";
         var sceneurl = "" + (getUrlParameter("path") || folder);
@@ -261,43 +263,35 @@
             app.root.addChild(light);
             light.setEulerAngles(45, 0, 45);
         };
-        var initProgressiveWebApp = function() {
-            if (pwa === true && 'serviceWorker' in navigator) {
-                navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
-                    window.registration = reg;
-                    console.log('Service worker registered: ' + reg.scope);
-                    // ..
-                    // Check For Updates
-                    // ..
-                    reg.addEventListener('updatefound', function() {
-                        var updatedWorker = reg.installing;
-                        updatedWorker.addEventListener('statechange', function() {
-                            switch (updatedWorker.state) {
-                                case 'installed':
-                                if (navigator.serviceWorker.controller) {
-                                    console.log("Pending update detected: " + reg.scope);
-                                    iziToast.info({
-                                        timeout: 15000,
-                                        position: 'bottomCenter',
-                                        message: 'Pending Updates Detected',
-                                        buttons: [['<button>RELOAD</button>', function (instance, toast) { window.location.reload(); }, false]]
-                                    });
-                                }
-                                break;
-                            }
-                        });
-                    });
-                }).catch(function(error) {
-                    console.log('Service worker offline: ' + error);
-                });
-            }
-        };
 
         // ************************************************************************ //
-        // INIT PWA - Progressive Web Application                                   //
+        // SETUP PWA - Progressive Web Application                                   //
         // ************************************************************************ //
-        
-        initProgressiveWebApp();
+
+        if (pwa === true && 'serviceWorker' in navigator) window.addEventListener("load", function() {
+            navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
+                window.registration = reg;
+                console.log('Service worker registered: ' + reg.scope);
+                reg.addEventListener('updatefound', function() {
+                    var updatedWorker = reg.installing;
+                    updatedWorker.addEventListener('statechange', function() {
+                        switch (updatedWorker.state) {
+                            case 'installed':
+                            console.log("Pending update detected: " + reg.scope);
+                            iziToast.info({
+                                message: 'Pending Updates Detected',
+                                buttons: [['<button>RELOAD</button>', function (instance, toast) { window.location.reload(); }, false]],
+                                position: 'bottomCenter',
+                                timeout: 0
+                            });
+                            break;
+                        }
+                    });
+                });
+            }).catch(function(error) {
+                console.log('Service worker offline: ' + error);
+            });
+        });
 
         // ************************************************************************ //
         // LOAD SCENE - Load GLTF Scene Files                                       //
