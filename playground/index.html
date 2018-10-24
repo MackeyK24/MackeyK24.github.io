@@ -12,7 +12,7 @@
     <meta http-equiv="Expires" content="0">
     <!-- Default -->
     <meta name="edge" content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
     <meta name="browsermode" content="application">
     <meta name="description" content="PlayCanvas Toolkit">
     <meta name="theme-color" content="#3B789A">
@@ -63,7 +63,16 @@
 	<link rel="manifest" href="manifest.json" />
 
     <style>
-        html, body {
+        html {
+            position: absolute;
+            min-height: 100%;
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: env(safe-area-inset);
+            overflow: hidden;
+        }
+        body {
             position: absolute;
             min-height: 100%;
             width: 100%;
@@ -188,7 +197,7 @@
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "d1571973-53f0-4b2a-9902-cc65adc7f788";
+        var version = "c9f5a8ac-b5a8-4973-96ab-22634e7e8e16";
         var loaded = false, scene = null, downloaded = 0;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -287,8 +296,6 @@
                 if (version != null) {
                     window.setTimeout(function() {
                         sendVersionCheckMessage().then(function(stamp) {
-                            console.log("Index Version: " + version);
-                            console.log("Stamp Version: " + stamp);
                             if (stamp != null && stamp !== version) {
                                 console.log('"Pending updates detected: ' + reg.scope);
                                 iziToast.info({
