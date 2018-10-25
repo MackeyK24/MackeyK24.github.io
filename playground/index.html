@@ -197,8 +197,8 @@
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "ebfbfd1e-aa89-4599-a5ee-0a13c82bb386";
-        var loaded = false, scene = null, downloaded = 0;
+        var version = "d663ac58-83d6-47a1-8244-04f35709d6de";
+        var loaded = false, resizing = false, scene = null;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
         var label = document.getElementById("sts");
@@ -219,7 +219,6 @@
         var jsonfile = (scenename.toLowerCase().indexOf(".gltf") >= 0);
         var binaryfile = (scenename.toLowerCase().indexOf(".glb") >= 0);
         var borderPrefix = "4px solid";
-        var resizehandled = false;
         var displayLoadingUI = function() {
             panel.className = "";
             loader.className = "";
@@ -337,12 +336,20 @@
 
         // Ensure canvas is resized when window changes size
         window.addEventListener("resize", function() { 
-            if (resizehandled === true) resizehandled = false;
-            else app.resizeCanvas();
+            if (resizing === false) app.resizeCanvas();
         });
         window.addEventListener("orientationchange", function() {
-            resizehandled = true;
-            window.setTimeout(function() { app.resizeCanvas(); }, 50);
+            resizing = true;
+            var checkWidth = window.innerWidth;
+            function checkOrientation() {
+                if (checkWidth !== window.innerWidth) {
+                    app.resizeCanvas();
+                    resizing = false;
+                } else {
+                    TimerPlugin.requestAnimFrame(checkOrientation);
+                }
+            }
+            TimerPlugin.requestAnimFrame(checkOrientation);
         });
 
         // Validate and load scene including all required assets
