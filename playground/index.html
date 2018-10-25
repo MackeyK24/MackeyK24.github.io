@@ -197,7 +197,7 @@
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "d2984c4d-1f78-4d05-9f0d-5036166ae8ac";
+        var version = "ebfbfd1e-aa89-4599-a5ee-0a13c82bb386";
         var loaded = false, scene = null, downloaded = 0;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -219,6 +219,7 @@
         var jsonfile = (scenename.toLowerCase().indexOf(".gltf") >= 0);
         var binaryfile = (scenename.toLowerCase().indexOf(".glb") >= 0);
         var borderPrefix = "4px solid";
+        var resizehandled = false;
         var displayLoadingUI = function() {
             panel.className = "";
             loader.className = "";
@@ -276,20 +277,20 @@
         // SETUP PWA - Progressive Web Application                                  //
         // ************************************************************************ //
 
-        var sendVersionCheckMessage = function() {
-            return new Promise(function(resolve, reject) {
-                var msg_chan = new MessageChannel();
-                msg_chan.port1.onmessage = function(event) {
-                    if (event.data.error) {
-                        reject(event.data.error);
-                    } else {
-                        resolve(event.data);
-                    }
-                };
-                navigator.serviceWorker.controller.postMessage('version', [msg_chan.port2]);
-            });
-        };
         if (pwa === true && 'serviceWorker' in navigator) window.addEventListener("load", function() {
+            var sendVersionCheckMessage = function () {
+                return new Promise(function (resolve, reject) {
+                    var msg_chan = new MessageChannel();
+                    msg_chan.port1.onmessage = function (event) {
+                        if (event.data.error) {
+                            reject(event.data.error);
+                        } else {
+                            resolve(event.data);
+                        }
+                    };
+                    navigator.serviceWorker.controller.postMessage('version', [msg_chan.port2]);
+                });
+            };
             navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
                 window.registration = reg;
                 console.log('Service worker registered: ' + reg.scope);
@@ -335,7 +336,14 @@
         app.setCanvasResolution(pc.RESOLUTION_AUTO);
 
         // Ensure canvas is resized when window changes size
-        window.addEventListener("resize", function() { app.resizeCanvas(); });
+        window.addEventListener("resize", function() { 
+            if (resizehandled === true) resizehandled = false;
+            else app.resizeCanvas();
+        });
+        window.addEventListener("orientationchange", function() {
+            resizehandled = true;
+            window.setTimeout(function() { app.resizeCanvas(); }, 50);
+        });
 
         // Validate and load scene including all required assets
         showSceneLoader();

@@ -1,4 +1,4 @@
-var versionStamp = 'd2984c4d-1f78-4d05-9f0d-5036166ae8ac';
+var versionStamp = 'ebfbfd1e-aa89-4599-a5ee-0a13c82bb386';
 var installFiles = ['./', './index.html', './toaster.css', './favicon.ico', './manifest.json', './scripts/CanvasTools.js', './scripts/playcanvas-ammo.js', './scripts/playcanvas-anim.js', './scripts/playcanvas-gltf.js', './scripts/playcanvas-stick.js', './scripts/playcanvas-toast.js', './scripts/playcanvas-tools.js', './scripts/playcanvas-webvr.js', './scripts/playcanvas.js', './scene/PlayCanvasToolkit.js', './scene/TestScene.bin', './scene/TestScene.gltf', './scene/assets/Country_env.dds', './scene/assets/Country_negx.png', './scene/assets/Country_negy.png', './scene/assets/Country_negz.png', './scene/assets/Country_posx.png', './scene/assets/Country_posy.png', './scene/assets/Country_posz.png', './scene/assets/TestScene_Lightmap-0_comp_light.png'];
 // ..
 // Post Service Worker Version Message
@@ -7,6 +7,7 @@ self.addEventListener('message', function(evt) {
     if (evt.data != null && evt.data === 'version' && evt.ports != null && evt.ports.length > 0) {
         var port = evt.ports[0];
         if (port && port.postMessage) {
+            // console.log('WORKER: Version check: ' + versionStamp);
             port.postMessage(versionStamp);
         }
     }
@@ -17,7 +18,7 @@ self.addEventListener('message', function(evt) {
 self.addEventListener('install', function(evt) {
     evt.waitUntil(
         caches.open(versionStamp).then(function(cache) {
-            console.log('WORKER: Fetching cache: ' + versionStamp);
+            // console.log('WORKER: Fetching cache: ' + versionStamp);
             var cachePromises = installFiles.map(function(urlToPrefetch) {
                 var url = new URL(urlToPrefetch, location.href);
                 url.search += (url.search ? '&' : '?') + 'time=' + new Date().getTime().toString();
@@ -26,16 +27,15 @@ self.addEventListener('install', function(evt) {
                     if (response.status >= 400) throw new Error('request for ' + urlToPrefetch + ' failed with status ' + response.statusText);
                     return cache.put(urlToPrefetch, response);
                 }).catch(function(error) {
-                    console.warn('WORKER: Not caching ' + urlToPrefetch + ' due to ' + error);
+                    // console.warn('WORKER: Not caching ' + urlToPrefetch + ' due to ' + error);
                 });
             });
             return Promise.all(cachePromises).then(function() {
-                var skipped = self.skipWaiting();
-                console.log('WORKER: Cache updated: ' + versionStamp);
-                return skipped;
+                // console.log('WORKER: Cache updated: ' + versionStamp);
+                return self.skipWaiting();
             });
         }).catch(function(error) {
-            console.warn('WORKER: Pre-Fetching Failed: ', error);
+            // console.warn('WORKER: Pre-Fetching Failed: ', error);
         })
     );
 });
@@ -48,16 +48,15 @@ self.addEventListener('activate', function(evt) {
             return Promise.all(
                 cacheNames.map(function(cache) {
                     if (cache !== versionStamp) {
-                        console.log('WORKER: Cleaning cache: ' + cache);
+                        // console.log('WORKER: Cleaning cache: ' + cache);
                         return caches.delete(cache);
                     }
                 })
             );
         })
     );
-    var activate = self.clients.claim();
-    console.log('WORKER: Activate cache: ' + versionStamp);
-    return activate;
+    // console.log('WORKER: Activate cache: ' + versionStamp);
+    return self.clients.claim();
 });
 // ..
 // Fetch Service Worker Request Files
