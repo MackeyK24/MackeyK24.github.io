@@ -197,7 +197,7 @@
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "d663ac58-83d6-47a1-8244-04f35709d6de";
+        var version = "93aa6a20-2a6b-4867-8264-8880a0fa3ede";
         var loaded = false, resizing = false, scene = null;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -276,42 +276,69 @@
         // SETUP PWA - Progressive Web Application                                  //
         // ************************************************************************ //
 
-        if (pwa === true && 'serviceWorker' in navigator) window.addEventListener("load", function() {
-            var sendVersionCheckMessage = function () {
-                return new Promise(function (resolve, reject) {
-                    var msg_chan = new MessageChannel();
-                    msg_chan.port1.onmessage = function (event) {
-                        if (event.data.error) {
-                            reject(event.data.error);
-                        } else {
-                            resolve(event.data);
-                        }
-                    };
-                    navigator.serviceWorker.controller.postMessage('version', [msg_chan.port2]);
-                });
-            };
-            navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
-                window.registration = reg;
-                console.log('Service worker registered: ' + reg.scope);
-                if (version != null) {
-                    window.setTimeout(function() {
-                        sendVersionCheckMessage().then(function(stamp) {
-                            if (stamp != null && stamp !== version) {
-                                console.log('"Pending updates detected: ' + reg.scope);
-                                iziToast.info({
-                                    message: 'Pending Updates Detected',
-                                    buttons: [['<button>RELOAD</button>', function (instance, toast) { window.location.reload(); }, false]],
-                                    position: 'bottomCenter',
-                                    timeout: 0
-                                });
+        if (pwa === true) {
+            var installApplicationEvent = null;
+            window.addEventListener("beforeinstallprompt", function(install) {
+                console.log("*** BEFOREINSTALLPROMPT ***");
+                install.preventDefault();
+                installApplicationEvent = install;
+                var installApplicationProcess = function () {
+                    if (installApplicationEvent != null) {
+                        installApplicationEvent.prompt();
+                        installApplicationEvent.userChoice.then(function (choice) {
+                            installApplicationEvent = null;
+                            if (choice.outcome === 'accepted') {
+                                console.log('User accepted A2HS prompt');
+                            } else {
+                                console.log('User declined A2HS prompt');
                             }
-                        });
-                    }, 5000);
-                }
-            }).catch(function(error) {
-                console.log('Service worker offline: ' + error);
+                        })
+                    }
+                };
+                iziToast.success({
+                    message: 'Add Icon To Homescreen',
+                    buttons: [['<button>APPLY</button>', function (instance, toast) { instance.hide({}, toast); window.setTimeout(installApplicationProcess, 100); }, false]],
+                    position: 'topCenter',
+                    timeout: 0
+                });
             });
-        });
+            if ('serviceWorker' in navigator) window.addEventListener("load", function() {
+                var sendVersionCheckMessage = function () {
+                    return new Promise(function (resolve, reject) {
+                        var msg_chan = new MessageChannel();
+                        msg_chan.port1.onmessage = function (event) {
+                            if (event.data.error) {
+                                reject(event.data.error);
+                            } else {
+                                resolve(event.data);
+                            }
+                        };
+                        navigator.serviceWorker.controller.postMessage('version', [msg_chan.port2]);
+                    });
+                };
+                navigator.serviceWorker.register('worker.js', { updateViaCache: 'none' }).then(function(reg) {
+                    window.registration = reg;
+                    console.log('Service worker registered: ' + reg.scope);
+                    if (version != null) {
+                        window.setTimeout(function() {
+                            sendVersionCheckMessage().then(function(stamp) {
+                                if (stamp != null && stamp !== version) {
+                                    console.log('"Pending updates detected: ' + reg.scope);
+                                    iziToast.info({
+                                        message: 'Pending Updates Detected',
+                                        buttons: [['<button>RELOAD</button>', function (instance, toast) { window.location.reload(); }, false]],
+                                        position: 'bottomCenter',
+                                        timeout: 0
+                                    });
+                                }
+                            });
+                        }, 5000);
+                    }
+                }).catch(function(error) {
+                    console.log('Service worker offline: ' + error);
+                });
+            });
+        }
 
         // ************************************************************************ //
         // LOAD SCENE - Load GLTF Scene Files                                       //
