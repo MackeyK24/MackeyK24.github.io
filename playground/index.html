@@ -162,6 +162,15 @@
         }
     </style>
     <script type="text/javascript">
+        function isIosPlatform() {
+            return /iphone|ipad|ipod/.test(window.navigator.userAgent.toLowerCase());            
+        }
+        function isStandAlone() {
+            return ('standalone' in window.navigator && window.navigator.standalone);
+        }
+        function isFullScreen() {
+            return ('fullscreen' in window.navigator && window.navigator.fullscreen);
+        }
         function getUrlParameter(name) {
             name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
             var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
@@ -196,8 +205,8 @@
 
     <!-- Page Loader Script -->
     <script type="text/javascript">
-        var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
-        var version = "93aa6a20-2a6b-4867-8264-8880a0fa3ede";
+        var pagetype = "project", defaultmap = "TestScene.glb", antialias = true, adaptive = true, timeout = 1, close = true, pwa = true, datax = "#2CB24B", folder = "scene/", title = "PlayCanvas Toolkit";
+        var version = "f99d2bcc-5e2f-4e35-8463-1c66e7a21cb9";
         var loaded = false, resizing = false, scene = null;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
@@ -277,31 +286,46 @@
         // ************************************************************************ //
 
         if (pwa === true) {
-            var installApplicationEvent = null;
-            window.addEventListener("beforeinstallprompt", function(install) {
-                console.log("*** BEFOREINSTALLPROMPT ***");
-                install.preventDefault();
-                installApplicationEvent = install;
-                var installApplicationProcess = function () {
-                    if (installApplicationEvent != null) {
-                        installApplicationEvent.prompt();
-                        installApplicationEvent.userChoice.then(function (choice) {
-                            installApplicationEvent = null;
-                            if (choice.outcome === 'accepted') {
-                                console.log('User accepted A2HS prompt');
-                            } else {
-                                console.log('User declined A2HS prompt');
-                            }
-                        })
-                    }
-                };
-                iziToast.success({
-                    message: 'Add Icon To Homescreen',
-                    buttons: [['<button>APPLY</button>', function (instance, toast) { instance.hide({}, toast); window.setTimeout(installApplicationProcess, 100); }, false]],
-                    position: 'topCenter',
-                    timeout: 0
+            if (isIosPlatform() === true) {
+                if (isStandAlone() === false) {
+                    console.log("Launching delayed A2HS information banner");
+                    window.setTimeout(function () {
+                        iziToast.success({
+                            message: 'Add Icon To Homescreen',
+                            position: 'topCenter',
+                            timeout: 0
+                        });
+                    }, 5000);
+                }
+            } else {
+                var installApplicationEvent = null;
+                window.addEventListener("beforeinstallprompt", function(install) {
+                    install.preventDefault();
+                    installApplicationEvent = install;
+                    var installApplicationProcess = function () {
+                        if (installApplicationEvent != null) {
+                            installApplicationEvent.prompt();
+                            installApplicationEvent.userChoice.then(function (choice) {
+                                installApplicationEvent = null;
+                                if (choice.outcome === 'accepted') {
+                                    console.log('User accepted A2HS confirmation prompt');
+                                } else {
+                                    console.log('User declined A2HS confirmation prompt');
+                                }
+                            })
+                        }
+                    };
+                    console.log("Launching delayed A2HS confirmation banner");
+                    window.setTimeout(function () {
+                        iziToast.success({
+                            message: 'Add Icon To Homescreen',
+                            buttons: [['<button>CONFIRM</button>', function (instance, toast) { instance.hide({}, toast); window.setTimeout(installApplicationProcess, 100); }, false]],
+                            position: 'topCenter',
+                            timeout: 0
+                        });
+                    }, 5000);
                 });
-            });
+            }
             if ('serviceWorker' in navigator) window.addEventListener("load", function() {
                 var sendVersionCheckMessage = function () {
                     return new Promise(function (resolve, reject) {
