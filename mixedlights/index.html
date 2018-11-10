@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PlayCanvas Toolkit</title>
+    <!-- Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * ws: wss: gap: data: blob: file: http: https:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *" />
+    <!-- Caches -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <!-- Default -->
+    <meta name="edge" content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+    <meta name="browsermode" content="application">
+    <meta name="description" content="PlayCanvas Toolkit">
+    <meta name="theme-color" content="#3B789A">
+    <!-- Apple -->
+    <meta name="apple-mobile-web-app-title" content="PlayCanvas T">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- Android  -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Windows  -->
+    <meta name="application-name" content="PlayCanvas Toolkit">
+    <meta name="msapplication-navbutton-color" content="#3B789A">
+    <meta name="msapplication-tooltip" content="PlayCanvas Toolkit">
+    <meta name="msapplication-starturl" content=".">
+    <meta name="msapplication-TileColor" content="#3B789A">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Favorite -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Toaster - https://github.com/dolce/iziToast -->
+    <link href="toaster.css" rel="stylesheet" type="text/css">
+
+    
+    <style>
+        html {
+            position: absolute;
+            min-height: 100%;
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: env(safe-area-inset);
+            overflow: hidden;
+        }
+        body {
+            position: absolute;
+            min-height: 100%;
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+            font-family: "Segoe UI", "Segoe WP", "Verdana", "Arial";
+            background-color: #3B789A;
+            touch-action: none;
+            -ms-touch-action: none;
+        }
+        #panel {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            height: 100px;
+            min-width: 400px;
+            min-height: 100px;
+            margin-top: -50px;
+            margin-left: -200px;
+            z-index: 1000;
+        }
+        #load {
+            border: 4px solid #F3F3F3;
+            border-top: 4px solid #E02127;
+            border-radius: 50%;
+            width: 72px;
+            height: 72px;
+            z-index: 1001;
+            animation: spin 2s linear infinite;
+            touch-action: none;
+            -ms-touch-action: none;
+        }
+        #sts {
+            position: absolute;
+            top: 50%;
+            left:50%;
+            padding: 0px;
+            margin: 0px;
+            z-index: 1001;
+            width: 100px;
+            min-width: 100px;
+            margin-top: -14px;
+            margin-left: -50px;
+            font-size: 10px;
+            text-align: center;
+            color: #F3F3F3;
+            outline: none;
+            overflow: hidden;
+            touch-action: none;
+            -ms-touch-action: none;
+        }
+        #proj {
+            margin: 0px;
+            padding: 0px;
+            padding-top: 16px;
+            z-index: 1001;
+            width: 400px;
+            font-size: 14px;
+            text-align: center;
+            color: #F3F3F3;
+            outline: none;
+            overflow: hidden;
+            touch-action: none;
+            -ms-touch-action: none;
+        }
+        #cvs {
+            position: absolute;
+            min-height: 100%;
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+            z-index: 0;
+            opacity: 0;
+            outline: none;
+            overflow: hidden;
+            touch-action: none;
+            -ms-touch-action: none;
+        }
+        #shader {
+            position: absolute;
+            z-index: 1001;
+        }
+        #overlay textarea {
+            width: 96%;
+            background: #2c2d2fc4;
+            color: #ffed00;
+            z-index: 1001;
+        }
+        .hidden { display: none; }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <script type="text/javascript">
+        function isIosPlatform() {
+            return /iphone|ipad|ipod/.test(window.navigator.userAgent.toLowerCase());            
+        }
+        function isStandAlone() {
+            return ('standalone' in window.navigator && window.navigator.standalone);
+        }
+        function isFullScreen() {
+            return ('fullscreen' in window.navigator && window.navigator.fullscreen);
+        }
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(window.location.search);
+            return (results !== null) ? decodeURIComponent(results[1].replace(/\+/g, ' ')) : null;
+        }
+    </script>
+</head>
+<body>
+    <div id="panel">
+        <center>
+            <div id="load"></div>
+            <div id="sts"></div>
+            <div id="proj">PlayCanvas Toolkit</div>
+        </center>
+    </div>
+    <canvas id="cvs"></canvas>
+    
+    <!-- Engine Libraries -->
+    <script src="scripts/playcanvas.js"></script>
+
+    <!-- Support Libraries -->
+	<script src="scripts/playcanvas-ammo.js"></script>
+	<script src="scripts/playcanvas-webvr.js"></script>
+
+    <!-- Toolkit Libraries -->
+    <script src="scripts/playcanvas-tools.js"></script>
+    <script src="scripts/playcanvas-toast.js"></script>
+    <script src="scripts/CanvasTools.js"></script>
+
+    
+    
+    <!-- Page Loader Script -->
+    <script type="text/javascript">
+        var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = false, game = "", datax = "#2CB24B", folder = "scenes/", title = "PlayCanvas Toolkit";
+        var version = "fb15638b-2422-4ea2-b45e-6bd2b5e3d805";
+        var loaded = false, resizing = false, scene = null;
+        var panel = document.getElementById("panel");
+        var loader = document.getElementById("load");
+        var label = document.getElementById("sts");
+        var proj = document.getElementById("proj");
+        var canvas = document.getElementById("cvs");
+
+        // ************************************************************************ //
+        // QUERY STRING - Parse Root Urls And Scene Name Parameters                 //
+        // ************************************************************************ //
+
+        var rooturl = "" + (getUrlParameter("root") || "");
+        if (rooturl != null && rooturl !== "" && !rooturl.endsWith("/")) rooturl += "/";
+        var sceneurl = "" + (getUrlParameter("path") || folder);
+        if (sceneurl != null && sceneurl !== "" && !sceneurl.endsWith("/")) sceneurl += "/";
+        var scenename = "" + (getUrlParameter("scene") || defaultmap);
+        var scenepath = "" + (rooturl + sceneurl);
+        var scenefile = "" + scenepath + scenename;
+        var jsonfile = (scenename.toLowerCase().indexOf(".gltf") >= 0);
+        var binaryfile = (scenename.toLowerCase().indexOf(".glb") >= 0);
+        var borderPrefix = "4px solid";
+        var displayLoadingUI = function() {
+            panel.className = "";
+            loader.className = "";
+            label.className = "";
+            proj.className = "";
+            canvas.style.opacity = "0";
+            proj.innerHTML = title;
+        }
+        var hideLoadingUI = function() {
+            panel.className = "hidden";
+            loader.className = "hidden";
+            label.className = "hidden";
+            proj.className = "hidden";
+            proj.innerHTML = "hidden";
+            canvas.style.opacity = "1";
+        }
+        var setWaitColor = function(color) {
+            loader.style.borderTop = (borderPrefix + " " + color);
+        };
+        var updateStatus = function(status) {
+            if (label.innerHTML !== status) {
+                label.innerHTML = status;
+            }
+        };
+        var showSceneLoader = function() {
+            setWaitColor(datax);
+            displayLoadingUI();
+            updateStatus("");
+        };
+        var removeSceneLoader = function() {
+            hideLoadingUI();
+            updateStatus("");
+        };
+        var processExecuteReady = function() {
+            if (window.ontoolkitready != null) {
+                window.ontoolkitready();
+            }
+        };
+        var createDefaultEnvironment = function() {
+            // create camera entity
+            var camera = new pc.Entity('camera');
+            camera.addComponent('camera', {
+                clearColor: [ 0.1, 0.8, 0 ]
+            });
+            app.root.addChild(camera);
+            camera.setLocalPosition(0, 3, 6);
+            // create directional light entity
+            var light = new pc.Entity('light');
+            light.addComponent('light',);
+            app.root.addChild(light);
+            light.setEulerAngles(45, 0, 45);
+        };
+
+        // ************************************************************************ //
+        // LOAD SCENE - Load GLTF Scene Files                                       //
+        // ************************************************************************ //
+
+        var app = new pc.Application(canvas, { });
+
+        // Default Cross Origin Enabled
+        if (app.loader && app.loader._handlers && app.loader._handlers.texture) {
+            app.loader._handlers.texture.crossOrigin = true;
+        }
+        if (adaptive === true) {
+            app.graphicsDevice.maxPixelRatio = window.devicePixelRatio;
+        } else {
+            app.graphicsDevice.maxPixelRatio = 1;
+        }
+
+        // Start main PlayCanvas Application
+        app.start();
+        app.setCanvasFillMode(pc.FILLMODE_FILL_WINDOW);
+        app.setCanvasResolution(pc.RESOLUTION_AUTO);
+
+        // Ensure canvas is resized when window changes size
+        window.addEventListener("resize", function() { 
+            if (resizing === false) app.resizeCanvas();
+        });
+        window.addEventListener("orientationchange", function() {
+            resizing = true;
+            var checkWidth = window.innerWidth;
+            function checkOrientation() {
+                if (checkWidth !== window.innerWidth) {
+                    app.resizeCanvas();
+                    resizing = false;
+                } else {
+                    TimerPlugin.requestAnimFrame(checkOrientation);
+                }
+            }
+            TimerPlugin.requestAnimFrame(checkOrientation);
+        });
+
+        // Validate and load scene including all required assets
+        showSceneLoader();
+      
+        // Load GLTF Scene File(s) With Extra Meta Data Support
+        if (binaryfile === true) {
+            app.assets.loadFromUrl(scenefile, "binary", function (err, asset) {
+                var glb = asset.resource;
+                window.loadGlb(glb, app.graphicsDevice, function (result, textures, animationClips) {
+                    if (result != null) {
+
+                        console.log(result);
+
+                        if (result instanceof pc.Model) {
+                            var model = result;
+                            // Wrap the model as an asset and add to the asset registry
+                            var asset = new pc.Asset('gltf', 'model', { url: '' });
+                            asset.resource = model;
+                            asset.loaded = true;
+                            app.assets.add(asset);
+                            // Add the loaded scene to the hierarchy
+                            var gltf = new pc.Entity('gltf');
+                            gltf.addComponent('model', { asset: asset });
+                            app.root.addChild(gltf);
+                            createDefaultEnvironment();
+
+                            /*
+                            if (animationClips) {
+                                for (i = 0; i < animationClips.length; i++) {
+                                    for(var c = 0; c < animationClips[i].animCurves.length; c++) {
+                                        var curve = animationClips[i].animCurves[c];
+                                        if (curve.animTargets[0].targetNode === "model")
+                                            curve.animTargets[0].targetNode = gltf;
+                                    }
+                                }
+                            }
+                            if (animationClips && animationClips.length > 0) {
+                                //animationClips = animationClips;
+
+                                // If we don't already have an animation component, create one.
+                                // Note that this isn't really a 'true' component like those
+                                // found in the engine...
+                                if (!gltf.hasOwnProperty('animComponent')) {
+                                    gltf.animComponent = new AnimationComponent();
+                                }
+
+                                // Add all animations to the model's animation component
+                                for (i = 0; i < animationClips.length; i++) {
+                                    animationClips[i].transferToRoot(gltf);
+                                    gltf.animComponent.addClip(animationClips[i]);
+                                }
+                                gltf.animComponent.playClip(animationClips[0].name);
+                            }
+                            */
+
+                            // console.log("===> TRACE GLB: Added Single Model Scene Content");
+                        } else if (result instanceof Array) {
+                            var roots = result;
+                            // Add root entities to scene
+                            roots.forEach(function (root) {
+                                app.root.addChild(root);
+                            });
+                            // console.log("===> TRACE GLB: Added Root Entities Scene Content");
+                        } else {
+                            console.warn("Unsupported GLB Result Encountered:");
+                            console.log(result);
+                        }
+                    }
+                    processExecuteReady();                    
+                    // Remove the scene loader splash sceen
+                    if (close) {
+                        if (timeout > 0) {
+                            window.setTimeout(function(){ removeSceneLoader(); }, timeout * 1000);
+                        } else {
+                            removeSceneLoader()
+                        }
+                    };
+                }, {
+                    basePath: scenepath, // Note: BasePath Is Always Required
+                    sceneFile: true      // Note: Load Scene File As Entities
+                });
+            });
+        } else if (jsonfile === true) {
+            app.assets.loadFromUrl(scenefile, "json", function (err, asset) {
+                var json = asset.resource;
+                var gltf = JSON.parse(json);
+                window.loadGltf(gltf, app.graphicsDevice, function (result, textures, animationClips) {
+                    if (result != null) {
+
+                        console.log(result);
+
+                        if (result instanceof pc.Model) {
+                            var model = result;
+                            // Wrap the model as an asset and add to the asset registry
+                            var asset = new pc.Asset('gltf', 'model', { url: '' });
+                            asset.resource = model;
+                            asset.loaded = true;
+                            app.assets.add(asset);
+                            // Add the loaded scene to the hierarchy
+                            var gltf = new pc.Entity('gltf');
+                            gltf.addComponent('model', { asset: asset });
+                            app.root.addChild(gltf);
+                            createDefaultEnvironment();
+
+                            /*
+                            if (animationClips) {
+                                for (i = 0; i < animationClips.length; i++) {
+                                    for(var c = 0; c < animationClips[i].animCurves.length; c++) {
+                                        var curve = animationClips[i].animCurves[c];
+                                        if (curve.animTargets[0].targetNode === "model")
+                                            curve.animTargets[0].targetNode = gltf;
+                                    }
+                                }
+                            }
+                            if (animationClips && animationClips.length > 0) {
+                                //animationClips = animationClips;
+
+                                // If we don't already have an animation component, create one.
+                                // Note that this isn't really a 'true' component like those
+                                // found in the engine...
+                                if (!gltf.hasOwnProperty('animComponent')) {
+                                    gltf.animComponent = new AnimationComponent();
+                                }
+
+                                // Add all animations to the model's animation component
+                                for (i = 0; i < animationClips.length; i++) {
+                                    animationClips[i].transferToRoot(gltf);
+                                    gltf.animComponent.addClip(animationClips[i]);
+                                }
+                                gltf.animComponent.playClip(animationClips[0].name);
+                            }
+                            */
+
+                            // console.log("===> TRACE GLTF: Added Single Model Scene Content");
+                        } else if (result instanceof Array) {
+                            var roots = result;
+                            // Add root entities to scene
+                            roots.forEach(function (root) {
+                                app.root.addChild(root);
+                            });
+                            // console.log("===> TRACE GLTF: Added Root Entities Scene Content");
+                        } else {
+                            console.warn("Unsupported GLTF Result Encountered:");
+                            console.log(result);
+                        }
+                    }
+                    processExecuteReady();                    
+                    // Remove the scene loader splash sceen
+                    if (close) {
+                        if (timeout > 0) {
+                            window.setTimeout(function(){ removeSceneLoader(); }, timeout * 1000);
+                        } else {
+                            removeSceneLoader()
+                        }
+                    };
+                }, {
+                    basePath: scenepath,  // Note: BasePath Is Always Required
+                    sceneFile: true       // Note: Load Scene File As Entities
+                });
+            });
+        } else {
+            console.warn("GLTF Parse Error - Unsupported file format detected: " + scenename);
+            removeSceneLoader();
+        }
+    </script>
+</body>
+</html>
