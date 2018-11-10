@@ -413,7 +413,7 @@
           }
         }
       },
-      "name": "M_WTF.Instance.27ae4e4573ee44b282b7c4084a283976",
+      "name": "M_WTF.Instance.08de21313c454d93a74e7061400b6106",
       "extensions": {
         "KHR_materials_pbrSpecularGlossiness": {
           "specularFactor": [
@@ -452,7 +452,7 @@
           }
         }
       },
-      "name": "M_WTF.Instance.fd303183768141e48c86dc3db90c5880",
+      "name": "M_WTF.Instance.6d035a38ad9b48ac8c77d235974575fa",
       "extensions": {
         "KHR_materials_pbrSpecularGlossiness": {
           "specularFactor": [
@@ -495,7 +495,7 @@
           }
         }
       },
-      "name": "Default-Material.Instance.4252ca6778ab4b578f38c63e9b635350",
+      "name": "Default-Material.Instance.a6c3efa7fdc443c0bf2af69458c9c3b6",
       "extras": {
         "metadata": {
           "glossyreflections": true,
@@ -815,17 +815,6 @@
             },
             {
               "alias": "audiolistener"
-            },
-            {
-              "alias": "script",
-              "klass": "firstPersonCamera",
-              "props": [
-                {
-                  "type": "Number",
-                  "name": "speed",
-                  "value": 25.0
-                }
-              ]
             }
           ]
         }

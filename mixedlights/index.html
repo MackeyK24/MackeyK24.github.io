@@ -184,12 +184,21 @@
     <script src="scripts/playcanvas-toast.js"></script>
     <script src="scripts/CanvasTools.js"></script>
 
-    
+    <!-- Debug Shaders Chunks -->
+    <div id='overlay'>
+        <div id='shader'>
+            <input id='shaderchunks_toggle' type='button' value='Show ShaderChunks'>
+            <input id='shaderchunks_regen' type='button' value='Regenerate Shaders'>
+        </div>
+        <div id='shaderchunks'></div>
+    </div>
+    <script src='scripts/playcanvas-chunks.js'></script>
+    <script type='text/javascript'>var chunks = new ShaderChunks();</script>
     
     <!-- Page Loader Script -->
     <script type="text/javascript">
         var pagetype = "project", defaultmap = "TestScene.gltf", antialias = true, adaptive = true, timeout = 1, close = true, pwa = false, game = "", datax = "#2CB24B", folder = "scenes/", title = "PlayCanvas Toolkit";
-        var version = "fb15638b-2422-4ea2-b45e-6bd2b5e3d805";
+        var version = "b876b07e-89a2-47e3-903b-a03441dfcce8";
         var loaded = false, resizing = false, scene = null;
         var panel = document.getElementById("panel");
         var loader = document.getElementById("load");
