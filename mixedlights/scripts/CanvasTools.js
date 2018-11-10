@@ -457,6 +457,16 @@ var CanvasTools = /** @class */ (function () {
         if (pivot.light == null) {
             console.warn("Failed to add light component for entity: " + pivot.getName());
         }
+        ////////////////////////////////////////////////
+        // Mackey - DEBUG: Save Actual Light
+        ////////////////////////////////////////////////
+        var wnd = window;
+        if (wnd.hasOwnProperty('chunks') && wnd.chunks != null) {
+            if (!wnd.hasOwnProperty('lights') || wnd.lights == null)
+                wnd.lights = [];
+            wnd.lights.push(pivot);
+        }
+        ////////////////////////////////////////////////
     };
     // ..
     // Parse Node Helper Functions

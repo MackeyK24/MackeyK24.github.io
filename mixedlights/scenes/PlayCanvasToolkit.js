@@ -191,16 +191,16 @@ var SkyboxController = /** @class */ (function (_super) {
     SkyboxController.prototype.initialize = function () {
         var wnd = window;
         var aniso = 2;
-        var rgbm = (wnd.hdrPacking != null && wnd.hdrPacking !== "none") ? true : false;
-        console.log("Window HDR Packing: " + wnd.hdrPacking);
+        var rgbm = true; //(wnd.hdrPacking != null && wnd.hdrPacking !== "none") ? true : false;
+        //console.log("Window HDR Packing: " + wnd.hdrPacking);
         console.log("Window RGBM Enabled: " + rgbm.toString());
         this.app.scene.exposure = 1;
         this.app.scene.toneMapping = pc.TONEMAP_LINEAR;
         this.app.scene.gammaCorrection = pc.GAMMA_SRGB;
-        //
-        var basename = "Country";
-        var environ = this.app.assets.find(basename + "_env");
-        var textures = [
+        /*
+        let basename:string = "Country";
+        let environ:pc.Asset = this.app.assets.find(basename + "_env");
+        let textures:pc.Asset[] = [
             this.app.assets.find(basename + "_posx"),
             this.app.assets.find(basename + "_negx"),
             this.app.assets.find(basename + "_posy"),
@@ -211,17 +211,16 @@ var SkyboxController = /** @class */ (function (_super) {
         if (environ != null && environ.resource != null) {
             // WITH ENVIRONMENT
             console.log("==> Loading Skybox WITH ENVIROMENT");
-            var cubemap = environ.resource;
+            let cubemap:pc.Texture = environ.resource as pc.Texture;
             cubemap.rgbm = rgbm;
-            cubemap.setSource(textures.map(function (texture) {
-                return texture.resource.getSource();
+            cubemap.setSource(textures.map(function(texture) {
+                return (<any>texture.resource).getSource();
             }));
             this.app.setSkybox(environ);
-        }
-        else {
+        } else {
             // WITHOUT ENVIRONMENT
             console.log("==> Loading Skybox WITHOUT ENVIROMENT");
-            var options = {
+            let options:any = {
                 anisotropy: 2,
                 magFilter: pc.FILTER_LINEAR,
                 minFilter: pc.FILTER_LINEAR_MIPMAP_LINEAR,
@@ -229,14 +228,14 @@ var SkyboxController = /** @class */ (function (_super) {
                 cubemap: false,
                 rgbm: rgbm,
             };
-            var cubemap = new pc.Texture(this.app.graphicsDevice, options);
+            let cubemap:pc.Texture = new pc.Texture(this.app.graphicsDevice, options);
             cubemap.rgbm = rgbm;
-            cubemap.setSource(textures.map(function (texture) {
-                return texture.resource.getSource();
+            cubemap.setSource(textures.map(function(texture) {
+                return (<any>texture.resource).getSource();
             }));
             this.app.scene.skybox = cubemap;
         }
-        //
+        */
         /*
         let aniso:number = 2;
         this.app.scene.exposure = 1;

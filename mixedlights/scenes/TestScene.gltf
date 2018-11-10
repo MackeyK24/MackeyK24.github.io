@@ -413,7 +413,7 @@
           }
         }
       },
-      "name": "M_WTF.Instance.08de21313c454d93a74e7061400b6106",
+      "name": "M_WTF.Instance.b53150ea3e384368abdbaf75bf50db3d",
       "extensions": {
         "KHR_materials_pbrSpecularGlossiness": {
           "specularFactor": [
@@ -426,6 +426,7 @@
       },
       "extras": {
         "metadata": {
+          "legacymaterial": true,
           "glossyreflections": false,
           "specularhighlights": false
         }
@@ -452,7 +453,7 @@
           }
         }
       },
-      "name": "M_WTF.Instance.6d035a38ad9b48ac8c77d235974575fa",
+      "name": "M_WTF.Instance.923e0863e66e439a92efebb28715033f",
       "extensions": {
         "KHR_materials_pbrSpecularGlossiness": {
           "specularFactor": [
@@ -465,6 +466,7 @@
       },
       "extras": {
         "metadata": {
+          "legacymaterial": true,
           "glossyreflections": false,
           "specularhighlights": false
         }
@@ -495,9 +497,10 @@
           }
         }
       },
-      "name": "Default-Material.Instance.a6c3efa7fdc443c0bf2af69458c9c3b6",
+      "name": "Default-Material.Instance.b68e2cea027e404f978df4edd3a379f7",
       "extras": {
         "metadata": {
+          "legacymaterial": false,
           "glossyreflections": true,
           "specularhighlights": true
         }
@@ -565,7 +568,7 @@
       "name": "SceneController",
       "extras": {
         "metadata": {
-          "id": 13842,
+          "id": 14268,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -608,7 +611,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "id": 13870,
+          "id": 14296,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -695,7 +698,7 @@
               "vsmblursize": 7,
               "vsmblurmode": 1,
               "vsmbias": 0.0025,
-              "scaling": 0.99
+              "scaling": 1.0
             }
           ]
         }
@@ -716,7 +719,7 @@
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "id": 13834,
+          "id": 14260,
           "tag": "MainCamera",
           "prefab": false,
           "joint": null,
@@ -831,7 +834,7 @@
       "name": "Plane",
       "extras": {
         "metadata": {
-          "id": 13824,
+          "id": 14252,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -872,7 +875,7 @@
       "name": "Cube 1",
       "extras": {
         "metadata": {
-          "id": 13864,
+          "id": 14290,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -935,7 +938,7 @@
       "name": "Cube 2",
       "extras": {
         "metadata": {
-          "id": 13854,
+          "id": 14280,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -998,7 +1001,7 @@
       "name": "Sphere 1",
       "extras": {
         "metadata": {
-          "id": 13806,
+          "id": 14234,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -1054,7 +1057,7 @@
       "name": "Sphere 2",
       "extras": {
         "metadata": {
-          "id": 13816,
+          "id": 14244,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,

@@ -98,14 +98,20 @@ ShaderChunks.prototype.resize = function() {
 }
 
 ShaderChunks.prototype.regenerateShaders = function() {
-    if (window.meshes == undefined || window.meshes == null) {
-        console.warn("No winow mesh instances found");
-        return;
-    }
+    console.log("Regenerating shaders...");
     pc.app.graphicsDevice.programLib._cache = {};
-    var n = window.meshes.length;
-    for (var i=0; i<n; i++) {
-        var meshInstance = window.meshes[i];
-        meshInstance.material.clearVariants();
+    if (window.hasOwnProperty("lights") && window.lights != null) {
+        var n = window.lights.length;
+        for (var i=0; i<n; i++) {
+            var lightPivot = window.lights[i];
+            lightPivot.light.refreshProperties();            
+        }
+    }
+    if (window.hasOwnProperty("meshes") && window.meshes != null) {
+        var nn = window.meshes.length;
+        for (var ii=0; ii<nn; ii++) {
+            var meshInstance = window.meshes[ii];
+            meshInstance.material.clearVariants();
+        }
     }
 }
