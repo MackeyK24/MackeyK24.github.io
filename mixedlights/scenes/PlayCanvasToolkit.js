@@ -162,8 +162,6 @@ var DemoRotator = /** @class */ (function (_super) {
     DemoRotator.prototype.initialize = function () {
         console.log("Starting demo rotator for: " + this.entity.getName());
         this.speed = this.getProperty("rotateSpeed", 10.0);
-        var hello = this.getProperty("helloWorld", "Hello World");
-        console.log("===> Test Demo Rotator Says: " + hello);
     };
     DemoRotator.prototype.update = function (delta) {
         this.entity.rotate(0, this.speed * delta, 0);
@@ -191,12 +189,7 @@ var SkyboxController = /** @class */ (function (_super) {
     SkyboxController.prototype.initialize = function () {
         var wnd = window;
         var aniso = 2;
-        var rgbm = true; //(wnd.hdrPacking != null && wnd.hdrPacking !== "none") ? true : false;
-        //console.log("Window HDR Packing: " + wnd.hdrPacking);
-        console.log("Window RGBM Enabled: " + rgbm.toString());
-        this.app.scene.exposure = 1;
-        this.app.scene.toneMapping = pc.TONEMAP_LINEAR;
-        this.app.scene.gammaCorrection = pc.GAMMA_SRGB;
+        var rgbm = true;
         /*
         let basename:string = "Country";
         let environ:pc.Asset = this.app.assets.find(basename + "_env");

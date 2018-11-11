@@ -190,6 +190,12 @@ var CanvasTools = /** @class */ (function () {
                 var scene = gltf.scenes[0]; // Note: Only Supports One Scene Per File
                 if (scene.hasOwnProperty("extras") && scene.extras.metadata != null) {
                     var component = scene.extras.metadata;
+                    if (component.exposure != null)
+                        app.scene.exposure = component.exposure;
+                    if (component.tonemapping != null)
+                        app.scene.toneMapping = component.tonemapping;
+                    if (component.gammacorrection != null)
+                        app.scene.gammaCorrection = component.gammacorrection;
                     // ..
                     // Ambient Light & Fog Colors
                     // ..

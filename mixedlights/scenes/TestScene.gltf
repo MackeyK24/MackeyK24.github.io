@@ -1,12 +1,8 @@
 {
   "extensionsUsed": [
     "CVTOOLS_unity_metadata",
-    "KHR_materials_pbrSpecularGlossiness",
     "KHR_texture_transform",
     "KHR_materials_common"
-  ],
-  "extensionsRequired": [
-    "KHR_materials_pbrSpecularGlossiness"
   ],
   "accessors": [
     {
@@ -397,8 +393,17 @@
   ],
   "materials": [
     {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.817612767,
+          0.236320063,
+          0.116362207,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
       "commonConstant": {
-        "hdrPacking": "none",
         "lightmapTexture": {
           "index": 0,
           "texCoord": 1,
@@ -411,30 +416,34 @@
               "texCoord": 1
             }
           }
-        }
+        },
+        "realtimeShadow": [
+          0.147318989,
+          0.1942403,
+          0.350975335
+        ]
       },
-      "name": "M_WTF.Instance.b53150ea3e384368abdbaf75bf50db3d",
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "specularFactor": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "glossinessFactor": 0.0
-        }
-      },
+      "name": "M_GROUND.Instance.b196dcb4ce9d448ebb575d95381b7381",
       "extras": {
         "metadata": {
-          "legacymaterial": true,
-          "glossyreflections": false,
-          "specularhighlights": false
+          "legacymaterial": false,
+          "glossyreflections": true,
+          "specularhighlights": true
         }
       }
     },
     {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.192624524,
+          0.876034439,
+          0.225049287,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
       "commonConstant": {
-        "hdrPacking": "none",
         "lightmapTexture": {
           "index": 1,
           "texCoord": 1,
@@ -451,34 +460,34 @@
               "texCoord": 1
             }
           }
-        }
+        },
+        "realtimeShadow": [
+          0.147318989,
+          0.1942403,
+          0.350975335
+        ]
       },
-      "name": "M_WTF.Instance.923e0863e66e439a92efebb28715033f",
-      "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "specularFactor": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "glossinessFactor": 0.0
-        }
-      },
+      "name": "M_WTF2.Instance.8e576c69c88546678a5ea712bf3a0e80",
       "extras": {
         "metadata": {
-          "legacymaterial": true,
-          "glossyreflections": false,
-          "specularhighlights": false
+          "legacymaterial": false,
+          "glossyreflections": true,
+          "specularhighlights": true
         }
       }
     },
     {
       "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.798659861,
+          0.009754238,
+          0.009754238,
+          1.0
+        ],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
       },
       "commonConstant": {
-        "hdrPacking": "none",
         "lightmapTexture": {
           "index": 2,
           "texCoord": 1,
@@ -495,9 +504,14 @@
               "texCoord": 1
             }
           }
-        }
+        },
+        "realtimeShadow": [
+          0.147318989,
+          0.1942403,
+          0.350975335
+        ]
       },
-      "name": "Default-Material.Instance.b68e2cea027e404f978df4edd3a379f7",
+      "name": "M_WTF3.Instance.3a73499839d24edf9265accb3a5294ea",
       "extras": {
         "metadata": {
           "legacymaterial": false,
@@ -568,7 +582,7 @@
       "name": "SceneController",
       "extras": {
         "metadata": {
-          "id": 14268,
+          "id": 13758,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -611,7 +625,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "id": 14296,
+          "id": 13788,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -626,9 +640,9 @@
                 "Value": "Directional"
               },
               "color": {
-                "r": 0.9150943,
-                "g": 0.112430245,
-                "b": 0.06474723,
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
                 "a": 1.0
               },
               "intensity": 1.0,
@@ -719,7 +733,7 @@
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "id": 14260,
+          "id": 13750,
           "tag": "MainCamera",
           "prefab": false,
           "joint": null,
@@ -730,8 +744,8 @@
             {
               "alias": "camera",
               "clearflags": {
-                "Key": 0,
-                "Value": "Skybox"
+                "Key": 1,
+                "Value": "Solid Color"
               },
               "backgroundcolor": {
                 "r": 0.192156866,
@@ -834,7 +848,7 @@
       "name": "Plane",
       "extras": {
         "metadata": {
-          "id": 14252,
+          "id": 13740,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -869,13 +883,13 @@
       ],
       "translation": [
         1.0,
-        0.5,
+        1.0,
         0.424
       ],
       "name": "Cube 1",
       "extras": {
         "metadata": {
-          "id": 14290,
+          "id": 13782,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -917,6 +931,17 @@
               "center_x": 0.0,
               "center_y": 0.0,
               "center_z": 0.0
+            },
+            {
+              "alias": "script",
+              "klass": "DemoRotator",
+              "props": [
+                {
+                  "type": "Number",
+                  "name": "rotateSpeed",
+                  "value": 50.0
+                }
+              ]
             }
           ]
         }
@@ -932,13 +957,13 @@
       ],
       "translation": [
         -1.115,
-        0.757,
+        1.0,
         -0.727
       ],
       "name": "Cube 2",
       "extras": {
         "metadata": {
-          "id": 14280,
+          "id": 13770,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -980,6 +1005,28 @@
               "center_x": 0.0,
               "center_y": 0.0,
               "center_z": 0.0
+            },
+            {
+              "alias": "script",
+              "klass": "DemoRotator",
+              "props": [
+                {
+                  "type": "Number",
+                  "name": "rotateSpeed",
+                  "value": 50.0
+                }
+              ]
+            },
+            {
+              "alias": "script",
+              "klass": "DemoRotator",
+              "props": [
+                {
+                  "type": "Number",
+                  "name": "rotateSpeed",
+                  "value": 25.0
+                }
+              ]
             }
           ]
         }
@@ -1001,7 +1048,7 @@
       "name": "Sphere 1",
       "extras": {
         "metadata": {
-          "id": 14234,
+          "id": 13722,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -1057,7 +1104,7 @@
       "name": "Sphere 2",
       "extras": {
         "metadata": {
-          "id": 14244,
+          "id": 13732,
           "tag": "Untagged",
           "prefab": false,
           "joint": null,
@@ -1183,6 +1230,9 @@
             "skyboxoptions_localcubemapbox_y": 0.0,
             "skyboxoptions_localcubemapbox_z": 0.0
           },
+          "exposure": 1,
+          "tonemapping": 0,
+          "gammacorrection": 1,
           "ambientlightintensity": 1.0,
           "ambientgroundcolor": {
             "r": 0.0,
@@ -1191,9 +1241,9 @@
             "a": 1.0
           },
           "ambientskycolor": {
-            "r": 0.8490566,
-            "g": 0.8490566,
-            "b": 0.8490566,
+            "r": 0.7264151,
+            "g": 0.7024297,
+            "b": 0.7024297,
             "a": 1.0
           },
           "fogmode": 0,
