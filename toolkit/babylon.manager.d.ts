@@ -441,7 +441,6 @@ declare module BABYLON {
      */
     class MetadataParser {
         private _skeletonList;
-        private _detailsList;
         private _physicsList;
         private _shadowList;
         private _scriptList;
@@ -459,7 +458,6 @@ declare module BABYLON {
         /** Add skeleton body list item. Note: Internal use only */
         addSkeletonBodyItem(mesh: BABYLON.AbstractMesh): void;
         /** Add level of details list item. Note: Internal use only */
-        addLevelDetailItem(mesh: BABYLON.AbstractMesh): void;
         /** Add dispose entity list item. Note: Internal use only */
         addDisposeEntityItem(transform: BABYLON.TransformNode): void;
         /** Load float array from gltf accessor data */
@@ -468,7 +466,6 @@ declare module BABYLON {
         loadIndicesAccessorData(context: string, index: number): Promise<BABYLON.IndicesArray>;
         private static DoParseSceneComponents;
         private static DoProcessPendingBodies;
-        private static DoProcessPendingDetails;
         private static DoProcessPendingPhysics;
         private static DoProcessPendingShadows;
         private static DoProcessPendingScripts;
@@ -1177,8 +1174,8 @@ declare module BABYLON {
 declare var TimerPlugin: any;
 
 declare const CVTOOLS_NAME = "CVTOOLS_unity_metadata";
-declare const CVTOOLS_HAND = "CVTOOLS_left_handedness";
 declare const CVTOOLS_MESH = "CVTOOLS_babylon_mesh";
+declare const CVTOOLS_HAND = "CVTOOLS_left_handed";
 /**
  * Babylon Editor Toolkit - Loader Class
  * @class CVTOOLS_unity_metadata
@@ -1209,15 +1206,17 @@ declare class CVTOOLS_unity_metadata implements BABYLON.GLTF2.IGLTFLoaderExtensi
     /** @hidden */
     loadNodeAsync(context: string, node: BABYLON.GLTF2.INode, assign: (babylonMesh: BABYLON.TransformNode) => void): BABYLON.Nullable<Promise<BABYLON.TransformNode>>;
     /** @hidden */
-    loadAnimationAsync(context: string, animation: BABYLON.GLTF2.IAnimation): Promise<BABYLON.AnimationGroup>;
-    /** @hidden */
     loadMaterialPropertiesAsync(context: string, material: BABYLON.GLTF2.IMaterial, babylonMaterial: BABYLON.Material): BABYLON.Nullable<Promise<void>>;
     /** @hidden */
     createMaterial(context: string, material: BABYLON.GLTF2.IMaterial, babylonDrawMode: number): BABYLON.Nullable<BABYLON.Material>;
     /** @hidden */
     _loadMeshPrimitiveAsync(context: string, name: string, node: BABYLON.GLTF2.INode, mesh: BABYLON.GLTF2.IMesh, primitive: BABYLON.GLTF2.IMeshPrimitive, assign: (babylonMesh: BABYLON.AbstractMesh) => void): Promise<BABYLON.AbstractMesh>;
     /** @hidden */
-    _loadAnimationAsync(context: string, animation: BABYLON.GLTF2.IAnimation): Promise<BABYLON.AnimationGroup>;
+    /** @hidden */
+    loadAnimationAsync(context: string, animation: BABYLON.GLTF2.IAnimation): Promise<BABYLON.AnimationGroup>;
+    private _setupBabylonMesh;
+    private _setupBabylonMaterials;
+    private _setupBabylonSkeletons;
     private _parseSceneProperties;
     private _parseMultiMaterialAsync;
     private _parseShaderMaterialPropertiesAsync;
@@ -1227,12 +1226,12 @@ declare class CVTOOLS_unity_metadata implements BABYLON.GLTF2.IGLTFLoaderExtensi
 }
 /**
  * Babylon Editor Toolkit - Loader Class
- * @class CVTOOLS_left_handedness
+ * @class CVTOOLS_babylon_mesh
  * [Specification](https://github.com/MackeyK24/glTF/tree/master/extensions/2.0/Vendor/CVTOOLS_unity_metadata)
  */
-declare class CVTOOLS_left_handedness implements BABYLON.GLTF2.IGLTFLoaderExtension {
+declare class CVTOOLS_babylon_mesh implements BABYLON.GLTF2.IGLTFLoaderExtension {
     /** The name of this extension. */
-    readonly name = "CVTOOLS_left_handedness";
+    readonly name = "CVTOOLS_babylon_mesh";
     /** Defines whether this extension is enabled. */
     enabled: boolean;
     private _loader;
@@ -1243,12 +1242,12 @@ declare class CVTOOLS_left_handedness implements BABYLON.GLTF2.IGLTFLoaderExtens
 }
 /**
  * Babylon Editor Toolkit - Loader Class
- * @class CVTOOLS_babylon_mesh
+ * @class CVTOOLS_left_handed
  * [Specification](https://github.com/MackeyK24/glTF/tree/master/extensions/2.0/Vendor/CVTOOLS_unity_metadata)
  */
-declare class CVTOOLS_babylon_mesh implements BABYLON.GLTF2.IGLTFLoaderExtension {
+declare class CVTOOLS_left_handed implements BABYLON.GLTF2.IGLTFLoaderExtension {
     /** The name of this extension. */
-    readonly name = "CVTOOLS_babylon_mesh";
+    readonly name = "CVTOOLS_left_handed";
     /** Defines whether this extension is enabled. */
     enabled: boolean;
     private _loader;
