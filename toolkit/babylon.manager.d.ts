@@ -14,6 +14,11 @@ declare module BABYLON {
         static DebugPhysics: boolean;
         /** Managed json data store object */
         static DataStore: any;
+        private static EnableSceneParsing;
+        /** Enable scene loader parsing plugin */
+        static EnableSceneLoader(enabled: boolean): void;
+        /** Is scene loader parsing plugin enabled */
+        static IsSceneLoaderEnabled(): boolean;
         /** Are unversial windows platform services available. */
         static IsWindows(): boolean;
         /** Are mobile cordova platform services available. */
@@ -440,24 +445,21 @@ declare module BABYLON {
      * @class MetadataParser
      */
     class MetadataParser {
-        private _skeletonList;
-        private _physicsList;
+        private _disposeList;
+        private _detailList;
+        private _physicList;
         private _shadowList;
         private _scriptList;
-        private _disposeList;
         private _babylonScene;
         private _gltfLoader;
         readonly loader: BABYLON.GLTF2.GLTFLoader;
         constructor(scene: BABYLON.Scene, loader?: BABYLON.GLTF2.GLTFLoader);
         /** Parse the scene component metadata. Note: Internal use only */
         parseSceneComponents(entity: BABYLON.AbstractMesh): void;
-        /** Parse the skeleton rig metadata. Note: Internal use only */
-        parseSkeletonBones(parsedSkeleton: any, scene: BABYLON.Scene): BABYLON.Skeleton;
         /** Post process pending scene components. Note: Internal use only */
         postProcessSceneComponents(): void;
-        /** Add skeleton body list item. Note: Internal use only */
-        addSkeletonBodyItem(mesh: BABYLON.AbstractMesh): void;
-        /** Add level of details list item. Note: Internal use only */
+        /** Add detail level list item. Note: Internal use only */
+        addDetailLevelItem(mesh: BABYLON.AbstractMesh): void;
         /** Add dispose entity list item. Note: Internal use only */
         addDisposeEntityItem(transform: BABYLON.TransformNode): void;
         /** Load float array from gltf accessor data */
@@ -465,12 +467,11 @@ declare module BABYLON {
         /** Load indices array from gltf accessor data */
         loadIndicesAccessorData(context: string, index: number): Promise<BABYLON.IndicesArray>;
         private static DoParseSceneComponents;
-        private static DoProcessPendingBodies;
+        private static DoProcessPendingDisposes;
+        private static DoProcessPendingDetails;
         private static DoProcessPendingPhysics;
         private static DoProcessPendingShadows;
         private static DoProcessPendingScripts;
-        private static DoProcessPendingDisposes;
-        private static DoParseSkeletonBones;
         private static SetupPhysicsComponent;
         private static SetupCameraComponent;
         private static SetupLightComponent;
@@ -637,6 +638,8 @@ declare module BABYLON {
         Fragment_Before_Lights: string;
         Fragment_Before_Fog: string;
         Fragment_Before_FragColor: string;
+        Fragment_MetallicRoughness: string;
+        Fragment_MicroSurface: string;
     }
     class UniversalDiffuseChunks {
         constructor();
@@ -654,6 +657,9 @@ declare module BABYLON {
         Fragment_Before_Lights: string;
         Fragment_Before_Fog: string;
         Fragment_Before_FragColor: string;
+    }
+    class UniversalShaderMaterial {
+        static Initialize(material: BABYLON.ShaderMaterial, binding?: boolean): void;
     }
     /**
      * Babylon universal push material
@@ -1076,7 +1082,6 @@ declare module BABYLON {
         static GetFilenameFromUrl(url: string): string;
         /** TODO */
         static PrintToScreen(text: string, color?: string): void;
-        static SetupShaderMaterial(material: BABYLON.ShaderMaterial, binding?: boolean): void;
         /** TODO */
         static StartsWith(source: string, word: string): boolean;
         /** TODO */
@@ -1211,12 +1216,8 @@ declare class CVTOOLS_unity_metadata implements BABYLON.GLTF2.IGLTFLoaderExtensi
     createMaterial(context: string, material: BABYLON.GLTF2.IMaterial, babylonDrawMode: number): BABYLON.Nullable<BABYLON.Material>;
     /** @hidden */
     _loadMeshPrimitiveAsync(context: string, name: string, node: BABYLON.GLTF2.INode, mesh: BABYLON.GLTF2.IMesh, primitive: BABYLON.GLTF2.IMeshPrimitive, assign: (babylonMesh: BABYLON.AbstractMesh) => void): Promise<BABYLON.AbstractMesh>;
-    /** @hidden */
-    /** @hidden */
-    loadAnimationAsync(context: string, animation: BABYLON.GLTF2.IAnimation): Promise<BABYLON.AnimationGroup>;
     private _setupBabylonMesh;
     private _setupBabylonMaterials;
-    private _setupBabylonSkeletons;
     private _parseSceneProperties;
     private _parseMultiMaterialAsync;
     private _parseShaderMaterialPropertiesAsync;
