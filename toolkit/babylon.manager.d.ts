@@ -1,15 +1,21 @@
 declare module BABYLON {
     /**
      * Babylon scene manager class
-     * @class SceneManager
+     * @class SceneManager - All rights reserved (c) 2019 McArthur Kinard
      */
     class SceneManager {
         /** Gets the toolkit framework version number */
         static readonly VersionNumber: string;
+        /** Gets the toolkit framework copyright notice */
+        static readonly CopyrightNotice: string;
+        /** Gets the toolkit framework copyright notice */
+        static readonly ToolkitLicense: string;
         /** Managed animation group start mode */
         static AnimationStartMode?: BABYLON.GLTFLoaderAnimationStartMode;
         /** Forces scene loader into right hand mode */
         static ForceRightHanded?: boolean;
+        /** Physics viewer  for system debug tracing */
+        static PhysicsViewer: BABYLON.Debug.PhysicsViewer;
         /** Enable scene physics system debug tracing */
         static DebugPhysics: boolean;
         /** Managed json data store object */
@@ -58,11 +64,11 @@ declare module BABYLON {
         /** Are xbox live platform services available. */
         static IsXboxLive(): boolean;
         /** Run a function on the next render loop. */
-        static RunOnce(scene: BABYLON.Scene, func: () => void): void;
+        static RunOnce(scene: BABYLON.Scene, func: () => void): BABYLON.Observer<BABYLON.Scene>;
         /** Popup debug layer in window. */
         static PopupDebug(scene: BABYLON.Scene): void;
         /** Toggle debug layer on and off. */
-        static ToggleDebug(scene: BABYLON.Scene, popups?: boolean, parent?: HTMLElement): void;
+        static ToggleDebug(scene: BABYLON.Scene, embed?: boolean, parent?: HTMLElement): void;
         /** Disposes entire scene and release all resources */
         static DisposeScene(scene: BABYLON.Scene, clearColor?: BABYLON.Color4): void;
         /** Delays a function call using request animation frames. Returns a handle object */
@@ -73,10 +79,6 @@ declare module BABYLON {
         static SetInterval(interval: number, func: () => void): any;
         /** Calls request animation frame repeast with handle to clear pending interval call. */
         static ClearInterval(handle: any): void;
-        /** TODO */
-        static RayCast(scene: BABYLON.Scene, ray: BABYLON.Ray, predicate?: (mesh: BABYLON.AbstractMesh) => boolean, fastCheck?: boolean): BABYLON.PickingInfo;
-        /** TODO */
-        static MultiRayCast(scene: BABYLON.Scene, ray: BABYLON.Ray, predicate?: (mesh: BABYLON.AbstractMesh) => boolean): BABYLON.PickingInfo[];
         /** Safely destroy transform node */
         static SafeDestroy(transform: BABYLON.TransformNode, delay?: number, disable?: boolean): void;
         /** Open alert message dialog. */
@@ -103,18 +105,16 @@ declare module BABYLON {
         static GetLastCreatedEngine(): BABYLON.Engine;
         /** Get the last created scene instance */
         static GetLastCreatedScene(): BABYLON.Scene;
-        /** Gets the specified mesh from scene. */
-        static GetMesh(scene: BABYLON.Scene, name: string): BABYLON.AbstractMesh;
         /** Gets the specified transform node from scene. */
         static GetTransform(scene: BABYLON.Scene, name: string): BABYLON.TransformNode;
-        /** Gets the specified prefab mesh from scene. */
-        static GetPrefabMesh(scene: BABYLON.Scene, prefabName: string): BABYLON.AbstractMesh;
+        /** Gets the specified abstract mesh from scene. */
+        static GetAbstractMesh(scene: BABYLON.Scene, name: string): BABYLON.AbstractMesh;
+        /** Gets the specified raw prefab mesh from scene. */
+        static GetRawPrefabMesh(scene: BABYLON.Scene, prefabName: string): BABYLON.AbstractMesh;
         /** TODO: Remove This - Gets the transform node primitive meshes. */
         static GetPrimitiveMeshes(transform: TransformNode): BABYLON.AbstractMesh[];
         /** Gets the transform node collision meshes. */
         static GetCollisionMeshes(transform: TransformNode): BABYLON.AbstractMesh[];
-        /** Gets the system navigation mesh from scene. */
-        static GetNavigationMesh(scene: BABYLON.Scene): BABYLON.AbstractMesh;
         /** Instantiates the specfied prefab object into scene. */
         static InstantiatePrefab(scene: BABYLON.Scene, name: string, cloneName: string, newParent?: Node, newPosition?: BABYLON.Vector3, newRotation?: BABYLON.Vector3, newScaling?: BABYLON.Vector3): BABYLON.AbstractMesh;
         /** TODO */
@@ -127,63 +127,38 @@ declare module BABYLON {
         static FindScriptComponents<T extends BABYLON.ScriptComponent>(transform: BABYLON.TransformNode, klass: string): T[];
         /** Finds the transform object metedata in the scene. */
         static FindSceneMetadata(transform: BABYLON.TransformNode): any;
-        /** Finds the specfied particle system rig in the scene. */
-        static FindSceneParticleRig(transform: BABYLON.TransformNode): BABYLON.ParticleSystem;
         /** Finds the specfied camera rig in the scene. */
         static FindSceneCameraRig(transform: BABYLON.TransformNode): BABYLON.Camera;
         /** Finds the specfied light rig in the scene. */
         static FindSceneLightRig(transform: BABYLON.TransformNode): BABYLON.Light;
-        /** Finds the specfied lens flare system rig in the scene. */
-        static FindSceneFlareRig(transform: BABYLON.TransformNode): BABYLON.LensFlareSystem;
+        /** Finds the specfied text writer in the scene. (Pro Feature Pack Only) */
+        static FindSceneTextWriter(transform: BABYLON.TransformNode): any;
         /** Finds the specfied child mesh in the scene. */
         static FindSceneChildMesh(transform: BABYLON.TransformNode, name: string, searchType?: BABYLON.SearchType, directDecendantsOnly?: boolean, predicate?: (node: BABYLON.Node) => boolean): BABYLON.AbstractMesh;
         /** Finds the specfied child transform in the scene. */
         static FindSceneChildTransform(transform: BABYLON.TransformNode, name: string, searchType?: BABYLON.SearchType, directDecendantsOnly?: boolean, predicate?: (node: BABYLON.Node) => boolean): BABYLON.AbstractMesh;
-        /** Gets the default navigation zone (https://github.com/wanadev/babylon-navigation-mesh) */
-        static GetNavigationZone(): string;
-        /** Build navigation mesh zone nodes (https://github.com/wanadev/babylon-navigation-mesh) */
-        static BuildNavigationNodes(scene: BABYLON.Scene, customNavMesh?: BABYLON.AbstractMesh): Navigation;
-        /** Finds a navigation path and returns a array of navigation positions (https://github.com/wanadev/babylon-navigation-mesh) */
-        static FindNavigationPath(navigation: Navigation, origin: BABYLON.Vector3, destination: BABYLON.Vector3): BABYLON.Vector3[];
-        private static PhysicsViewer;
-        /** Callback to setup ammo.js plugin when activated on the scene */
-        static OnSetupPhysicsPlugin: (scene: BABYLON.Scene, plugin: BABYLON.AmmoJSPlugin) => void;
-        /** Applies force to transform using physics impostor. */
-        static ApplyEntityForce(entity: BABYLON.AbstractMesh, force: BABYLON.Vector3, contact: BABYLON.Vector3): void;
-        /** Applies impulse to entity using physics impostor. */
-        static ApplyEntityImpulse(entity: BABYLON.AbstractMesh, impusle: BABYLON.Vector3, contact: BABYLON.Vector3): void;
-        /** Applies friction to entity using physics impostor. */
-        static ApplyEntityFriction(entity: BABYLON.AbstractMesh, friction: number): void;
-        /** Gets mass of entity using physics impostor. */
-        static GetEntityMass(entity: BABYLON.AbstractMesh): number;
-        /** Sets mass to entity using physics impostor. */
-        static SetEntityMass(entity: BABYLON.AbstractMesh, mass: number): void;
-        /** Gets restitution of entity using physics impostor. */
-        static GetEntityRestitution(entity: BABYLON.AbstractMesh): number;
-        /** Sets restitution to entity using physics impostor. */
-        static SetEntityRestitution(entity: BABYLON.AbstractMesh, restitution: number): void;
-        /** Gets entity friction level using physics impostor. */
-        static GetEntityFrictionLevel(entity: BABYLON.AbstractMesh): number;
-        /** Gets entity linear velocity using physics impostor. */
-        static GetEntityLinearVelocity(entity: BABYLON.AbstractMesh): BABYLON.Vector3;
-        /** Sets entity linear velocity using physics impostor. */
-        static SetEntityLinearVelocity(entity: BABYLON.AbstractMesh, velocity: BABYLON.Vector3): void;
-        /** Gets entity angular velocity using physics impostor. */
-        static GetEntityAngularVelocity(entity: BABYLON.AbstractMesh): BABYLON.Vector3;
-        /** Sets entity angular velocity using physics impostor. */
-        static SetEntityAngularVelocity(entity: BABYLON.AbstractMesh, velocity: BABYLON.Vector3): void;
-        /** Checks collision contact of the entity using physics impostor. */
-        static CheckEntityCollisionContact(entity: BABYLON.AbstractMesh, collider: BABYLON.AbstractMesh, contact: BABYLON.CollisionContact, threashold?: number): boolean;
-        /** Shows the entity physics impostor for debugging. */
-        static ShowEntityPhysicsImpostor(scene: BABYLON.Scene, entity: BABYLON.AbstractMesh): void;
-        /** Hides the entity physics impostor for debugging. */
-        static HideEntityPhysicsImpostor(scene: BABYLON.Scene, entity: BABYLON.AbstractMesh): void;
-        /** Moves entity using collisions. */
+        /** Update simple first person style camera input. */
+        static UpdateCameraInput(camera: BABYLON.FreeCamera, movementSpeed: number, rotationSpeed: number, player?: BABYLON.PlayerNumber): void;
+        /** Update simple first person style camera position. */
+        static UpdateCameraPosition(camera: BABYLON.FreeCamera, horizontal: number, vertical: number, speed: number): void;
+        /** Update simple first person style camera rotation. */
+        static UpdateCameraRotation(camera: BABYLON.FreeCamera, mousex: number, mousey: number, speed: number): void;
+        /** Update the specfied entity transform camera rigging. */
+        static UpdateCameraRigging(transform: BABYLON.TransformNode, camera: BABYLON.Camera): BABYLON.Camera;
+        /** Moves entity using vector position with collisions. */
         static MoveWithCollisions(entity: BABYLON.AbstractMesh, velocity: BABYLON.Vector3): void;
-        /** Moves entity using positions. */
-        static MoveWithTranslation(entity: BABYLON.AbstractMesh, velocity: BABYLON.Vector3): void;
-        /** Turns entity using rotations. */
-        static TurnWithRotation(entity: BABYLON.AbstractMesh, rotation?: number): void;
+        /** Moves entity using vector position translations. */
+        static MoveWithTranslation(entity: BABYLON.TransformNode, velocity: BABYLON.Vector3): void;
+        /** Turns entity using quaternion rotations in radians. */
+        static TurnWithRotation(entity: BABYLON.TransformNode, radians: number, space?: BABYLON.Space): void;
+        /** Callback to setup ammo.js plugin properties when activated on the scene */
+        static OnSetupPhysicsPlugin: (scene: BABYLON.Scene, plugin: BABYLON.AmmoJSPlugin) => void;
+        /** Confiures ammo.js physcis engine and collision contact callbacks on the scene */
+        static ConfigurePhysicsEngine(scene: BABYLON.Scene, deltaworldstep?: boolean, gravitylevel?: BABYLON.Vector3): void;
+        /** Shows the entity physics impostor for debugging. */
+        static ShowPhysicsImpostor(scene: BABYLON.Scene, entity: BABYLON.AbstractMesh): void;
+        /** Hides the entity physics impostor for debugging. */
+        static HidePhysicsImpostor(scene: BABYLON.Scene, entity: BABYLON.AbstractMesh): void;
         /** TODO */
         static GamepadManager: BABYLON.GamepadManager;
         /** TODO */
@@ -251,34 +226,6 @@ declare module BABYLON {
         static GetGamepadType(player?: BABYLON.PlayerNumber): BABYLON.GamepadType;
         /** TODO */
         static GetGamepad(player?: BABYLON.PlayerNumber): BABYLON.Gamepad;
-        /** Are xbox live platform services available and user enabled. */
-        static IsXboxLivePluginEnabled(): boolean;
-        /** Is xbox live user signed in if platform services enabled. */
-        static IsXboxLiveUserSignedIn(systemUser?: Windows.System.User, player?: BABYLON.PlayerNumber): boolean;
-        /** Validated sign in xbox live user if platform services available. */
-        static XboxLiveUserSignIn(player?: BABYLON.PlayerNumber, oncomplete?: (result: Microsoft.Xbox.Services.System.SignInResult) => void, onerror?: (error: any) => void, onprogress?: (progress: any) => void): void;
-        /** Silent sign in xbox live user if platform services available. */
-        static XboxLiveUserSilentSignIn(player?: BABYLON.PlayerNumber, oncomplete?: (result: Microsoft.Xbox.Services.System.SignInResult) => void, onerror?: (error: any) => void, onprogress?: (progress: any) => void): Windows.Foundation.Projections.Promise<void>;
-        /** Dialog sign in xbox live user if platform services available. */
-        static XboxLiveUserDialogSignIn(player?: BABYLON.PlayerNumber, oncomplete?: (result: Microsoft.Xbox.Services.System.SignInResult) => void, onerror?: (error: any) => void, onprogress?: (progress: any) => void): Windows.Foundation.Projections.Promise<void>;
-        /** Loads a xbox live user profile if platform services available. */
-        static LoadXboxLiveUserProfile(player?: BABYLON.PlayerNumber, oncomplete?: (result: Microsoft.Xbox.Services.Social.XboxUserProfile) => void, onerror?: (error: any) => void, onprogress?: (progress: any) => void): Windows.Foundation.Projections.Promise<void>;
-        /** Get xbox live user if platform services available. */
-        static GetXboxLiveUser(player?: BABYLON.PlayerNumber): Microsoft.Xbox.Services.System.XboxLiveUser;
-        /** Get xbox live user if platform services available. */
-        static GetXboxLiveSystemUser(systemUser: Windows.System.User, player?: BABYLON.PlayerNumber): Microsoft.Xbox.Services.System.XboxLiveUser;
-        /** Get xbox live user context if platform services available. */
-        static GetXboxLiveUserContext(player?: BABYLON.PlayerNumber): Microsoft.Xbox.Services.XboxLiveContext;
-        /** Resets xbox live user context if platform services available. */
-        static ResetXboxLiveUserContext(player?: BABYLON.PlayerNumber): void;
-        /** Get xbox live context property if platform services available. */
-        static GetXboxLiveContextProperty(name: any): any;
-        /** Get xbox live context property if platform services available. */
-        static SetXboxLiveContextProperty(name: any, property: any): void;
-        /** Resets xbox live property context bag if platform services available. */
-        static ResetXboxLivePropertyContexts(): void;
-        /** Sets the Xbox User Sign Out Complete Handler */
-        static SetXboxLiveSignOutHandler(handler?: (result: Microsoft.Xbox.Services.System.SignOutCompletedEventArgs) => void): void;
         private static input;
         private static keymap;
         private static wheel;
@@ -442,7 +389,7 @@ declare module BABYLON {
 declare module BABYLON {
     /**
      * Babylon scene manager parser class (Internal use only)
-     * @class MetadataParser
+     * @class MetadataParser - All rights reserved (c) 2019 McArthur Kinard
      */
     class MetadataParser {
         private _disposeList;
@@ -472,19 +419,15 @@ declare module BABYLON {
         private static DoProcessPendingPhysics;
         private static DoProcessPendingShadows;
         private static DoProcessPendingScripts;
-        private static SetupPhysicsComponent;
         private static SetupCameraComponent;
         private static SetupLightComponent;
-        /** Creates a safe physics impostor for the specified entity preserving parent child relations. */
-        private static CreateEntityPhysicsImpostor;
-        private static SetupRigidbodyPhysicsFunction;
     }
 }
 
 declare module BABYLON {
     /**
      * Babylon script component class
-     * @class ScriptComponent
+     * @class ScriptComponent - All rights reserved (c) 2019 McArthur Kinard
      */
     class ScriptComponent {
         protected start(): void;
@@ -500,6 +443,8 @@ declare module BABYLON {
         readonly scene: BABYLON.Scene;
         readonly transform: BABYLON.TransformNode;
         constructor(transform: BABYLON.TransformNode, scene: BABYLON.Scene, properties?: any);
+        /** Gets a script component transform primary tag name */
+        getTagName(): string;
         /** Gets the script component class name */
         getClassName(): string;
         /** Sets a script component property bag value */
@@ -510,6 +455,8 @@ declare module BABYLON {
         getTransformMesh(): BABYLON.Mesh;
         /** Gets the safe transform abstract mesh entity */
         getAbstractMesh(): BABYLON.AbstractMesh;
+        /** Gets the safe transform instanced mesh entity */
+        getInstancedMesh(): BABYLON.InstancedMesh;
         /** Gets the transform collision meshes */
         getCollisionMeshes(): BABYLON.AbstractMesh[];
         /** Gets the transform primitive meshes */
@@ -521,277 +468,29 @@ declare module BABYLON {
         /** TODO */
         getComponents<T extends BABYLON.ScriptComponent>(klass: string): T[];
         /** TODO */
-        getParticleRig(): BABYLON.ParticleSystem;
-        /** TODO */
         getCameraRig(): BABYLON.Camera;
         /** TODO */
         getLightRig(): BABYLON.Light;
-        /** TODO */
-        getFlareRig(): BABYLON.LensFlareSystem;
+        /** TODO (Pro Feature Pack Only) */
+        getTextWriter(): any;
         /** TODO */
         getChildMesh(name: string, searchType?: BABYLON.SearchType, directDecendantsOnly?: boolean, predicate?: (node: BABYLON.Node) => boolean): BABYLON.AbstractMesh;
         /** TODO */
         getChildTransform(name: string, searchType?: BABYLON.SearchType, directDecendantsOnly?: boolean, predicate?: (node: BABYLON.Node) => boolean): BABYLON.AbstractMesh;
         /** Gets the delta time spent between current and previous frame in seconds */
         getDeltaSeconds(): number;
+        /** TODO */
+        updateCameraRigging(camera: BABYLON.Camera): BABYLON.Camera;
+        /** Registers a physics collision event handler for the owner transform entity */
+        onCollisionEvent: BABYLON.CollisionEventHandler;
+        private registerCollisionEvent;
+        private static DispatchCollisionEvent;
         private registerComponentInstance;
         private destroyComponentInstance;
         private static RegisterInstance;
         private static BeforeInstance;
         private static AfterInstance;
         private static DestroyInstance;
-    }
-    /**
-     * Babylon shuriken particle class
-     * @class ShurikenParticleSystem
-     */
-    class ShurikenParticleSystem extends BABYLON.ScriptComponent {
-        constructor(transform: BABYLON.TransformNode, scene: BABYLON.Scene, properties?: any);
-        protected start(): void;
-        protected update(): void;
-        protected after(): void;
-        protected destroy(): void;
-    }
-    /**
-     * Babylon character controller class
-     * @class CharacterController
-     */
-    class CharacterController extends BABYLON.ScriptComponent {
-        constructor(transform: BABYLON.TransformNode, scene: BABYLON.Scene, properties?: any);
-        protected start(): void;
-        protected update(): void;
-        protected after(): void;
-        protected destroy(): void;
-    }
-    /**
-     * Babylon animation state class
-     * @class AnimationState
-     */
-    class AnimationState extends BABYLON.ScriptComponent {
-        constructor(transform: BABYLON.TransformNode, scene: BABYLON.Scene, properties?: any);
-        protected start(): void;
-        protected update(): void;
-        protected after(): void;
-        protected destroy(): void;
-    }
-    /**
-     * Babylon navigation agent class
-     * @class NavigationAgent
-     */
-    class NavigationAgent extends BABYLON.ScriptComponent {
-        readonly info: BABYLON.INavigationAgent;
-        readonly hasAgentInfo: boolean;
-        private _info;
-        constructor(transform: BABYLON.TransformNode, scene: BABYLON.Scene, properties?: any);
-        protected start(): void;
-        protected update(): void;
-        protected after(): void;
-        protected destroy(): void;
-        /** TODO */
-        setDestination(destination: BABYLON.Vector3): void;
-    }
-}
-
-declare module BABYLON {
-    type UniversalMaterial = UniversalPushMaterial | UniversalAlbedoMaterial | UniversalDiffuseMaterial;
-    class UniversalShaderDefines {
-        private _defines;
-        constructor();
-        getDefines(): any;
-        defineBoolean(name: string): void;
-        defineNumeric(name: string, value: number): void;
-        static ShaderIndexer: number;
-    }
-    class UniversalMaterialDefines extends BABYLON.MaterialDefines {
-        DIFFUSE: boolean;
-        CLIPPLANE: boolean;
-        CLIPPLANE2: boolean;
-        CLIPPLANE3: boolean;
-        CLIPPLANE4: boolean;
-        ALPHATEST: boolean;
-        DEPTHPREPASS: boolean;
-        POINTSIZE: boolean;
-        FOG: boolean;
-        NORMAL: boolean;
-        UV1: boolean;
-        UV2: boolean;
-        VERTEXCOLOR: boolean;
-        VERTEXALPHA: boolean;
-        NUM_BONE_INFLUENCERS: number;
-        BonesPerMesh: number;
-        INSTANCES: boolean;
-        constructor();
-    }
-    class UniversalAlbedoChunks {
-        constructor();
-        Vertex_Begin: string;
-        Vertex_Definitions: string;
-        Vertex_MainBegin: string;
-        Vertex_Before_PositionUpdated: string;
-        Vertex_Before_NormalUpdated: string;
-        Vertex_MainEnd: string;
-        Fragment_Begin: string;
-        Fragment_Definitions: string;
-        Fragment_MainBegin: string;
-        Fragment_Custom_Albedo: string;
-        Fragment_Custom_Alpha: string;
-        Fragment_Before_Lights: string;
-        Fragment_Before_Fog: string;
-        Fragment_Before_FragColor: string;
-        Fragment_MetallicRoughness: string;
-        Fragment_MicroSurface: string;
-    }
-    class UniversalDiffuseChunks {
-        constructor();
-        Vertex_Begin: string;
-        Vertex_Definitions: string;
-        Vertex_MainBegin: string;
-        Vertex_Before_PositionUpdated: string;
-        Vertex_Before_NormalUpdated: string;
-        Vertex_MainEnd: string;
-        Fragment_Begin: string;
-        Fragment_Definitions: string;
-        Fragment_MainBegin: string;
-        Fragment_Custom_Diffuse: string;
-        Fragment_Custom_Alpha: string;
-        Fragment_Before_Lights: string;
-        Fragment_Before_Fog: string;
-        Fragment_Before_FragColor: string;
-    }
-    class UniversalShaderMaterial {
-        static Initialize(material: BABYLON.ShaderMaterial, binding?: boolean): void;
-    }
-    /**
-     * Babylon universal push material
-     * @class UniversalPushMaterial
-     */
-    class UniversalPushMaterial extends BABYLON.PushMaterial {
-        private _diffuseTexture;
-        diffuseTexture: BABYLON.BaseTexture;
-        diffuseColor: Color3;
-        private _disableLighting;
-        disableLighting: boolean;
-        private _maxSimultaneousLights;
-        maxSimultaneousLights: number;
-        customShaderNameResolve: (shaderName: string, uniforms: string[], uniformBuffers: string[], samplers: string[], defines: BABYLON.UniversalMaterialDefines) => string;
-        protected locals: BABYLON.UniversalShaderDefines;
-        private _defines;
-        private _uniforms;
-        private _samplers;
-        private _textures;
-        private _vectors4;
-        private _floats;
-        private _renderId;
-        constructor(name: string, scene: BABYLON.Scene);
-        getClassName(): string;
-        getShaderName(): string;
-        getShaderDefines(): BABYLON.UniversalMaterialDefines;
-        needAlphaBlending(): boolean;
-        needAlphaTesting(): boolean;
-        getAlphaTestTexture(): BABYLON.Nullable<BABYLON.BaseTexture>;
-        getTexture(name: string): BABYLON.Texture;
-        getVector4(name: string): BABYLON.Vector4;
-        getFloat(name: string): number;
-        setTexture(name: string, texture: BABYLON.Texture, initialize?: boolean): BABYLON.UniversalPushMaterial;
-        setVector4(name: string, value: BABYLON.Vector4, initialize?: boolean): BABYLON.UniversalPushMaterial;
-        setFloat(name: string, value: number, initialize?: boolean): BABYLON.UniversalPushMaterial;
-        checkUniform(uniformName: string): void;
-        checkSampler(samplerName: string): void;
-        isReadyForSubMesh(mesh: BABYLON.AbstractMesh, subMesh: BABYLON.SubMesh, useInstances?: boolean): boolean;
-        bindForSubMesh(world: BABYLON.Matrix, mesh: BABYLON.Mesh, subMesh: BABYLON.SubMesh): void;
-        getAnimatables(): BABYLON.IAnimatable[];
-        getActiveTextures(): BABYLON.BaseTexture[];
-        hasTexture(texture: BABYLON.BaseTexture): boolean;
-        dispose(forceDisposeEffect?: boolean): void;
-        clone(cloneName: string): BABYLON.UniversalPushMaterial;
-        serialize(): any;
-        static Parse(source: any, scene: BABYLON.Scene, rootUrl: string): BABYLON.UniversalPushMaterial;
-        private _buildCustomShader;
-        private _attachAfterBind;
-    }
-    /**
-     * Babylon universal albedo material
-     * @class UniversalAlbedoMaterial
-     */
-    class UniversalAlbedoMaterial extends BABYLON.PBRMaterial {
-        protected locals: BABYLON.UniversalShaderDefines;
-        private _defines;
-        private _uniforms;
-        private _samplers;
-        private _textures;
-        private _vectors4;
-        private _floats;
-        private _isCreatedShader;
-        private _createdShaderName;
-        private _enableShaderChunks;
-        private _materialShaderChunks;
-        constructor(name: string, scene: Scene);
-        getClassName(): string;
-        getShaderName(): string;
-        getShaderChunk(): string;
-        getShaderDefines(): BABYLON.PBRMaterialDefines;
-        getTexture(name: string): BABYLON.Texture;
-        getVector4(name: string): BABYLON.Vector4;
-        getFloat(name: string): number;
-        setTexture(name: string, texture: BABYLON.Texture, initialize?: boolean): BABYLON.UniversalAlbedoMaterial;
-        setVector4(name: string, value: BABYLON.Vector4, initialize?: boolean): BABYLON.UniversalAlbedoMaterial;
-        setFloat(name: string, value: number, initialize?: boolean): BABYLON.UniversalAlbedoMaterial;
-        checkUniform(uniformName: string): void;
-        checkSampler(samplerName: string): void;
-        getAnimatables(): IAnimatable[];
-        getActiveTextures(): BaseTexture[];
-        hasTexture(texture: BaseTexture): boolean;
-        dispose(forceDisposeEffect?: boolean, forceDisposeTextures?: boolean): void;
-        clone(cloneName: string): BABYLON.UniversalAlbedoMaterial;
-        serialize(): any;
-        static Parse(source: any, scene: BABYLON.Scene, rootUrl: string): BABYLON.UniversalAlbedoMaterial;
-        protected customShaderChunkResolve(): void;
-        private _buildCustomShader;
-        private _createShaderChunks;
-        private _attachAfterBind;
-        private _setupAttachAfterBind;
-    }
-    /**
-     * Babylon universal diffuse material
-     * @class UniversalDiffuseMaterial
-     */
-    class UniversalDiffuseMaterial extends BABYLON.StandardMaterial {
-        protected locals: BABYLON.UniversalShaderDefines;
-        private _defines;
-        private _uniforms;
-        private _samplers;
-        private _textures;
-        private _vectors4;
-        private _floats;
-        private _isCreatedShader;
-        private _createdShaderName;
-        private _enableShaderChunks;
-        private _materialShaderChunks;
-        constructor(name: string, scene: Scene);
-        getClassName(): string;
-        getShaderName(): string;
-        getShaderChunk(): string;
-        getShaderDefines(): BABYLON.StandardMaterialDefines;
-        getTexture(name: string): BABYLON.Texture;
-        getVector4(name: string): BABYLON.Vector4;
-        getFloat(name: string): number;
-        setTexture(name: string, texture: BABYLON.Texture, initialize?: boolean): BABYLON.UniversalDiffuseMaterial;
-        setVector4(name: string, value: BABYLON.Vector4, initialize?: boolean): BABYLON.UniversalDiffuseMaterial;
-        setFloat(name: string, value: number, initialize?: boolean): BABYLON.UniversalDiffuseMaterial;
-        checkUniform(uniformName: string): void;
-        checkSampler(samplerName: string): void;
-        getAnimatables(): IAnimatable[];
-        getActiveTextures(): BaseTexture[];
-        hasTexture(texture: BaseTexture): boolean;
-        dispose(forceDisposeEffect?: boolean, forceDisposeTextures?: boolean): void;
-        clone(cloneName: string): BABYLON.UniversalDiffuseMaterial;
-        serialize(): any;
-        static Parse(source: any, scene: BABYLON.Scene, rootUrl: string): BABYLON.UniversalDiffuseMaterial;
-        protected customShaderChunkResolve(): void;
-        private _buildCustomShader;
-        private _createShaderChunks;
-        private _attachAfterBind;
-        private _setupAttachAfterBind;
     }
 }
 
@@ -805,7 +504,12 @@ declare class Navigation {
     findPath(startPosition: BABYLON.Vector3, targetPosition: BABYLON.Vector3, zone: string, group: number): BABYLON.Vector3[];
     getVectorFrom(vertices: number[], index: number, _vector: BABYLON.Vector3): BABYLON.Vector3;
 }
+/**
+ * Babylon system class
+ * @class System - All rights reserved (c) 2019 McArthur Kinard
+ */
 declare module BABYLON {
+    type CollisionEventHandler = (collidedWith: BABYLON.AbstractMesh, collisionTag: string) => void;
     enum System {
         Deg2Rad = 0.0174532924,
         Rad2Deg = 57.29578
@@ -842,14 +546,40 @@ declare module BABYLON {
     }
     enum MovementType {
         DirectVelocity = 0,
-        AppliedForces = 1,
-        CheckCollision = 2
+        AppliedForces = 1
     }
     enum CollisionContact {
         Top = 0,
         Left = 1,
         Right = 2,
         Bottom = 3
+    }
+    enum IntersectionPrecision {
+        AABB = 0,
+        OBB = 1
+    }
+    enum ConditionMode {
+        If = 1,
+        IfNot = 2,
+        Greater = 3,
+        Less = 4,
+        Equals = 6,
+        NotEqual = 7
+    }
+    enum InterruptionSource {
+        None = 0,
+        Source = 1,
+        Destination = 2,
+        SourceThenDestination = 3,
+        DestinationThenSource = 4
+    }
+    enum BlendTreeType {
+        Simple1D = 0,
+        SimpleDirectional2D = 1,
+        FreeformDirectional2D = 2,
+        FreeformCartesian2D = 3,
+        Direct = 4,
+        Clip = 5
     }
     interface INavigationArea {
         index: number;
@@ -1044,10 +774,11 @@ declare module BABYLON {
     }
     /**
      * Babylon utility class
-     * @class Utilities
+     * @class Utilities - All rights reserved (c) 2019 McArthur Kinard
      */
     class Utilities {
         private static UpVector;
+        private static AuxVector;
         private static ZeroVector;
         private static TempMatrix;
         private static TempVector2;
@@ -1060,13 +791,17 @@ declare module BABYLON {
         static Deg2Rad(degree: number): number;
         /** Returns a new degree converted from radion */
         static Rad2Deg(radion: number): number;
+        /** Returns a new Vector Euler in degress set from the passed qauternion. */
+        static ToEulerAngles(quaternion: BABYLON.Quaternion): BABYLON.Vector3;
+        /** Sets a Vector Euler result in degress set from the passed qauternion. */
+        static ToEulerAnglesToRef(quaternion: BABYLON.Quaternion, result: BABYLON.Vector3): void;
         /** Returns a new Quaternion set from the passed Euler float angles (x, y, z). */
         static Euler(eulerX: number, eulerY: number, eulerZ: number): BABYLON.Quaternion;
-        /** Returns a new Quaternion set from the passed Euler float angles (x, y, z). */
+        /** Sets a Quaternion result set from the passed Euler float angles (x, y, z). */
         static EulerToRef(eulerX: number, eulerY: number, eulerZ: number, result: BABYLON.Quaternion): void;
         /** Returns a new Matrix as a rotation matrix from the Euler angles (x, y, z). */
         static Matrix(eulerX: number, eulerY: number, eulerZ: number): BABYLON.Matrix;
-        /** Returns a new Matrix as a rotation matrix from the Euler angles (x, y, z). */
+        /** Sets a Matrix result as a rotation matrix from the Euler angles (x, y, z). */
         static MatrixToRef(eulerX: number, eulerY: number, eulerZ: number, result: BABYLON.Matrix): void;
         /** Multplies a quaternion by a vector (rotates vector) */
         static RotateVector(vec: BABYLON.Vector3, quat: BABYLON.Quaternion): BABYLON.Vector3;
@@ -1103,31 +838,31 @@ declare module BABYLON {
         /** TODO */
         static ParseVector4(source: any, defaultValue?: BABYLON.Vector4): BABYLON.Vector4;
         /** Transforms position from local space to world space. */
-        static TransformPosition(owner: BABYLON.AbstractMesh | BABYLON.Camera, position: BABYLON.Vector3): BABYLON.Vector3;
+        static TransformPosition(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3): BABYLON.Vector3;
         /** Transforms position from local space to world space. */
-        static TransformPositionToRef(owner: BABYLON.AbstractMesh | BABYLON.Camera, position: BABYLON.Vector3, result: BABYLON.Vector3): void;
+        static TransformPositionToRef(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3, result: BABYLON.Vector3): void;
         /** Transforms direction from local space to world space. */
-        static TransformDirection(owner: BABYLON.AbstractMesh | BABYLON.Camera, direction: BABYLON.Vector3): BABYLON.Vector3;
+        static TransformDirection(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3): BABYLON.Vector3;
         /** Transforms direction from local space to world space. */
-        static TransformDirectionToRef(owner: BABYLON.AbstractMesh | BABYLON.Camera, direction: BABYLON.Vector3, result: BABYLON.Vector3): void;
+        static TransformDirectionToRef(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3, result: BABYLON.Vector3): void;
         /** Recomputes the meshes bounding center pivot point */
         static RecomputePivotPoint(owner: BABYLON.AbstractMesh): void;
         /** Gets any direction vector of the owner in world space. */
-        static GetDirectionVector(owner: BABYLON.AbstractMesh | BABYLON.Camera, vector: BABYLON.Vector3): BABYLON.Vector3;
+        static GetDirectionVector(owner: BABYLON.TransformNode | BABYLON.Camera, vector: BABYLON.Vector3): BABYLON.Vector3;
         /** Gets any direction vector of the owner in world space. */
-        static GetDirectionVectorToRef(owner: BABYLON.AbstractMesh | BABYLON.Camera, vector: BABYLON.Vector3, result: BABYLON.Vector3): void;
+        static GetDirectionVectorToRef(owner: BABYLON.TransformNode | BABYLON.Camera, vector: BABYLON.Vector3, result: BABYLON.Vector3): void;
         /** Gets the blue axis of the owner in world space. */
-        static GetForwardVector(owner: BABYLON.AbstractMesh | BABYLON.Camera): BABYLON.Vector3;
+        static GetForwardVector(owner: BABYLON.TransformNode | BABYLON.Camera): BABYLON.Vector3;
         /** Gets the blue axis of the owner in world space. */
-        static GetForwardVectorToRef(owner: BABYLON.AbstractMesh | BABYLON.Camera, result: BABYLON.Vector3): void;
+        static GetForwardVectorToRef(owner: BABYLON.TransformNode | BABYLON.Camera, result: BABYLON.Vector3): void;
         /** Gets the red axis of the owner in world space. */
-        static GetRightVector(owner: BABYLON.AbstractMesh | BABYLON.Camera): BABYLON.Vector3;
+        static GetRightVector(owner: BABYLON.TransformNode | BABYLON.Camera): BABYLON.Vector3;
         /** Gets the red axis of the owner in world space. */
-        static GetRightVectorToRef(owner: BABYLON.AbstractMesh | BABYLON.Camera, result: BABYLON.Vector3): void;
+        static GetRightVectorToRef(owner: BABYLON.TransformNode | BABYLON.Camera, result: BABYLON.Vector3): void;
         /** Gets the green axis of the owner in world space. */
-        static GetUpVector(owner: BABYLON.AbstractMesh | BABYLON.Camera): BABYLON.Vector3;
+        static GetUpVector(owner: BABYLON.TransformNode | BABYLON.Camera): BABYLON.Vector3;
         /** Gets the green axis of the owner in world space. */
-        static GetUpVectorToRef(owner: BABYLON.AbstractMesh | BABYLON.Camera, result: BABYLON.Vector3): void;
+        static GetUpVectorToRef(owner: BABYLON.TransformNode | BABYLON.Camera, result: BABYLON.Vector3): void;
         /** Set the passed matrix "result" as the sampled key frame value for the specfied animation track. */
         static SampleAnimationMatrix(animation: BABYLON.Animation, frame: number, loopMode: number, result: BABYLON.Matrix): void;
         /** Gets the float "result" as the sampled key frame value for the specfied animation track. */
@@ -1142,6 +877,8 @@ declare module BABYLON {
         static FastFloatInterpolate(animation: BABYLON.Animation, currentFrame: number, repeatCount: number, loopMode: number, offsetValue?: any, highLimitValue?: any): number;
         /** Formats a string version of a physics imposter type */
         static FormatPhysicsImposterType(type: number): string;
+        /** Initialize default shader material properties */
+        static InitializeShaderMaterial(material: BABYLON.ShaderMaterial, binding?: boolean): void;
         /** TODO */
         static SetAnimationLooping(owner: BABYLON.IAnimatable, loopBehavior: number): void;
         /** TODO */
@@ -1174,7 +911,7 @@ declare module BABYLON {
 /**
  * RequestAnimationFrame() Original Shim By: Paul Irish (Internal use only)
  * http://paulirish.com/2011/requestanimationframe-for-smart-animating/
- * @class TimerPlugin
+ * @class TimerPlugin - All rights reserved (c) 2019 McArthur Kinard
  */
 declare var TimerPlugin: any;
 
@@ -1183,7 +920,7 @@ declare const CVTOOLS_MESH = "CVTOOLS_babylon_mesh";
 declare const CVTOOLS_HAND = "CVTOOLS_left_handed";
 /**
  * Babylon Editor Toolkit - Loader Class
- * @class CVTOOLS_unity_metadata
+ * @class CVTOOLS_unity_metadata - All rights reserved (c) 2019 McArthur Kinard
  * [Specification](https://github.com/MackeyK24/glTF/tree/master/extensions/2.0/Vendor/CVTOOLS_unity_metadata)
  */
 declare class CVTOOLS_unity_metadata implements BABYLON.GLTF2.IGLTFLoaderExtension {
@@ -1227,7 +964,7 @@ declare class CVTOOLS_unity_metadata implements BABYLON.GLTF2.IGLTFLoaderExtensi
 }
 /**
  * Babylon Editor Toolkit - Loader Class
- * @class CVTOOLS_babylon_mesh
+ * @class CVTOOLS_babylon_mesh - All rights reserved (c) 2019 McArthur Kinard
  * [Specification](https://github.com/MackeyK24/glTF/tree/master/extensions/2.0/Vendor/CVTOOLS_unity_metadata)
  */
 declare class CVTOOLS_babylon_mesh implements BABYLON.GLTF2.IGLTFLoaderExtension {
@@ -1243,7 +980,7 @@ declare class CVTOOLS_babylon_mesh implements BABYLON.GLTF2.IGLTFLoaderExtension
 }
 /**
  * Babylon Editor Toolkit - Loader Class
- * @class CVTOOLS_left_handed
+ * @class CVTOOLS_left_handed - All rights reserved (c) 2019 McArthur Kinard
  * [Specification](https://github.com/MackeyK24/glTF/tree/master/extensions/2.0/Vendor/CVTOOLS_unity_metadata)
  */
 declare class CVTOOLS_left_handed implements BABYLON.GLTF2.IGLTFLoaderExtension {
