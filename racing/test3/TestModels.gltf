@@ -1,0 +1,689 @@
+{
+  "extensionsUsed": [
+    "CVTOOLS_babylon_mesh",
+    "CVTOOLS_left_handed",
+    "CVTOOLS_unity_metadata"
+  ],
+  "extensionsRequired": [
+    "CVTOOLS_babylon_mesh",
+    "CVTOOLS_left_handed"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        0.0,
+        0.0,
+        1.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.65283584594726563
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.0040557663887739182
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        5.0,
+        1.1102230246251565E-16,
+        5.0
+      ],
+      "min": [
+        -5.0,
+        -1.1102230246251565E-16,
+        -5.0
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 600,
+      "type": "SCALAR",
+      "max": [
+        120.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    }
+  ],
+  "asset": {
+    "generator": "Babylon (2019.2.0f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "TestModels.bin",
+      "byteLength": 10664
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 960,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1152,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1344,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1488,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2940,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4392,
+      "byteLength": 1936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6328,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7296,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8264,
+      "byteLength": 2400
+    }
+  ],
+  "images": [
+    {
+      "uri": "assets/content/seamlesstextures/brick1N.jpg",
+      "name": "brick1N"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0275349226,
+          0.16076538,
+          0.3812781,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "scale": 1.0,
+        "index": 0,
+        "texCoord": 0
+      },
+      "name": "M_TEST",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Cube (3)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ],
+      "name": "Plane (1)"
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        0.408217877,
+        -0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "translation": [
+        0.0,
+        50.0,
+        0.0
+      ],
+      "name": "Directional Light",
+      "extras": {
+        "metadata": {
+          "guid": "a678fe11-e955-4e8b-936d-aa2a2b03574f",
+          "components": [
+            {
+              "alias": "light",
+              "type": 0,
+              "range": 10.0,
+              "color": {
+                "r": 1.0,
+                "g": 0.956862748,
+                "b": 0.8392157,
+                "a": 1.0
+              },
+              "intensity": 1.0,
+              "spotangle": 30.0,
+              "orthoscale": 0.1,
+              "lightmapmode": 0,
+              "softshadows": true,
+              "shadowmapsize": 4096,
+              "shadowquality": "High",
+              "generateshadows": true,
+              "shadowdistance": 150.0,
+              "shadowstrength": 1.0,
+              "hardshadowfilter": "NoShadowMapFilter",
+              "softshadowfilter": "PoissonSampling",
+              "biasscalefactor": 0.01,
+              "shadowmapbias": 0.05,
+              "normalmapbias": 0.4,
+              "shadownearplane": 0.2,
+              "usekernelblur": false,
+              "shadowblurkernel": 1.0,
+              "shadowblurscale": 2.0,
+              "shadowbluroffset": 1.0,
+              "shadowdepthscale": 50.0,
+              "frustumedgefalloff": 0.0,
+              "forcebackfacesonly": true,
+              "transparencyshadow": false,
+              "contacthardening": 0.1,
+              "shadowfilterquality": "Medium"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.142788857,
+        -0.171876848,
+        0.0251568127,
+        -0.9743905
+      ],
+      "scale": [
+        1.0,
+        1.00000012,
+        1.0
+      ],
+      "translation": [
+        -1.334801,
+        1.49694061,
+        -4.63392639
+      ],
+      "name": "Main Camera",
+      "extras": {
+        "metadata": {
+          "guid": "5e47df1a-e2e8-405a-b375-25fee3cfb3f7",
+          "group": "MainCamera",
+          "tags": "MainCamera Layer0",
+          "components": [
+            {
+              "alias": "camera",
+              "type": 0,
+              "maincamera": true,
+              "perspectiveyfov": 1.04719758,
+              "perspectiveaspect": 1.48453617,
+              "perspectivezfar": 2011,
+              "perspectiveznear": 0.3
+            },
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "BABYLON.UniversalCameraSystem",
+              "properties": {
+                "mainCameraType": 0,
+                "webVirtualReality": {
+                  "experienceHelper": false,
+                  "displayGazeIcon": false,
+                  "displayLaserBeam": false,
+                  "enableInteractions": false,
+                  "enableTeleportation": false,
+                  "customControllerPrefabs": {
+                    "enablePrefabs": false,
+                    "initialController": 0,
+                    "leftPrefabName": "LeftController",
+                    "rightPrefabName": "RightController"
+                  },
+                  "experienceHelperOptions": {
+                    "defaultCamera": 0,
+                    "fallbackCamera": true,
+                    "useCustomButton": false,
+                    "buttonElementID": "",
+                    "rayCastLength": 100.0,
+                    "defaultHeight": 1.7,
+                    "positionScale": 1.0,
+                    "floorMeshesTags": "Navigation"
+                  }
+                },
+                "multiPlayerSetup": {
+                  "playerStartupMode": 1,
+                  "stereoSideBySide": true
+                }
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "name": "Cube (3)",
+      "extras": {
+        "metadata": {
+          "guid": "d04aab87-a369-4d47-a581-2708b14de932",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "name": "Plane (1)",
+      "extras": {
+        "metadata": {
+          "guid": "cb4981b6-6c9a-46a8-913f-4d18f9471614",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": true
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "name": "TestModels",
+      "extras": {
+        "metadata": {
+          "gltf": true,
+          "license": "I-ABCDEF12345",
+          "features": "pro",
+          "properties": true,
+          "disposeroot": false,
+          "script": "babylontoolkit2019",
+          "project": "BabylonToolkit2019.js",
+          "filename": "TestModels",
+          "exposure": 1,
+          "tonemapping": 0,
+          "gammacorrection": 1,
+          "defaultellipsoid": {
+            "x": 0.5,
+            "y": 1.0,
+            "z": 0.5
+          },
+          "deltaworldstep": true,
+          "preventdefault": false,
+          "ccdpenetration": 0.0,
+          "ccdenabled": true,
+          "maxworldsweep": 1000,
+          "enableinput": false,
+          "usecapture": false,
+          "userinput": null,
+          "autoclear": true,
+          "clearcolor": {
+            "r": 0.192156866,
+            "g": 0.3019608,
+            "b": 0.4745098,
+            "a": 1.0
+          },
+          "enablephysics": false,
+          "defaultgravity": {
+            "x": 0.0,
+            "y": -9.81,
+            "z": 0.0
+          },
+          "freezeactivemeshes": true,
+          "ambientlightintensity": 1.0,
+          "ambientspecularcolor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "ambientgroundcolor": {
+            "r": 0.368999958,
+            "g": 0.348999977,
+            "b": 0.340999931,
+            "a": 1.0
+          },
+          "ambientskycolor": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 1.0
+          },
+          "ambientlighting": true,
+          "fogtype": "None",
+          "fogmode": 0,
+          "fogdensity": 0.01,
+          "fogcolor": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 1.0
+          },
+          "fogstart": 0.0,
+          "fogend": 300.0,
+          "skybox": {
+            "skyfog": false,
+            "skytags": "",
+            "skysize": 2000.0,
+            "basename": "assets/Default-Skybox",
+            "anisolevel": 2,
+            "maxreflect": false,
+            "hdrskybox": false,
+            "extensions": [
+              "_px.jpg",
+              "_py.jpg",
+              "_pz.jpg",
+              "_nx.jpg",
+              "_ny.jpg",
+              "_nz.jpg"
+            ],
+            "polynomial": 0.01,
+            "environment": {
+              "type": "image/dds",
+              "name": "Default-Skybox",
+              "url": "assets/Default-Skybox_env.dds"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "brick1N"
+    }
+  ]
+}
