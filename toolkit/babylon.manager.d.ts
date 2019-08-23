@@ -568,7 +568,7 @@ declare module BABYLON {
         SkidFactor = 0.25,
         WalkingVelocity = 4.4,
         TerminalVelocity = 55,
-        gammaCorrection = 2.2
+        GammaCorrection = 2.2
     }
     enum Handedness {
         Default = -1,
@@ -866,25 +866,21 @@ declare module BABYLON {
         private static TempVector2;
         private static TempVector3;
         private static PrintElement;
-        static Angle(from: BABYLON.Vector3, to: BABYLON.Vector3): number;
         /** TODO */
-        static ClampAngle(angle: number, min: number, max: number): number;
-        /** TODO */
-        static LerpClamp(a: number, b: number, t: number): number;
-        /** TODO */
-        static LerpUnclamp(a: number, b: number, t: number): number;
         /** TODO */
         static LerpLog(a: number, b: number, t: number): number;
         /** TODO */
         static LerpExp(a: number, b: number, t: number): number;
-        /** Returns a new radion converted from degree */
-        static Deg2Rad(degree: number): number;
-        /** Returns a new degree converted from radion */
-        static Rad2Deg(radion: number): number;
-        /** Returns a new vector3 degrees converted from radions */
-        static Vector3Rad2Deg(vector: BABYLON.Vector3): BABYLON.Vector3;
-        /** Sets a vector3 result degrees converted from radions */
-        static Vector3Rad2DegToRef(vector: BABYLON.Vector3, result: BABYLON.Vector3): void;
+        static LerpClamp(a: number, b: number, t: number): number;
+        /** TODO */
+        static LerpUnclamp(a: number, b: number, t: number): number;
+        static Angle(from: BABYLON.Vector3, to: BABYLON.Vector3): number;
+        /** TODO */
+        static ClampAngle(angle: number, min: number, max: number): number;
+        /** Gradually changes a number towards a desired goal over time. (Note Only Uses currentVelocityResult.x as output variable ) */
+        static SmoothDamp(current: number, target: number, smoothTime: number, maxSpeed: number, deltaTime: number, currentVelocityResult: BABYLON.Vector2): number;
+        /** Gradually changes an angle given in degrees towards a desired goal angle over time. */
+        static SmoothDampAngle(current: number, target: number, smoothTime: number, maxSpeed: number, deltaTime: number, currentVelocityResult: BABYLON.Vector2): number;
         /** Returns a new Matrix as a rotation matrix from the Euler angles in degrees (x, y, z). */
         static ToMatrix(eulerX: number, eulerY: number, eulerZ: number): BABYLON.Matrix;
         /** Sets a Matrix result as a rotation matrix from the Euler angles in degrees (x, y, z). */
@@ -905,6 +901,14 @@ declare module BABYLON {
         static LookRotation(position: BABYLON.Vector3, up: BABYLON.Vector3): BABYLON.Quaternion;
         /** Returns a new Quaternion set from the passed vector position. */
         static LookRotationToRef(position: BABYLON.Vector3, up: BABYLON.Vector3, result: BABYLON.Quaternion): void;
+        /** Returns a new vector3 degrees converted from radions */
+        static Vector3Rad2Deg(vector: BABYLON.Vector3): BABYLON.Vector3;
+        /** Sets a vector3 result degrees converted from radions */
+        static Vector3Rad2DegToRef(vector: BABYLON.Vector3, result: BABYLON.Vector3): void;
+        /** Multiply the quaternion by a vector */
+        static MultiplyQuaternionByVector(quaternion: BABYLON.Quaternion, vector: BABYLON.Vector3): BABYLON.Vector3;
+        /** Multiply the quaternion by a vector to result */
+        static MultiplyQuaternionByVectorToRef(quaternion: BABYLON.Quaternion, vector: BABYLON.Vector3, result: BABYLON.Vector3): void;
         /** Validate and switch Euler rotation to Quaternion rotation. */
         static ValidateTransformQuaternion(transform: BABYLON.TransformNode): void;
         /** TODO */
@@ -941,21 +945,21 @@ declare module BABYLON {
         /** TODO */
         static ParseVector4(source: any, defaultValue?: BABYLON.Vector4): BABYLON.Vector4;
         /** Transforms position from local space to world space. (Using TransformCoordinates) */
-        static TransformPoint(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3): BABYLON.Vector3;
+        static TransformPoint(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3, compute?: boolean): BABYLON.Vector3;
         /** Inverse transforms position from world space to local space. (Using TransformCoordinates) */
-        static InverseTransformPoint(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3): BABYLON.Vector3;
+        static InverseTransformPoint(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3, compute?: boolean): BABYLON.Vector3;
         /** Transforms position from local space to world space. (Using TransformCoordinates) */
-        static TransformPointToRef(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3, result: BABYLON.Vector3): void;
+        static TransformPointToRef(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3, result: BABYLON.Vector3, compute?: boolean): void;
         /** Inverse transforms position from world space to local space. (Using TransformCoordinates) */
-        static InverseTransformPointToRef(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3, result: BABYLON.Vector3): void;
+        static InverseTransformPointToRef(owner: BABYLON.TransformNode | BABYLON.Camera, position: BABYLON.Vector3, result: BABYLON.Vector3, compute?: boolean): void;
         /** Transforms direction from local space to world space. (Using TransformNormal) */
-        static TransformDirection(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3): BABYLON.Vector3;
+        static TransformDirection(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3, compute?: boolean): BABYLON.Vector3;
         /** Inverse transforms direction from world space to local space. (Using TransformNormal) */
-        static InverseTransformDirection(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3): BABYLON.Vector3;
+        static InverseTransformDirection(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3, compute?: boolean): BABYLON.Vector3;
         /** Transforms direction from local space to world space. (Using TransformNormal) */
-        static TransformDirectionToRef(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3, result: BABYLON.Vector3): void;
+        static TransformDirectionToRef(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3, result: BABYLON.Vector3, compute?: boolean): void;
         /** Inverse transforms direction from world space to local space. (Using TransformNormal) */
-        static InverseTransformDirectionToRef(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3, result: BABYLON.Vector3): void;
+        static InverseTransformDirectionToRef(owner: BABYLON.TransformNode | BABYLON.Camera, direction: BABYLON.Vector3, result: BABYLON.Vector3, compute?: boolean): void;
         /** Recomputes the meshes bounding center pivot point */
         static RecomputePivotPoint(owner: BABYLON.AbstractMesh): void;
         /** Gets any direction vector of the owner in world space. */
