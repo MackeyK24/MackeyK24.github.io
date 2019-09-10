@@ -1776,7 +1776,7 @@
               ],
               "multimaterial": {
                 "name": "Wheel_FL_multi",
-                "id": "64972f3c-b5f5-495e-81f9-04ec00f8c16f",
+                "id": "e46a2dd5-65ac-4913-bf3a-4ff9fabe2147",
                 "materials": [
                   "1",
                   "2",
@@ -1828,7 +1828,7 @@
               ],
               "multimaterial": {
                 "name": "Wheel_FR_multi",
-                "id": "9d87fcd6-855c-4544-9fe7-c77a2714db06",
+                "id": "12b7880e-7d8f-4e02-ac1b-7f9ade2f62e8",
                 "materials": [
                   "1",
                   "2",
@@ -1880,7 +1880,7 @@
               ],
               "multimaterial": {
                 "name": "Wheel_RL_multi",
-                "id": "0ad4754d-3056-44e6-b38f-543b6a0ed47e",
+                "id": "89cf2517-0f5a-4a10-9a93-8e6320e011c5",
                 "materials": [
                   "1",
                   "2",
@@ -1932,7 +1932,7 @@
               ],
               "multimaterial": {
                 "name": "Wheel_RR_multi",
-                "id": "bb756707-0078-4490-b804-a18e9f0ffb4f",
+                "id": "de41c729-b361-402d-a416-f3f5d98e5e66",
                 "materials": [
                   "1",
                   "2",
@@ -2070,7 +2070,7 @@
               ],
               "multimaterial": {
                 "name": "U_MC02_BodyLow_Mesh_multi",
-                "id": "b909a520-0af7-4b48-94ba-f1bcd5843ec3",
+                "id": "f115e2a8-3213-4d24-b165-deb10949478f",
                 "materials": [
                   "6",
                   "7",
@@ -2097,22 +2097,8 @@
       "name": "Scene Controller",
       "extras": {
         "metadata": {
-          "guid": "5a255d7e-1988-4788-a4b9-eced6d65f006",
+          "guid": "59dfb809-48da-41fd-9aee-4362cba49de1",
           "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "PROJECT.DebugInformation",
-              "properties": {
-                "inspectorKeyIsI": true,
-                "enableDebugKeys": true,
-                "showDebugLabels": true,
-                "popupDebugPanel": false,
-                "togglePlayerViews": true,
-                "allowXboxLiveSignIn": false
-              },
-              "instance": null
-            },
             {
               "alias": "script",
               "order": -1,
@@ -2169,7 +2155,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "guid": "24d0c49a-7dba-41e1-b297-6c89a0537b12",
+          "guid": "3032197c-40cb-4a5b-8003-429926de5b96",
           "components": [
             {
               "alias": "light",
@@ -2232,7 +2218,7 @@
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "guid": "f8b5d254-7c07-41c8-a4cb-1d9accd6677b",
+          "guid": "6ebe0d14-a6eb-4c0d-b2de-235da0794cbd",
           "group": "MainCamera",
           "tags": "MainCamera Layer0",
           "components": [
@@ -2295,7 +2281,7 @@
       "name": "GroundPlane",
       "extras": {
         "metadata": {
-          "guid": "c2ce2ccf-480d-483a-ba90-4b2dbf079fd6",
+          "guid": "c78cb7f7-7da3-4a55-b94e-d964330d2423",
           "physics": {
             "type": "rigidbody",
             "mass": 0.0,
@@ -2361,7 +2347,7 @@
       "name": "Start Position 1",
       "extras": {
         "metadata": {
-          "guid": "dc879210-7c68-4e8c-9020-efca573560aa"
+          "guid": "dabfd349-8611-4f62-a15b-4d43dc14c7c3"
         }
       }
     },
@@ -2374,7 +2360,7 @@
       "name": "Start Position 2",
       "extras": {
         "metadata": {
-          "guid": "64ea0e21-cb2a-433a-b1aa-50b9adf2cbb8"
+          "guid": "8aa783dc-2751-41c9-bec3-99e8cbf42244"
         }
       }
     },
@@ -2408,7 +2394,7 @@
       "name": "Tester Car 1",
       "extras": {
         "metadata": {
-          "guid": "544a8e2c-77ef-4800-a633-479af4e38530",
+          "guid": "266cb8a7-a91a-4c0c-921d-616ccdd27a5d",
           "visible": false,
           "visibility": 0.5,
           "physics": {
@@ -2594,56 +2580,56 @@
                 "maxBurnAngle": 0.4,
                 "frontLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "d58a85b8-6336-4f2c-8f7c-f5580544df9c",
+                  "id": "7118cf8b-b802-455d-a27a-76a1c408090f",
                   "tag": "Untagged",
                   "name": "FrontLeftWheel",
                   "layer": 0
                 },
                 "frontRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "462a8519-d201-4fbb-b78a-aa5089ece87f",
+                  "id": "38741745-b127-42dd-b074-6482676d9774",
                   "tag": "Untagged",
                   "name": "FrontRightWheel",
                   "layer": 0
                 },
                 "rearLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "25316d06-fa82-4c3b-bcf7-d19142307876",
+                  "id": "d28ce558-ef38-44bf-b8ca-cad00a52ef8b",
                   "tag": "Untagged",
                   "name": "RearLeftWheel",
                   "layer": 0
                 },
                 "rearRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "59780013-6546-4b1b-8f3e-2f5fd7f29603",
+                  "id": "e750ada1-172e-449c-8c79-4266a809ac18",
                   "tag": "Untagged",
                   "name": "RearRightWheel",
                   "layer": 0
                 },
                 "frontLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "5e8e7448-4df5-47d2-afc5-919b9f71865a",
+                  "id": "59734695-a127-4122-bd93-d8dba60a183d",
                   "tag": "Untagged",
                   "name": "WheelHub_FL",
                   "layer": 0
                 },
                 "frontRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "80218c79-19b6-42be-a272-6d99bb6f8240",
+                  "id": "a2098c6a-d12f-4a7a-b095-50fd2826318c",
                   "tag": "Untagged",
                   "name": "WheelHub_FR",
                   "layer": 0
                 },
                 "rearLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "6ccb3958-95e2-4fce-a6cc-c0117ebf149c",
+                  "id": "9a9485ea-1251-42de-ad5b-a7cf88b6969f",
                   "tag": "Untagged",
                   "name": "WheelHub_RL",
                   "layer": 0
                 },
                 "rearRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "9aac6bfa-a3ad-4ef3-8bab-69aef785c5ba",
+                  "id": "8b82abf2-2b18-463c-b5fa-85c537b0fb73",
                   "tag": "Untagged",
                   "name": "WheelHub_RR",
                   "layer": 0
@@ -2670,7 +2656,7 @@
       "name": "Wheel Meshes",
       "extras": {
         "metadata": {
-          "guid": "b77fd5e6-30d5-457d-b215-c1c2fa12230b"
+          "guid": "4950e67c-1e31-4e24-9dc5-2560d39a0c52"
         }
       }
     },
@@ -2686,7 +2672,7 @@
       "name": "WheelHub_FL",
       "extras": {
         "metadata": {
-          "guid": "5e8e7448-4df5-47d2-afc5-919b9f71865a"
+          "guid": "59734695-a127-4122-bd93-d8dba60a183d"
         }
       }
     },
@@ -2695,7 +2681,7 @@
       "name": "Wheel_FL",
       "extras": {
         "metadata": {
-          "guid": "4ab145f8-f181-4195-ac2c-eae82560db0c",
+          "guid": "b2d498bb-02b3-452e-85e7-8b58c92d2f09",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -2720,7 +2706,7 @@
       "name": "WheelHub_FR",
       "extras": {
         "metadata": {
-          "guid": "80218c79-19b6-42be-a272-6d99bb6f8240"
+          "guid": "a2098c6a-d12f-4a7a-b095-50fd2826318c"
         }
       }
     },
@@ -2729,7 +2715,7 @@
       "name": "Wheel_FR",
       "extras": {
         "metadata": {
-          "guid": "dbaf73da-ded6-48d5-817c-5fa96ee14c51",
+          "guid": "01355d47-4741-42f3-86e3-d7367e8ed5a1",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -2754,7 +2740,7 @@
       "name": "WheelHub_RL",
       "extras": {
         "metadata": {
-          "guid": "6ccb3958-95e2-4fce-a6cc-c0117ebf149c"
+          "guid": "9a9485ea-1251-42de-ad5b-a7cf88b6969f"
         }
       }
     },
@@ -2763,7 +2749,7 @@
       "name": "Wheel_RL",
       "extras": {
         "metadata": {
-          "guid": "240e4ac0-c4a0-4693-af74-8af1c4637faa",
+          "guid": "e9b3e303-637f-4210-a705-b19fc9937183",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -2789,7 +2775,7 @@
       "name": "WheelHub_RR",
       "extras": {
         "metadata": {
-          "guid": "9aac6bfa-a3ad-4ef3-8bab-69aef785c5ba",
+          "guid": "8b82abf2-2b18-463c-b5fa-85c537b0fb73",
           "visible": false,
           "visibility": 0.5,
           "components": [
@@ -2828,7 +2814,7 @@
       "name": "Wheel_RR",
       "extras": {
         "metadata": {
-          "guid": "8a876469-9f4f-4ba0-87f0-9d131a6e6212",
+          "guid": "f4d89be2-4b59-47ac-a327-85679fd4b632",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -2846,7 +2832,7 @@
       "name": "ChassisFrame_collider",
       "extras": {
         "metadata": {
-          "guid": "cba9d445-3f24-4780-b9b8-c613590f4dbe",
+          "guid": "16da733e-85df-4c66-8ab5-d1d83fecbdd4",
           "visible": false,
           "visibility": 0.5,
           "tags": "CollisionMesh Layer0",
@@ -2880,7 +2866,7 @@
       "name": "FrontLeftWheel_dispose",
       "extras": {
         "metadata": {
-          "guid": "d58a85b8-6336-4f2c-8f7c-f5580544df9c",
+          "guid": "7118cf8b-b802-455d-a27a-76a1c408090f",
           "visible": false,
           "visibility": 0.5,
           "tags": "CollisionMesh Layer0",
@@ -2892,7 +2878,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "d58a85b8-6336-4f2c-8f7c-f5580544df9c",
+              "id": "7118cf8b-b802-455d-a27a-76a1c408090f",
               "name": "FrontLeftWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -2946,7 +2932,7 @@
       "name": "FrontRightWheel_dispose",
       "extras": {
         "metadata": {
-          "guid": "462a8519-d201-4fbb-b78a-aa5089ece87f",
+          "guid": "38741745-b127-42dd-b074-6482676d9774",
           "visible": false,
           "visibility": 0.5,
           "tags": "CollisionMesh Layer0",
@@ -2958,7 +2944,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "462a8519-d201-4fbb-b78a-aa5089ece87f",
+              "id": "38741745-b127-42dd-b074-6482676d9774",
               "name": "FrontRightWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -3012,7 +2998,7 @@
       "name": "RearLeftWheel_dispose",
       "extras": {
         "metadata": {
-          "guid": "25316d06-fa82-4c3b-bcf7-d19142307876",
+          "guid": "d28ce558-ef38-44bf-b8ca-cad00a52ef8b",
           "visible": false,
           "visibility": 0.5,
           "tags": "CollisionMesh Layer0",
@@ -3024,7 +3010,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "25316d06-fa82-4c3b-bcf7-d19142307876",
+              "id": "d28ce558-ef38-44bf-b8ca-cad00a52ef8b",
               "name": "RearLeftWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -3078,7 +3064,7 @@
       "name": "RearRightWheel_dispose",
       "extras": {
         "metadata": {
-          "guid": "59780013-6546-4b1b-8f3e-2f5fd7f29603",
+          "guid": "e750ada1-172e-449c-8c79-4266a809ac18",
           "visible": false,
           "visibility": 0.5,
           "tags": "CollisionMesh Layer0",
@@ -3090,7 +3076,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "59780013-6546-4b1b-8f3e-2f5fd7f29603",
+              "id": "e750ada1-172e-449c-8c79-4266a809ac18",
               "name": "RearRightWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -3145,7 +3131,7 @@
       "name": "U_MC02_BodyLow_Mesh",
       "extras": {
         "metadata": {
-          "guid": "c60ea945-227a-48d4-8f18-636829f8ca11",
+          "guid": "c27535e3-c340-4a3a-b94b-915bf2e2b835",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
