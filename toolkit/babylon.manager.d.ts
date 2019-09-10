@@ -161,8 +161,10 @@ declare module BABYLON {
         static TurnWithRotation(entity: BABYLON.TransformNode, radians: number, space?: BABYLON.Space): void;
         /** Callback to setup ammo.js plugin properties when activated on the scene. */
         static OnSetupPhysicsPlugin: (scene: BABYLON.Scene, plugin: BABYLON.AmmoJSPlugin) => void;
+        /** Get ammo.js total memory heap size */
+        static GetPhysicsHeapSize(): number;
         /** Confiures ammo.js physcis engine advanced sweeping and collision detection options on the scene. */
-        static ConfigurePhysicsEngine(scene: BABYLON.Scene, deltaWorldStep?: boolean, maxWorldSweep?: number, ccdEnabled?: boolean, ccdPenetration?: number, gravityLevel?: BABYLON.Vector3): void;
+        static ConfigurePhysicsEngine(scene: BABYLON.Scene, deltaWorldStep?: boolean, maxPhysicsStep?: number, maxWorldSweep?: number, ccdEnabled?: boolean, ccdPenetration?: number, gravityLevel?: BABYLON.Vector3): void;
         /** Gets the current ammo.js physics world. */
         static GetPhysicsEngine(scene: BABYLON.Scene): BABYLON.IPhysicsEngine;
         /** Gets the current ammo.js physics world. */
@@ -561,6 +563,7 @@ declare module BABYLON {
         Rad2Deg = 57.29578,
         Kph2Mph = 0.621371,
         Mph2Kph = 1.60934,
+        Mps2Kph = 3.6,
         Meter2Inch = 39.3701,
         Inch2Meter = 0.0254,
         Gravity = 9.81,
@@ -933,7 +936,7 @@ declare module BABYLON {
         /** TODO */
         static SafeStringPush(array: string[], value: string): void;
         /** TODO */
-        static ParseTexture(source: any, scene: BABYLON.Scene): BABYLON.Texture;
+        static ParseTexture(source: any, scene: BABYLON.Scene, noMipmap?: boolean, invertY?: boolean, samplingMode?: number, onLoad?: Nullable<() => void>, onError?: Nullable<(message?: string, exception?: any) => void>, buffer?: Nullable<string | ArrayBuffer | ArrayBufferView | HTMLImageElement | Blob>, deleteBuffer?: boolean, format?: number): BABYLON.Texture;
         /** TODO */
         static ParseColor3(source: any, defaultValue?: BABYLON.Color3): BABYLON.Color3;
         /** TODO */
