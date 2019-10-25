@@ -1,0 +1,4329 @@
+{
+  "extensionsUsed": [
+    "CVTOOLS_babylon_mesh",
+    "CVTOOLS_left_handed",
+    "CVTOOLS_unity_metadata",
+    "KHR_texture_transform",
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsRequired": [
+    "CVTOOLS_babylon_mesh",
+    "CVTOOLS_left_handed",
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        5.0,
+        1.1102230246251565E-16,
+        5.0
+      ],
+      "min": [
+        -5.0,
+        -1.1102230246251565E-16,
+        -5.0
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 600,
+      "type": "SCALAR",
+      "max": [
+        120.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC3",
+      "max": [
+        0.17061159014701843,
+        0.35090890526771545,
+        0.34898325800895691
+      ],
+      "min": [
+        -0.17061172425746918,
+        -0.350909024477005,
+        -0.34898340702056885
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC3",
+      "max": [
+        0.99966514110565186,
+        0.999432384967804,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.999432384967804,
+        -1.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.82101792097091675,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.82401955127716064,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC2",
+      "max": [
+        0.99857765436172485,
+        0.99669969081878662
+      ],
+      "min": [
+        0.016058759763836861,
+        0.0048828125
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC2",
+      "max": [
+        0.99857765436172485,
+        0.9951171875
+      ],
+      "min": [
+        0.016058759763836861,
+        0.0033002793788909912
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 4377,
+      "type": "SCALAR",
+      "max": [
+        1595.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC3",
+      "max": [
+        0.17061172425746918,
+        0.35090890526771545,
+        0.34898325800895691
+      ],
+      "min": [
+        -0.17061159014701843,
+        -0.350909024477005,
+        -0.34898340702056885
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.999432384967804,
+        1.0
+      ],
+      "min": [
+        -0.99966514110565186,
+        -0.999432384967804,
+        -1.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.82101869583129883,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.82401955127716064,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC2",
+      "max": [
+        0.99857765436172485,
+        0.99669969081878662
+      ],
+      "min": [
+        0.016058759763836861,
+        0.0048828125
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC2",
+      "max": [
+        0.99857765436172485,
+        0.9951171875
+      ],
+      "min": [
+        0.016058759763836861,
+        0.0033002793788909912
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5125,
+      "count": 4377,
+      "type": "SCALAR",
+      "max": [
+        1595.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC3",
+      "max": [
+        0.17061159014701843,
+        0.35090890526771545,
+        0.34898331761360168
+      ],
+      "min": [
+        -0.17061172425746918,
+        -0.350909024477005,
+        -0.34898334741592407
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC3",
+      "max": [
+        0.99966514110565186,
+        0.999432384967804,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.999432384967804,
+        -1.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.82101964950561523,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.82401710748672485,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC2",
+      "max": [
+        0.99857765436172485,
+        0.99669969081878662
+      ],
+      "min": [
+        0.016058759763836861,
+        0.0048828125
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC2",
+      "max": [
+        0.99857765436172485,
+        0.9951171875
+      ],
+      "min": [
+        0.016058759763836861,
+        0.0033002793788909912
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5125,
+      "count": 4377,
+      "type": "SCALAR",
+      "max": [
+        1595.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC3",
+      "max": [
+        0.17061172425746918,
+        0.35090890526771545,
+        0.34898331761360168
+      ],
+      "min": [
+        -0.17061159014701843,
+        -0.350909024477005,
+        -0.34898334741592407
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.999432384967804,
+        1.0
+      ],
+      "min": [
+        -0.99966514110565186,
+        -0.999432384967804,
+        -1.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.82101881504058838,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.82401609420776367,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC2",
+      "max": [
+        0.99857765436172485,
+        0.99669969081878662
+      ],
+      "min": [
+        0.016058759763836861,
+        0.0048828125
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 1596,
+      "type": "VEC2",
+      "max": [
+        0.99857765436172485,
+        0.9951171875
+      ],
+      "min": [
+        0.016058759763836861,
+        0.0033002793788909912
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5125,
+      "count": 4377,
+      "type": "SCALAR",
+      "max": [
+        1595.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.05000000074505806,
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "min": [
+        -0.05000000074505806,
+        -0.05000000074505806,
+        -0.05000000074505806
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 34,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 35,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 36,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 37,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.81649655103683472,
+        0.81649655103683472,
+        0.81649655103683472
+      ],
+      "min": [
+        -0.66666668653488159,
+        -0.66666668653488159,
+        -0.66666668653488159
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 38,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 39,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        7.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 40,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 41,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.81649655103683472,
+        0.81649655103683472,
+        0.81649655103683472
+      ],
+      "min": [
+        -0.66666668653488159,
+        -0.66666668653488159,
+        -0.66666668653488159
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 42,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 43,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        7.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 44,
+      "componentType": 5126,
+      "count": 111,
+      "type": "VEC3",
+      "max": [
+        0.95075124502182007,
+        1.2045923471450806,
+        2.3692700862884521
+      ],
+      "min": [
+        -0.924028217792511,
+        0.035219687968492508,
+        -2.4275875091552734
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 45,
+      "componentType": 5126,
+      "count": 111,
+      "type": "VEC3",
+      "max": [
+        0.99774110317230225,
+        0.9942244291305542,
+        0.98395776748657227
+      ],
+      "min": [
+        -0.99946016073226929,
+        -0.99990701675415039,
+        -0.96406126022338867
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 46,
+      "componentType": 5126,
+      "count": 111,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 47,
+      "componentType": 5125,
+      "count": 654,
+      "type": "SCALAR",
+      "max": [
+        110.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 48,
+      "componentType": 5126,
+      "count": 38537,
+      "type": "VEC3",
+      "max": [
+        1.0393491983413696,
+        1.3708562850952148,
+        2.40722393989563
+      ],
+      "min": [
+        -1.039348840713501,
+        0.10654480755329132,
+        -2.40722393989563
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 49,
+      "componentType": 5126,
+      "count": 38537,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        0.99999845027923584
+      ],
+      "min": [
+        -1.0,
+        -0.9999992847442627,
+        -1.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 50,
+      "componentType": 5126,
+      "count": 38537,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.99999618530273438,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 51,
+      "componentType": 5126,
+      "count": 38537,
+      "type": "VEC2",
+      "max": [
+        3.9342772960662842,
+        2.7004551887512207
+      ],
+      "min": [
+        -2.9342770576477051,
+        -1.2799692153930664
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 52,
+      "componentType": 5126,
+      "count": 38537,
+      "type": "VEC2",
+      "max": [
+        3.9342772960662842,
+        2.2799692153930664
+      ],
+      "min": [
+        -2.9342770576477051,
+        -1.7004550695419312
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 53,
+      "componentType": 5125,
+      "count": 138111,
+      "type": "SCALAR",
+      "max": [
+        38536.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 54,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 55,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 56,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        0.0,
+        0.0,
+        1.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 57,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 58,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.65283584594726563
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.0040557663887739182
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 59,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    }
+  ],
+  "asset": {
+    "generator": "Babylon (2019.2.9f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "SampleScene.bin",
+      "byteLength": 3158188
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1452,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2904,
+      "byteLength": 1936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4840,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5808,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6776,
+      "byteLength": 2400
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9176,
+      "byteLength": 19152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28328,
+      "byteLength": 19152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 47480,
+      "byteLength": 25536
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 73016,
+      "byteLength": 12768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 85784,
+      "byteLength": 12768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 98552,
+      "byteLength": 17508
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 116060,
+      "byteLength": 19152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 135212,
+      "byteLength": 19152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 154364,
+      "byteLength": 25536
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 179900,
+      "byteLength": 12768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 192668,
+      "byteLength": 12768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 205436,
+      "byteLength": 17508
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 222944,
+      "byteLength": 19152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 242096,
+      "byteLength": 19152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 261248,
+      "byteLength": 25536
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 286784,
+      "byteLength": 12768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 299552,
+      "byteLength": 12768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 312320,
+      "byteLength": 17508
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 329828,
+      "byteLength": 19152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 348980,
+      "byteLength": 19152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 368132,
+      "byteLength": 25536
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 393668,
+      "byteLength": 12768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 406436,
+      "byteLength": 12768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 419204,
+      "byteLength": 17508
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 436712,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 437000,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 437288,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 437672,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 437864,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438056,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438200,
+      "byteLength": 96
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438296,
+      "byteLength": 96
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438392,
+      "byteLength": 128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438520,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438664,
+      "byteLength": 96
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438760,
+      "byteLength": 96
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438856,
+      "byteLength": 128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438984,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 439128,
+      "byteLength": 1332
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 440460,
+      "byteLength": 1332
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 441792,
+      "byteLength": 1776
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 443568,
+      "byteLength": 2616
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 446184,
+      "byteLength": 462444
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 908628,
+      "byteLength": 462444
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1371072,
+      "byteLength": 616592
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1987664,
+      "byteLength": 308296
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2295960,
+      "byteLength": 308296
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2604256,
+      "byteLength": 552444
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3156700,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3156988,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3157276,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3157660,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3157852,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3158044,
+      "byteLength": 144
+    }
+  ],
+  "images": [
+    {
+      "uri": "assets/babylon/images/Graph.jpg",
+      "name": "Graph"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_Rotor_shdr.jpg",
+      "name": "U_MC02_Rotor_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_Rotor_nm.jpg",
+      "name": "U_MC02_Rotor_nm"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_wheel_shdr.jpg",
+      "name": "U_MC02_wheel_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_Tire_shdr.jpg",
+      "name": "U_MC02_Tire_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_Tire_nm.jpg",
+      "name": "U_MC02_Tire_nm"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_LightsON_shdr.png",
+      "name": "U_MC02_LightsON_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_interior_low_shdr.jpg",
+      "name": "U_MC02_interior_low_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_CarBody_WhiteBody_dif_shdr.jpg",
+      "name": "U_MC02_CarBody_WhiteBody_dif_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_carbonfiber_shdr.jpg",
+      "name": "U_MC02_carbonfiber_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_carbonfiber_nm.jpg",
+      "name": "U_MC02_carbonfiber_nm"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_carBottom_shdr.jpg",
+      "name": "U_MC02_carBottom_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_carBottom_nm.jpg",
+      "name": "U_MC02_carBottom_nm"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_cardetails_shdr.jpg",
+      "name": "U_MC02_cardetails_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_cardetails_nm.jpg",
+      "name": "U_MC02_cardetails_nm"
+    },
+    {
+      "uri": "assets/racing/mustang/models/textures/U_MC02_Lights_shdr.jpg",
+      "name": "U_MC02_Lights_shdr"
+    },
+    {
+      "uri": "assets/racing/mustang/driver/Driver_Difuse.jpg",
+      "name": "Driver_Difuse"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_GRAPH",
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.08554653,
+            0.379118532,
+            0.817612767,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0,
+            "extensions": {
+              "KHR_texture_transform": {
+                "scale": [
+                  100.0,
+                  100.0
+                ]
+              }
+            }
+          },
+          "specularFactor": [
+            0.0331047475,
+            0.0331047475,
+            0.0331047475
+          ],
+          "glossinessFactor": 0.5
+        }
+      },
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.25
+      },
+      "normalTexture": {
+        "scale": 1.0,
+        "index": 2,
+        "texCoord": 0
+      },
+      "name": "U_MC02_Rotor_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "name": "U_MC02_wheel_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "scale": 1.0,
+        "index": 5,
+        "texCoord": 0
+      },
+      "name": "U_MC02_Tire_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Standard",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Collider-Material",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.004113474,
+          0.004113474,
+          0.004113474,
+          0.762
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "name": "U_MC02_windows_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          0.5176471
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "name": "U_MC02_LightsGlass_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveTexture": {
+        "index": 6,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "alphaMode": "BLEND",
+      "name": "U_MC02_LightsON_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 7,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "U_MC02_interior_low_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 8,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "name": "U_MC02_CarBody_WhiteBody_dif_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 9,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "scale": 1.0,
+        "index": 10,
+        "texCoord": 0
+      },
+      "name": "U_MC02_carbonfiber_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 11,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "scale": 1.0,
+        "index": 12,
+        "texCoord": 0
+      },
+      "name": "U_MC02_carBottom_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 13,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.18999999761581421
+      },
+      "normalTexture": {
+        "scale": 1.0,
+        "index": 14,
+        "texCoord": 0
+      },
+      "name": "U_MC02_cardetails_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.30000001192092896
+      },
+      "name": "U_MC02_blackShine_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.989303,
+          0.989303,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 15,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveTexture": {
+        "index": 15,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0.223413825,
+        0.223413825,
+        0.223413825
+      ],
+      "name": "U_MC02_Lights_shdr",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 16,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "Driver_Difuse",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Default-Material",
+      "extras": {
+        "metadata": {
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "lightmapLevel": 1.0,
+          "diffuseIntensity": 1.0,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": false,
+          "maxSimultaneousLights": 4,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "GroundPlane"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 4,
+          "extras": {
+            "metadata": {
+              "submeshes": [
+                {
+                  "materialIndex": 0,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 0,
+                  "indexCount": 156
+                },
+                {
+                  "materialIndex": 1,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 156,
+                  "indexCount": 3456
+                },
+                {
+                  "materialIndex": 2,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 3612,
+                  "indexCount": 765
+                }
+              ],
+              "multimaterial": {
+                "name": "Wheel_FL_multi",
+                "id": "51985142-3dfb-46f2-b42b-c878cb8c41d8",
+                "materials": [
+                  "1",
+                  "2",
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "name": "Wheel_FL"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16
+          },
+          "indices": 17,
+          "material": 4,
+          "extras": {
+            "metadata": {
+              "submeshes": [
+                {
+                  "materialIndex": 0,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 0,
+                  "indexCount": 156
+                },
+                {
+                  "materialIndex": 1,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 156,
+                  "indexCount": 3456
+                },
+                {
+                  "materialIndex": 2,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 3612,
+                  "indexCount": 765
+                }
+              ],
+              "multimaterial": {
+                "name": "Wheel_FR_multi",
+                "id": "72ca83a3-9de0-4986-ac93-315523dc3980",
+                "materials": [
+                  "1",
+                  "2",
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "name": "Wheel_FR"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 18,
+            "NORMAL": 19,
+            "TANGENT": 20,
+            "TEXCOORD_0": 21,
+            "TEXCOORD_1": 22
+          },
+          "indices": 23,
+          "material": 4,
+          "extras": {
+            "metadata": {
+              "submeshes": [
+                {
+                  "materialIndex": 0,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 0,
+                  "indexCount": 156
+                },
+                {
+                  "materialIndex": 1,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 156,
+                  "indexCount": 3456
+                },
+                {
+                  "materialIndex": 2,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 3612,
+                  "indexCount": 765
+                }
+              ],
+              "multimaterial": {
+                "name": "Wheel_RL_multi",
+                "id": "a722bc39-77fb-4e4f-8b34-60523f9dd804",
+                "materials": [
+                  "1",
+                  "2",
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "name": "Wheel_RL"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24,
+            "NORMAL": 25,
+            "TANGENT": 26,
+            "TEXCOORD_0": 27,
+            "TEXCOORD_1": 28
+          },
+          "indices": 29,
+          "material": 4,
+          "extras": {
+            "metadata": {
+              "submeshes": [
+                {
+                  "materialIndex": 0,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 0,
+                  "indexCount": 156
+                },
+                {
+                  "materialIndex": 1,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 156,
+                  "indexCount": 3456
+                },
+                {
+                  "materialIndex": 2,
+                  "verticesStart": 0,
+                  "verticesCount": 1596,
+                  "indexStart": 3612,
+                  "indexCount": 765
+                }
+              ],
+              "multimaterial": {
+                "name": "Wheel_RR_multi",
+                "id": "70315cae-788c-4af9-ae17-df33553d92dc",
+                "materials": [
+                  "1",
+                  "2",
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "name": "Wheel_RR"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30,
+            "NORMAL": 31,
+            "TANGENT": 32,
+            "TEXCOORD_0": 33,
+            "TEXCOORD_1": 34
+          },
+          "indices": 35,
+          "material": 5
+        }
+      ],
+      "name": "WheelHub_RR"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 36,
+            "NORMAL": 37,
+            "TANGENT": 38
+          },
+          "indices": 39,
+          "material": 5
+        }
+      ],
+      "name": "UpperFrame_collider"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 40,
+            "NORMAL": 41,
+            "TANGENT": 42
+          },
+          "indices": 43,
+          "material": 5
+        }
+      ],
+      "name": "BottomFrame_collider"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 44,
+            "NORMAL": 45,
+            "TANGENT": 46
+          },
+          "indices": 47,
+          "material": 5
+        }
+      ],
+      "name": "ChassisFrame_collider"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 48,
+            "NORMAL": 49,
+            "TANGENT": 50,
+            "TEXCOORD_0": 51,
+            "TEXCOORD_1": 52
+          },
+          "indices": 53,
+          "material": 4,
+          "extras": {
+            "metadata": {
+              "submeshes": [
+                {
+                  "materialIndex": 0,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 0,
+                  "indexCount": 1182
+                },
+                {
+                  "materialIndex": 1,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 1182,
+                  "indexCount": 3120
+                },
+                {
+                  "materialIndex": 2,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 4302,
+                  "indexCount": 7341
+                },
+                {
+                  "materialIndex": 3,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 11643,
+                  "indexCount": 5811
+                },
+                {
+                  "materialIndex": 4,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 17454,
+                  "indexCount": 48906
+                },
+                {
+                  "materialIndex": 5,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 66360,
+                  "indexCount": 10788
+                },
+                {
+                  "materialIndex": 6,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 77148,
+                  "indexCount": 1470
+                },
+                {
+                  "materialIndex": 7,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 78618,
+                  "indexCount": 966
+                },
+                {
+                  "materialIndex": 8,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 79584,
+                  "indexCount": 42426
+                },
+                {
+                  "materialIndex": 9,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 122010,
+                  "indexCount": 12732
+                },
+                {
+                  "materialIndex": 10,
+                  "verticesStart": 0,
+                  "verticesCount": 38537,
+                  "indexStart": 134742,
+                  "indexCount": 3369
+                }
+              ],
+              "multimaterial": {
+                "name": "U_MC02_BodyLow_Mesh_multi",
+                "id": "463b3780-1a97-4d15-a6de-c270938c0a37",
+                "materials": [
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "name": "U_MC02_BodyLow_Mesh"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30,
+            "NORMAL": 31,
+            "TANGENT": 32,
+            "TEXCOORD_0": 33,
+            "TEXCOORD_1": 34
+          },
+          "indices": 35,
+          "material": 5
+        }
+      ],
+      "name": "Tester Car 1"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 54,
+            "NORMAL": 55,
+            "TANGENT": 56,
+            "TEXCOORD_0": 57,
+            "TEXCOORD_1": 58
+          },
+          "indices": 59,
+          "material": 17
+        }
+      ],
+      "name": "Cube"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Scene Controller",
+      "extras": {
+        "metadata": {
+          "guid": "e484daa3-f576-4e5b-ba8f-67e3b36a1afe",
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "PROJECT.DebugInformation",
+              "properties": {
+                "inspectorKeyIsI": true,
+                "enableDebugKeys": true,
+                "showDebugLabels": true,
+                "popupDebugPanel": false,
+                "togglePlayerViews": true,
+                "allowXboxLiveSignIn": false
+              },
+              "instance": null
+            },
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "PROJECT.SkidmarkManager",
+              "properties": {
+                "maxSections": 4096,
+                "groundOffset": 0.01,
+                "textureMarks": {
+                  "type": "UnityEngine.Texture2D",
+                  "name": "Skidmark",
+                  "width": 64,
+                  "height": 64,
+                  "filename": "assets/babylon/images/Skidmark.png",
+                  "wrapmode": "repeat",
+                  "filtermode": "bilinear",
+                  "anisolevel": 1
+                },
+                "textureColor": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "textureWidth": 0.3,
+                "textureDistance": 0.1,
+                "textureIntensity": 0.8,
+                "gpuQuadIndices": true
+              },
+              "instance": null
+            },
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "PROJECT.TestController",
+              "properties": {
+                "helloWorld": "WTF - Hello World",
+                "testTexture": null
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.408217877,
+        -0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "translation": [
+        0.0,
+        50.0,
+        0.0
+      ],
+      "name": "Directional Light",
+      "extras": {
+        "metadata": {
+          "guid": "41373921-ba3d-4326-a3b8-4c2fb06456cf",
+          "components": [
+            {
+              "alias": "light",
+              "type": 0,
+              "range": 10.0,
+              "color": {
+                "r": 1.0,
+                "g": 0.956862748,
+                "b": 0.8392157,
+                "a": 1.0
+              },
+              "intensity": 1.0,
+              "spotangle": 30.0,
+              "orthoscale": 0.1,
+              "lightmapmode": 0,
+              "softshadows": false,
+              "shadowmapsize": 4096,
+              "shadowquality": "High",
+              "generateshadows": false,
+              "shadowdistance": 150.0,
+              "shadowstrength": 1.0,
+              "hardshadowfilter": "NoShadowMapFilter",
+              "softshadowfilter": "PoissonSampling",
+              "biasscalefactor": 0.01,
+              "shadowmapbias": 0.05,
+              "normalmapbias": 0.4,
+              "shadownearplane": 0.2,
+              "usekernelblur": false,
+              "shadowblurkernel": 1.0,
+              "shadowblurscale": 2.0,
+              "shadowbluroffset": 1.0,
+              "shadowdepthscale": 50.0,
+              "frustumedgefalloff": 0.0,
+              "forcebackfacesonly": true,
+              "transparencyshadow": false,
+              "contacthardening": 0.1,
+              "shadowfilterquality": "Medium"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.224453926,
+        0.521988,
+        -0.144653052,
+        -0.8100769
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.00000012
+      ],
+      "translation": [
+        -123.564919,
+        10.7362022,
+        72.05347
+      ],
+      "name": "Main Camera",
+      "extras": {
+        "metadata": {
+          "guid": "5ac7bf1c-3ae0-43a8-b5dd-001de04f6506",
+          "group": "MainCamera",
+          "tags": "MainCamera Layer0",
+          "components": [
+            {
+              "alias": "camera",
+              "type": 0,
+              "maincamera": true,
+              "perspectiveyfov": 1.04719758,
+              "perspectiveaspect": 1.48453617,
+              "perspectivezfar": 6010,
+              "perspectiveznear": 0.3
+            },
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "BABYLON.UniversalCameraSystem",
+              "properties": {
+                "mainCameraType": 0,
+                "webVirtualReality": {
+                  "experienceHelper": true,
+                  "displayGazeIcon": false,
+                  "displayLaserBeam": false,
+                  "enableInteractions": false,
+                  "enableTeleportation": false,
+                  "customControllerPrefabs": {
+                    "enablePrefabs": false,
+                    "initialController": 0,
+                    "leftPrefabName": "LeftController",
+                    "rightPrefabName": "RightController"
+                  },
+                  "experienceHelperOptions": {
+                    "defaultCamera": 0,
+                    "fallbackCamera": true,
+                    "useCustomButton": false,
+                    "buttonElementID": "",
+                    "rayCastLength": 100.0,
+                    "defaultHeight": 1.7,
+                    "positionScale": 1.0,
+                    "floorMeshesTags": "Navigation"
+                  }
+                },
+                "multiPlayerSetup": {
+                  "playerStartupMode": 1,
+                  "stereoSideBySide": true
+                }
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "children": [
+        4
+      ],
+      "mesh": 0,
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "name": "GroundPlane",
+      "extras": {
+        "metadata": {
+          "guid": "8ea23b16-b7dc-4747-96bb-e99437185ca1",
+          "physics": {
+            "type": "rigidbody",
+            "mass": 0.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "MeshCollider",
+            "trigger": false,
+            "convexmesh": false,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 100000.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": true
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "children": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "name": "Waypoints",
+      "extras": {
+        "metadata": {
+          "guid": "221f0dda-d061-4420-bd77-5cc5e9cd740b",
+          "components": [
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "PROJECT.WaypointManager",
+              "properties": {
+                "controlPoints": [
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "8e249b52-613a-4314-be71-987000b7a639",
+                    "tag": "Untagged",
+                    "name": "Point 001",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "3fb2b312-b29e-43ec-a3f8-0e988d829080",
+                    "tag": "Untagged",
+                    "name": "Point 002",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "5bc6f4d6-ec16-4ebb-8cac-7722d49f4b82",
+                    "tag": "Untagged",
+                    "name": "Point 003",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "0d771a57-1938-455b-8ffb-8e9739015c84",
+                    "tag": "Untagged",
+                    "name": "Point 004",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "e29936f3-b371-41c7-b52d-c2ff6154f5ef",
+                    "tag": "Untagged",
+                    "name": "Point 005",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "c0b6a25e-181a-4cea-b927-0e511db3deac",
+                    "tag": "Untagged",
+                    "name": "Point 006",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "f59c77d5-69a5-4a86-b8ce-ffc12f67b1d0",
+                    "tag": "Untagged",
+                    "name": "Point 007",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "b5e088c6-aff3-4e9b-a57e-0f3df8578f98",
+                    "tag": "Untagged",
+                    "name": "Point 008",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "3c9be66f-0239-4de3-8167-f4da6ec967ab",
+                    "tag": "Untagged",
+                    "name": "Point 009",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "2d5d8b5a-1635-49c9-9f4f-9c3d15050ee2",
+                    "tag": "Untagged",
+                    "name": "Point 010",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "63a603fe-4b0d-47bf-89c7-381fd1b10d04",
+                    "tag": "Untagged",
+                    "name": "Point 011",
+                    "layer": 0
+                  },
+                  {
+                    "type": "UnityEngine.Transform",
+                    "id": "abc0ee0a-b205-4eee-955a-fe3ff18ea0b2",
+                    "tag": "Untagged",
+                    "name": "Point 012",
+                    "layer": 0
+                  }
+                ],
+                "catmullRom": true,
+                "closedLoop": true,
+                "resolution": 20,
+                "pointSize": 0.5,
+                "lineColor": {
+                  "r": 0.0,
+                  "g": 1.0,
+                  "b": 0.2115438,
+                  "a": 1.0
+                },
+                "drawLines": true,
+                "pointColor": {
+                  "r": 0.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "drawPoints": true,
+                "traceColor": {
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "drawTraces": true,
+                "drawNormals": false,
+                "normalColor": {
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "normalExtrusion": 5.0,
+                "drawTangents": false,
+                "tangentColor": {
+                  "r": 0.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "tangentExtrusion": 10.0,
+                "spline": null
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "translation": [
+        -182.5,
+        0.5,
+        111.4
+      ],
+      "name": "Point 001",
+      "extras": {
+        "metadata": {
+          "guid": "8e249b52-613a-4314-be71-987000b7a639"
+        }
+      }
+    },
+    {
+      "translation": [
+        -158.9,
+        0.5,
+        135.8
+      ],
+      "name": "Point 002",
+      "extras": {
+        "metadata": {
+          "guid": "3fb2b312-b29e-43ec-a3f8-0e988d829080"
+        }
+      }
+    },
+    {
+      "translation": [
+        -105.0,
+        0.5,
+        130.5
+      ],
+      "name": "Point 003",
+      "extras": {
+        "metadata": {
+          "guid": "5bc6f4d6-ec16-4ebb-8cac-7722d49f4b82"
+        }
+      }
+    },
+    {
+      "translation": [
+        -69.3,
+        0.5,
+        116.1
+      ],
+      "name": "Point 004",
+      "extras": {
+        "metadata": {
+          "guid": "0d771a57-1938-455b-8ffb-8e9739015c84"
+        }
+      }
+    },
+    {
+      "translation": [
+        -41.92,
+        0.5,
+        98.95
+      ],
+      "name": "Point 005",
+      "extras": {
+        "metadata": {
+          "guid": "e29936f3-b371-41c7-b52d-c2ff6154f5ef"
+        }
+      }
+    },
+    {
+      "translation": [
+        -39.7,
+        0.5,
+        74.5
+      ],
+      "name": "Point 006",
+      "extras": {
+        "metadata": {
+          "guid": "c0b6a25e-181a-4cea-b927-0e511db3deac"
+        }
+      }
+    },
+    {
+      "translation": [
+        -109.83,
+        0.5,
+        57.2
+      ],
+      "name": "Point 007",
+      "extras": {
+        "metadata": {
+          "guid": "f59c77d5-69a5-4a86-b8ce-ffc12f67b1d0"
+        }
+      }
+    },
+    {
+      "translation": [
+        -95.1,
+        0.5,
+        0.3
+      ],
+      "name": "Point 008",
+      "extras": {
+        "metadata": {
+          "guid": "b5e088c6-aff3-4e9b-a57e-0f3df8578f98"
+        }
+      }
+    },
+    {
+      "translation": [
+        -154.4,
+        0.5,
+        -4.4
+      ],
+      "name": "Point 009",
+      "extras": {
+        "metadata": {
+          "guid": "3c9be66f-0239-4de3-8167-f4da6ec967ab"
+        }
+      }
+    },
+    {
+      "translation": [
+        -201.1,
+        0.5,
+        29.9000015
+      ],
+      "name": "Point 010",
+      "extras": {
+        "metadata": {
+          "guid": "2d5d8b5a-1635-49c9-9f4f-9c3d15050ee2"
+        }
+      }
+    },
+    {
+      "translation": [
+        -206.7,
+        0.5,
+        62.8000031
+      ],
+      "name": "Point 011",
+      "extras": {
+        "metadata": {
+          "guid": "63a603fe-4b0d-47bf-89c7-381fd1b10d04"
+        }
+      }
+    },
+    {
+      "translation": [
+        -183.5,
+        0.5,
+        78.4
+      ],
+      "name": "Point 012",
+      "extras": {
+        "metadata": {
+          "guid": "abc0ee0a-b205-4eee-955a-fe3ff18ea0b2"
+        }
+      }
+    },
+    {
+      "children": [
+        18,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "mesh": 10,
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        1.00000024,
+        1.0,
+        1.00000024
+      ],
+      "translation": [
+        -262.79,
+        0.15,
+        120.9
+      ],
+      "name": "Tester Car 1",
+      "extras": {
+        "metadata": {
+          "guid": "55af510f-d2fd-406e-8f29-4599266cafdf",
+          "visible": false,
+          "visibility": 0.5,
+          "layer": 30,
+          "tags": "Untagged Layer30",
+          "physics": {
+            "type": "rigidbody",
+            "mass": 1720.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.4
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1720.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            },
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "BABYLON.AudioSource",
+              "properties": {
+                "name": "Tester Car 1",
+                "file": "assets/racing/mustang/audio/Engine.wav",
+                "mute": false,
+                "loop": true,
+                "volume": 0.2,
+                "pitch": 0.0,
+                "priority": 128,
+                "panstereo": 0.0,
+                "mindistance": 1.0,
+                "maxdistance": 200.0,
+                "rolloffmode": "linear",
+                "rollofffactor": 1,
+                "playonawake": true,
+                "spatialblend": 0.95,
+                "reverbzonemix": 1.0,
+                "bypasseffects": false,
+                "bypassreverbzones": false,
+                "bypasslistenereffects": false
+              },
+              "instance": null
+            },
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "PROJECT.PaintshopManager",
+              "properties": {
+                "baseColor": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              "instance": null
+            },
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "PROJECT.VehicleInputController",
+              "properties": {
+                "playerNumber": 0,
+                "enableInput": true,
+                "attachCamera": true,
+                "followBehind": false,
+                "followDistance": 5.0,
+                "followHeight": 1.65,
+                "heightOffset": 0.0,
+                "heightDamping": 3.0,
+                "rotationDamping": 3.0,
+                "donutCameraLock": {
+                  "x": 0.0,
+                  "y": 0.5,
+                  "z": 7.5
+                },
+                "useAssistedSteering": true,
+                "minCircuitSpeed": 45,
+                "maxCircuitSpeed": 45,
+                "chaseRabbitSpeed": 1.0,
+                "waypointThreashold": 1.0,
+                "wanderingDistance": 5.0,
+                "avoidOthersTimer": 0.1,
+                "driverLookAhead": 15.0,
+                "brakingMultiplier": 6.0,
+                "brakingSensitivity": 0.1,
+                "steeringSensitivity": 1.0,
+                "throttleSensitivity": 1.0,
+                "throttleSpeedAngle": 2.0,
+                "brakingSpeedAngle": 0.0,
+                "skiddingSpeedAngle": 0.0,
+                "throttleSpeedLimit": 5.0,
+                "brakingSpeedLimit": 25.0,
+                "skiddingSpeedLimit": 50.0,
+                "resetMovingTimeout": 5.0,
+                "useTriggerVolume": false,
+                "triggerVolumePos": {
+                  "x": 0.0,
+                  "y": 0.5,
+                  "z": 0.0
+                },
+                "triggerVolumeSize": {
+                  "x": 3.0,
+                  "y": 1.5,
+                  "z": 6.0
+                },
+                "showRabbitChasing": true,
+                "showTriggerVolume": false
+              },
+              "instance": null
+            },
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "PROJECT.StandardCarController",
+              "properties": {
+                "engineTorque": {
+                  "length": 4,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever",
+                  "animation": {
+                    "name": "AnimationCurve",
+                    "property": "curve",
+                    "dataType": 0,
+                    "enableBlending": false,
+                    "blendingSpeed": 0.0,
+                    "loopBehavior": 1,
+                    "framePerSecond": 30,
+                    "keys": [
+                      {
+                        "frame": 500.0,
+                        "values": [
+                          100.0
+                        ]
+                      },
+                      {
+                        "frame": 1000.0,
+                        "values": [
+                          500.0
+                        ]
+                      },
+                      {
+                        "frame": 5000.0,
+                        "values": [
+                          1000.0
+                        ]
+                      },
+                      {
+                        "frame": 6000.0,
+                        "values": [
+                          100.0
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "powerCoefficient": 1.0,
+                "topEngineSpeed": 160,
+                "maxFrontBraking": 0.2,
+                "maxReversePower": 0.5,
+                "resetVehicleTime": 3.0,
+                "playVehicleSounds": false,
+                "gearBoxMaxPitching": 6500,
+                "gearBoxShiftChange": 4500,
+                "gearBoxDifferential": 3.73,
+                "gearBoxOverdrive": 0.75,
+                "gearBoxShiftDelay": 0.35,
+                "gearBoxShiftRatios": [
+                  4.17,
+                  2.34,
+                  1.52,
+                  1.14,
+                  0.89,
+                  0.68
+                ],
+                "gearBoxShiftRanges": [
+                  1000,
+                  2400,
+                  2800,
+                  3200,
+                  3200,
+                  3200
+                ],
+                "wheelDriveType": 0,
+                "stableDownForce": 1.0,
+                "wheelLockFriction": 1.0,
+                "wheelBurnFriction": 1.0,
+                "defaultLerpSpeed": 0.65,
+                "driftingLerpSpeed": 0.25,
+                "burnoutLerpSpeed": 0.01,
+                "burnoutTimeDelay": 1.0,
+                "burnoutWheelPitch": 0.85,
+                "burnoutCoefficient": 10.0,
+                "burnoutTriggerMark": 10.0,
+                "maxTurnAngle": 20.0,
+                "maxBurnAngle": 40.0,
+                "lowSpeedAngle": 15.0,
+                "highSpeedAngle": 5.0,
+                "lowSpeedTurning": 0.015,
+                "highSpeedTurning": 0.005,
+                "minBrakingForce": 150,
+                "maxBrakingForce": 250,
+                "handBrakingForce": 2500,
+                "linearBrakingForce": 0.1,
+                "angularBrakingForce": 0.0,
+                "footBrakingThreashold": 0.1,
+                "footSkidBrakingFactor": 1.5,
+                "footSkidBrakingSpeed": 30,
+                "skidWhenFootBraking": true,
+                "overSteerDelay": 0.1,
+                "skidThreashold": 0.25,
+                "velocityScaling": 0.02,
+                "steeringBoost": 3,
+                "smokeIntensity": 300,
+                "smokeOpacity": 0.1,
+                "smokeDonuts": 2.0,
+                "smokeTexture": {
+                  "type": "UnityEngine.Texture2D",
+                  "name": "Smoke",
+                  "width": 64,
+                  "height": 64,
+                  "filename": "assets/babylon/images/Smoke.png",
+                  "wrapmode": "repeat",
+                  "filtermode": "bilinear",
+                  "anisolevel": 1
+                },
+                "shadowTexture": {
+                  "type": "UnityEngine.Texture2D",
+                  "name": "Shadow",
+                  "width": 512,
+                  "height": 512,
+                  "filename": "assets/babylon/images/Shadow.png",
+                  "wrapmode": "repeat",
+                  "filtermode": "bilinear",
+                  "anisolevel": 1
+                },
+                "frontLeftWheelCollider": {
+                  "type": "UnityEngine.Transform",
+                  "id": "066015e2-8b79-4082-889b-e5ee3c3836e0",
+                  "tag": "Untagged",
+                  "name": "FrontLeftWheel",
+                  "layer": 30
+                },
+                "frontRightWheelCollider": {
+                  "type": "UnityEngine.Transform",
+                  "id": "7456341c-31e5-4f78-bb81-b8f592e7fe77",
+                  "tag": "Untagged",
+                  "name": "FrontRightWheel",
+                  "layer": 30
+                },
+                "rearLeftWheelCollider": {
+                  "type": "UnityEngine.Transform",
+                  "id": "dc3db0dc-f64c-456b-a725-93647969e097",
+                  "tag": "Untagged",
+                  "name": "RearLeftWheel",
+                  "layer": 30
+                },
+                "rearRightWheelCollider": {
+                  "type": "UnityEngine.Transform",
+                  "id": "4d89851f-3b04-4155-a548-4d2fbfd1dd51",
+                  "tag": "Untagged",
+                  "name": "RearRightWheel",
+                  "layer": 30
+                },
+                "frontLeftWheelMesh": {
+                  "type": "UnityEngine.Transform",
+                  "id": "0912edac-c49d-4e26-8cb0-7c65f29c2d38",
+                  "tag": "Untagged",
+                  "name": "WheelHub_FL",
+                  "layer": 30
+                },
+                "frontRightWheelMesh": {
+                  "type": "UnityEngine.Transform",
+                  "id": "d589ca6d-844b-4efd-9932-7533481a246b",
+                  "tag": "Untagged",
+                  "name": "WheelHub_FR",
+                  "layer": 30
+                },
+                "rearLeftWheelMesh": {
+                  "type": "UnityEngine.Transform",
+                  "id": "888c8833-6f49-4701-95d9-d8886ec209b3",
+                  "tag": "Untagged",
+                  "name": "WheelHub_RL",
+                  "layer": 30
+                },
+                "rearRightWheelMesh": {
+                  "type": "UnityEngine.Transform",
+                  "id": "5ed4d905-e2d3-46ea-a781-619f24e7fd88",
+                  "tag": "Untagged",
+                  "name": "WheelHub_RR",
+                  "layer": 30
+                }
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "children": [
+        19,
+        21,
+        23,
+        25
+      ],
+      "translation": [
+        0.0,
+        -0.114019893,
+        0.004463235
+      ],
+      "name": "Wheel Meshes",
+      "extras": {
+        "metadata": {
+          "guid": "949c5e36-cda7-49bd-8b43-3dd872f468fa",
+          "layer": 30,
+          "tags": "Untagged Layer30"
+        }
+      }
+    },
+    {
+      "children": [
+        20
+      ],
+      "translation": [
+        -0.8084899,
+        0.3430836,
+        1.41378367
+      ],
+      "name": "WheelHub_FL",
+      "extras": {
+        "metadata": {
+          "guid": "0912edac-c49d-4e26-8cb0-7c65f29c2d38",
+          "layer": 30,
+          "tags": "Untagged Layer30"
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "name": "Wheel_FL",
+      "extras": {
+        "metadata": {
+          "guid": "c0b15639-84c6-430a-85e1-a96c8f593e3f",
+          "layer": 30,
+          "tags": "Untagged Layer30",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        22
+      ],
+      "translation": [
+        0.8084899,
+        0.3430836,
+        1.41378367
+      ],
+      "name": "WheelHub_FR",
+      "extras": {
+        "metadata": {
+          "guid": "d589ca6d-844b-4efd-9932-7533481a246b",
+          "layer": 30,
+          "tags": "Untagged Layer30"
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "name": "Wheel_FR",
+      "extras": {
+        "metadata": {
+          "guid": "a495d889-0b13-4b22-8620-45569e44872c",
+          "layer": 30,
+          "tags": "Untagged Layer30",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        24
+      ],
+      "translation": [
+        -0.8084899,
+        0.3430836,
+        -1.2951566
+      ],
+      "name": "WheelHub_RL",
+      "extras": {
+        "metadata": {
+          "guid": "888c8833-6f49-4701-95d9-d8886ec209b3",
+          "layer": 30,
+          "tags": "Untagged Layer30"
+        }
+      }
+    },
+    {
+      "mesh": 3,
+      "name": "Wheel_RL",
+      "extras": {
+        "metadata": {
+          "guid": "e9bf3da1-a0e4-418c-a9ef-4fbf24b99264",
+          "layer": 30,
+          "tags": "Untagged Layer30",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        26
+      ],
+      "mesh": 5,
+      "translation": [
+        0.8084899,
+        0.3430836,
+        -1.2951566
+      ],
+      "name": "WheelHub_RR",
+      "extras": {
+        "metadata": {
+          "guid": "5ed4d905-e2d3-46ea-a781-619f24e7fd88",
+          "visible": false,
+          "visibility": 0.5,
+          "layer": 30,
+          "tags": "Untagged Layer30",
+          "components": [
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "BABYLON.AudioSource",
+              "properties": {
+                "name": "WheelHub_RR",
+                "file": "assets/racing/mustang/audio/Skidding.wav",
+                "mute": false,
+                "loop": true,
+                "volume": 0.2,
+                "pitch": 0.0,
+                "priority": 128,
+                "panstereo": 0.0,
+                "mindistance": 1.0,
+                "maxdistance": 200.0,
+                "rolloffmode": "linear",
+                "rollofffactor": 1,
+                "playonawake": true,
+                "spatialblend": 0.95,
+                "reverbzonemix": 1.0,
+                "bypasseffects": false,
+                "bypassreverbzones": false,
+                "bypasslistenereffects": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 4,
+      "name": "Wheel_RR",
+      "extras": {
+        "metadata": {
+          "guid": "e10977d2-08db-447e-96a2-6fc0dae8ceeb",
+          "layer": 30,
+          "tags": "Untagged Layer30",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 6,
+      "scale": [
+        1.85,
+        0.45,
+        1.85
+      ],
+      "translation": [
+        0.0,
+        1.04,
+        -0.286
+      ],
+      "name": "UpperFrame_collider",
+      "extras": {
+        "metadata": {
+          "guid": "9f3d4d2d-b053-4253-a9ad-3f1e8b2a5f47",
+          "visible": false,
+          "visibility": 0.5,
+          "layer": 30,
+          "tags": "CollisionMesh Layer30",
+          "collision": {
+            "type": "MeshCollider",
+            "trigger": false,
+            "convexmesh": true,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": false,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 7,
+      "scale": [
+        1.95,
+        0.75,
+        4.8
+      ],
+      "translation": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "name": "BottomFrame_collider",
+      "extras": {
+        "metadata": {
+          "guid": "d2defc04-325d-40b6-9bec-67c5d7f54c78",
+          "visible": false,
+          "visibility": 0.5,
+          "layer": 30,
+          "tags": "CollisionMesh Layer30",
+          "collision": {
+            "type": "MeshCollider",
+            "trigger": false,
+            "convexmesh": true,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": false,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 8,
+      "name": "ChassisFrame_collider",
+      "extras": {
+        "metadata": {
+          "guid": "2d55af54-da89-4e2a-8c70-330742aba5ce",
+          "visible": false,
+          "visibility": 0.5,
+          "layer": 30,
+          "tags": "CollisionMesh Layer30",
+          "collision": {
+            "type": "MeshCollider",
+            "trigger": false,
+            "convexmesh": true,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": false,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.808,
+        0.414,
+        1.42
+      ],
+      "name": "FrontLeftWheel_dispose",
+      "extras": {
+        "metadata": {
+          "guid": "066015e2-8b79-4082-889b-e5ee3c3836e0",
+          "visible": false,
+          "visibility": 0.5,
+          "layer": 30,
+          "tags": "CollisionMesh Layer30",
+          "collision": {
+            "type": "WheelCollider",
+            "trigger": false,
+            "convexmesh": false,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": {
+              "id": "066015e2-8b79-4082-889b-e5ee3c3836e0",
+              "name": "FrontLeftWheel",
+              "mass": 20.0,
+              "radius": 0.344,
+              "position": [
+                -0.808,
+                0.414,
+                1.42
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "frictionslip": 9.0,
+              "rollinfluence": 0.2,
+              "connectionpoint": 0.2,
+              "dampingcompression": 3.5,
+              "dampingrelaxation": 4.5,
+              "suspensionstiffness": 50,
+              "maxsuspensionforce": 6000,
+              "maxsuspensiontravel": 500,
+              "suspensionrestlength": 0.0
+            }
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": false,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "translation": [
+        0.808,
+        0.414,
+        1.42
+      ],
+      "name": "FrontRightWheel_dispose",
+      "extras": {
+        "metadata": {
+          "guid": "7456341c-31e5-4f78-bb81-b8f592e7fe77",
+          "visible": false,
+          "visibility": 0.5,
+          "layer": 30,
+          "tags": "CollisionMesh Layer30",
+          "collision": {
+            "type": "WheelCollider",
+            "trigger": false,
+            "convexmesh": false,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": {
+              "id": "7456341c-31e5-4f78-bb81-b8f592e7fe77",
+              "name": "FrontRightWheel",
+              "mass": 20.0,
+              "radius": 0.344,
+              "position": [
+                0.808,
+                0.414,
+                1.42
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "frictionslip": 9.0,
+              "rollinfluence": 0.2,
+              "connectionpoint": 0.2,
+              "dampingcompression": 3.5,
+              "dampingrelaxation": 4.5,
+              "suspensionstiffness": 50,
+              "maxsuspensionforce": 6000,
+              "maxsuspensiontravel": 500,
+              "suspensionrestlength": 0.0
+            }
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": false,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.808,
+        0.438,
+        -1.28
+      ],
+      "name": "RearLeftWheel_dispose",
+      "extras": {
+        "metadata": {
+          "guid": "dc3db0dc-f64c-456b-a725-93647969e097",
+          "visible": false,
+          "visibility": 0.5,
+          "layer": 30,
+          "tags": "CollisionMesh Layer30",
+          "collision": {
+            "type": "WheelCollider",
+            "trigger": false,
+            "convexmesh": false,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": {
+              "id": "dc3db0dc-f64c-456b-a725-93647969e097",
+              "name": "RearLeftWheel",
+              "mass": 20.0,
+              "radius": 0.344,
+              "position": [
+                -0.808,
+                0.438,
+                -1.28
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "frictionslip": 10.0,
+              "rollinfluence": 0.2,
+              "connectionpoint": 0.2,
+              "dampingcompression": 3.5,
+              "dampingrelaxation": 4.5,
+              "suspensionstiffness": 50,
+              "maxsuspensionforce": 6000,
+              "maxsuspensiontravel": 500,
+              "suspensionrestlength": 0.0
+            }
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": false,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "translation": [
+        0.808,
+        0.438,
+        -1.28
+      ],
+      "name": "RearRightWheel_dispose",
+      "extras": {
+        "metadata": {
+          "guid": "4d89851f-3b04-4155-a548-4d2fbfd1dd51",
+          "visible": false,
+          "visibility": 0.5,
+          "layer": 30,
+          "tags": "CollisionMesh Layer30",
+          "collision": {
+            "type": "WheelCollider",
+            "trigger": false,
+            "convexmesh": false,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": {
+              "id": "4d89851f-3b04-4155-a548-4d2fbfd1dd51",
+              "name": "RearRightWheel",
+              "mass": 20.0,
+              "radius": 0.344,
+              "position": [
+                0.808,
+                0.438,
+                -1.28
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "frictionslip": 10.0,
+              "rollinfluence": 0.2,
+              "connectionpoint": 0.2,
+              "dampingcompression": 3.5,
+              "dampingrelaxation": 4.5,
+              "suspensionstiffness": 50,
+              "maxsuspensionforce": 6000,
+              "maxsuspensiontravel": 500,
+              "suspensionrestlength": 0.0
+            }
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": false,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 9,
+      "translation": [
+        0.0,
+        -0.1,
+        0.0
+      ],
+      "name": "U_MC02_BodyLow_Mesh",
+      "extras": {
+        "metadata": {
+          "guid": "3ef9ac3a-bd8f-4a26-ac7e-f0744ee9f82d",
+          "layer": 30,
+          "tags": "Untagged Layer30",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 11,
+      "scale": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "translation": [
+        -141.28,
+        0.0,
+        80.59
+      ],
+      "name": "Cube",
+      "extras": {
+        "metadata": {
+          "guid": "b495d810-c42f-4e71-87fe-c465559179b1",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": false,
+            "cullingstrategy": 0
+          }
+        }
+      }
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        17,
+        35
+      ],
+      "name": "SampleScene",
+      "extras": {
+        "metadata": {
+          "gltf": true,
+          "license": "I-ABCDEF12345",
+          "features": "pro",
+          "properties": true,
+          "disposeroot": false,
+          "script": "babylonplayground",
+          "project": "BabylonPlayground.js",
+          "filename": "SampleScene",
+          "exposure": 1,
+          "tonemapping": 0,
+          "gammacorrection": 1,
+          "defaultellipsoid": {
+            "x": 0.5,
+            "y": 1.0,
+            "z": 0.5
+          },
+          "deltaworldstep": true,
+          "preventdefault": false,
+          "ccdpenetration": 0.0,
+          "ccdenabled": true,
+          "maxphysicsstep": 0,
+          "maxworldsweep": 1000,
+          "enableinput": true,
+          "usecapture": false,
+          "userinput": {
+            "padDeadStick": 0.25,
+            "padLStickXInvert": false,
+            "padLStickYInvert": false,
+            "padRStickXInvert": false,
+            "padRStickYInvert": true,
+            "padLStickLevel": 1.0,
+            "padRStickLevel": 1.0,
+            "wheelDeadZone": 0.1,
+            "mouseAngularLevel": 0.5,
+            "joystickInputMode": 0,
+            "disableRightStick": false,
+            "joystickDeadStick": 0.1,
+            "joystickLeftLevel": 1.0,
+            "joystickRightLevel": 1.0,
+            "joystickRightColor": {
+              "r": 1.0,
+              "g": 0.921568632,
+              "b": 0.0156862754,
+              "a": 1.0
+            },
+            "joystickRightColorText": "#FFEB04",
+            "joystickInputValue": 0
+          },
+          "autoclear": true,
+          "clearcolor": {
+            "r": 0.192156866,
+            "g": 0.3019608,
+            "b": 0.4745098,
+            "a": 1.0
+          },
+          "enablephysics": true,
+          "defaultgravity": {
+            "x": 0.0,
+            "y": -9.81,
+            "z": 0.0
+          },
+          "freezeactivemeshes": true,
+          "ambientlightintensity": 1.0,
+          "ambientspecularcolor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "ambientgroundcolor": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 0.5
+          },
+          "ambientskycolor": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 0.5
+          },
+          "ambientlighting": true,
+          "fogtype": "None",
+          "fogmode": 0,
+          "fogdensity": 0.01,
+          "fogcolor": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 1.0
+          },
+          "fogstart": 0.0,
+          "fogend": 300.0,
+          "skybox": {
+            "skyfog": false,
+            "skytags": "",
+            "skysize": 6000.0,
+            "basename": "assets/Daytime",
+            "anisolevel": 2,
+            "exposure": 1.0,
+            "rotation": 0.0,
+            "maxreflect": false,
+            "hdrskybox": true,
+            "extensions": [
+              "_px.jpg",
+              "_py.jpg",
+              "_pz.jpg",
+              "_nx.jpg",
+              "_ny.jpg",
+              "_nz.jpg"
+            ],
+            "polynomial": 0.01,
+            "environment": {
+              "type": "image/dds",
+              "name": "Daytime",
+              "url": "assets/Daytime_env.dds"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Graph"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "U_MC02_Rotor_shdr"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "U_MC02_Rotor_nm"
+    },
+    {
+      "sampler": 3,
+      "source": 3,
+      "name": "U_MC02_wheel_shdr"
+    },
+    {
+      "sampler": 4,
+      "source": 4,
+      "name": "U_MC02_Tire_shdr"
+    },
+    {
+      "sampler": 5,
+      "source": 5,
+      "name": "U_MC02_Tire_nm"
+    },
+    {
+      "sampler": 6,
+      "source": 6,
+      "name": "U_MC02_LightsON_shdr"
+    },
+    {
+      "sampler": 7,
+      "source": 7,
+      "name": "U_MC02_interior_low_shdr"
+    },
+    {
+      "sampler": 8,
+      "source": 8,
+      "name": "U_MC02_CarBody_WhiteBody_dif_shdr"
+    },
+    {
+      "sampler": 9,
+      "source": 9,
+      "name": "U_MC02_carbonfiber_shdr"
+    },
+    {
+      "sampler": 10,
+      "source": 10,
+      "name": "U_MC02_carbonfiber_nm"
+    },
+    {
+      "sampler": 11,
+      "source": 11,
+      "name": "U_MC02_carBottom_shdr"
+    },
+    {
+      "sampler": 12,
+      "source": 12,
+      "name": "U_MC02_carBottom_nm"
+    },
+    {
+      "sampler": 13,
+      "source": 13,
+      "name": "U_MC02_cardetails_shdr"
+    },
+    {
+      "sampler": 14,
+      "source": 14,
+      "name": "U_MC02_cardetails_nm"
+    },
+    {
+      "sampler": 15,
+      "source": 15,
+      "name": "U_MC02_Lights_shdr"
+    },
+    {
+      "sampler": 16,
+      "source": 16,
+      "name": "Driver_Difuse"
+    }
+  ]
+}
