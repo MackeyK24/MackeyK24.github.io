@@ -99,8 +99,8 @@ declare module BABYLON {
         static GetDeltaSeconds(scene: BABYLON.Scene, applyAnimationRatio?: boolean): number;
         /** Gets the instanced material from scene. If does not exists, execute a optional defaultinstance handler. */
         static GetMaterialInstance<T>(scene: BABYLON.Scene, name: string, defaultInstance?: (newName: String) => BABYLON.Material): T;
-        /** Set the Windows Runtime preferred launch windowing mode. */
-        static SetWindowsLaunchMode(mode: Windows.UI.ViewManagement.ApplicationViewWindowingMode): void;
+        /** Set the Windows Runtime preferred launch windowing mode. (Example: Windows.UI.ViewManagement.ApplicationViewWindowingMode.fullScreen = 1) */
+        static SetWindowsLaunchMode(mode?: number): void;
         /** Removes the default page scene loader. */
         static RemoveSceneLoader(): void;
         /** Quit the Windows Runtime host application. */
@@ -113,6 +113,8 @@ declare module BABYLON {
         static GetLastCreatedScene(): BABYLON.Scene;
         /** Gets the specified transform node primary tag name. */
         static GetTransformTag(transform: BABYLON.TransformNode): string;
+        /** Gets the specified transform node primary layer index. */
+        static GetTransformLayer(transform: BABYLON.TransformNode): number;
         /** Gets the specified transform node by name from scene. */
         static GetTransformNode(scene: BABYLON.Scene, name: string): BABYLON.TransformNode;
         /** Gets the specified transform node by id from scene. */
@@ -814,6 +816,33 @@ declare module BABYLON {
         tag: string;
         name: string;
         layer: number;
+    }
+    interface IVector2 {
+        x: number;
+        y: number;
+    }
+    interface IVector3 {
+        x: number;
+        y: number;
+        z: number;
+    }
+    interface IVector4 {
+        x: number;
+        y: number;
+        z: number;
+        w: number;
+    }
+    interface IQuaternion {
+        x: number;
+        y: number;
+        z: number;
+        w: number;
+    }
+    interface IColor {
+        r: number;
+        g: number;
+        b: number;
+        a: number;
     }
     interface INavigationArea {
         index: number;
