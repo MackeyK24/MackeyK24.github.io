@@ -8,10 +8,6 @@ declare module BABYLON {
         static get VersionNumber(): string;
         /** Gets the toolkit framework copyright notice */
         static get CopyrightNotice(): string;
-        /** Managed animation group startup mode */
-        static AnimationStartMode?: BABYLON.GLTFLoaderAnimationStartMode;
-        /** Forces scene loader to right hand mode */
-        static ForceRightHanded?: boolean;
         /** Pauses the main page render loop */
         static PauseRenderLoop: boolean;
         private static SceneParsingEnabled;
