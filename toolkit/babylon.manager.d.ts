@@ -302,7 +302,7 @@ declare module BABYLON {
         /** Bake the recast navigation mesh from geometry. (Navigation Helper) */
         static BakeNavigationMesh(scene: BABYLON.Scene, meshes: BABYLON.Mesh[], properties: BABYLON.INavMeshParameters, debug?: boolean, color?: BABYLON.Color3): BABYLON.Mesh;
         /** Load the recast navigation mesh binary data. (Navigation Helper) */
-        static LoadNavigationMesh(scene: BABYLON.Scene, data: Uint8Array, debug?: boolean, color?: BABYLON.Color3, bullet?: boolean): BABYLON.Mesh;
+        static LoadNavigationMesh(scene: BABYLON.Scene, data: Uint8Array, debug?: boolean, color?: BABYLON.Color3): BABYLON.Mesh;
         /** Save the recast navigation mesh binary data. (Navigation Helper) */
         static SaveNavigationMesh(): Uint8Array;
         /** Computes a recast navigation path. (Navigation Helper) */
@@ -592,7 +592,32 @@ declare module BABYLON {
      * @class WindowsPlatform - All rights reserved (c) 2020 Mackey Kinard
      */
     class WindowsPlatform {
-        static IsXboxPlatform(): boolean;
+        /** Is xbox live user signed in if platform services enabled. */
+        static IsXboxLiveUserSignedIn(systemUser?: Windows.System.User, player?: BABYLON.PlayerNumber): boolean;
+        /** Validated sign in xbox live user if platform services available. */
+        static XboxLiveUserSignIn(player?: BABYLON.PlayerNumber, oncomplete?: (result: Microsoft.Xbox.Services.System.SignInResult) => void, onerror?: (error: any) => void, onprogress?: (progress: any) => void): void;
+        /** Silent sign in xbox live user if platform services available. */
+        static XboxLiveUserSilentSignIn(player?: BABYLON.PlayerNumber, oncomplete?: (result: Microsoft.Xbox.Services.System.SignInResult) => void, onerror?: (error: any) => void, onprogress?: (progress: any) => void): Windows.Foundation.Projections.Promise<void>;
+        /** Dialog sign in xbox live user if platform services available. */
+        static XboxLiveUserDialogSignIn(player?: BABYLON.PlayerNumber, oncomplete?: (result: Microsoft.Xbox.Services.System.SignInResult) => void, onerror?: (error: any) => void, onprogress?: (progress: any) => void): Windows.Foundation.Projections.Promise<void>;
+        /** Loads a xbox live user profile if platform services available. */
+        static LoadXboxLiveUserProfile(player?: BABYLON.PlayerNumber, oncomplete?: (result: Microsoft.Xbox.Services.Social.XboxUserProfile) => void, onerror?: (error: any) => void, onprogress?: (progress: any) => void): Windows.Foundation.Projections.Promise<void>;
+        /** Get xbox live user if platform services available. */
+        static GetXboxLiveUser(player?: BABYLON.PlayerNumber): Microsoft.Xbox.Services.System.XboxLiveUser;
+        /** Get xbox live user if platform services available. */
+        static GetXboxLiveSystemUser(systemUser: Windows.System.User, player?: BABYLON.PlayerNumber): Microsoft.Xbox.Services.System.XboxLiveUser;
+        /** Get xbox live user context if platform services available. */
+        static GetXboxLiveUserContext(player?: BABYLON.PlayerNumber): Microsoft.Xbox.Services.XboxLiveContext;
+        /** Resets xbox live user context if platform services available. */
+        static ResetXboxLiveUserContext(player?: BABYLON.PlayerNumber): void;
+        /** Get xbox live context property if platform services available. */
+        static GetXboxLiveContextProperty(name: any): any;
+        /** Get xbox live context property if platform services available. */
+        static SetXboxLiveContextProperty(name: any, property: any): void;
+        /** Resets xbox live property context bag if platform services available. */
+        static ResetXboxLivePropertyContexts(): void;
+        /** Sets the Xbox User Sign Out Complete Handler */
+        static SetXboxLiveSignOutHandler(handler?: (result: Microsoft.Xbox.Services.System.SignOutCompletedEventArgs) => void): void;
     }
 }
 /**
