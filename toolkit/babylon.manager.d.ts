@@ -725,6 +725,8 @@ declare module BABYLON {
         private static LateInstance;
         private static AfterInstance;
         private static DestroyInstance;
+        private static ParseAutoProperties;
+        private static UnpackObjectProperty;
     }
 }
 
@@ -1084,13 +1086,6 @@ declare module BABYLON {
     /**
      * Unity Export Interfaces
      */
-    interface IUnityGameObject {
-        type: string;
-        id: string;
-        tag: string;
-        name: string;
-        layer: number;
-    }
     interface IUnityTransform {
         type: string;
         id: string;
@@ -1099,6 +1094,7 @@ declare module BABYLON {
         layer: number;
     }
     interface IUnityCurve {
+        type: string;
         length: number;
         prewrapmode: string;
         postwrapmode: string;
@@ -1179,12 +1175,6 @@ declare module BABYLON {
         z: number;
     }
     interface IUnityVector4 {
-        x: number;
-        y: number;
-        z: number;
-        w: number;
-    }
-    interface IUnityQuaternion {
         x: number;
         y: number;
         z: number;
@@ -1480,6 +1470,8 @@ declare module BABYLON {
         static BlendVector3Value(source: BABYLON.Vector3, value: BABYLON.Vector3, weight: number): void;
         /** Blend quaternion buffer values */
         static BlendQuaternionValue(source: BABYLON.Quaternion, value: BABYLON.Quaternion, weight: number): void;
+        /** Set animation target property */
+        static SetAnimationTargetProperty(animation: BABYLON.Animation, property: string): void;
         /** Gets the float "result" as the sampled key frame value for the specfied animation track. */
         static SampleAnimationFloat(animation: BABYLON.Animation, frame: number): number;
         /** Set the passed vector2 "result" as the sampled key frame value for the specfied animation track. */
