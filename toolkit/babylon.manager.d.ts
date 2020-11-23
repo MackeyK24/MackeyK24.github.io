@@ -10,6 +10,8 @@ declare module BABYLON {
         static get Copyright(): string;
         /** Pauses the main page render loop */
         static PauseRenderLoop: boolean;
+        /** Register handler that is triggered when engine has loaded a scene */
+        static OnLoadCompleteObservable: Observable<Engine>;
         /** Register handler that is triggered when engine has been resized */
         static OnEngineResizeObservable: Observable<Engine>;
         private static SceneParsingEnabled;
