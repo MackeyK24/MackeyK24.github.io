@@ -304,7 +304,7 @@ declare module BABYLON {
         /** Bake the recast navigation mesh from geometry. (Navigation Helper) */
         static BakeNavigationMesh(scene: BABYLON.Scene, meshes: BABYLON.Mesh[], properties: BABYLON.INavMeshParameters, debug?: boolean, color?: BABYLON.Color3): BABYLON.Mesh;
         /** Load the recast navigation mesh binary data. (Navigation Helper) */
-        static LoadNavigationMesh(scene: BABYLON.Scene, data: Uint8Array, debug?: boolean, color?: BABYLON.Color3): BABYLON.Mesh;
+        static LoadNavigationMesh(scene: BABYLON.Scene, data: Uint8Array, debug?: boolean, color?: BABYLON.Color3, timeSteps?: number): BABYLON.Mesh;
         /** Save the recast navigation mesh binary data. (Navigation Helper) */
         static SaveNavigationMesh(): Uint8Array;
         /** Computes a recast navigation path. (Navigation Helper) */
@@ -1157,6 +1157,11 @@ declare module BABYLON {
         framecount: number;
         audiotracks: number;
     }
+    interface IUnityFontAsset {
+        type: string;
+        filename: string;
+        format: string;
+    }
     interface IUnityTextAsset {
         type: string;
         filename: string;
@@ -1370,6 +1375,7 @@ declare module BABYLON {
         static HasOwnProperty(object: any, property: string): boolean;
         static GetFilenameFromUrl(url: string): string;
         static GetUrlParameter(key: string): string;
+        static CreateFontFaceElement(scene: BABYLON.Scene, family: string, asset: BABYLON.IUnityFontAsset, options?: string): HTMLStyleElement;
         /** TODO */
         static PrintToScreen(text: string, color?: string): void;
         private static TmpHullMatrix;
@@ -2300,7 +2306,7 @@ declare module BABYLON {
         getTargetDistance(): number;
         protected m_agentState: number;
         protected m_agentIndex: number;
-        protected m_agentTrans: BABYLON.TransformNode;
+        protected m_agentGhost: BABYLON.TransformNode;
         protected m_agentParams: BABYLON.IAgentParameters;
         protected m_agentRotation: BABYLON.Quaternion;
         protected m_agentMovement: BABYLON.Vector3;
@@ -2308,7 +2314,7 @@ declare module BABYLON {
         protected m_agentQuaternion: BABYLON.Quaternion;
         protected m_agentDestination: BABYLON.Vector3;
         protected awake(): void;
-        protected late(): void;
+        protected update(): void;
         protected destroy(): void;
         /** Register handler that is triggered before the navigation update */
         onPreUpdateObservable: Observable<TransformNode>;
