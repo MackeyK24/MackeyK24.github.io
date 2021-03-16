@@ -37,33 +37,7 @@
   <link href="css/awesome.css" rel="stylesheet" type="text/css">
   <!-- Toaster - https://github.com/dolce/iziToast -->
   <link href="css/toaster.css" rel="stylesheet" type="text/css">
-  <!-- Apple Touch -->
-	<link rel="apple-touch-icon-precomposed" href="icons/touch-57x57.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/touch-72x72.png">
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="icons/touch-76x76.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/touch-114x114.png">
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="icons/touch-120x120.png">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/touch-144x144.png">
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="icons/touch-152x152.png">
-	<link rel="apple-touch-icon-precomposed" sizes="167x167" href="icons/touch-167x167.png">
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="icons/touch-180x180.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1125x2436.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="icons/splash-750x1334.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1242x2208.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="icons/splash-640x1136.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="icons/splash-1536x2048.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="icons/splash-1668x2224.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="icons/splash-2048x2732.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="icons/splash-2436x1125.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="icons/splash-1334x750.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="icons/splash-2208x1242.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="icons/splash-1136x640.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="icons/splash-2048x1536.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="icons/splash-2224x1668.png">
-	<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="icons/splash-2732x2048.png">
-	<!-- Web Application -->
-	<link rel="manifest" href="manifest.json" />
-
+  
   <style nonce="none">
     html, body {
         position: absolute;
@@ -154,35 +128,12 @@
 
   <!-- Default Script -->
   <script type="text/javascript" nonce="none">
-  window.versionStamp = 'cac55db6-ab68-4e91-8c0a-c0f88e618941';
+  window.versionStamp = '1f13a3fd-48a8-4440-ab06-c6be597b4a4e';
   var playButton = document.getElementById('playButton');
   ///////////////////////////////////////////////////////////
   // Babylon Service Worker Hooks
   ///////////////////////////////////////////////////////////
   window.useServiceWorker = false;
-	if ('serviceWorker' in navigator) {
-		window.useServiceWorker = true;
-		window.addEventListener('load', function () {
-			navigator.serviceWorker.register('worker.js').then(function (registration) {
-				window.serviceWorkerScope = registration.scope;
-				console.log('Service worker scope: ', window.serviceWorkerScope);
-				if (window.onServiceWorker) window.onServiceWorker();
-				registration.onupdatefound = () => {
-					const installingWorker = registration.installing;
-						installingWorker.onstatechange = () => {
-							if (installingWorker.state === 'installed') {
-								if (navigator.serviceWorker.controller) {
-									if (window.updateAvailable) window.updateAvailable();
-								}
-							}
-						};
-				};
-			}).catch(function (error) {
-				console.warn('Service worker failed to register');
-				console.error(error);
-			});
-		});
-	}
   if (window.useServiceWorker === true) {
     if (playButton) playButton.disabled = true;
   }
