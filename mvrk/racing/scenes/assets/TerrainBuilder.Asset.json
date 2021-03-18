@@ -1,5 +1,5 @@
 {
-  "id": "11b62b3a-86d2-438b-b2d1-580d5b295f00",
+  "id": "2faab774-1b28-498b-87b6-f0195b855872",
   "res": 257,
   "size": [
     1450.0,
@@ -18,7 +18,7 @@
     512.0,
     9.0
   ],
-  "splatmapAsset": "assets/Terrain Builder.Splatmaps.png",
+  "splatmapAsset": "assets/terrain builder.splatmaps.png",
   "splatmapRect0": [
     0.0,
     0.0,
@@ -32,7 +32,7 @@
     1024.0,
     10.0
   ],
-  "textureAsset": "assets/Terrain Builder.Layers.png",
+  "textureAsset": "assets/terrain builder.layers.png",
   "textureTag0": "Grass01",
   "textureRect0": [
     0.0,
@@ -92,7 +92,7 @@
     1024.0,
     10.0
   ],
-  "normalsAsset": "assets/Terrain Builder.Normals.png",
+  "normalsAsset": "assets/terrain builder.normals.png",
   "normalsTag0": "None",
   "normalsScale0": 1.0,
   "normalsTag1": "None",

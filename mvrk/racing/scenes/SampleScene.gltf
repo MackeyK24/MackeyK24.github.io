@@ -13588,7 +13588,7 @@
   },
   "buffers": [
     {
-      "uri": "SampleScene.bin",
+      "uri": "samplescene.bin",
       "byteLength": 26130252
     }
   ],
@@ -17830,107 +17830,107 @@
   ],
   "images": [
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Spindle.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/spindle.png",
       "name": "Spindle"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Sidewall.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/sidewall.png",
       "name": "Sidewall"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Sidewall_N.tga.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/sidewall_n.tga.png",
       "name": "Sidewall_N.tga"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Tread.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/tread.png",
       "name": "Tread"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Tread_N.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/tread_n.png",
       "name": "Tread_N"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Lug.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/lug.png",
       "name": "Lug"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Brakedisc.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/brakedisc.png",
       "name": "Brakedisc"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Floor.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/floor.png",
       "name": "Floor"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Player1_Purple.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/player1_purple.png",
       "name": "Player1_Purple"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/IRL_Carbody_N.tga.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/irl_carbody_n.tga.png",
       "name": "IRL_Carbody_N.tga"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Gearbox.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/gearbox.png",
       "name": "Gearbox"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Cockpit.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/cockpit.png",
       "name": "Cockpit"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/SteeringWL.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/steeringwl.png",
       "name": "SteeringWL"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Helmet_White.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/helmet_white.png",
       "name": "Helmet_White"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Driver_White.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/driver_white.png",
       "name": "Driver_White"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Caliper.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/caliper.png",
       "name": "Caliper"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Player2_Blue.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/player2_blue.png",
       "name": "Player2_Blue"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Player3_Red.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/player3_red.png",
       "name": "Player3_Red"
     },
     {
-      "uri": "assets/project/materials/v360_2/textures/cartextures/Player4_Green.png",
+      "uri": "assets/project/materials/v360_2/textures/cartextures/player4_green.png",
       "name": "Player4_Green"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/ground/Grass-01.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/ground/grass-01.png",
       "name": "Grass-01"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/ground/Road-04.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/ground/road-04.png",
       "name": "Road-04"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/Trackside-02.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/trackside-02.png",
       "name": "Trackside-02"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/Wall-01.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/wall-01.png",
       "name": "Wall-01"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/SideTrack_A.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/sidetrack_a.png",
       "name": "SideTrack_A"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/Trees-01.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/trees-01.png",
       "name": "Trees-01"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/TrackSide-A.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/trackside-a.png",
       "name": "TrackSide-A"
     },
     {
@@ -17938,39 +17938,39 @@
       "name": "strip"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/contents/flags/materials/Flags.png",
+      "uri": "assets/resource/masterpixel3d/rtg/contents/flags/materials/flags.png",
       "name": "Flags"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/Atlas-01.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/atlas-01.png",
       "name": "Atlas-01"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/Metal.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/metal.png",
       "name": "Metal"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/Crane.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/crane.png",
       "name": "Crane"
     },
     {
-      "uri": "assets/ScreenRender.png",
+      "uri": "assets/screenrender.png",
       "name": "ScreenRender"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/Audience.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/audience.png",
       "name": "Audience"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/Atlas-02.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/atlas-02.png",
       "name": "Atlas-02"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/OutDoor-01.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/outdoor-01.png",
       "name": "OutDoor-01"
     },
     {
-      "uri": "assets/resource/masterpixel3d/rtg/textures/Stone.png",
+      "uri": "assets/resource/masterpixel3d/rtg/textures/stone.png",
       "name": "Stone"
     }
   ],
@@ -20502,7 +20502,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "fbde5dc3-428d-41db-8deb-a626c9ab2fac",
+                "id": "a44d0ec0-b7a9-4840-b6b6-d653c699c46e",
                 "key": "KEY_0_1_2_3_4_5",
                 "name": "MM_Wheel_TFL",
                 "materials": [
@@ -20579,7 +20579,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "a09264be-bd08-4053-933e-8574a628a267",
+                "id": "9215ccaa-e962-44b6-9595-896269654b02",
                 "key": "KEY_1_2_3_4_5_0",
                 "name": "MM_Wheel_TRF",
                 "materials": [
@@ -20656,7 +20656,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "20712263-5d2c-4597-bd0a-e59d2e6f27cb",
+                "id": "a25626fb-2f68-4f03-8db6-6bcecab28b1c",
                 "key": "KEY_0_3_4_1_2_5",
                 "name": "MM_Wheel_TLR",
                 "materials": [
@@ -20733,7 +20733,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "8c70cbb3-ec18-4e5d-8546-73c1471b6764",
+                "id": "7c45f868-2ddc-4e74-8e47-d3af539d8ff7",
                 "key": "KEY_0_3_4_1_2_5",
                 "name": "MM_Wheel_TRR",
                 "materials": [
@@ -20909,7 +20909,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "55c2f948-56bf-49dd-bddc-26e2833f3d41",
+                "id": "f8c5e94b-73ef-4d3b-a928-96b14233ea31",
                 "key": "KEY_8_9_10_11_12_13_14_15_16_17_0",
                 "name": "MM_CAR_BODY",
                 "materials": [
@@ -21007,7 +21007,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "2e7c2816-3135-4e86-acd7-57a6f79f9370",
+                "id": "f8b6485f-4440-4fdb-8597-d901821be002",
                 "key": "KEY_0_1_2_3_4_5",
                 "name": "MM_Wheel_TFL",
                 "materials": [
@@ -21084,7 +21084,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "8ba03a6b-1773-4460-9e67-add38acab9c2",
+                "id": "43f7f89e-1aec-46f4-99d7-a7583beef51c",
                 "key": "KEY_1_2_3_4_5_0",
                 "name": "MM_Wheel_TRF",
                 "materials": [
@@ -21161,7 +21161,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "a0a08396-3fcf-4c57-b091-84fc45e69354",
+                "id": "d771fb31-ecef-4330-b5dd-d53945642e09",
                 "key": "KEY_0_3_4_1_2_5",
                 "name": "MM_Wheel_TLR",
                 "materials": [
@@ -21238,7 +21238,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "0e25f34d-2eaf-4220-a9cf-ed10154980ff",
+                "id": "4b803e30-6e15-446a-997c-039f4a4d6c49",
                 "key": "KEY_0_3_4_1_2_5",
                 "name": "MM_Wheel_TRR",
                 "materials": [
@@ -21414,7 +21414,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "9d132892-0e28-407d-a3a4-97893378f992",
+                "id": "fef24234-e4d4-41a3-af7a-87ecf43323da",
                 "key": "KEY_8_18_10_11_12_13_19_20_16_17_0",
                 "name": "MM_CAR_BODY",
                 "materials": [
@@ -21512,7 +21512,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "6d12d20c-0b00-4fbc-8be4-9421d127fcfb",
+                "id": "7ae6cbfa-51b0-4a58-88ab-8423e666e6b8",
                 "key": "KEY_0_1_2_3_4_5",
                 "name": "MM_Wheel_TFL",
                 "materials": [
@@ -21589,7 +21589,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "b6644ceb-46b4-47cd-8307-1af4dbc0a847",
+                "id": "3106c45a-9ccb-46e5-832c-c02a9eb183e2",
                 "key": "KEY_1_2_3_4_5_0",
                 "name": "MM_Wheel_TRF",
                 "materials": [
@@ -21666,7 +21666,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "0d42a1f0-5b8a-4ee1-b514-0ac387e5537e",
+                "id": "370cb6ab-5202-4179-9ef1-67131975ea4f",
                 "key": "KEY_0_3_4_1_2_5",
                 "name": "MM_Wheel_TLR",
                 "materials": [
@@ -21743,7 +21743,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "6332f468-0bfc-45ab-965a-d013151e6367",
+                "id": "786cc253-6327-4afb-9303-59434c756ef4",
                 "key": "KEY_0_3_4_1_2_5",
                 "name": "MM_Wheel_TRR",
                 "materials": [
@@ -21919,7 +21919,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "227b2dd5-f9d1-47c6-9ce3-95872dcbe934",
+                "id": "6fb47af0-a51b-46bc-a9a5-e8b22e1b4416",
                 "key": "KEY_8_21_10_11_12_13_22_23_16_17_0",
                 "name": "MM_CAR_BODY",
                 "materials": [
@@ -22017,7 +22017,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "3eac4a03-47fd-4c66-a1da-865fcc857174",
+                "id": "c8e0788d-6f2f-4beb-8a04-7534d91df07b",
                 "key": "KEY_0_1_2_3_4_5",
                 "name": "MM_Wheel_TFL",
                 "materials": [
@@ -22094,7 +22094,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "1e93b41f-0144-4e7e-b583-cf21ccd58b55",
+                "id": "43e24fcc-309c-444c-81fe-63e67efc39f1",
                 "key": "KEY_1_2_3_4_5_0",
                 "name": "MM_Wheel_TRF",
                 "materials": [
@@ -22171,7 +22171,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "fda343a9-c218-4a52-8fd2-799289b67bf2",
+                "id": "8e49d4b8-8101-4860-a3f0-d16dc53da8ae",
                 "key": "KEY_0_3_4_1_2_5",
                 "name": "MM_Wheel_TLR",
                 "materials": [
@@ -22248,7 +22248,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "1f56196c-35a7-41bb-a617-f04cd3b54bc0",
+                "id": "476e2c5b-1635-45f9-8d92-18479df58ce9",
                 "key": "KEY_0_3_4_1_2_5",
                 "name": "MM_Wheel_TRR",
                 "materials": [
@@ -22424,7 +22424,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "f39f843b-3392-48ca-9a2b-9b96d6552d21",
+                "id": "efd22acf-1500-400d-b433-02d72598e4b6",
                 "key": "KEY_8_24_10_11_12_13_25_26_16_17_0",
                 "name": "MM_CAR_BODY",
                 "materials": [
@@ -22582,7 +22582,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "8ab58321-178b-4af7-9893-ae2234045379",
+                "id": "a492f813-8c86-4140-886f-7673d21b4363",
                 "key": "KEY_29_30_31",
                 "name": "MM_Track",
                 "materials": [
@@ -23139,7 +23139,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "26cf8124-4b4c-4d1a-9976-fc3eb9029f2c",
+                "id": "dddbac0a-efbf-4881-a101-93de39608043",
                 "key": "KEY_29_36",
                 "name": "MM_Track",
                 "materials": [
@@ -23599,7 +23599,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "d523a8e0-6469-4962-a5b0-02839aed65bf",
+                "id": "94dd60f2-25e9-4940-9db8-fa4b7cdf10cd",
                 "key": "KEY_29_36",
                 "name": "MM_Track",
                 "materials": [
@@ -24181,7 +24181,7 @@
       "name": "Scene Controller",
       "extras": {
         "metadata": {
-          "guid": "fcf049c7-50e7-4a2f-bd17-5a2ae0370f31",
+          "guid": "05855821-9745-44b0-9722-fd7c2c75d35d",
           "components": [
             {
               "alias": "script",
@@ -24215,7 +24215,7 @@
                   "name": "Skidmark",
                   "width": 64,
                   "height": 64,
-                  "filename": "assets/babylon/images/Skidmark.png",
+                  "filename": "assets/babylon/images/skidmark.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -24312,7 +24312,7 @@
                   {
                     "type": "UnityEngine.AudioClip",
                     "name": "beepGo",
-                    "filename": "assets/racing/startup/beepGo.wav",
+                    "filename": "assets/racing/startup/beepgo.wav",
                     "length": 0.6578458,
                     "channels": 2,
                     "frequency": 44100,
@@ -24350,7 +24350,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "guid": "46f4b397-c49a-445a-96c7-10a24b1c338f",
+          "guid": "e3c091ed-1113-4462-b552-ef628e973495",
           "components": [
             {
               "alias": "light",
@@ -24440,7 +24440,7 @@
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "guid": "7596ea0a-3265-4e0c-a634-9b74c2085115",
+          "guid": "296fefbc-797b-4bd2-b9a6-cf4189e4c4c0",
           "group": "MainCamera",
           "tags": "MainCamera Layer0",
           "components": [
@@ -24614,7 +24614,7 @@
       "name": "RaceCars",
       "extras": {
         "metadata": {
-          "guid": "906c7852-9c0d-4d6a-a239-57b3e3e6e447"
+          "guid": "02162f35-1f38-4561-8f21-43077aa6d733"
         }
       }
     },
@@ -24645,7 +24645,7 @@
       "name": "F1_PurpleVariant",
       "extras": {
         "metadata": {
-          "guid": "0745ddba-9fa1-41ce-a4de-36385a96f34b",
+          "guid": "fbb9965d-ca55-4b51-97ea-8cfae6cd0cb3",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -24693,7 +24693,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "F1_PurpleVariant",
-                "file": "assets/racing/formula/audio/F1_Engine.wav",
+                "file": "assets/racing/formula/audio/f1_engine.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -24724,7 +24724,7 @@
                   "name": "Shadow",
                   "width": 512,
                   "height": 512,
-                  "filename": "assets/babylon/images/Shadow.png",
+                  "filename": "assets/babylon/images/shadow.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -24870,7 +24870,7 @@
                   "name": "Smoke",
                   "width": 64,
                   "height": 64,
-                  "filename": "assets/babylon/images/Smoke.png",
+                  "filename": "assets/babylon/images/smoke.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -24879,56 +24879,56 @@
                 "reverseLightsMesh": null,
                 "frontLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "3bf6d281-7232-4e8f-bae1-0ee21aaf52cb",
+                  "id": "498b49df-5949-4530-96f8-2fc13a48a603",
                   "tag": "Untagged",
                   "name": "FrontLeftWheel",
                   "layer": 31
                 },
                 "frontRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "6ba2b810-cfca-4938-bafb-656fc9662973",
+                  "id": "a0735619-053f-41d2-851b-a1492fe8b912",
                   "tag": "Untagged",
                   "name": "FrontRightWheel",
                   "layer": 31
                 },
                 "rearLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "f31edaaa-84e3-439b-9e0c-884196b9557d",
+                  "id": "c8734d13-add3-49a9-9d96-07b20b081da2",
                   "tag": "Untagged",
                   "name": "RearLeftWheel",
                   "layer": 31
                 },
                 "rearRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "34092a25-6fe1-4894-b6c2-1bd8550d037c",
+                  "id": "c0f71309-a37a-4c78-84ab-1be80c2b0bc4",
                   "tag": "Untagged",
                   "name": "RearRightWheel",
                   "layer": 31
                 },
                 "frontLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "738dcc5f-1c10-44b1-a986-10f8e4383958",
+                  "id": "e83d7362-c916-494a-8d4f-b292cca6dd03",
                   "tag": "Untagged",
                   "name": "WheelHub_FL",
                   "layer": 31
                 },
                 "frontRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "443c4c7c-aa08-4bc5-a4bc-9b1bceaf0e37",
+                  "id": "41d80885-189f-4efc-b5b1-c5a7eb9659da",
                   "tag": "Untagged",
                   "name": "WheelHub_FR",
                   "layer": 31
                 },
                 "rearLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "e2442cfa-d1a8-41e2-b1e2-2093e1a474b5",
+                  "id": "b1841e91-bfd3-42a9-a635-5e21afbf5bc9",
                   "tag": "Untagged",
                   "name": "WheelHub_RL",
                   "layer": 31
                 },
                 "rearRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "aac4a665-9c54-4066-b432-cb5bec563e41",
+                  "id": "4bde8352-f523-4520-9a98-24b29d926e2a",
                   "tag": "Untagged",
                   "name": "WheelHub_RR",
                   "layer": 31
@@ -25023,7 +25023,7 @@
       "name": "Wheel Meshes",
       "extras": {
         "metadata": {
-          "guid": "afebe4ca-bea0-44b3-a159-643e12cb5614",
+          "guid": "21810019-7197-41d2-b21e-fdcf5a0cda44",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -25042,7 +25042,7 @@
       "name": "WheelHub_FL",
       "extras": {
         "metadata": {
-          "guid": "738dcc5f-1c10-44b1-a986-10f8e4383958",
+          "guid": "e83d7362-c916-494a-8d4f-b292cca6dd03",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -25054,7 +25054,7 @@
       "name": "Wheel_TFL",
       "extras": {
         "metadata": {
-          "guid": "de2f8772-8b24-4578-b982-c9c4680adb9d",
+          "guid": "4ec2449a-36f9-493c-874a-cb670e4b4124",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -25095,7 +25095,7 @@
       "name": "WheelHub_FR",
       "extras": {
         "metadata": {
-          "guid": "443c4c7c-aa08-4bc5-a4bc-9b1bceaf0e37",
+          "guid": "41d80885-189f-4efc-b5b1-c5a7eb9659da",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -25107,7 +25107,7 @@
       "name": "Wheel_TRF",
       "extras": {
         "metadata": {
-          "guid": "a6af7c44-f968-4f8d-a845-d2afc779c782",
+          "guid": "f4760070-0776-420d-b3f8-85e56aa65561",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -25148,7 +25148,7 @@
       "name": "WheelHub_RL",
       "extras": {
         "metadata": {
-          "guid": "e2442cfa-d1a8-41e2-b1e2-2093e1a474b5",
+          "guid": "b1841e91-bfd3-42a9-a635-5e21afbf5bc9",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -25160,7 +25160,7 @@
       "name": "Wheel_TLR",
       "extras": {
         "metadata": {
-          "guid": "efeb4a11-791a-495a-8951-dae2a3b3cba4",
+          "guid": "3ca256b8-b5ab-4492-9e3c-c4da3d2b799a",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -25202,7 +25202,7 @@
       "name": "WheelHub_RR",
       "extras": {
         "metadata": {
-          "guid": "aac4a665-9c54-4066-b432-cb5bec563e41",
+          "guid": "4bde8352-f523-4520-9a98-24b29d926e2a",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -25215,7 +25215,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "WheelHub_RR",
-                "file": "assets/racing/formula/audio/F1_Skidding.wav",
+                "file": "assets/racing/formula/audio/f1_skidding.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -25245,7 +25245,7 @@
       "name": "Wheel_TRR",
       "extras": {
         "metadata": {
-          "guid": "d5773966-8810-4f7f-9adb-42f13c8c22c5",
+          "guid": "032d6a51-77c3-4e37-bc29-5427ae45a5fb",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -25289,7 +25289,7 @@
       "name": "TopFrame",
       "extras": {
         "metadata": {
-          "guid": "7d0dace1-2d8c-4490-b3fd-7709252e8455",
+          "guid": "56552d0c-28ee-49b0-95da-fb8c774bbcac",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -25341,7 +25341,7 @@
       "name": "MiddleFrame",
       "extras": {
         "metadata": {
-          "guid": "44978d0b-76b9-4a13-a52a-423b59e28287",
+          "guid": "bcedd7da-d1aa-4b2a-94b3-7d57db2799e1",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -25393,7 +25393,7 @@
       "name": "BottomFrame",
       "extras": {
         "metadata": {
-          "guid": "38464537-cf33-4610-bd19-3c0f5f555593",
+          "guid": "217b0059-d9ce-4b40-9a98-b92e6b9dd808",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -25439,7 +25439,7 @@
       "name": "FrontLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "3bf6d281-7232-4e8f-bae1-0ee21aaf52cb",
+          "guid": "498b49df-5949-4530-96f8-2fc13a48a603",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -25470,7 +25470,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "3bf6d281-7232-4e8f-bae1-0ee21aaf52cb",
+              "id": "498b49df-5949-4530-96f8-2fc13a48a603",
               "name": "FrontLeftWheel",
               "mass": 20.0,
               "radius": 0.335,
@@ -25508,7 +25508,7 @@
       "name": "FrontRightWheel",
       "extras": {
         "metadata": {
-          "guid": "6ba2b810-cfca-4938-bafb-656fc9662973",
+          "guid": "a0735619-053f-41d2-851b-a1492fe8b912",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -25539,7 +25539,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "6ba2b810-cfca-4938-bafb-656fc9662973",
+              "id": "a0735619-053f-41d2-851b-a1492fe8b912",
               "name": "FrontRightWheel",
               "mass": 20.0,
               "radius": 0.335,
@@ -25577,7 +25577,7 @@
       "name": "RearLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "f31edaaa-84e3-439b-9e0c-884196b9557d",
+          "guid": "c8734d13-add3-49a9-9d96-07b20b081da2",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -25608,7 +25608,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "f31edaaa-84e3-439b-9e0c-884196b9557d",
+              "id": "c8734d13-add3-49a9-9d96-07b20b081da2",
               "name": "RearLeftWheel",
               "mass": 20.0,
               "radius": 0.35,
@@ -25646,7 +25646,7 @@
       "name": "RearRightWheel",
       "extras": {
         "metadata": {
-          "guid": "34092a25-6fe1-4894-b6c2-1bd8550d037c",
+          "guid": "c0f71309-a37a-4c78-84ab-1be80c2b0bc4",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -25677,7 +25677,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "34092a25-6fe1-4894-b6c2-1bd8550d037c",
+              "id": "c0f71309-a37a-4c78-84ab-1be80c2b0bc4",
               "name": "RearRightWheel",
               "mass": 20.0,
               "radius": 0.35,
@@ -25713,7 +25713,7 @@
       "name": "Vx360_Fixed",
       "extras": {
         "metadata": {
-          "guid": "2b2c49fb-73ac-494e-8c06-e3c52e2138b6",
+          "guid": "c014e47d-492c-410f-98e7-c49d970f63a0",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -25730,7 +25730,7 @@
       "name": "CAR_BODY",
       "extras": {
         "metadata": {
-          "guid": "7627c5d1-b10e-40ea-bae5-3191085832a6",
+          "guid": "69cf89d9-3f48-418b-9d91-c4e44b274fb4",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -25786,7 +25786,7 @@
       "name": "F1_BlueVariant",
       "extras": {
         "metadata": {
-          "guid": "609bf58e-36ec-4904-8e3b-587885c0309f",
+          "guid": "7bcd2a98-9ad2-467d-984e-70024654fdc7",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -25834,7 +25834,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "F1_BlueVariant",
-                "file": "assets/racing/formula/audio/F1_Engine.wav",
+                "file": "assets/racing/formula/audio/f1_engine.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -25865,7 +25865,7 @@
                   "name": "Shadow",
                   "width": 512,
                   "height": 512,
-                  "filename": "assets/babylon/images/Shadow.png",
+                  "filename": "assets/babylon/images/shadow.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -26011,7 +26011,7 @@
                   "name": "Smoke",
                   "width": 64,
                   "height": 64,
-                  "filename": "assets/babylon/images/Smoke.png",
+                  "filename": "assets/babylon/images/smoke.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -26020,56 +26020,56 @@
                 "reverseLightsMesh": null,
                 "frontLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "b33abbb8-5a91-43d4-89b0-8c2b18162a6a",
+                  "id": "eca7f96e-035b-4d18-bdf3-ee6486410711",
                   "tag": "Untagged",
                   "name": "FrontLeftWheel",
                   "layer": 31
                 },
                 "frontRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "fa3848b6-0051-4b42-b6ad-9c18c793ea1f",
+                  "id": "6ba6a40b-f6cc-4004-84b1-d875652e488f",
                   "tag": "Untagged",
                   "name": "FrontRightWheel",
                   "layer": 31
                 },
                 "rearLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "bc2feffa-ca02-4e08-b566-d9ec56ef971d",
+                  "id": "5be16431-3668-4149-995a-eb299276f955",
                   "tag": "Untagged",
                   "name": "RearLeftWheel",
                   "layer": 31
                 },
                 "rearRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "7d24e106-0dfa-4c78-a320-e98b6b4b5124",
+                  "id": "0b816232-80d2-462e-9b27-16b93379c2c2",
                   "tag": "Untagged",
                   "name": "RearRightWheel",
                   "layer": 31
                 },
                 "frontLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "15b51365-7273-460c-bee6-aac2f4fc606b",
+                  "id": "a880c105-b6d6-4bb8-bfea-d59adc707c01",
                   "tag": "Untagged",
                   "name": "WheelHub_FL",
                   "layer": 31
                 },
                 "frontRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "4cc3ec43-3f8c-41f7-b667-555724fc7498",
+                  "id": "15bc9bbe-d875-451f-ba4c-29e562092859",
                   "tag": "Untagged",
                   "name": "WheelHub_FR",
                   "layer": 31
                 },
                 "rearLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "9fdba497-08ee-489a-91ce-87e79acbf837",
+                  "id": "ef8f685c-777c-408f-910e-d3d62e8e05c9",
                   "tag": "Untagged",
                   "name": "WheelHub_RL",
                   "layer": 31
                 },
                 "rearRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "4ae9d587-d211-4335-a993-5bfa6340517c",
+                  "id": "32c9aece-0320-4a7d-913c-a97a3a752e3b",
                   "tag": "Untagged",
                   "name": "WheelHub_RR",
                   "layer": 31
@@ -26164,7 +26164,7 @@
       "name": "Wheel Meshes",
       "extras": {
         "metadata": {
-          "guid": "9085e0cf-7ee2-40d1-b40c-27edaeb2a6ad",
+          "guid": "eb114728-a3e2-4e81-907c-f58fa9493453",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -26183,7 +26183,7 @@
       "name": "WheelHub_FL",
       "extras": {
         "metadata": {
-          "guid": "15b51365-7273-460c-bee6-aac2f4fc606b",
+          "guid": "a880c105-b6d6-4bb8-bfea-d59adc707c01",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -26195,7 +26195,7 @@
       "name": "Wheel_TFL",
       "extras": {
         "metadata": {
-          "guid": "5a4373cc-ecbe-46f5-ab39-9931a17146c4",
+          "guid": "6a5bdadc-c991-4f85-97e4-ce8fd3ff4cdf",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -26236,7 +26236,7 @@
       "name": "WheelHub_FR",
       "extras": {
         "metadata": {
-          "guid": "4cc3ec43-3f8c-41f7-b667-555724fc7498",
+          "guid": "15bc9bbe-d875-451f-ba4c-29e562092859",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -26248,7 +26248,7 @@
       "name": "Wheel_TRF",
       "extras": {
         "metadata": {
-          "guid": "d916935a-c6ac-4bf8-9c54-4efa3fc922d6",
+          "guid": "90865dea-ae35-467b-bdfa-b0123cf39abc",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -26289,7 +26289,7 @@
       "name": "WheelHub_RL",
       "extras": {
         "metadata": {
-          "guid": "9fdba497-08ee-489a-91ce-87e79acbf837",
+          "guid": "ef8f685c-777c-408f-910e-d3d62e8e05c9",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -26301,7 +26301,7 @@
       "name": "Wheel_TLR",
       "extras": {
         "metadata": {
-          "guid": "29cbf5c5-aa16-4954-993e-43d5a1d704ad",
+          "guid": "d2007457-9228-4a1a-855b-d29dd05279f7",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -26343,7 +26343,7 @@
       "name": "WheelHub_RR",
       "extras": {
         "metadata": {
-          "guid": "4ae9d587-d211-4335-a993-5bfa6340517c",
+          "guid": "32c9aece-0320-4a7d-913c-a97a3a752e3b",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -26356,7 +26356,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "WheelHub_RR",
-                "file": "assets/racing/formula/audio/F1_Skidding.wav",
+                "file": "assets/racing/formula/audio/f1_skidding.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -26386,7 +26386,7 @@
       "name": "Wheel_TRR",
       "extras": {
         "metadata": {
-          "guid": "219fd689-f1c2-4db9-93dc-4ce51dfc8c23",
+          "guid": "1a9b7c34-91bd-4f76-bdfa-d076e03d9407",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -26430,7 +26430,7 @@
       "name": "TopFrame",
       "extras": {
         "metadata": {
-          "guid": "c3f3cd2a-523a-4b1f-bb18-62c310734e60",
+          "guid": "6b001c38-81f4-4e4a-8770-e3b924b4f1f5",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -26482,7 +26482,7 @@
       "name": "MiddleFrame",
       "extras": {
         "metadata": {
-          "guid": "24de9f81-3c0d-41fc-942d-b3e45d27c8e9",
+          "guid": "08191db6-f751-4adf-baf7-8910b9268bee",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -26534,7 +26534,7 @@
       "name": "BottomFrame",
       "extras": {
         "metadata": {
-          "guid": "f0c3be00-a3bc-46b6-9eb7-85ca476a0941",
+          "guid": "7067bef1-042c-4810-a8e7-9e46a68d9dea",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -26580,7 +26580,7 @@
       "name": "FrontLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "b33abbb8-5a91-43d4-89b0-8c2b18162a6a",
+          "guid": "eca7f96e-035b-4d18-bdf3-ee6486410711",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -26611,7 +26611,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "b33abbb8-5a91-43d4-89b0-8c2b18162a6a",
+              "id": "eca7f96e-035b-4d18-bdf3-ee6486410711",
               "name": "FrontLeftWheel",
               "mass": 20.0,
               "radius": 0.335,
@@ -26649,7 +26649,7 @@
       "name": "FrontRightWheel",
       "extras": {
         "metadata": {
-          "guid": "fa3848b6-0051-4b42-b6ad-9c18c793ea1f",
+          "guid": "6ba6a40b-f6cc-4004-84b1-d875652e488f",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -26680,7 +26680,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "fa3848b6-0051-4b42-b6ad-9c18c793ea1f",
+              "id": "6ba6a40b-f6cc-4004-84b1-d875652e488f",
               "name": "FrontRightWheel",
               "mass": 20.0,
               "radius": 0.335,
@@ -26718,7 +26718,7 @@
       "name": "RearLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "bc2feffa-ca02-4e08-b566-d9ec56ef971d",
+          "guid": "5be16431-3668-4149-995a-eb299276f955",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -26749,7 +26749,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "bc2feffa-ca02-4e08-b566-d9ec56ef971d",
+              "id": "5be16431-3668-4149-995a-eb299276f955",
               "name": "RearLeftWheel",
               "mass": 20.0,
               "radius": 0.35,
@@ -26787,7 +26787,7 @@
       "name": "RearRightWheel",
       "extras": {
         "metadata": {
-          "guid": "7d24e106-0dfa-4c78-a320-e98b6b4b5124",
+          "guid": "0b816232-80d2-462e-9b27-16b93379c2c2",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -26818,7 +26818,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "7d24e106-0dfa-4c78-a320-e98b6b4b5124",
+              "id": "0b816232-80d2-462e-9b27-16b93379c2c2",
               "name": "RearRightWheel",
               "mass": 20.0,
               "radius": 0.35,
@@ -26854,7 +26854,7 @@
       "name": "Vx360_Fixed",
       "extras": {
         "metadata": {
-          "guid": "b32ce7ed-96f0-4e38-a1e6-2db50ce44cd4",
+          "guid": "12dc2f19-bca5-4021-b666-ae9071941790",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -26871,7 +26871,7 @@
       "name": "CAR_BODY",
       "extras": {
         "metadata": {
-          "guid": "0c133d29-8363-4e41-a0f8-33321857566f",
+          "guid": "26af66fc-d0e7-482a-aca0-fe617b03d1b8",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -26927,7 +26927,7 @@
       "name": "F1_RedVariant",
       "extras": {
         "metadata": {
-          "guid": "19e758c5-b23d-4ac3-85e0-c51568a03252",
+          "guid": "8bc3e3cb-263f-411d-b619-b17365918aed",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -26975,7 +26975,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "F1_RedVariant",
-                "file": "assets/racing/formula/audio/F1_Engine.wav",
+                "file": "assets/racing/formula/audio/f1_engine.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -27006,7 +27006,7 @@
                   "name": "Shadow",
                   "width": 512,
                   "height": 512,
-                  "filename": "assets/babylon/images/Shadow.png",
+                  "filename": "assets/babylon/images/shadow.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -27152,7 +27152,7 @@
                   "name": "Smoke",
                   "width": 64,
                   "height": 64,
-                  "filename": "assets/babylon/images/Smoke.png",
+                  "filename": "assets/babylon/images/smoke.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -27161,56 +27161,56 @@
                 "reverseLightsMesh": null,
                 "frontLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "175cbaae-8cef-4316-a23d-cf9611e9bf13",
+                  "id": "3b511651-1dd4-4ddb-8689-72debba404db",
                   "tag": "Untagged",
                   "name": "FrontLeftWheel",
                   "layer": 31
                 },
                 "frontRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "1e015c85-33aa-4736-ac3e-71d1cf659ace",
+                  "id": "66fddd24-df8a-42bf-b775-93683a4a633a",
                   "tag": "Untagged",
                   "name": "FrontRightWheel",
                   "layer": 31
                 },
                 "rearLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "eb0df791-d3a2-465d-a57b-155958bf3e8c",
+                  "id": "ca49a949-0f3e-4f23-abf8-b83f89c15de4",
                   "tag": "Untagged",
                   "name": "RearLeftWheel",
                   "layer": 31
                 },
                 "rearRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "26a0ed2e-5b38-467e-9e7a-4045584d68b0",
+                  "id": "987e325c-c7fb-4188-9e23-8619a7533513",
                   "tag": "Untagged",
                   "name": "RearRightWheel",
                   "layer": 31
                 },
                 "frontLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "a5f88fd1-dac7-4289-bc94-058c928182f4",
+                  "id": "86a39fbb-f676-4ede-a97f-5a443512fad2",
                   "tag": "Untagged",
                   "name": "WheelHub_FL",
                   "layer": 31
                 },
                 "frontRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "15255d40-bc47-4d0c-ba84-ab6fea8bc0c7",
+                  "id": "fea56cba-cf0e-4b98-9708-0e36aa98f754",
                   "tag": "Untagged",
                   "name": "WheelHub_FR",
                   "layer": 31
                 },
                 "rearLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "4026f7f8-0c8e-4129-ba63-43bc3e7cf3f5",
+                  "id": "fa683097-31a5-47ac-9f9c-67de61fcf928",
                   "tag": "Untagged",
                   "name": "WheelHub_RL",
                   "layer": 31
                 },
                 "rearRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "8e139055-4b39-4cd3-b47c-e34203324c7b",
+                  "id": "9a4b479a-f3f0-422f-9d2f-841e189497d9",
                   "tag": "Untagged",
                   "name": "WheelHub_RR",
                   "layer": 31
@@ -27305,7 +27305,7 @@
       "name": "Wheel Meshes",
       "extras": {
         "metadata": {
-          "guid": "4d68c3c3-8b5c-40ca-b636-1e2f7201d211",
+          "guid": "4f34de35-64b4-4b07-a46d-f926085dce19",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -27324,7 +27324,7 @@
       "name": "WheelHub_FL",
       "extras": {
         "metadata": {
-          "guid": "a5f88fd1-dac7-4289-bc94-058c928182f4",
+          "guid": "86a39fbb-f676-4ede-a97f-5a443512fad2",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -27336,7 +27336,7 @@
       "name": "Wheel_TFL",
       "extras": {
         "metadata": {
-          "guid": "6500c667-5467-438c-a698-1f64bcbf7cae",
+          "guid": "3ccf6d86-f304-4e49-9950-78fbd97816ed",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -27377,7 +27377,7 @@
       "name": "WheelHub_FR",
       "extras": {
         "metadata": {
-          "guid": "15255d40-bc47-4d0c-ba84-ab6fea8bc0c7",
+          "guid": "fea56cba-cf0e-4b98-9708-0e36aa98f754",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -27389,7 +27389,7 @@
       "name": "Wheel_TRF",
       "extras": {
         "metadata": {
-          "guid": "0314de96-d00e-45db-8c55-33c8b7ec9d6b",
+          "guid": "85d43ec2-ce4c-4779-97ea-aadb1dcc2cbb",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -27430,7 +27430,7 @@
       "name": "WheelHub_RL",
       "extras": {
         "metadata": {
-          "guid": "4026f7f8-0c8e-4129-ba63-43bc3e7cf3f5",
+          "guid": "fa683097-31a5-47ac-9f9c-67de61fcf928",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -27442,7 +27442,7 @@
       "name": "Wheel_TLR",
       "extras": {
         "metadata": {
-          "guid": "b22f7e05-88ee-424a-9110-e35a6113b339",
+          "guid": "9b49e281-6ff5-4b97-a202-4e25edd60475",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -27484,7 +27484,7 @@
       "name": "WheelHub_RR",
       "extras": {
         "metadata": {
-          "guid": "8e139055-4b39-4cd3-b47c-e34203324c7b",
+          "guid": "9a4b479a-f3f0-422f-9d2f-841e189497d9",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -27497,7 +27497,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "WheelHub_RR",
-                "file": "assets/racing/formula/audio/F1_Skidding.wav",
+                "file": "assets/racing/formula/audio/f1_skidding.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -27527,7 +27527,7 @@
       "name": "Wheel_TRR",
       "extras": {
         "metadata": {
-          "guid": "48f66e6b-e948-46f7-9cd1-9f44ea478b9d",
+          "guid": "fc3b9d1d-e4f1-4f11-affc-3ccfc381ae9d",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -27571,7 +27571,7 @@
       "name": "TopFrame",
       "extras": {
         "metadata": {
-          "guid": "96cc54f7-f70d-471e-844c-2ee2b8e247b1",
+          "guid": "22922eab-9012-4bb4-9a1f-0258da658ed4",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -27623,7 +27623,7 @@
       "name": "MiddleFrame",
       "extras": {
         "metadata": {
-          "guid": "818366fa-823b-41a4-8747-6bd863fa7303",
+          "guid": "033da662-114d-4e4a-b1a8-58604bb9d3c2",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -27675,7 +27675,7 @@
       "name": "BottomFrame",
       "extras": {
         "metadata": {
-          "guid": "481ed5b5-9e66-49a7-b768-29045dc2858d",
+          "guid": "52c718ec-5669-4cb2-affb-3bf301c30a47",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -27721,7 +27721,7 @@
       "name": "FrontLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "175cbaae-8cef-4316-a23d-cf9611e9bf13",
+          "guid": "3b511651-1dd4-4ddb-8689-72debba404db",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -27752,7 +27752,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "175cbaae-8cef-4316-a23d-cf9611e9bf13",
+              "id": "3b511651-1dd4-4ddb-8689-72debba404db",
               "name": "FrontLeftWheel",
               "mass": 20.0,
               "radius": 0.335,
@@ -27790,7 +27790,7 @@
       "name": "FrontRightWheel",
       "extras": {
         "metadata": {
-          "guid": "1e015c85-33aa-4736-ac3e-71d1cf659ace",
+          "guid": "66fddd24-df8a-42bf-b775-93683a4a633a",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -27821,7 +27821,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "1e015c85-33aa-4736-ac3e-71d1cf659ace",
+              "id": "66fddd24-df8a-42bf-b775-93683a4a633a",
               "name": "FrontRightWheel",
               "mass": 20.0,
               "radius": 0.335,
@@ -27859,7 +27859,7 @@
       "name": "RearLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "eb0df791-d3a2-465d-a57b-155958bf3e8c",
+          "guid": "ca49a949-0f3e-4f23-abf8-b83f89c15de4",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -27890,7 +27890,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "eb0df791-d3a2-465d-a57b-155958bf3e8c",
+              "id": "ca49a949-0f3e-4f23-abf8-b83f89c15de4",
               "name": "RearLeftWheel",
               "mass": 20.0,
               "radius": 0.35,
@@ -27928,7 +27928,7 @@
       "name": "RearRightWheel",
       "extras": {
         "metadata": {
-          "guid": "26a0ed2e-5b38-467e-9e7a-4045584d68b0",
+          "guid": "987e325c-c7fb-4188-9e23-8619a7533513",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -27959,7 +27959,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "26a0ed2e-5b38-467e-9e7a-4045584d68b0",
+              "id": "987e325c-c7fb-4188-9e23-8619a7533513",
               "name": "RearRightWheel",
               "mass": 20.0,
               "radius": 0.35,
@@ -27995,7 +27995,7 @@
       "name": "Vx360_Fixed",
       "extras": {
         "metadata": {
-          "guid": "fdeff8f6-e17b-485c-9d09-1c8071d224d5",
+          "guid": "9d8717d7-6a5d-4d00-b309-3160a1f0b22d",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -28012,7 +28012,7 @@
       "name": "CAR_BODY",
       "extras": {
         "metadata": {
-          "guid": "29a555d0-ade5-4d73-ae5f-10d5957cd52a",
+          "guid": "1c5d5baa-9d83-47cc-97da-29efdd4f539c",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -28068,7 +28068,7 @@
       "name": "F1_GreenVariant",
       "extras": {
         "metadata": {
-          "guid": "5948ac7c-e768-4d7c-82c8-2a3958a0e72e",
+          "guid": "606c3564-ace8-4ab9-90ee-4461ad34c702",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -28116,7 +28116,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "F1_GreenVariant",
-                "file": "assets/racing/formula/audio/F1_Engine.wav",
+                "file": "assets/racing/formula/audio/f1_engine.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -28147,7 +28147,7 @@
                   "name": "Shadow",
                   "width": 512,
                   "height": 512,
-                  "filename": "assets/babylon/images/Shadow.png",
+                  "filename": "assets/babylon/images/shadow.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -28293,7 +28293,7 @@
                   "name": "Smoke",
                   "width": 64,
                   "height": 64,
-                  "filename": "assets/babylon/images/Smoke.png",
+                  "filename": "assets/babylon/images/smoke.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -28302,56 +28302,56 @@
                 "reverseLightsMesh": null,
                 "frontLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "61d7f240-5229-417c-a2c7-521da53a0500",
+                  "id": "f1e71e73-ec3a-4d06-a50d-ff6738486feb",
                   "tag": "Untagged",
                   "name": "FrontLeftWheel",
                   "layer": 31
                 },
                 "frontRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "76ddbfbf-7d05-41b7-a41b-9d937f8a3750",
+                  "id": "4a5712a7-15bf-4688-ad4c-e6dbc8822943",
                   "tag": "Untagged",
                   "name": "FrontRightWheel",
                   "layer": 31
                 },
                 "rearLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "5888aec6-1dc4-4626-8ad5-f14bd7017452",
+                  "id": "91f83bab-ca8e-4116-b670-dda3cc414deb",
                   "tag": "Untagged",
                   "name": "RearLeftWheel",
                   "layer": 31
                 },
                 "rearRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "10cd59c2-c002-45fc-a5c5-8ced3b7c5db9",
+                  "id": "f81ebb38-3276-422b-b992-b769487c2425",
                   "tag": "Untagged",
                   "name": "RearRightWheel",
                   "layer": 31
                 },
                 "frontLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "574e7b39-f488-4de1-8f58-30facbee2a54",
+                  "id": "3ad02f43-14d8-47b7-a5b7-ae0a51447ec9",
                   "tag": "Untagged",
                   "name": "WheelHub_FL",
                   "layer": 31
                 },
                 "frontRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "d654b6bf-743c-4a8a-b7f7-edb9a5b804b4",
+                  "id": "ce93e657-4d46-45fa-9916-63714571b909",
                   "tag": "Untagged",
                   "name": "WheelHub_FR",
                   "layer": 31
                 },
                 "rearLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "86ef4889-3a8b-4a6e-a463-eea6408a75ea",
+                  "id": "7964b96f-ed32-48cc-9f77-d33d3e1a88c3",
                   "tag": "Untagged",
                   "name": "WheelHub_RL",
                   "layer": 31
                 },
                 "rearRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "beaa713b-570a-4bec-aa85-3a8bfa2d2bf7",
+                  "id": "0d070897-5ce4-4546-9eeb-64e057f739c6",
                   "tag": "Untagged",
                   "name": "WheelHub_RR",
                   "layer": 31
@@ -28446,7 +28446,7 @@
       "name": "Wheel Meshes",
       "extras": {
         "metadata": {
-          "guid": "d1219869-4ff4-435f-b459-da552bbdffed",
+          "guid": "a6aa16e5-a1d2-46e6-8335-9633543ed727",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -28465,7 +28465,7 @@
       "name": "WheelHub_FL",
       "extras": {
         "metadata": {
-          "guid": "574e7b39-f488-4de1-8f58-30facbee2a54",
+          "guid": "3ad02f43-14d8-47b7-a5b7-ae0a51447ec9",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -28477,7 +28477,7 @@
       "name": "Wheel_TFL",
       "extras": {
         "metadata": {
-          "guid": "2b170aad-4bfb-4192-96cb-6ebb38fbbbe5",
+          "guid": "3b398555-1285-49d4-b2ab-19e34e3265d7",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -28518,7 +28518,7 @@
       "name": "WheelHub_FR",
       "extras": {
         "metadata": {
-          "guid": "d654b6bf-743c-4a8a-b7f7-edb9a5b804b4",
+          "guid": "ce93e657-4d46-45fa-9916-63714571b909",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -28530,7 +28530,7 @@
       "name": "Wheel_TRF",
       "extras": {
         "metadata": {
-          "guid": "fa45e886-0536-474f-a6f0-2f80c17394c0",
+          "guid": "f759ef5f-b201-44a3-aba8-c9d0dff89c26",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -28571,7 +28571,7 @@
       "name": "WheelHub_RL",
       "extras": {
         "metadata": {
-          "guid": "86ef4889-3a8b-4a6e-a463-eea6408a75ea",
+          "guid": "7964b96f-ed32-48cc-9f77-d33d3e1a88c3",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -28583,7 +28583,7 @@
       "name": "Wheel_TLR",
       "extras": {
         "metadata": {
-          "guid": "eb6d0c46-2a54-45bf-a254-541cbdb31c02",
+          "guid": "b4fdd76f-1c43-487f-a1a4-23847a429df3",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -28625,7 +28625,7 @@
       "name": "WheelHub_RR",
       "extras": {
         "metadata": {
-          "guid": "beaa713b-570a-4bec-aa85-3a8bfa2d2bf7",
+          "guid": "0d070897-5ce4-4546-9eeb-64e057f739c6",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -28638,7 +28638,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "WheelHub_RR",
-                "file": "assets/racing/formula/audio/F1_Skidding.wav",
+                "file": "assets/racing/formula/audio/f1_skidding.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -28668,7 +28668,7 @@
       "name": "Wheel_TRR",
       "extras": {
         "metadata": {
-          "guid": "cfd9cbd2-433a-422a-b2aa-2d60ae5db250",
+          "guid": "d327b2af-0922-4182-beb2-232d4b49f6bd",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -28712,7 +28712,7 @@
       "name": "TopFrame",
       "extras": {
         "metadata": {
-          "guid": "f579ae46-419d-486e-978a-25017d40ed97",
+          "guid": "f6f55aca-051d-4d47-852b-c7d3765c5b88",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -28764,7 +28764,7 @@
       "name": "MiddleFrame",
       "extras": {
         "metadata": {
-          "guid": "7e2b70f3-9c07-4eca-af6d-166e9f907100",
+          "guid": "ef8b96e5-f001-4cd4-a6c2-80d75dce39c4",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -28816,7 +28816,7 @@
       "name": "BottomFrame",
       "extras": {
         "metadata": {
-          "guid": "211ba397-3351-4124-a9a7-8d0819e33914",
+          "guid": "6cb2e0f1-9b27-4412-b533-4a686dbdb297",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -28862,7 +28862,7 @@
       "name": "FrontLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "61d7f240-5229-417c-a2c7-521da53a0500",
+          "guid": "f1e71e73-ec3a-4d06-a50d-ff6738486feb",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -28893,7 +28893,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "61d7f240-5229-417c-a2c7-521da53a0500",
+              "id": "f1e71e73-ec3a-4d06-a50d-ff6738486feb",
               "name": "FrontLeftWheel",
               "mass": 20.0,
               "radius": 0.335,
@@ -28931,7 +28931,7 @@
       "name": "FrontRightWheel",
       "extras": {
         "metadata": {
-          "guid": "76ddbfbf-7d05-41b7-a41b-9d937f8a3750",
+          "guid": "4a5712a7-15bf-4688-ad4c-e6dbc8822943",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -28962,7 +28962,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "76ddbfbf-7d05-41b7-a41b-9d937f8a3750",
+              "id": "4a5712a7-15bf-4688-ad4c-e6dbc8822943",
               "name": "FrontRightWheel",
               "mass": 20.0,
               "radius": 0.335,
@@ -29000,7 +29000,7 @@
       "name": "RearLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "5888aec6-1dc4-4626-8ad5-f14bd7017452",
+          "guid": "91f83bab-ca8e-4116-b670-dda3cc414deb",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -29031,7 +29031,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "5888aec6-1dc4-4626-8ad5-f14bd7017452",
+              "id": "91f83bab-ca8e-4116-b670-dda3cc414deb",
               "name": "RearLeftWheel",
               "mass": 20.0,
               "radius": 0.35,
@@ -29069,7 +29069,7 @@
       "name": "RearRightWheel",
       "extras": {
         "metadata": {
-          "guid": "10cd59c2-c002-45fc-a5c5-8ced3b7c5db9",
+          "guid": "f81ebb38-3276-422b-b992-b769487c2425",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -29100,7 +29100,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "10cd59c2-c002-45fc-a5c5-8ced3b7c5db9",
+              "id": "f81ebb38-3276-422b-b992-b769487c2425",
               "name": "RearRightWheel",
               "mass": 20.0,
               "radius": 0.35,
@@ -29136,7 +29136,7 @@
       "name": "Vx360_Fixed",
       "extras": {
         "metadata": {
-          "guid": "1323bf86-84bd-4fe1-a425-36ea4d300489",
+          "guid": "de9c471e-11be-4cb9-a56c-42606ebd9b8b",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -29153,7 +29153,7 @@
       "name": "CAR_BODY",
       "extras": {
         "metadata": {
-          "guid": "f1bb4c09-30e8-4f01-89ab-1b3062f421c9",
+          "guid": "1881ed24-20fb-41fd-b1f9-1da76257398e",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -29197,7 +29197,7 @@
       "name": "RTG Track 2",
       "extras": {
         "metadata": {
-          "guid": "95d2ec32-e0bc-4f99-91ef-8d7de074a1f2",
+          "guid": "a773a2e9-1bd1-4d22-9766-37928e3e38d4",
           "navigation": {
             "area": 0,
             "links": null
@@ -29231,7 +29231,7 @@
       "name": "GRID-05",
       "extras": {
         "metadata": {
-          "guid": "1d222b55-6445-4229-b4de-bc3130b89156",
+          "guid": "1c84554e-baf4-41c7-8830-9e72ce6f358c",
           "navigation": {
             "area": 0,
             "links": null
@@ -29254,7 +29254,7 @@
       "name": "Meshes",
       "extras": {
         "metadata": {
-          "guid": "0da26a6a-76d4-4264-897a-ef84c0e477f8",
+          "guid": "079561d8-3446-44ea-9423-657d2ccbe0e0",
           "navigation": {
             "area": 0,
             "links": null
@@ -29268,7 +29268,7 @@
       "name": "Collider-Fences",
       "extras": {
         "metadata": {
-          "guid": "78078f0c-8ae4-4942-a3c6-e0dc630ead6a",
+          "guid": "d6bcd1b0-3740-4d8e-8b24-d882545562bb",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -29349,7 +29349,7 @@
       "name": "Collider-Floor",
       "extras": {
         "metadata": {
-          "guid": "ca893070-a6fb-4944-8806-e829f3f4aa4d",
+          "guid": "8f5ef662-78b2-4bec-ba55-dce6be7a4c3d",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -29429,7 +29429,7 @@
       "name": "Collider-Road",
       "extras": {
         "metadata": {
-          "guid": "155d64f5-2254-4627-87ca-4bddc5a73909",
+          "guid": "55dbd021-422b-497b-9cfc-008accbbce10",
           "visible": false,
           "visibility": 0.5,
           "layer": 9,
@@ -29512,7 +29512,7 @@
       "name": "Grass",
       "extras": {
         "metadata": {
-          "guid": "9299afa1-5c14-4390-bdf5-7c3c44df4fd1",
+          "guid": "fae08969-d45b-446b-9578-ef7d2f79736a",
           "navigation": {
             "area": 0,
             "links": null
@@ -29549,7 +29549,7 @@
       "name": "Road",
       "extras": {
         "metadata": {
-          "guid": "7acedf61-24dd-427f-99ca-b64688ab15e2",
+          "guid": "35415f6f-3ef5-45fe-9627-737a31666ec6",
           "navigation": {
             "area": 0,
             "links": null
@@ -29586,7 +29586,7 @@
       "name": "Track",
       "extras": {
         "metadata": {
-          "guid": "1be2b200-22a7-410a-8999-258015ae6add",
+          "guid": "026b2e6f-8a51-40a3-8678-919d79159d86",
           "navigation": {
             "area": 0,
             "links": null
@@ -29623,7 +29623,7 @@
       "name": "Trees",
       "extras": {
         "metadata": {
-          "guid": "bc08cfd4-d720-4a38-8d24-cc3d7f1a0b02",
+          "guid": "89aa693f-3809-4b20-b7e6-ae70a3c6d2ae",
           "navigation": {
             "area": 0,
             "links": null
@@ -29659,7 +29659,7 @@
       "name": "Wirefence",
       "extras": {
         "metadata": {
-          "guid": "f032c96d-985a-4a51-8cd6-087be534d8df",
+          "guid": "be630605-264c-45ec-999e-246cd5add21b",
           "navigation": {
             "area": 0,
             "links": null
@@ -29695,7 +29695,7 @@
       "name": "StartGrid",
       "extras": {
         "metadata": {
-          "guid": "920555c3-3603-4f5b-a97e-bb9d6a4e3802",
+          "guid": "b92742ea-0a9f-4152-b0ac-0af23e1904bc",
           "navigation": {
             "area": 0,
             "links": null
@@ -29741,7 +29741,7 @@
       "name": "Camera_Point",
       "extras": {
         "metadata": {
-          "guid": "fa20ad4a-fa24-4154-9e66-c166a3c97f0a",
+          "guid": "9d0c6d6b-71a7-42d7-8af4-d138c9ae834f",
           "navigation": {
             "area": 0,
             "links": null
@@ -29765,7 +29765,7 @@
       "name": "Camera_Point",
       "extras": {
         "metadata": {
-          "guid": "5005108c-3b16-4355-9574-e586bc29d30e",
+          "guid": "b1f0e5af-bb53-4e55-af5e-460974f413e0",
           "navigation": {
             "area": 0,
             "links": null
@@ -29789,7 +29789,7 @@
       "name": "Camera_Point",
       "extras": {
         "metadata": {
-          "guid": "099669aa-48a1-4ced-99f0-77e1d11c8b12",
+          "guid": "4837ddab-2fef-467b-bb2b-6002b9716ac4",
           "navigation": {
             "area": 0,
             "links": null
@@ -29813,7 +29813,7 @@
       "name": "Camera_Point",
       "extras": {
         "metadata": {
-          "guid": "9379f3fc-fdf2-4562-aee6-215cc13ad336",
+          "guid": "f942cc57-61b4-4f97-be37-931c9f786f65",
           "navigation": {
             "area": 0,
             "links": null
@@ -29829,7 +29829,7 @@
       "name": "Waypoints",
       "extras": {
         "metadata": {
-          "guid": "c016d4c7-bc07-4ff2-a821-6b67366be9d9",
+          "guid": "8e7a6915-ce59-4020-b37e-6003d37b325f",
           "navigation": {
             "area": 0,
             "links": null
@@ -29847,7 +29847,7 @@
       "name": "Waypoint-1",
       "extras": {
         "metadata": {
-          "guid": "55700ce6-ff62-4912-87fa-332f46daa8e8",
+          "guid": "5e099c46-a07f-405d-ab32-494b540c827b",
           "navigation": {
             "area": 0,
             "links": null
@@ -29892,7 +29892,7 @@
       "name": "Combined meshes",
       "extras": {
         "metadata": {
-          "guid": "30c9f101-68ae-46a7-8ede-6b3d02748006",
+          "guid": "8070728b-61d5-4ff1-944a-569e76546096",
           "navigation": {
             "area": 0,
             "links": null
@@ -29916,7 +29916,7 @@
       "name": "Flag",
       "extras": {
         "metadata": {
-          "guid": "116b2da6-118a-4ea7-add8-15f071c893a3",
+          "guid": "9f1aa533-e1c3-43f5-9085-911d4c260d56",
           "skin": true,
           "navigation": {
             "area": 0,
@@ -29963,7 +29963,7 @@
       "name": "Flag",
       "extras": {
         "metadata": {
-          "guid": "c55cee2f-6f5b-4235-94da-b69ff3b53a9a",
+          "guid": "52d0384f-ba0a-4c6b-a1f9-a182709d5320",
           "skin": true,
           "navigation": {
             "area": 0,
@@ -30010,7 +30010,7 @@
       "name": "Flag",
       "extras": {
         "metadata": {
-          "guid": "e4d2e706-95d1-4f73-bb9d-0f465dfb43d7",
+          "guid": "3b95d1cf-4f71-41c2-90f4-31ab771c18d0",
           "skin": true,
           "navigation": {
             "area": 0,
@@ -30057,7 +30057,7 @@
       "name": "Flag",
       "extras": {
         "metadata": {
-          "guid": "8f4bdaf7-0e8b-4cf8-9064-a3723b987bdf",
+          "guid": "c503882a-204c-457a-bdf8-0b1162e736b8",
           "skin": true,
           "navigation": {
             "area": 0,
@@ -30104,7 +30104,7 @@
       "name": "Flag",
       "extras": {
         "metadata": {
-          "guid": "a5972673-ebcd-4c11-8e1d-90efc6bc318a",
+          "guid": "fffe1b63-452c-4a06-b238-176e91bcdc0d",
           "skin": true,
           "navigation": {
             "area": 0,
@@ -30151,7 +30151,7 @@
       "name": "Flag",
       "extras": {
         "metadata": {
-          "guid": "500ca750-d3b8-49ca-bf82-17278bbb2da7",
+          "guid": "6c4e13a5-a78a-4054-b8d0-0110d754760d",
           "skin": true,
           "navigation": {
             "area": 0,
@@ -30198,7 +30198,7 @@
       "name": "Flag",
       "extras": {
         "metadata": {
-          "guid": "b0dc8fb0-964c-4699-98bb-a321060b6aa9",
+          "guid": "4a5d380a-1053-4e0f-8d0c-1e199ba2d106",
           "skin": true,
           "navigation": {
             "area": 0,
@@ -30245,7 +30245,7 @@
       "name": "Flag",
       "extras": {
         "metadata": {
-          "guid": "7820fce0-bacd-4b34-9f2b-0448c3263da7",
+          "guid": "f0a5a630-3794-4612-85b7-03ad86654aaa",
           "skin": true,
           "navigation": {
             "area": 0,
@@ -30293,7 +30293,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "56e2f225-1bb3-4a8a-9ffe-c43cabd49e52",
+          "guid": "1c016d7b-4a82-47c0-b71f-ccb936e5fdcc",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -30383,7 +30383,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "221060f4-24be-498b-94b2-28825ac39a46",
+          "guid": "284f2ace-47cf-41db-8444-9c9ef744d46f",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -30473,7 +30473,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "c7ab230f-65ee-41e0-b8ba-0f5b55364892",
+          "guid": "33ca4698-5026-423e-8413-5b058510a0e8",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -30564,7 +30564,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "4090aa59-7307-42b9-a035-f6f6203cdc7f",
+          "guid": "ab562b79-1716-40c3-b36f-4e77907343fe",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -30654,7 +30654,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "40a4accd-8563-4e92-acbb-3034a52388cd",
+          "guid": "01b44a28-d3b1-4f6b-92c4-bdce1315464e",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -30745,7 +30745,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "7bdac7e9-2e3e-4811-957e-9d2050212cf9",
+          "guid": "f5b76634-5fe4-49c2-916c-ef2a64a0a55d",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -30841,7 +30841,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "63eec0ca-3822-47ad-a384-b7976d1231ea",
+          "guid": "8f630cac-c275-43d6-a818-e7d19d80c3af",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -30937,7 +30937,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "50d65c06-fbeb-43df-96ae-8a2bba365f2f",
+          "guid": "8aaefe21-a6d7-4fd7-86be-6aa927bf0a5d",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -31033,7 +31033,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "7c2696d6-ee94-417e-9122-706d8ae673fb",
+          "guid": "a677aabe-4c1b-4a00-b5ea-e235fe8a5df6",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -31129,7 +31129,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "e55e580f-f364-41d8-9295-5467e6d1ce92",
+          "guid": "48104fba-de9f-46cb-9813-a85c935de41d",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -31209,7 +31209,7 @@
       "name": "Atlas-01",
       "extras": {
         "metadata": {
-          "guid": "65d3d121-4998-4cbc-93cc-ee35e1555f96",
+          "guid": "0e7818cd-934e-4284-a0b1-2bafea6bfa06",
           "navigation": {
             "area": 0,
             "links": null
@@ -31245,7 +31245,7 @@
       "name": "Metal",
       "extras": {
         "metadata": {
-          "guid": "b3fe6c95-219e-4067-80b2-099114cf4c5d",
+          "guid": "cbe8788b-98e2-4492-97e9-cdf02df44fdd",
           "navigation": {
             "area": 0,
             "links": null
@@ -31281,7 +31281,7 @@
       "name": "Crane",
       "extras": {
         "metadata": {
-          "guid": "cc88548e-94cb-490b-9dc2-36318b629599",
+          "guid": "7f957573-8357-4e71-b46d-533d7f8c7bec",
           "navigation": {
             "area": 0,
             "links": null
@@ -31317,7 +31317,7 @@
       "name": "ScreenTexture",
       "extras": {
         "metadata": {
-          "guid": "7eae9074-5114-4c28-b943-f7c7dbbf2609",
+          "guid": "e9fd79f8-d390-4675-a72d-8bf542454fbb",
           "navigation": {
             "area": 0,
             "links": null
@@ -31353,7 +31353,7 @@
       "name": "Audience",
       "extras": {
         "metadata": {
-          "guid": "f49a0609-d96c-40b2-864e-ef7122f47d29",
+          "guid": "b750c4f6-ddb6-42e3-980a-50c2da6eb692",
           "navigation": {
             "area": 0,
             "links": null
@@ -31389,7 +31389,7 @@
       "name": "Atlas-02",
       "extras": {
         "metadata": {
-          "guid": "e680f4fd-75ec-4d3e-ad69-0555f2cf3ce9",
+          "guid": "08ccdbaf-76fd-4283-b148-f93b2c9a075c",
           "navigation": {
             "area": 0,
             "links": null
@@ -31425,7 +31425,7 @@
       "name": "Glass",
       "extras": {
         "metadata": {
-          "guid": "3b90f195-1095-49f7-8855-6d243ba6fd31",
+          "guid": "52ff0fe4-de69-4364-816d-86942aa6569a",
           "navigation": {
             "area": 0,
             "links": null
@@ -31479,7 +31479,7 @@
       "name": "C-1-1-(P)(T)",
       "extras": {
         "metadata": {
-          "guid": "141e0007-0663-4494-a332-780bb9877d2b",
+          "guid": "a7825f6f-4f6d-4799-aa15-d337505f073a",
           "navigation": {
             "area": 0,
             "links": null
@@ -31501,7 +31501,7 @@
       "name": "Meshes",
       "extras": {
         "metadata": {
-          "guid": "db916d9a-2c28-4de5-8246-ebdfed7c67ba",
+          "guid": "c344a8ff-30b7-4733-9c37-23b511ab0790",
           "navigation": {
             "area": 0,
             "links": null
@@ -31528,7 +31528,7 @@
       "name": "C-1-1-(P)(T)-Collider",
       "extras": {
         "metadata": {
-          "guid": "dda294dc-455d-4065-89e7-3ec084b29c86",
+          "guid": "3b0f45af-a7d3-4c6b-8288-2ed50cf2b0a1",
           "navigation": {
             "area": 0,
             "links": null
@@ -31542,7 +31542,7 @@
       "name": "NavigationMesh",
       "extras": {
         "metadata": {
-          "guid": "f4e6d1c0-27cc-476c-a7d3-6f8a13aa4191",
+          "guid": "b034adfa-e76e-4521-867b-ae396c3bda68",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -31622,7 +31622,7 @@
       "name": "Collider-Fences",
       "extras": {
         "metadata": {
-          "guid": "30eebcea-685b-432f-b384-12fbade71f43",
+          "guid": "36981d24-936d-4635-90e4-6594af5a500f",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -31703,7 +31703,7 @@
       "name": "Grass",
       "extras": {
         "metadata": {
-          "guid": "22ca620f-0d03-410b-85ee-c43ebd64c22c",
+          "guid": "578fbbbe-f485-4d8d-991d-7a102f2dbd6f",
           "navigation": {
             "area": 0,
             "links": null
@@ -31740,7 +31740,7 @@
       "name": "Road",
       "extras": {
         "metadata": {
-          "guid": "3a880330-9d29-4c7c-bc4d-f0b1eef4cbc7",
+          "guid": "2e872ce8-a113-4a48-897f-b948f2ce2e1d",
           "navigation": {
             "area": 0,
             "links": null
@@ -31777,7 +31777,7 @@
       "name": "Track",
       "extras": {
         "metadata": {
-          "guid": "100e80ae-67e8-44df-ad82-b2d32a5f850d",
+          "guid": "e799db9b-b4f1-47ee-9772-bb4158abe4fe",
           "navigation": {
             "area": 0,
             "links": null
@@ -31814,7 +31814,7 @@
       "name": "Trees",
       "extras": {
         "metadata": {
-          "guid": "e8476aff-dd26-46b5-aec7-93578c409fce",
+          "guid": "f93e056e-6500-4511-af71-f5c4685e5ccb",
           "navigation": {
             "area": 0,
             "links": null
@@ -31850,7 +31850,7 @@
       "name": "Wirefence",
       "extras": {
         "metadata": {
-          "guid": "a4894063-041a-4bf6-b42f-ca1abc239d61",
+          "guid": "c39d8825-5130-4fb0-a609-f5b5d397b52e",
           "navigation": {
             "area": 0,
             "links": null
@@ -31896,7 +31896,7 @@
       "name": "Camera_Point",
       "extras": {
         "metadata": {
-          "guid": "a7d3f236-0b50-4b36-b895-25ddf760c495",
+          "guid": "146aba7b-dc27-4428-bd94-253e22d0893b",
           "navigation": {
             "area": 0,
             "links": null
@@ -31920,7 +31920,7 @@
       "name": "Camera_Point",
       "extras": {
         "metadata": {
-          "guid": "110aef42-5a23-4d00-9cef-8b72759d9287",
+          "guid": "5eced2c6-7dcb-4653-b640-4d19d143dad1",
           "navigation": {
             "area": 0,
             "links": null
@@ -31949,7 +31949,7 @@
       "name": "Camera_Point",
       "extras": {
         "metadata": {
-          "guid": "334d1577-abf3-4108-8548-454f631cc16f",
+          "guid": "6922570b-9013-4dfa-b931-6dd26976407d",
           "navigation": {
             "area": 0,
             "links": null
@@ -31988,7 +31988,7 @@
       "name": "Waypoints",
       "extras": {
         "metadata": {
-          "guid": "0e3eb819-c8e3-47b9-8846-69a4f16324e1",
+          "guid": "57043ec1-2f14-47aa-863d-43d4f309dfca",
           "navigation": {
             "area": 0,
             "links": null
@@ -32012,7 +32012,7 @@
       "name": "Waypoint-1",
       "extras": {
         "metadata": {
-          "guid": "ed8a0277-31cb-4d09-ac79-d64ce9ffdb50",
+          "guid": "2ffbfa39-4d8b-4f15-a7f1-13e790f1d60d",
           "navigation": {
             "area": 0,
             "links": null
@@ -32036,7 +32036,7 @@
       "name": "Waypoint-2",
       "extras": {
         "metadata": {
-          "guid": "b3bedc4b-b15a-44db-a46d-f7c8a591d2f1",
+          "guid": "bc8ee819-2525-4faa-87b5-f37ce1c177eb",
           "navigation": {
             "area": 0,
             "links": null
@@ -32060,7 +32060,7 @@
       "name": "Waypoint-3",
       "extras": {
         "metadata": {
-          "guid": "a18d4491-a633-47dc-9ff9-3f5176d253db",
+          "guid": "18357044-0354-4771-878c-b6ea753ba492",
           "navigation": {
             "area": 0,
             "links": null
@@ -32084,7 +32084,7 @@
       "name": "Waypoint-4",
       "extras": {
         "metadata": {
-          "guid": "fa2a2d9f-b523-41ba-94a9-da2a7ec66435",
+          "guid": "e2f010d4-8b47-47e0-8bc9-650f46956fc0",
           "navigation": {
             "area": 0,
             "links": null
@@ -32108,7 +32108,7 @@
       "name": "Waypoint-5",
       "extras": {
         "metadata": {
-          "guid": "d2eafc8f-37d4-42be-91fd-d8e8d801edf4",
+          "guid": "3c9847cd-6a25-44b4-bba8-32d22b0fc5f0",
           "navigation": {
             "area": 0,
             "links": null
@@ -32132,7 +32132,7 @@
       "name": "Waypoint-6",
       "extras": {
         "metadata": {
-          "guid": "8d948274-ac34-491d-919d-ccb00b6e1a16",
+          "guid": "3aa6a6b9-d722-47f2-b49c-4bc60530a29e",
           "navigation": {
             "area": 0,
             "links": null
@@ -32156,7 +32156,7 @@
       "name": "Waypoint-7",
       "extras": {
         "metadata": {
-          "guid": "5c3a47c6-2a62-4a68-ac4a-211dd2da4a07",
+          "guid": "979886db-aab3-475a-af6d-66f369482535",
           "navigation": {
             "area": 0,
             "links": null
@@ -32180,7 +32180,7 @@
       "name": "Waypoint-8",
       "extras": {
         "metadata": {
-          "guid": "e29030a6-0de5-4536-893e-c3ef011f9eb3",
+          "guid": "335ca704-47ef-4f44-864f-0b635def54d9",
           "navigation": {
             "area": 0,
             "links": null
@@ -32204,7 +32204,7 @@
       "name": "Waypoint-9",
       "extras": {
         "metadata": {
-          "guid": "3c3f8c86-42e0-4a78-9dca-8d3157662fae",
+          "guid": "95db96d4-1c7a-48a0-b8f6-ef6923bfa586",
           "navigation": {
             "area": 0,
             "links": null
@@ -32228,7 +32228,7 @@
       "name": "Waypoint-10",
       "extras": {
         "metadata": {
-          "guid": "550422cd-3eca-4f4a-9d17-7762583e1d28",
+          "guid": "90bcb1f6-2f07-4cbb-8b2b-f7b7eae43c6c",
           "navigation": {
             "area": 0,
             "links": null
@@ -32252,7 +32252,7 @@
       "name": "Waypoint-11",
       "extras": {
         "metadata": {
-          "guid": "3742409b-1d29-4fd6-8416-6fbd970ceccb",
+          "guid": "e16b1afd-9eef-4e96-884a-6c33c9dc57af",
           "navigation": {
             "area": 0,
             "links": null
@@ -32276,7 +32276,7 @@
       "name": "Waypoint-12",
       "extras": {
         "metadata": {
-          "guid": "cb7dc0db-4a9b-455a-af8b-4de9239cb3f0",
+          "guid": "5307918e-b285-4839-9cd1-223882000f9c",
           "navigation": {
             "area": 0,
             "links": null
@@ -32300,7 +32300,7 @@
       "name": "Waypoint-13",
       "extras": {
         "metadata": {
-          "guid": "6dba4ba1-5f32-46a1-a31e-0e9c77086017",
+          "guid": "0909fde5-751f-44c7-bfa7-41aeff84c737",
           "navigation": {
             "area": 0,
             "links": null
@@ -32324,7 +32324,7 @@
       "name": "Waypoint-14",
       "extras": {
         "metadata": {
-          "guid": "da1d50fa-5e93-4b6f-999e-6f7867a3b68c",
+          "guid": "5013c658-8712-4ed4-ae7d-fd07d9151c58",
           "navigation": {
             "area": 0,
             "links": null
@@ -32348,7 +32348,7 @@
       "name": "Waypoint-15",
       "extras": {
         "metadata": {
-          "guid": "73e03250-1ffc-44c1-a093-cddc70213871",
+          "guid": "484c3425-9599-4ebb-a571-542c8ab478d8",
           "navigation": {
             "area": 0,
             "links": null
@@ -32372,7 +32372,7 @@
       "name": "Waypoint-16",
       "extras": {
         "metadata": {
-          "guid": "c340d478-b021-4492-abdc-df1e2c82c6f2",
+          "guid": "7f38eb63-d626-4860-a818-65d832da38ed",
           "navigation": {
             "area": 0,
             "links": null
@@ -32396,7 +32396,7 @@
       "name": "Waypoint-17",
       "extras": {
         "metadata": {
-          "guid": "2ae47f1d-4d79-45bb-8f51-bf5fb01483f7",
+          "guid": "e6f330fb-07a4-40ea-b480-219d48231c8d",
           "navigation": {
             "area": 0,
             "links": null
@@ -32420,7 +32420,7 @@
       "name": "Waypoint-18",
       "extras": {
         "metadata": {
-          "guid": "203cece3-9c37-46d6-b03e-77660988157c",
+          "guid": "7371833e-a2e9-4cf5-b28e-59da97efb0b8",
           "navigation": {
             "area": 0,
             "links": null
@@ -32444,7 +32444,7 @@
       "name": "Waypoint-19",
       "extras": {
         "metadata": {
-          "guid": "09bfd6e6-c01d-46eb-9819-0f1a66f7b43f",
+          "guid": "e0b9f181-1552-4034-b884-1b777c9eb256",
           "navigation": {
             "area": 0,
             "links": null
@@ -32468,7 +32468,7 @@
       "name": "Waypoint-20",
       "extras": {
         "metadata": {
-          "guid": "474b6e19-1e11-410e-9818-8b0b96ef10e5",
+          "guid": "3f7cea0a-ff26-4353-8959-bedbe2dff2c1",
           "navigation": {
             "area": 0,
             "links": null
@@ -32492,7 +32492,7 @@
       "name": "Waypoint-21",
       "extras": {
         "metadata": {
-          "guid": "2877aa67-2c39-4304-b36a-de87ab644b01",
+          "guid": "0013e082-a898-4826-8947-70a0e3205e24",
           "navigation": {
             "area": 0,
             "links": null
@@ -32516,7 +32516,7 @@
       "name": "Waypoint-22",
       "extras": {
         "metadata": {
-          "guid": "48250437-4597-4fab-aa26-a1e1348ec896",
+          "guid": "a5b32eea-1b4b-407a-a31c-5771ddd1d1c9",
           "navigation": {
             "area": 0,
             "links": null
@@ -32540,7 +32540,7 @@
       "name": "Waypoint-23",
       "extras": {
         "metadata": {
-          "guid": "c9135c41-d1a3-41f0-85dd-f7cd85f73f12",
+          "guid": "0a98d123-a67e-485e-9dcf-d46a1e867aa1",
           "navigation": {
             "area": 0,
             "links": null
@@ -32564,7 +32564,7 @@
       "name": "Waypoint-24",
       "extras": {
         "metadata": {
-          "guid": "905afa9f-c799-44bc-8f02-2de97c831a06",
+          "guid": "8440c9b7-1e53-44da-a8bd-cb7a10387544",
           "navigation": {
             "area": 0,
             "links": null
@@ -32588,7 +32588,7 @@
       "name": "Combined meshes",
       "extras": {
         "metadata": {
-          "guid": "9f1bcafb-4c85-4bb8-b5d9-2c244165e3d3",
+          "guid": "f3d46dde-ab4f-4af3-8fb2-9bd345a0aa18",
           "navigation": {
             "area": 0,
             "links": null
@@ -32613,7 +32613,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "a2ba114e-0fe9-4105-9722-47aaf2bce019",
+          "guid": "aa9fb876-d1bb-4075-8ae7-0bac6d0859dc",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -32704,7 +32704,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "3b651d02-71d4-46e8-a9bb-0d6964fcb089",
+          "guid": "b65f1a0e-ff13-4d90-a18d-87feda44523c",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -32795,7 +32795,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "f7cf0662-cceb-4206-9f6f-e679db2e6ae4",
+          "guid": "09712ef3-f97e-457c-b7b8-552137f2dd22",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -32886,7 +32886,7 @@
       "name": "BoxCollider",
       "extras": {
         "metadata": {
-          "guid": "56f89f70-084b-449d-a02e-3d2944b4b739",
+          "guid": "9369be41-dc4c-4f10-a399-918acf6eff4c",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -32966,7 +32966,7 @@
       "name": "Atlas-01",
       "extras": {
         "metadata": {
-          "guid": "1e2d5416-ad92-40ef-9316-ac98c8d519d1",
+          "guid": "0ebc1cdc-3454-49fc-9eb2-bd70b7cdaf8a",
           "navigation": {
             "area": 0,
             "links": null
@@ -33002,7 +33002,7 @@
       "name": "Metal",
       "extras": {
         "metadata": {
-          "guid": "f2efd8e5-567e-4df1-96c1-105f0529415a",
+          "guid": "5b379204-403f-4c50-ad82-101d54a7f3d7",
           "navigation": {
             "area": 0,
             "links": null
@@ -33038,7 +33038,7 @@
       "name": "Crane",
       "extras": {
         "metadata": {
-          "guid": "dbbcad3e-3e71-46c5-be6e-818a9753fa00",
+          "guid": "48d0d546-d452-4b66-90b6-e3e486b21a6f",
           "navigation": {
             "area": 0,
             "links": null
@@ -33078,7 +33078,7 @@
       "name": "Audience",
       "extras": {
         "metadata": {
-          "guid": "f3c3cf69-e807-4029-bce4-72fd6cc2f63c",
+          "guid": "84d44f9b-d062-46fd-ad40-8e07afdb6186",
           "navigation": {
             "area": 0,
             "links": null
@@ -33130,7 +33130,7 @@
       "name": "Sound-Audience",
       "extras": {
         "metadata": {
-          "guid": "658c6ecc-2a26-4c5b-959e-b3275abe8774",
+          "guid": "c29c52b1-6429-4903-8c51-523d9154296b",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -33145,7 +33145,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "Sound-Audience",
-                "file": "assets/resource/masterpixel3d/rtg/contents/grandstands/sound/Audience.wav",
+                "file": "assets/resource/masterpixel3d/rtg/contents/grandstands/sound/audience.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 1.0,
@@ -33186,7 +33186,7 @@
       "name": "Sound-Audience",
       "extras": {
         "metadata": {
-          "guid": "81ec95ed-e900-456d-8909-507aac7a6536",
+          "guid": "e4fa03dc-4217-4969-ba16-88364ca9b2f0",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -33201,7 +33201,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "Sound-Audience",
-                "file": "assets/resource/masterpixel3d/rtg/contents/grandstands/sound/Audience.wav",
+                "file": "assets/resource/masterpixel3d/rtg/contents/grandstands/sound/audience.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 1.0,
@@ -33231,7 +33231,7 @@
       "name": "Atlas-02",
       "extras": {
         "metadata": {
-          "guid": "dec897ee-369d-4240-9624-3fdc547b76fc",
+          "guid": "75678d90-7964-4d77-ad95-392401960ea9",
           "navigation": {
             "area": 0,
             "links": null
@@ -33283,7 +33283,7 @@
       "name": "R-1-1-B-01",
       "extras": {
         "metadata": {
-          "guid": "547c2468-9eb1-41e5-8b01-c8eb8f2a1d0a",
+          "guid": "75a94f80-8d41-41eb-a1be-3e6b7bec418f",
           "navigation": {
             "area": 0,
             "links": null
@@ -33306,7 +33306,7 @@
       "name": "Meshes",
       "extras": {
         "metadata": {
-          "guid": "b81c9d78-e534-4db8-9f59-a06c5c0dbd78",
+          "guid": "4f884dbb-8e09-4293-8088-bf40fcd99c37",
           "navigation": {
             "area": 0,
             "links": null
@@ -33325,7 +33325,7 @@
       "name": "Collider-Fences",
       "extras": {
         "metadata": {
-          "guid": "7e73bbf9-f542-4c32-9759-bf2c862134fd",
+          "guid": "7239bc11-f780-4c6b-b450-5941690d77b2",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -33411,7 +33411,7 @@
       "name": "Collider-Grass",
       "extras": {
         "metadata": {
-          "guid": "84588577-ef6f-4e93-9322-cd57cb201226",
+          "guid": "9596c0a3-653b-406b-8242-a9c69556f468",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -33497,7 +33497,7 @@
       "name": "Collider-Road",
       "extras": {
         "metadata": {
-          "guid": "d6279f40-9d95-4843-9fca-9b8b930b0e49",
+          "guid": "0de86da0-8750-40c0-9435-1e83fac02702",
           "visible": false,
           "visibility": 0.5,
           "layer": 9,
@@ -33585,7 +33585,7 @@
       "name": "Grass",
       "extras": {
         "metadata": {
-          "guid": "0673efbe-8914-414d-a9f0-6a8c49964de5",
+          "guid": "ceb8b8b6-f193-42c7-9d4f-33c160dc37cb",
           "navigation": {
             "area": 0,
             "links": null
@@ -33627,7 +33627,7 @@
       "name": "Road",
       "extras": {
         "metadata": {
-          "guid": "cd7c13e5-2275-4d61-b9d3-93e1c73a9d96",
+          "guid": "df720585-29dc-4422-9653-544ce8ff1911",
           "navigation": {
             "area": 0,
             "links": null
@@ -33669,7 +33669,7 @@
       "name": "Track",
       "extras": {
         "metadata": {
-          "guid": "2497ad8d-cdca-43ec-8119-1c3dcab2a056",
+          "guid": "80ba3cda-6797-4236-9183-903f6aba6865",
           "navigation": {
             "area": 0,
             "links": null
@@ -33711,7 +33711,7 @@
       "name": "Trees",
       "extras": {
         "metadata": {
-          "guid": "1cea8c3f-afa2-4c8d-b021-b8d1e8f3b94f",
+          "guid": "dd9bdb4b-a5c9-42a2-8fee-1cd30c3d26ec",
           "navigation": {
             "area": 0,
             "links": null
@@ -33752,7 +33752,7 @@
       "name": "Wirefence",
       "extras": {
         "metadata": {
-          "guid": "43427ac3-378a-41d4-8522-40c9c94e96d8",
+          "guid": "9ced17c8-ef16-4dd7-85e0-51b2bb041c5c",
           "navigation": {
             "area": 0,
             "links": null
@@ -33798,7 +33798,7 @@
       "name": "Camera_Point",
       "extras": {
         "metadata": {
-          "guid": "472a9380-3443-4277-8b89-4eb775143837",
+          "guid": "abf6daf1-66aa-4f5c-9a29-0e7f24af751b",
           "navigation": {
             "area": 0,
             "links": null
@@ -33817,7 +33817,7 @@
       "name": "Waypoints",
       "extras": {
         "metadata": {
-          "guid": "de878624-b33c-4f59-b5b8-229ce4669fd6",
+          "guid": "bb50bc1e-62cb-45c9-ab99-ae7547e986d9",
           "navigation": {
             "area": 0,
             "links": null
@@ -33841,7 +33841,7 @@
       "name": "Waypoint-1",
       "extras": {
         "metadata": {
-          "guid": "bfc4c78c-d9d6-4e6c-87d1-b965291846ca",
+          "guid": "dcdc2033-6510-47bc-8366-ea3794a459b6",
           "navigation": {
             "area": 0,
             "links": null
@@ -33865,7 +33865,7 @@
       "name": "Waypoint-2",
       "extras": {
         "metadata": {
-          "guid": "d4b09237-23b4-43e3-9cf9-f315b4727e6c",
+          "guid": "40aac588-68b6-43b0-b9ca-9f6b1e92ea09",
           "navigation": {
             "area": 0,
             "links": null
@@ -33889,7 +33889,7 @@
       "name": "Waypoint-3",
       "extras": {
         "metadata": {
-          "guid": "272c74dc-b0c5-496b-bc5b-3e68109ca6f1",
+          "guid": "8cfe3a58-2c98-4021-b007-49cfcba358c1",
           "navigation": {
             "area": 0,
             "links": null
@@ -33913,7 +33913,7 @@
       "name": "Waypoint-4",
       "extras": {
         "metadata": {
-          "guid": "61288e2d-8d25-4d10-8918-2da819db5086",
+          "guid": "2b1df3ee-f6b9-4632-b3ec-8c11c7eb993b",
           "navigation": {
             "area": 0,
             "links": null
@@ -33934,7 +33934,7 @@
       "name": "Combined meshes",
       "extras": {
         "metadata": {
-          "guid": "5337d693-9ac3-49a5-b989-47eb85b64758",
+          "guid": "18145fe5-ca7f-4fc0-8299-1c57e0104ddf",
           "navigation": {
             "area": 0,
             "links": null
@@ -33948,7 +33948,7 @@
       "name": "Atlas-01",
       "extras": {
         "metadata": {
-          "guid": "59601fb8-5a57-4890-a047-6fcc08327a2b",
+          "guid": "66c00025-9ff1-4e86-b0ea-ac751985004c",
           "navigation": {
             "area": 0,
             "links": null
@@ -34000,7 +34000,7 @@
       "name": "C-1-1-(T)",
       "extras": {
         "metadata": {
-          "guid": "d43fd796-f8ea-4b16-99fa-13ed4df2f2db",
+          "guid": "0e7e0840-1cd2-49c3-a5af-4bdc8e930a6a",
           "navigation": {
             "area": 0,
             "links": null
@@ -34020,7 +34020,7 @@
       "name": "Meshes",
       "extras": {
         "metadata": {
-          "guid": "a8da494b-98a5-4f49-9ce1-a69b1dde7bce",
+          "guid": "27de8ee7-6952-4bd4-aaff-3f53df0c89a9",
           "navigation": {
             "area": 0,
             "links": null
@@ -34041,7 +34041,7 @@
       "name": "C-1-1-(T)-Collider",
       "extras": {
         "metadata": {
-          "guid": "75a68d00-36ad-4424-a9b9-60e0855023f1",
+          "guid": "7cbc4a3e-f73e-4264-b2eb-fe6061889c62",
           "navigation": {
             "area": 0,
             "links": null
@@ -34060,7 +34060,7 @@
       "name": "NavigationMesh",
       "extras": {
         "metadata": {
-          "guid": "fea3562e-ad0e-4a38-9d75-1050441d278e",
+          "guid": "67d2ee5c-177c-456c-a8b9-31116951cb8e",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -34140,7 +34140,7 @@
       "name": "Collider-Fences",
       "extras": {
         "metadata": {
-          "guid": "bba6dbc2-925e-4cb1-b6c9-d6f3bc39f94f",
+          "guid": "8d2001b2-033f-42ab-8e5f-c83d612485e3",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -34221,7 +34221,7 @@
       "name": "Grass",
       "extras": {
         "metadata": {
-          "guid": "72fdba49-e61e-47f9-9ae9-f1d5c262c191",
+          "guid": "84de33d2-b237-438e-9988-d34c72650eca",
           "navigation": {
             "area": 0,
             "links": null
@@ -34258,7 +34258,7 @@
       "name": "Road",
       "extras": {
         "metadata": {
-          "guid": "37698aa0-fa3a-4291-8bac-0298abea613f",
+          "guid": "2ea6ddad-ccdc-45a5-9774-c30771476ccc",
           "navigation": {
             "area": 0,
             "links": null
@@ -34295,7 +34295,7 @@
       "name": "Track",
       "extras": {
         "metadata": {
-          "guid": "e8e47031-d656-4eb2-b47b-e7a294d26c51",
+          "guid": "d4d4dace-874a-4ed4-af5e-a47955856c82",
           "navigation": {
             "area": 0,
             "links": null
@@ -34334,7 +34334,7 @@
       "name": "Objects",
       "extras": {
         "metadata": {
-          "guid": "1d0bbb55-7cf0-457c-99e2-130a93a243b2",
+          "guid": "6a200c1d-291c-47d1-99cf-77ccc1a37246",
           "navigation": {
             "area": 0,
             "links": null
@@ -34347,7 +34347,7 @@
       "name": "AutoDisabledOnMobile",
       "extras": {
         "metadata": {
-          "guid": "3c8c7420-6bbf-4821-a7d1-9dc4b14c0ac7",
+          "guid": "d847608d-dc33-4cf6-888a-7aa35b6f80bd",
           "navigation": {
             "area": 0,
             "links": null
@@ -34376,7 +34376,7 @@
       "name": "Waypoints",
       "extras": {
         "metadata": {
-          "guid": "b2df5baa-28d8-4070-b697-f47ab24d8b4d",
+          "guid": "84f11ad5-48d5-4614-8f2a-200b58a39781",
           "navigation": {
             "area": 0,
             "links": null
@@ -34400,7 +34400,7 @@
       "name": "Waypoint-1",
       "extras": {
         "metadata": {
-          "guid": "4f51781c-af1e-4802-9fcb-a73e7229d155",
+          "guid": "f7e89de6-1f14-40ae-af8e-b8894e134ca8",
           "navigation": {
             "area": 0,
             "links": null
@@ -34424,7 +34424,7 @@
       "name": "Waypoint-2",
       "extras": {
         "metadata": {
-          "guid": "531a8442-594f-4813-8122-fb84a770b412",
+          "guid": "f1a8b736-56bc-4bc6-8bfe-d1598ad549c6",
           "navigation": {
             "area": 0,
             "links": null
@@ -34448,7 +34448,7 @@
       "name": "Waypoint-3",
       "extras": {
         "metadata": {
-          "guid": "35a1b1bc-8b4e-461f-8e6f-9902b37ead37",
+          "guid": "85b34df0-b908-4594-aa3e-ffd2722baff4",
           "navigation": {
             "area": 0,
             "links": null
@@ -34472,7 +34472,7 @@
       "name": "Waypoint-4",
       "extras": {
         "metadata": {
-          "guid": "b1a4a912-ae68-47b4-95a1-3b939f00b636",
+          "guid": "8c520046-a0a4-456d-92e7-c106fadcdffe",
           "navigation": {
             "area": 0,
             "links": null
@@ -34496,7 +34496,7 @@
       "name": "Waypoint-5",
       "extras": {
         "metadata": {
-          "guid": "eb0e44d5-5625-4af1-94b6-b954f5bc61ec",
+          "guid": "f3fe065b-8f01-432d-8c50-5d583a6c9099",
           "navigation": {
             "area": 0,
             "links": null
@@ -34520,7 +34520,7 @@
       "name": "Waypoint-6",
       "extras": {
         "metadata": {
-          "guid": "0086b39d-b50a-4795-a157-e4ce352e0615",
+          "guid": "35da438c-e505-483f-abbe-746657b1e607",
           "navigation": {
             "area": 0,
             "links": null
@@ -34544,7 +34544,7 @@
       "name": "Waypoint-7",
       "extras": {
         "metadata": {
-          "guid": "54afd212-22d9-4839-8173-104d6fd33686",
+          "guid": "260a0aff-c6e6-4adc-a377-5e5eb290e6e7",
           "navigation": {
             "area": 0,
             "links": null
@@ -34568,7 +34568,7 @@
       "name": "Waypoint-8",
       "extras": {
         "metadata": {
-          "guid": "405e1e8a-8d56-4135-b497-70d1e451382d",
+          "guid": "2359a10a-86b9-4d30-9f9f-802e909b3059",
           "navigation": {
             "area": 0,
             "links": null
@@ -34592,7 +34592,7 @@
       "name": "Waypoint-9",
       "extras": {
         "metadata": {
-          "guid": "d4282a2c-f5bf-4c34-9a55-9c3764880a20",
+          "guid": "baf1d6c0-617c-4186-8373-698cd6fabb91",
           "navigation": {
             "area": 0,
             "links": null
@@ -34616,7 +34616,7 @@
       "name": "Waypoint-10",
       "extras": {
         "metadata": {
-          "guid": "e65fb139-3b24-4335-a920-833de934f8c6",
+          "guid": "c2f8b71e-ef35-4c65-bb02-b57186aa1e52",
           "navigation": {
             "area": 0,
             "links": null
@@ -34640,7 +34640,7 @@
       "name": "Waypoint-11",
       "extras": {
         "metadata": {
-          "guid": "d161def8-0987-41c2-82de-71b743789437",
+          "guid": "484b2ccd-4395-4131-a3c3-16880125649b",
           "navigation": {
             "area": 0,
             "links": null
@@ -34664,7 +34664,7 @@
       "name": "Waypoint-12",
       "extras": {
         "metadata": {
-          "guid": "11b8298d-4a7d-42a9-baab-9daac550b086",
+          "guid": "6e1332d7-9e22-4120-8e47-df130a157d29",
           "navigation": {
             "area": 0,
             "links": null
@@ -34688,7 +34688,7 @@
       "name": "Waypoint-13",
       "extras": {
         "metadata": {
-          "guid": "1c7313d0-d9f5-4cec-ad1d-c546dc605399",
+          "guid": "b30010f5-f9f6-4496-b6c3-2ac9093462ab",
           "navigation": {
             "area": 0,
             "links": null
@@ -34712,7 +34712,7 @@
       "name": "Waypoint-14",
       "extras": {
         "metadata": {
-          "guid": "f51f29ae-b46a-4847-b592-efe9a5b94c3c",
+          "guid": "00a6dc44-97ee-410c-a69e-57e8bc68eb46",
           "navigation": {
             "area": 0,
             "links": null
@@ -34730,7 +34730,7 @@
       "name": "Combined meshes",
       "extras": {
         "metadata": {
-          "guid": "ffa42a90-1d48-44e9-8c8a-80c0bdba6f15",
+          "guid": "f2837e9b-6e74-47a4-8b4c-91f2f825d896",
           "navigation": {
             "area": 0,
             "links": null
@@ -34753,7 +34753,7 @@
       "name": "C-1-3-A",
       "extras": {
         "metadata": {
-          "guid": "c0b2180e-a805-45ac-aad0-539b54ffdf9d",
+          "guid": "2540a2d8-8943-4d14-8e65-cb68281d05fc",
           "navigation": {
             "area": 0,
             "links": null
@@ -34777,7 +34777,7 @@
       "name": "Meshes",
       "extras": {
         "metadata": {
-          "guid": "a497841f-2687-442c-81dd-bad836cc5fde",
+          "guid": "1e235531-ef4e-43ce-87ab-5934848feca9",
           "navigation": {
             "area": 0,
             "links": null
@@ -34791,7 +34791,7 @@
       "name": "Collider-Curbs",
       "extras": {
         "metadata": {
-          "guid": "e67ae75e-0e54-4eb8-b24e-635c23f74088",
+          "guid": "fff015e8-0769-4d0f-911a-2099eb289b28",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -34871,7 +34871,7 @@
       "name": "Collider-Fences",
       "extras": {
         "metadata": {
-          "guid": "7df1587b-92f8-43ea-8e3f-eda3d42f25dd",
+          "guid": "a4d41e9a-ec83-4a1b-bca4-a1ead53a7326",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -34952,7 +34952,7 @@
       "name": "Collider-Grass",
       "extras": {
         "metadata": {
-          "guid": "bbcb6ac6-11d0-4d21-bdac-dfb6a2e8c108",
+          "guid": "13204d9c-3033-4ca2-b067-ae07d8bfc2c3",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -35033,7 +35033,7 @@
       "name": "Collider-Road",
       "extras": {
         "metadata": {
-          "guid": "4de86d7b-3b85-4b33-9cb8-42497909092b",
+          "guid": "e4b6e723-5741-4de2-9160-44a102ed23cf",
           "visible": false,
           "visibility": 0.5,
           "layer": 9,
@@ -35116,7 +35116,7 @@
       "name": "Grass",
       "extras": {
         "metadata": {
-          "guid": "1785b3d5-6dfb-47c2-8d2d-22c8ecfc2e5f",
+          "guid": "2324d92d-b9f1-4cfe-870f-9d4b98b5f7dc",
           "navigation": {
             "area": 0,
             "links": null
@@ -35153,7 +35153,7 @@
       "name": "Road",
       "extras": {
         "metadata": {
-          "guid": "663ac540-691c-466c-afc3-13e06f35dbe0",
+          "guid": "4005891c-affc-4fd0-ae49-039d36f968c6",
           "navigation": {
             "area": 0,
             "links": null
@@ -35190,7 +35190,7 @@
       "name": "Track",
       "extras": {
         "metadata": {
-          "guid": "067fd920-8a5f-4c69-ac98-94be264abddc",
+          "guid": "ae33f3a7-8660-4f8c-838d-1ed4aef87076",
           "navigation": {
             "area": 0,
             "links": null
@@ -35227,7 +35227,7 @@
       "name": "Trees",
       "extras": {
         "metadata": {
-          "guid": "e23ccf48-5f66-4dab-849c-99e93c3929ab",
+          "guid": "10643f28-5816-46b9-bb78-da4ad61780f3",
           "navigation": {
             "area": 0,
             "links": null
@@ -35263,7 +35263,7 @@
       "name": "Wirefence",
       "extras": {
         "metadata": {
-          "guid": "1c39f398-42b9-416a-96f8-cb133b220109",
+          "guid": "17cbfd0a-f4eb-46d9-a900-3d2c25769cb3",
           "navigation": {
             "area": 0,
             "links": null
@@ -35316,7 +35316,7 @@
       "name": "Waypoints",
       "extras": {
         "metadata": {
-          "guid": "a7374b0b-93a5-41c0-a01a-4313d72511f8",
+          "guid": "04ea69c9-7944-45b6-8436-a82738202700",
           "navigation": {
             "area": 0,
             "links": null
@@ -35340,7 +35340,7 @@
       "name": "Waypoint-1",
       "extras": {
         "metadata": {
-          "guid": "be7181ec-1c0d-44a7-bd70-b1c07749bc93",
+          "guid": "914a4ecd-4e43-4121-bda2-e9b549c36a6f",
           "navigation": {
             "area": 0,
             "links": null
@@ -35364,7 +35364,7 @@
       "name": "Waypoint-2",
       "extras": {
         "metadata": {
-          "guid": "70a4bd30-0c99-410e-b76f-bc97afe53363",
+          "guid": "7b10ab76-962a-469d-95b8-0390f8c8d3fc",
           "navigation": {
             "area": 0,
             "links": null
@@ -35388,7 +35388,7 @@
       "name": "Waypoint-3",
       "extras": {
         "metadata": {
-          "guid": "2c95f6be-4e31-4b20-9853-84172b1b282e",
+          "guid": "0a6a607c-b1b0-4052-888a-7a732332b0b9",
           "navigation": {
             "area": 0,
             "links": null
@@ -35412,7 +35412,7 @@
       "name": "Waypoint-4",
       "extras": {
         "metadata": {
-          "guid": "7d938fa3-e270-4eb2-be29-b5151e4769eb",
+          "guid": "3093fd31-520d-4f86-bd27-13584ef50174",
           "navigation": {
             "area": 0,
             "links": null
@@ -35436,7 +35436,7 @@
       "name": "Waypoint-5",
       "extras": {
         "metadata": {
-          "guid": "4ba0b4c0-3ba9-4041-95d3-2dc8f08d0e61",
+          "guid": "cd28de4f-4b1f-4d2f-9a6f-401c0a0d0ca8",
           "navigation": {
             "area": 0,
             "links": null
@@ -35460,7 +35460,7 @@
       "name": "Waypoint-6",
       "extras": {
         "metadata": {
-          "guid": "02015417-5b87-4cdf-bca8-33fb9344c538",
+          "guid": "3138df41-205f-467f-ab66-f6833c9ebafc",
           "navigation": {
             "area": 0,
             "links": null
@@ -35484,7 +35484,7 @@
       "name": "Waypoint-7",
       "extras": {
         "metadata": {
-          "guid": "0c0fdd32-070c-4187-bc41-f2b0fb399bbf",
+          "guid": "112cf0ff-cd3e-4b85-a31f-bf58ddf7c346",
           "navigation": {
             "area": 0,
             "links": null
@@ -35508,7 +35508,7 @@
       "name": "Waypoint-8",
       "extras": {
         "metadata": {
-          "guid": "5cfb6a02-e062-40e9-b928-0ba6c2612f42",
+          "guid": "3811501a-ffff-439d-9da6-53b2d8bb2ebd",
           "navigation": {
             "area": 0,
             "links": null
@@ -35532,7 +35532,7 @@
       "name": "Waypoint-9",
       "extras": {
         "metadata": {
-          "guid": "75981b71-1559-43ef-adc9-0d3b81ba2854",
+          "guid": "0e6834fb-0dfc-4c89-9135-63b8ad0e73fb",
           "navigation": {
             "area": 0,
             "links": null
@@ -35556,7 +35556,7 @@
       "name": "Waypoint-10",
       "extras": {
         "metadata": {
-          "guid": "ce9f8d27-a8e1-4255-915f-ebe4c34719a9",
+          "guid": "6878b1b1-a3e2-4383-bffa-c749f4d0f392",
           "navigation": {
             "area": 0,
             "links": null
@@ -35580,7 +35580,7 @@
       "name": "Waypoint-11",
       "extras": {
         "metadata": {
-          "guid": "062a66fb-ed60-4e6b-b1a7-e535b01e9738",
+          "guid": "3aa531ef-ba9b-480e-a939-b962ec7e58e4",
           "navigation": {
             "area": 0,
             "links": null
@@ -35604,7 +35604,7 @@
       "name": "Waypoint-12",
       "extras": {
         "metadata": {
-          "guid": "87a7e353-c0df-4894-9764-4c1c28d4ae59",
+          "guid": "e1a93c01-c5d9-4fc3-8cb2-43b491f80553",
           "navigation": {
             "area": 0,
             "links": null
@@ -35628,7 +35628,7 @@
       "name": "Waypoint-13",
       "extras": {
         "metadata": {
-          "guid": "38d52e61-7719-4556-97ab-64d1bf0a6970",
+          "guid": "22cbd2df-91ac-44d5-83e3-a6f0778982ff",
           "navigation": {
             "area": 0,
             "links": null
@@ -35652,7 +35652,7 @@
       "name": "Waypoint-14",
       "extras": {
         "metadata": {
-          "guid": "faf72bf5-b947-478e-b1f0-1c5e0409039a",
+          "guid": "28227371-ed44-4be0-b4b3-7b1e077b65be",
           "navigation": {
             "area": 0,
             "links": null
@@ -35676,7 +35676,7 @@
       "name": "Waypoint-15",
       "extras": {
         "metadata": {
-          "guid": "30bbe95e-001e-4b15-b8f0-c12d76455815",
+          "guid": "898fa57d-8b50-43cf-b3ad-315e7d8145e7",
           "navigation": {
             "area": 0,
             "links": null
@@ -35700,7 +35700,7 @@
       "name": "Waypoint-16",
       "extras": {
         "metadata": {
-          "guid": "13c7c4a9-a2b2-4272-aa16-55b940aa5ed6",
+          "guid": "65f1e122-0ded-411f-bbe9-e3e92546cc9a",
           "navigation": {
             "area": 0,
             "links": null
@@ -35720,7 +35720,7 @@
       "name": "Combined meshes",
       "extras": {
         "metadata": {
-          "guid": "73c7c7b2-8649-4368-8094-0d740f7c33e2",
+          "guid": "6c6b719e-c60a-42c5-bd58-879cf9a74967",
           "navigation": {
             "area": 0,
             "links": null
@@ -35734,7 +35734,7 @@
       "name": "Audience",
       "extras": {
         "metadata": {
-          "guid": "3c7993af-9bd8-48b8-ab26-d48eaab97840",
+          "guid": "42951962-e496-4d06-87bc-aa9076d15a4f",
           "navigation": {
             "area": 0,
             "links": null
@@ -35770,7 +35770,7 @@
       "name": "Atlas-01",
       "extras": {
         "metadata": {
-          "guid": "7fb69e47-3033-4b10-af7b-8ec1ebfc9d53",
+          "guid": "2d5cccb5-0120-4a35-9dca-8925a370f3aa",
           "navigation": {
             "area": 0,
             "links": null
@@ -35806,7 +35806,7 @@
       "name": "OutDoor-01",
       "extras": {
         "metadata": {
-          "guid": "07bc8012-b00b-498e-b1e5-2165831f2832",
+          "guid": "de47aaa6-f802-4f4d-9e0a-1e57693bc667",
           "navigation": {
             "area": 0,
             "links": null
@@ -35842,7 +35842,7 @@
       "name": "Metal",
       "extras": {
         "metadata": {
-          "guid": "aeab8662-f48f-408c-9373-eabb9f900abe",
+          "guid": "95ffcf09-c568-4efe-bf47-2339e90a258f",
           "navigation": {
             "area": 0,
             "links": null
@@ -35878,7 +35878,7 @@
       "name": "Atlas-02",
       "extras": {
         "metadata": {
-          "guid": "1a0b9799-d8a4-4774-9ac7-eec1f4010113",
+          "guid": "2d2c5f4b-fed9-4622-bd6e-587913c5fe2a",
           "navigation": {
             "area": 0,
             "links": null
@@ -35929,7 +35929,7 @@
       "name": "C-3-1-S(A)",
       "extras": {
         "metadata": {
-          "guid": "f570cd90-1e6d-4e04-af45-7538b68bfeba",
+          "guid": "531be930-8c49-4c50-9cb7-5249706bb438",
           "navigation": {
             "area": 0,
             "links": null
@@ -35953,7 +35953,7 @@
       "name": "Meshes",
       "extras": {
         "metadata": {
-          "guid": "767e10b2-164f-4e63-bcc6-8bd57ad7ba2c",
+          "guid": "6a31c2b6-4240-4869-92ba-961dcc71fafc",
           "navigation": {
             "area": 0,
             "links": null
@@ -35967,7 +35967,7 @@
       "name": "Collider-Curbs",
       "extras": {
         "metadata": {
-          "guid": "0eb7d559-5c70-4281-bbb7-6547ea5c7b07",
+          "guid": "f5870a0b-a4ba-4569-9d9d-fc6b00df9c85",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -36047,7 +36047,7 @@
       "name": "Collider-Fences",
       "extras": {
         "metadata": {
-          "guid": "bf661d20-dd56-4a68-a989-f2c6c6a9366b",
+          "guid": "87827e1b-752f-4e1c-b2af-1dd13338e119",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -36128,7 +36128,7 @@
       "name": "Collider-Grass",
       "extras": {
         "metadata": {
-          "guid": "0d144264-e50b-4257-83c4-11d33f916f47",
+          "guid": "44b2cea4-e08b-42de-933e-f0251a05cf10",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -36209,7 +36209,7 @@
       "name": "Collider-Road",
       "extras": {
         "metadata": {
-          "guid": "6ff599b5-6b61-49e7-9ff9-176789653326",
+          "guid": "37d8f5d3-4632-4092-9c25-187260cafc69",
           "visible": false,
           "visibility": 0.5,
           "layer": 9,
@@ -36292,7 +36292,7 @@
       "name": "Grass",
       "extras": {
         "metadata": {
-          "guid": "6ee5687e-5e32-4ab2-98e7-6b2fb57f16d3",
+          "guid": "2dea8043-02be-4661-b1b8-dd9da55f05ea",
           "navigation": {
             "area": 0,
             "links": null
@@ -36329,7 +36329,7 @@
       "name": "Road",
       "extras": {
         "metadata": {
-          "guid": "2291d100-b79d-4c91-b274-789665554a30",
+          "guid": "ad99cdd3-db1e-4976-9ecb-ea2e1f7404ba",
           "navigation": {
             "area": 0,
             "links": null
@@ -36366,7 +36366,7 @@
       "name": "Track",
       "extras": {
         "metadata": {
-          "guid": "6bfd5c3f-94c1-4727-80ab-a7ed9f87fc9f",
+          "guid": "05fda0a6-60be-4240-8f0e-b9473b098664",
           "navigation": {
             "area": 0,
             "links": null
@@ -36403,7 +36403,7 @@
       "name": "Trees",
       "extras": {
         "metadata": {
-          "guid": "d1b08bb2-70ab-4d40-a3fb-15b01a5ba172",
+          "guid": "5df50f03-4291-4d56-bd0d-e1efe4d1207f",
           "navigation": {
             "area": 0,
             "links": null
@@ -36439,7 +36439,7 @@
       "name": "Wirefence",
       "extras": {
         "metadata": {
-          "guid": "cf6ad156-b96f-48b9-95ba-5bf671547316",
+          "guid": "ac625aba-7c0d-42bb-b72a-910923cda688",
           "navigation": {
             "area": 0,
             "links": null
@@ -36493,7 +36493,7 @@
       "name": "Waypoints",
       "extras": {
         "metadata": {
-          "guid": "1ae1ca6e-9f56-4cde-92b2-da8d694e50da",
+          "guid": "7c2a3f24-2b1d-49fd-b194-d754f9aa0abf",
           "navigation": {
             "area": 0,
             "links": null
@@ -36517,7 +36517,7 @@
       "name": "Waypoint-1",
       "extras": {
         "metadata": {
-          "guid": "e44998fb-29dd-431a-bf99-192e1f428852",
+          "guid": "8f98d052-68af-4c0b-b090-11cc0825366a",
           "navigation": {
             "area": 0,
             "links": null
@@ -36541,7 +36541,7 @@
       "name": "Waypoint-2",
       "extras": {
         "metadata": {
-          "guid": "0680ca46-58dc-42bc-a069-890fa6b6257a",
+          "guid": "caed8376-4cab-48d6-a2d8-ae6dbb838a05",
           "navigation": {
             "area": 0,
             "links": null
@@ -36565,7 +36565,7 @@
       "name": "Waypoint-3",
       "extras": {
         "metadata": {
-          "guid": "3d3e57b9-118c-4294-a636-6509cce1c5dc",
+          "guid": "46f07fcf-0b53-41e6-9e06-b06c8da8c620",
           "navigation": {
             "area": 0,
             "links": null
@@ -36589,7 +36589,7 @@
       "name": "Waypoint-4",
       "extras": {
         "metadata": {
-          "guid": "c7ca8164-5bcd-4b37-9ef6-f150e6a4631b",
+          "guid": "574f6799-77c8-42bd-a70a-999f82cbf58b",
           "navigation": {
             "area": 0,
             "links": null
@@ -36613,7 +36613,7 @@
       "name": "Waypoint-5",
       "extras": {
         "metadata": {
-          "guid": "3a876598-8f09-45e5-8a2e-613daa328b52",
+          "guid": "dbc415c9-b2fc-40ad-b346-fc5d23e371b1",
           "navigation": {
             "area": 0,
             "links": null
@@ -36637,7 +36637,7 @@
       "name": "Waypoint-6",
       "extras": {
         "metadata": {
-          "guid": "e054c9bd-633a-499b-ace4-9d98a046faa8",
+          "guid": "df85ba87-9b89-49d0-b87a-5b965cf1b205",
           "navigation": {
             "area": 0,
             "links": null
@@ -36661,7 +36661,7 @@
       "name": "Waypoint-7",
       "extras": {
         "metadata": {
-          "guid": "ddcdf61d-2d56-4aca-adfd-868160e0cf8f",
+          "guid": "dc574f03-4eea-4440-911e-cf0f6520acb0",
           "navigation": {
             "area": 0,
             "links": null
@@ -36685,7 +36685,7 @@
       "name": "Waypoint-8",
       "extras": {
         "metadata": {
-          "guid": "c7f853ab-e3a1-4378-afc5-3ad9c1077e18",
+          "guid": "49bbf630-b746-43e9-8fd2-32d234708f85",
           "navigation": {
             "area": 0,
             "links": null
@@ -36709,7 +36709,7 @@
       "name": "Waypoint-9",
       "extras": {
         "metadata": {
-          "guid": "2ff7fd33-e2f2-493b-9f3b-7443b96a8ed1",
+          "guid": "c618b3a4-76ad-4fe0-a38b-038e6ca2032f",
           "navigation": {
             "area": 0,
             "links": null
@@ -36733,7 +36733,7 @@
       "name": "Waypoint-10",
       "extras": {
         "metadata": {
-          "guid": "600e5760-7a52-40f2-ad31-f282b3c73f9d",
+          "guid": "075bc67b-68f0-4bec-a415-fdef3b92d162",
           "navigation": {
             "area": 0,
             "links": null
@@ -36757,7 +36757,7 @@
       "name": "Waypoint-11",
       "extras": {
         "metadata": {
-          "guid": "a61e9a05-b83b-4f32-ba5b-f63e0f63cc00",
+          "guid": "1f9d0b28-c9ce-4cf2-a993-57f25ebe7be9",
           "navigation": {
             "area": 0,
             "links": null
@@ -36781,7 +36781,7 @@
       "name": "Waypoint-12",
       "extras": {
         "metadata": {
-          "guid": "82475716-09cb-4675-9625-1e4b9fd3ace0",
+          "guid": "e6e30113-55ca-499e-844f-48a1f4b691fd",
           "navigation": {
             "area": 0,
             "links": null
@@ -36805,7 +36805,7 @@
       "name": "Waypoint-13",
       "extras": {
         "metadata": {
-          "guid": "1f46ad6d-6c91-477f-a9d6-cfaa70d84639",
+          "guid": "4cc16f74-ff35-4fcd-b9a6-b78f6c27c66e",
           "navigation": {
             "area": 0,
             "links": null
@@ -36829,7 +36829,7 @@
       "name": "Waypoint-14",
       "extras": {
         "metadata": {
-          "guid": "4e4f7774-b87e-4503-9e51-74aef3392c5b",
+          "guid": "75acd582-88ba-43f8-8e3c-bd7c1f5fdad5",
           "navigation": {
             "area": 0,
             "links": null
@@ -36853,7 +36853,7 @@
       "name": "Waypoint-15",
       "extras": {
         "metadata": {
-          "guid": "c8c7cc95-b11c-4aab-8505-e9953b6aa5df",
+          "guid": "d6afda9e-5a26-47c4-a612-4794acb36773",
           "navigation": {
             "area": 0,
             "links": null
@@ -36877,7 +36877,7 @@
       "name": "Waypoint-16",
       "extras": {
         "metadata": {
-          "guid": "c84afa2f-5e25-493c-a229-ef3b2a0002b5",
+          "guid": "2f80c0cc-ba74-4620-b1e4-2df6b9d8bd2e",
           "navigation": {
             "area": 0,
             "links": null
@@ -36901,7 +36901,7 @@
       "name": "Waypoint-17",
       "extras": {
         "metadata": {
-          "guid": "613c84ad-54a8-4c2d-92d1-aa64613192d6",
+          "guid": "9978c10b-2e85-4c76-9f17-d9e961e56639",
           "navigation": {
             "area": 0,
             "links": null
@@ -36929,7 +36929,7 @@
       "name": "Combined meshes",
       "extras": {
         "metadata": {
-          "guid": "9f6c7d06-b334-403b-8c08-f6ebec783d7e",
+          "guid": "b3d40273-212c-4204-8e8c-20ce51894a12",
           "navigation": {
             "area": 0,
             "links": null
@@ -36943,7 +36943,7 @@
       "name": "Atlas-01",
       "extras": {
         "metadata": {
-          "guid": "3a23b69b-183f-4275-96d7-91b346664d13",
+          "guid": "45958451-5fed-4680-a18f-198ce4a50794",
           "navigation": {
             "area": 0,
             "links": null
@@ -36979,7 +36979,7 @@
       "name": "Metal",
       "extras": {
         "metadata": {
-          "guid": "aa93c3c1-9fd3-4509-ac10-7cab0c7d8e28",
+          "guid": "6754c3ef-d7d3-42d2-a9ba-e62837dcf6f3",
           "navigation": {
             "area": 0,
             "links": null
@@ -37015,7 +37015,7 @@
       "name": "Crane",
       "extras": {
         "metadata": {
-          "guid": "73a1e628-3d89-4d05-8c8a-f943ad3c2dbf",
+          "guid": "726cbbd4-c38b-43eb-972e-e1e48aa4ce54",
           "navigation": {
             "area": 0,
             "links": null
@@ -37051,7 +37051,7 @@
       "name": "Audience",
       "extras": {
         "metadata": {
-          "guid": "b0542408-d9ca-47b9-a7ba-d3a0d5a010dd",
+          "guid": "0bddf9e9-0597-4399-8d4d-d0b34eb43bf5",
           "navigation": {
             "area": 0,
             "links": null
@@ -37087,7 +37087,7 @@
       "name": "ScreenTexture",
       "extras": {
         "metadata": {
-          "guid": "11a02168-28ae-4dcd-a89c-6688ad4dd4ca",
+          "guid": "20fc46ec-b590-4559-bddc-c41aee8a3975",
           "navigation": {
             "area": 0,
             "links": null
@@ -37123,7 +37123,7 @@
       "name": "Stone",
       "extras": {
         "metadata": {
-          "guid": "ada0139e-3e97-405f-b6ed-49ffd6dd4c8a",
+          "guid": "33811c4f-f6c8-4875-8f49-fe4f686500b7",
           "navigation": {
             "area": 0,
             "links": null
@@ -37159,7 +37159,7 @@
       "name": "Atlas-02",
       "extras": {
         "metadata": {
-          "guid": "37d7877e-e899-405e-80a2-40cbd3935359",
+          "guid": "f0566444-27d3-4033-8852-6caf9f3f5859",
           "navigation": {
             "area": 0,
             "links": null
@@ -37195,7 +37195,7 @@
       "name": "Glass",
       "extras": {
         "metadata": {
-          "guid": "055118be-f4e6-45a6-8ff6-638b79f47225",
+          "guid": "c4aa25b8-8d4c-4aab-871a-815904f0ef17",
           "navigation": {
             "area": 0,
             "links": null
@@ -37310,7 +37310,7 @@
       "name": "W-P-C",
       "extras": {
         "metadata": {
-          "guid": "85b72347-798f-4eae-9be1-a2ac8120ea4a",
+          "guid": "d5d2a44a-7502-45b2-b0ae-e2ad0a1291ae",
           "navigation": {
             "area": 0,
             "links": null
@@ -37334,7 +37334,7 @@
       "name": "Waypoint 000",
       "extras": {
         "metadata": {
-          "guid": "1bbd95c1-31f2-4c21-af46-2ebe40b3e093",
+          "guid": "88efceb7-90a1-4774-ac93-6906dd8c69c3",
           "navigation": {
             "area": 0,
             "links": null
@@ -37358,7 +37358,7 @@
       "name": "Waypoint 001",
       "extras": {
         "metadata": {
-          "guid": "d135caec-4454-4167-93c3-eda465737dcf",
+          "guid": "2f3d269c-8b53-4d1d-ab6e-be16b7bb15fe",
           "navigation": {
             "area": 0,
             "links": null
@@ -37382,7 +37382,7 @@
       "name": "Waypoint 002",
       "extras": {
         "metadata": {
-          "guid": "5114487b-ad56-45f0-b48b-18ac30b5002b",
+          "guid": "e17735ca-e6a3-4476-bdff-208522ba2541",
           "navigation": {
             "area": 0,
             "links": null
@@ -37406,7 +37406,7 @@
       "name": "Waypoint 003",
       "extras": {
         "metadata": {
-          "guid": "be459d04-16ac-4e67-90b6-1249d01f6435",
+          "guid": "071f96e7-d597-470c-bf8b-f7cb6c297e7e",
           "navigation": {
             "area": 0,
             "links": null
@@ -37430,7 +37430,7 @@
       "name": "Waypoint 004",
       "extras": {
         "metadata": {
-          "guid": "ad3310e3-516e-488e-807f-c538a1448831",
+          "guid": "a2be06ea-e57e-4bd7-8337-c15c6eef8283",
           "navigation": {
             "area": 0,
             "links": null
@@ -37454,7 +37454,7 @@
       "name": "Waypoint 005",
       "extras": {
         "metadata": {
-          "guid": "a2e0db90-0043-43a0-8ecb-31b5d3bde480",
+          "guid": "191feae5-bac4-4bb3-a74c-f7ab8c7577f8",
           "navigation": {
             "area": 0,
             "links": null
@@ -37478,7 +37478,7 @@
       "name": "Waypoint 006",
       "extras": {
         "metadata": {
-          "guid": "1ff3a8e7-864c-4a1f-95f6-f845c4193577",
+          "guid": "42940b9d-956f-40c6-8fb2-0a3539184b8d",
           "navigation": {
             "area": 0,
             "links": null
@@ -37502,7 +37502,7 @@
       "name": "Waypoint 007",
       "extras": {
         "metadata": {
-          "guid": "041b35fd-57f1-4ee9-93aa-498bfb3ead64",
+          "guid": "f1bec522-a6d7-4406-813d-627c4cb115c8",
           "navigation": {
             "area": 0,
             "links": null
@@ -37526,7 +37526,7 @@
       "name": "Waypoint 008",
       "extras": {
         "metadata": {
-          "guid": "451aaf0d-8a5c-441e-845b-5ac674f8b56c",
+          "guid": "678b5d02-ed92-4b22-8c53-d92fbc855ac6",
           "navigation": {
             "area": 0,
             "links": null
@@ -37550,7 +37550,7 @@
       "name": "Waypoint 009",
       "extras": {
         "metadata": {
-          "guid": "5e9edbd3-0a8c-4ddb-b94f-51eee8ea0f2e",
+          "guid": "f93d642e-4055-4a93-9a25-0e3efdd47700",
           "navigation": {
             "area": 0,
             "links": null
@@ -37574,7 +37574,7 @@
       "name": "Waypoint 010",
       "extras": {
         "metadata": {
-          "guid": "da5534fa-585f-4f80-9430-d822b3bb58f1",
+          "guid": "6db42b02-deb0-4a28-9134-212e0afc334f",
           "navigation": {
             "area": 0,
             "links": null
@@ -37598,7 +37598,7 @@
       "name": "Waypoint 011",
       "extras": {
         "metadata": {
-          "guid": "b360f083-b906-48d2-afc3-ecbc6f9c1c5c",
+          "guid": "98fec0cc-6a93-4859-ba0e-aa2ff57de8db",
           "navigation": {
             "area": 0,
             "links": null
@@ -37622,7 +37622,7 @@
       "name": "Waypoint 012",
       "extras": {
         "metadata": {
-          "guid": "4e18b242-ac27-4f28-9172-b118073cb648",
+          "guid": "e83f1154-b82f-4895-86ef-dd8d9290637e",
           "navigation": {
             "area": 0,
             "links": null
@@ -37646,7 +37646,7 @@
       "name": "Waypoint 013",
       "extras": {
         "metadata": {
-          "guid": "fb3f953c-acf5-43ae-9426-e74ccba2504f",
+          "guid": "79941ca4-6586-4aa7-a02b-89cd57ee5945",
           "navigation": {
             "area": 0,
             "links": null
@@ -37670,7 +37670,7 @@
       "name": "Waypoint 014",
       "extras": {
         "metadata": {
-          "guid": "b45d6a1e-46b9-47f4-8a1b-aff2be53845b",
+          "guid": "8254b64c-ae20-4311-b8e7-66387dfd13ef",
           "navigation": {
             "area": 0,
             "links": null
@@ -37694,7 +37694,7 @@
       "name": "Waypoint 015",
       "extras": {
         "metadata": {
-          "guid": "77872fae-2737-4654-a117-b8c39f6bd5d2",
+          "guid": "d9c680e2-c507-4e88-91d3-2d04f2e27683",
           "navigation": {
             "area": 0,
             "links": null
@@ -37718,7 +37718,7 @@
       "name": "Waypoint 016",
       "extras": {
         "metadata": {
-          "guid": "e36531f8-0b3d-4113-9419-ff562b10950e",
+          "guid": "3ab8186b-ac48-418d-807f-0999a5ecb18c",
           "navigation": {
             "area": 0,
             "links": null
@@ -37742,7 +37742,7 @@
       "name": "Waypoint 017",
       "extras": {
         "metadata": {
-          "guid": "dac8ad42-c02b-4ad2-928a-f6dbe61ec735",
+          "guid": "0cac52e6-8458-454a-a809-dd9daf5507e8",
           "navigation": {
             "area": 0,
             "links": null
@@ -37766,7 +37766,7 @@
       "name": "Waypoint 018",
       "extras": {
         "metadata": {
-          "guid": "f67266cb-a9e2-431c-9b4c-16b1fa690938",
+          "guid": "37ef5ae5-5d8e-4099-8660-e38db877173e",
           "navigation": {
             "area": 0,
             "links": null
@@ -37790,7 +37790,7 @@
       "name": "Waypoint 019",
       "extras": {
         "metadata": {
-          "guid": "947b712a-f77c-4c41-b34d-98d105e8e034",
+          "guid": "e999f199-2e99-4d29-82fa-b502cee39c0b",
           "navigation": {
             "area": 0,
             "links": null
@@ -37814,7 +37814,7 @@
       "name": "Waypoint 020",
       "extras": {
         "metadata": {
-          "guid": "86ca58c2-b78a-4efc-9e5b-0b15b982513d",
+          "guid": "7635f1c3-e59b-4b8d-87b9-4131b9ec3ffd",
           "navigation": {
             "area": 0,
             "links": null
@@ -37838,7 +37838,7 @@
       "name": "Waypoint 021",
       "extras": {
         "metadata": {
-          "guid": "3b3cf307-83a4-484c-833e-7e74bf04be87",
+          "guid": "485d269c-da49-4f44-bca9-64415632e40e",
           "navigation": {
             "area": 0,
             "links": null
@@ -37862,7 +37862,7 @@
       "name": "Waypoint 022",
       "extras": {
         "metadata": {
-          "guid": "dcda73fd-2d17-4f07-b32c-709680bb0c3c",
+          "guid": "9691c437-a3e6-4a0c-8ebb-719b48d958c1",
           "navigation": {
             "area": 0,
             "links": null
@@ -37886,7 +37886,7 @@
       "name": "Waypoint 023",
       "extras": {
         "metadata": {
-          "guid": "b59789b0-a92e-458c-b41d-1fdf6c8dba7a",
+          "guid": "e82bd6f0-8b0c-4c76-92cc-287d4e2d3a80",
           "navigation": {
             "area": 0,
             "links": null
@@ -37910,7 +37910,7 @@
       "name": "Waypoint 024",
       "extras": {
         "metadata": {
-          "guid": "c433be00-dd8a-4425-847a-0f5c68919438",
+          "guid": "46a22b31-c0d5-4d8c-ac33-4def43d626eb",
           "navigation": {
             "area": 0,
             "links": null
@@ -37934,7 +37934,7 @@
       "name": "Waypoint 025",
       "extras": {
         "metadata": {
-          "guid": "4e66ecef-9c7a-4146-9e77-cc7a62e8df3d",
+          "guid": "9113f625-6910-46ff-a318-0b076b7d3927",
           "navigation": {
             "area": 0,
             "links": null
@@ -37958,7 +37958,7 @@
       "name": "Waypoint 026",
       "extras": {
         "metadata": {
-          "guid": "a82a171b-99c1-4d6d-bc91-a31b7ff8cb2e",
+          "guid": "b7d84c12-57bd-41e1-9644-cc3eaae24d5d",
           "navigation": {
             "area": 0,
             "links": null
@@ -37982,7 +37982,7 @@
       "name": "Waypoint 027",
       "extras": {
         "metadata": {
-          "guid": "904f6ef3-4054-4cbb-814e-c0da2b65de68",
+          "guid": "1d3d9b4a-056f-49a2-bebc-91a3039d525a",
           "navigation": {
             "area": 0,
             "links": null
@@ -38006,7 +38006,7 @@
       "name": "Waypoint 028",
       "extras": {
         "metadata": {
-          "guid": "8f6a66ff-eea1-4572-80cb-f78774b7aa70",
+          "guid": "59ed6502-1bd3-4396-a02a-4be2f0d3475b",
           "navigation": {
             "area": 0,
             "links": null
@@ -38030,7 +38030,7 @@
       "name": "Waypoint 029",
       "extras": {
         "metadata": {
-          "guid": "6cc215ca-9730-414d-ad89-74120b5cbe3a",
+          "guid": "c60baaf8-8883-456a-a3c8-05f9b641991c",
           "navigation": {
             "area": 0,
             "links": null
@@ -38054,7 +38054,7 @@
       "name": "Waypoint 030",
       "extras": {
         "metadata": {
-          "guid": "a745877a-4ce4-4a68-bce5-009327568cb4",
+          "guid": "acf5cc8b-08db-4c87-986a-6a25ed49dbc4",
           "navigation": {
             "area": 0,
             "links": null
@@ -38078,7 +38078,7 @@
       "name": "Waypoint 031",
       "extras": {
         "metadata": {
-          "guid": "4da7d383-4453-4e2b-bbc8-b1f917ab45e5",
+          "guid": "a19f4891-2751-44b7-bde0-54d68a0a69c9",
           "navigation": {
             "area": 0,
             "links": null
@@ -38102,7 +38102,7 @@
       "name": "Waypoint 032",
       "extras": {
         "metadata": {
-          "guid": "b12ce422-6096-49d5-a40a-8f4ac63ecd1e",
+          "guid": "2de8cf8e-4eb9-4969-8610-f24af9ec50fe",
           "navigation": {
             "area": 0,
             "links": null
@@ -38126,7 +38126,7 @@
       "name": "Waypoint 033",
       "extras": {
         "metadata": {
-          "guid": "5eaea32f-c9cb-4d55-83df-d3e620c7e233",
+          "guid": "28c3c0d9-7913-44ad-b736-085258a87279",
           "navigation": {
             "area": 0,
             "links": null
@@ -38150,7 +38150,7 @@
       "name": "Waypoint 034",
       "extras": {
         "metadata": {
-          "guid": "38ce9d57-b90b-4f89-a4ce-9f73814e84c5",
+          "guid": "5e6df8f9-9085-4cbd-b39d-bd49a6ef00b9",
           "navigation": {
             "area": 0,
             "links": null
@@ -38174,7 +38174,7 @@
       "name": "Waypoint 035",
       "extras": {
         "metadata": {
-          "guid": "10f81789-480f-400f-b90a-e75c72c28188",
+          "guid": "bfa9a492-1f42-4605-afe4-c6b352229e13",
           "navigation": {
             "area": 0,
             "links": null
@@ -38198,7 +38198,7 @@
       "name": "Waypoint 036",
       "extras": {
         "metadata": {
-          "guid": "750a57f5-7a1b-43f2-a28c-7dabe9354c28",
+          "guid": "30e2fc00-9871-40a5-ad52-740e30b7f2fc",
           "navigation": {
             "area": 0,
             "links": null
@@ -38222,7 +38222,7 @@
       "name": "Waypoint 037",
       "extras": {
         "metadata": {
-          "guid": "6ce913b1-7d9d-4221-8ba6-a0facc34ec3d",
+          "guid": "e54c601b-87af-4566-a909-31d6d2b19223",
           "navigation": {
             "area": 0,
             "links": null
@@ -38246,7 +38246,7 @@
       "name": "Waypoint 038",
       "extras": {
         "metadata": {
-          "guid": "b2e100d1-29c8-4f9a-8145-766ac6bc19d5",
+          "guid": "9405b633-e7b2-4246-9221-d168d8a89c6e",
           "navigation": {
             "area": 0,
             "links": null
@@ -38270,7 +38270,7 @@
       "name": "Waypoint 039",
       "extras": {
         "metadata": {
-          "guid": "d8ba5fcb-35c2-4f9e-8cfd-bb31667d2457",
+          "guid": "ef164f12-c268-49d4-b196-5a27ac2c5b5f",
           "navigation": {
             "area": 0,
             "links": null
@@ -38294,7 +38294,7 @@
       "name": "Waypoint 040",
       "extras": {
         "metadata": {
-          "guid": "01c27870-35ab-4794-8376-fe85bc964ddb",
+          "guid": "d253e7a2-6423-4aeb-bea1-d5a884f1a4a0",
           "navigation": {
             "area": 0,
             "links": null
@@ -38318,7 +38318,7 @@
       "name": "Waypoint 041",
       "extras": {
         "metadata": {
-          "guid": "c9436453-6355-4944-b885-780859378441",
+          "guid": "33029bff-5d7d-493b-9ebe-acfcd7ff604e",
           "navigation": {
             "area": 0,
             "links": null
@@ -38342,7 +38342,7 @@
       "name": "Waypoint 042",
       "extras": {
         "metadata": {
-          "guid": "8315f001-d37a-4df1-b79f-94b758cfd63c",
+          "guid": "ea8a9e4c-f19a-4746-8070-8f4beac229be",
           "navigation": {
             "area": 0,
             "links": null
@@ -38366,7 +38366,7 @@
       "name": "Waypoint 043",
       "extras": {
         "metadata": {
-          "guid": "23f1bd36-57ca-45d9-b52a-9d09ad260116",
+          "guid": "a97d8670-ed53-4e67-89eb-c02d6aa99686",
           "navigation": {
             "area": 0,
             "links": null
@@ -38390,7 +38390,7 @@
       "name": "Waypoint 044",
       "extras": {
         "metadata": {
-          "guid": "1f6099ea-812f-40de-be52-8cb3e2dde5a4",
+          "guid": "5775ff3e-fdc2-4b07-ae5f-5011364bf230",
           "navigation": {
             "area": 0,
             "links": null
@@ -38414,7 +38414,7 @@
       "name": "Waypoint 045",
       "extras": {
         "metadata": {
-          "guid": "f6cbf232-9ae1-4b93-84fc-a0ee14f39c11",
+          "guid": "b2653b6f-6ec1-4314-837c-3d1e318e0fbd",
           "navigation": {
             "area": 0,
             "links": null
@@ -38438,7 +38438,7 @@
       "name": "Waypoint 046",
       "extras": {
         "metadata": {
-          "guid": "d8cee7d5-04ea-448c-95aa-d5b3afdd9dec",
+          "guid": "a5ea24ef-a159-4850-b731-93899e39d922",
           "navigation": {
             "area": 0,
             "links": null
@@ -38462,7 +38462,7 @@
       "name": "Waypoint 047",
       "extras": {
         "metadata": {
-          "guid": "20035737-340d-4e45-9597-326d0009260a",
+          "guid": "bd8a4f25-a242-4be8-ab05-d858a7a7952a",
           "navigation": {
             "area": 0,
             "links": null
@@ -38486,7 +38486,7 @@
       "name": "Waypoint 048",
       "extras": {
         "metadata": {
-          "guid": "98383e17-48b0-4f43-ad56-04cce35e2d3e",
+          "guid": "916a9f53-6147-44d3-8478-06ee7b0d8c7c",
           "navigation": {
             "area": 0,
             "links": null
@@ -38510,7 +38510,7 @@
       "name": "Waypoint 049",
       "extras": {
         "metadata": {
-          "guid": "2d5fc557-159a-4a02-8161-c9e49c41d519",
+          "guid": "6a01a228-a714-47ba-b5d7-3c76d1424779",
           "navigation": {
             "area": 0,
             "links": null
@@ -38534,7 +38534,7 @@
       "name": "Waypoint 050",
       "extras": {
         "metadata": {
-          "guid": "0d999e93-3937-41a6-aef6-5dc8a11b9ed9",
+          "guid": "90809859-687c-4b10-8c17-43dcd2b5378c",
           "navigation": {
             "area": 0,
             "links": null
@@ -38558,7 +38558,7 @@
       "name": "Waypoint 051",
       "extras": {
         "metadata": {
-          "guid": "69256dca-261c-4062-a255-c0b0085690a4",
+          "guid": "e918a157-b8e6-434c-a595-858a353ed5e9",
           "navigation": {
             "area": 0,
             "links": null
@@ -38582,7 +38582,7 @@
       "name": "Waypoint 052",
       "extras": {
         "metadata": {
-          "guid": "e257999f-0d8b-42ae-a197-270472458932",
+          "guid": "ecc866f3-d546-425c-91f4-d730c4f0177c",
           "navigation": {
             "area": 0,
             "links": null
@@ -38606,7 +38606,7 @@
       "name": "Waypoint 053",
       "extras": {
         "metadata": {
-          "guid": "132efd68-2e52-4f9b-b906-5bfdd29cb420",
+          "guid": "6ae0e509-a3f7-4bc3-be63-8b0a98641015",
           "navigation": {
             "area": 0,
             "links": null
@@ -38630,7 +38630,7 @@
       "name": "Waypoint 054",
       "extras": {
         "metadata": {
-          "guid": "7b7f63f4-296d-47fa-a16f-6c4ffb3d054a",
+          "guid": "8001d774-ad95-4f4c-94a6-8bb4713172a1",
           "navigation": {
             "area": 0,
             "links": null
@@ -38654,7 +38654,7 @@
       "name": "Waypoint 055",
       "extras": {
         "metadata": {
-          "guid": "cd065b30-a39d-42d9-a216-59cc09ff95b6",
+          "guid": "ae19cbbe-4a76-45e7-86a7-17cf01ac7410",
           "navigation": {
             "area": 0,
             "links": null
@@ -38678,7 +38678,7 @@
       "name": "Waypoint 056",
       "extras": {
         "metadata": {
-          "guid": "7e98fdf1-d709-4b94-b64b-25bc9ef45df1",
+          "guid": "0ec615d4-475c-4055-a2ee-0b6be5266dce",
           "navigation": {
             "area": 0,
             "links": null
@@ -38702,7 +38702,7 @@
       "name": "Waypoint 057",
       "extras": {
         "metadata": {
-          "guid": "a1c42483-1367-4208-966c-6af436b8a7e9",
+          "guid": "b858828c-ef2b-4649-aa38-862c5929fb63",
           "navigation": {
             "area": 0,
             "links": null
@@ -38726,7 +38726,7 @@
       "name": "Waypoint 058",
       "extras": {
         "metadata": {
-          "guid": "9adc8b7b-d0aa-47f1-b2af-56b9247c7a00",
+          "guid": "7bc9f6b4-ec45-46cd-b2a6-8e3a2b7267d8",
           "navigation": {
             "area": 0,
             "links": null
@@ -38750,7 +38750,7 @@
       "name": "Waypoint 059",
       "extras": {
         "metadata": {
-          "guid": "8e425d2b-d62c-4a10-b0ba-aba51d5adc39",
+          "guid": "2d8d5453-459d-4c4e-b2ee-7fd3ff55b1d2",
           "navigation": {
             "area": 0,
             "links": null
@@ -38774,7 +38774,7 @@
       "name": "Waypoint 060",
       "extras": {
         "metadata": {
-          "guid": "60c5edb3-983f-43ff-ae41-1d3f3b9097ae",
+          "guid": "f9062844-c907-4899-9d45-fa344d673fa6",
           "navigation": {
             "area": 0,
             "links": null
@@ -38798,7 +38798,7 @@
       "name": "Waypoint 061",
       "extras": {
         "metadata": {
-          "guid": "4cdc0e9d-1dfa-4f47-9acc-252947a86da3",
+          "guid": "9a1c1319-d536-4a9f-99ac-44b9b0ef1551",
           "navigation": {
             "area": 0,
             "links": null
@@ -38822,7 +38822,7 @@
       "name": "Waypoint 062",
       "extras": {
         "metadata": {
-          "guid": "1f76d292-1b36-4388-b9a6-a4135ad42247",
+          "guid": "97500991-aaa9-4d6d-a09f-e1cde32781c0",
           "navigation": {
             "area": 0,
             "links": null
@@ -38846,7 +38846,7 @@
       "name": "Waypoint 063",
       "extras": {
         "metadata": {
-          "guid": "eb8a1ecb-7ca3-45d7-9698-73fd2476bbbe",
+          "guid": "b03684cf-38e5-433f-ad2d-ca914d60e93a",
           "navigation": {
             "area": 0,
             "links": null
@@ -38870,7 +38870,7 @@
       "name": "Waypoint 064",
       "extras": {
         "metadata": {
-          "guid": "a6b67a96-48f5-4884-9a85-1f9340dd8a17",
+          "guid": "c313713b-339b-46e7-b7f9-60d5df35a1a5",
           "navigation": {
             "area": 0,
             "links": null
@@ -38894,7 +38894,7 @@
       "name": "Waypoint 065",
       "extras": {
         "metadata": {
-          "guid": "ce1fc86e-8f81-489e-88d0-391ca1e31f7b",
+          "guid": "0ef89f67-8aad-4856-91d6-fc1ea9c648a0",
           "navigation": {
             "area": 0,
             "links": null
@@ -38918,7 +38918,7 @@
       "name": "Waypoint 066",
       "extras": {
         "metadata": {
-          "guid": "70bb530a-db58-4b62-99e3-08e15fcb7c67",
+          "guid": "26d3c5ff-04c7-4b2a-bc91-d29a861ab0ab",
           "navigation": {
             "area": 0,
             "links": null
@@ -38942,7 +38942,7 @@
       "name": "Waypoint 067",
       "extras": {
         "metadata": {
-          "guid": "91129300-c911-4b4f-a5a8-6648c39d217a",
+          "guid": "ade5e7b5-7ee7-4024-a094-025393d18a5d",
           "navigation": {
             "area": 0,
             "links": null
@@ -38966,7 +38966,7 @@
       "name": "Waypoint 068",
       "extras": {
         "metadata": {
-          "guid": "97d5df47-26ec-42e1-91fa-1527f0256a3b",
+          "guid": "1c015d0e-0f12-4517-a31d-b80e117e0738",
           "navigation": {
             "area": 0,
             "links": null
@@ -38990,7 +38990,7 @@
       "name": "Waypoint 069",
       "extras": {
         "metadata": {
-          "guid": "b9cf4397-0b2c-4a85-b34c-c6c27d2a9ca3",
+          "guid": "4df7e78e-4216-4931-a284-f152ad6a49d3",
           "navigation": {
             "area": 0,
             "links": null
@@ -39014,7 +39014,7 @@
       "name": "Waypoint 070",
       "extras": {
         "metadata": {
-          "guid": "226a62b2-8ed1-4ef9-826c-f5bdbe61a8c2",
+          "guid": "06e5d3f9-ea42-4841-bdc2-5f3ac311eab6",
           "navigation": {
             "area": 0,
             "links": null
@@ -39038,7 +39038,7 @@
       "name": "Waypoint 071",
       "extras": {
         "metadata": {
-          "guid": "03161e09-99a1-43ec-b16b-dfbc2c4e02cd",
+          "guid": "af43f2a6-a2e8-457c-b9ba-2924656380da",
           "navigation": {
             "area": 0,
             "links": null
@@ -39062,7 +39062,7 @@
       "name": "Waypoint 072",
       "extras": {
         "metadata": {
-          "guid": "7a519311-8af7-4295-8b14-34122420e152",
+          "guid": "09c3b3de-967a-43e3-96ec-0c0ff5cd0c95",
           "navigation": {
             "area": 0,
             "links": null
@@ -39086,7 +39086,7 @@
       "name": "Waypoint 073",
       "extras": {
         "metadata": {
-          "guid": "ed3020fe-462b-4df4-8c6d-b4e62382771a",
+          "guid": "e175590c-4f75-4467-b61b-5f8979dd45ae",
           "navigation": {
             "area": 0,
             "links": null
@@ -39110,7 +39110,7 @@
       "name": "Waypoint 074",
       "extras": {
         "metadata": {
-          "guid": "f40b56bc-ed9c-4691-8a27-b9536ca959d3",
+          "guid": "018fd9e0-636c-4413-9da9-ecd7f4f314af",
           "navigation": {
             "area": 0,
             "links": null
@@ -39134,7 +39134,7 @@
       "name": "Waypoint 075",
       "extras": {
         "metadata": {
-          "guid": "cde195a7-05c5-4311-8b83-61f80cbc442f",
+          "guid": "81ab8c34-0b4c-43b7-b789-205474459504",
           "navigation": {
             "area": 0,
             "links": null
@@ -39158,7 +39158,7 @@
       "name": "Waypoint 076",
       "extras": {
         "metadata": {
-          "guid": "e2411433-dd56-4213-85c8-cba1d52c132b",
+          "guid": "25772847-48ee-48cb-94e1-9698ae2d566d",
           "navigation": {
             "area": 0,
             "links": null
@@ -39182,7 +39182,7 @@
       "name": "Waypoint 077",
       "extras": {
         "metadata": {
-          "guid": "7d9a515a-87e4-4381-bf18-b6a8b46bda4f",
+          "guid": "7b2bf350-6f9e-4d9d-ad98-cd224fbd869d",
           "navigation": {
             "area": 0,
             "links": null
@@ -39195,7 +39195,7 @@
       "name": "TrackManager",
       "extras": {
         "metadata": {
-          "guid": "97c93bad-7ffd-4150-9404-60d85dcaee65",
+          "guid": "920405ae-3b36-46e1-b9a3-1cdea5f68f1d",
           "navigation": {
             "area": 0,
             "links": null
@@ -41037,7 +41037,7 @@
       "name": "StartPositions",
       "extras": {
         "metadata": {
-          "guid": "bb430954-a3db-4ff4-9b9d-0c43cfec8be9",
+          "guid": "66198d77-d948-430b-9f33-76040a2c218d",
           "navigation": {
             "area": 0,
             "links": null
@@ -41067,7 +41067,7 @@
       "name": "StartPosition1",
       "extras": {
         "metadata": {
-          "guid": "977dd1a2-96f8-44d4-9aa8-80f4b4ac755c",
+          "guid": "677667d8-e189-4e5e-824e-343148a82c43",
           "buffers": {
             "floats": [],
             "colors": [],
@@ -41127,7 +41127,7 @@
       "name": "StartPosition2",
       "extras": {
         "metadata": {
-          "guid": "750fb88c-441a-4134-8e52-f47498eeaa1f",
+          "guid": "f1c65220-8610-4680-a08f-56a2e8ac75f8",
           "buffers": {
             "floats": [],
             "colors": [],
@@ -41187,7 +41187,7 @@
       "name": "StartPosition3",
       "extras": {
         "metadata": {
-          "guid": "21f748da-0544-474a-85a4-e4f1a23d64c6",
+          "guid": "94c8a288-ea79-4dca-b120-bc42762b453e",
           "buffers": {
             "floats": [],
             "colors": [],
@@ -41247,7 +41247,7 @@
       "name": "StartPosition4",
       "extras": {
         "metadata": {
-          "guid": "e99147e6-b883-40b3-b903-54d53aaf6da6",
+          "guid": "1a6a92da-0012-4532-9fe6-15b90a6f523a",
           "buffers": {
             "floats": [],
             "colors": [],
@@ -41409,7 +41409,7 @@
         3,
         80
       ],
-      "name": "SampleScene",
+      "name": "samplescene",
       "extras": {
         "metadata": {
           "gltf": true,
@@ -41421,15 +41421,14 @@
           "rendergroups": 4,
           "rawmaterials": [],
           "script": "araceproject",
-          "project": "ARaceProject.js",
+          "project": "araceproject.js",
           "filename": "SampleScene",
           "prewarmup": 1.0,
-          "postwarmup": 1.0,
           "hideloader": true,
           "exposure": 1,
           "tonemapping": 0,
           "gammacorrection": 1,
-          "deltaworldstep": true,
+          "deltatimestep": 0.0166666675,
           "subtimestep": 0.0,
           "pointerlock": false,
           "preventdefault": false,
@@ -41590,7 +41589,7 @@
             "skysize": 10000.0,
             "skysrgb": false,
             "skyfaces": "png",
-            "basename": "assets/Default-Skybox",
+            "basename": "assets/default-skybox",
             "anisolevel": 2,
             "exposure": 1.3,
             "rotation": 0.0,
@@ -41614,7 +41613,7 @@
                 "filtered": true,
                 "boundingBoxSize": null,
                 "boundingBoxPosition": null,
-                "name": "Default-Skybox_env.dds",
+                "name": "default-skybox_env.dds",
                 "level": 1.0,
                 "hasAlpha": false,
                 "getAlphaFromRGB": false,
@@ -41641,7 +41640,7 @@
                 "rooturl": "assets/"
               },
               "level": 1.0,
-              "url": "assets/Default-Skybox_env.dds"
+              "url": "assets/default-skybox_env.dds"
             }
           }
         }

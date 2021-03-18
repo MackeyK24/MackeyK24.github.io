@@ -146,8 +146,8 @@
         <center>
             <div id="proj">A Race Project</div>
             <div id="load" class="load"></div>
-            <div id="status">Please wait</div>
-            <div id="details">Downloading script files</div>
+            <div id="status">Loading</div>
+            <div id="details">Loading script files</div>
         </center>
     </div>
     <canvas id="cvs"></canvas>
@@ -176,7 +176,7 @@
     <script type="text/javascript" src="scripts/babylon.materials.js"></script>
 
     <!-- Project Script Bundle -->
-    <script type="text/javascript" src="scenes/ARaceProject.js"></script>
+    <script type="text/javascript" src="scenes/araceproject.js"></script>
 
     <!-- Default Scene Loader -->
     <script type="text/javascript" nonce="none">
@@ -189,7 +189,7 @@
     ///////////////////////////////////////////////////////////
     // Babylon Service Worker Hooks
     ///////////////////////////////////////////////////////////
-    window.versionStamp = '1f13a3fd-48a8-4440-ab06-c6be597b4a4e';
+    window.versionStamp = '3a2ae6b9-e92c-480b-a3a2-9763c2f08e0b';
     window.autoStartLoader = false;
     window.useServiceWorker = false;
     window.onServiceWorker = () => {
@@ -212,7 +212,7 @@
     window.scene = null;
     window.toolkit = true;
     var engine = null;
-    var pagetype = "project", defaultscene= "SampleScene.gltf", autohide = true, percent = false, offline = true, handlecontext = true, physics = true, navmesh = true, renderengine = 0, antialias = true, adaptive = false, datax = "#00FF00", folder = "scenes/", title = "A Race Project";
+    var pagetype = "project", defaultscene= "samplescene.gltf", autohide = true, percent = false, offline = true, validategltf = false, handlecontext = true, physics = true, navmesh = true, renderengine = 0, antialias = true, adaptive = false, datax = "#00FF00", folder = "scenes/", title = "A Race Project";
     var loaded = false, paused = false, reloader = false, downloaded = 0;
     var proj = document.getElementById("proj");
     var panel = document.getElementById("panel");
@@ -357,6 +357,12 @@
     LoadingScreen.prototype.displayLoadingUI = function() {};
     LoadingScreen.prototype.hideLoadingUI = function() {};
     // ************************************************************************ //
+    // GLTF LOADER - General Page Loading Funcitons                             //
+    // ************************************************************************ //
+    BABYLON.SceneLoader.OnPluginActivatedObservable.addOnce(function (loader) {
+        loader.validate = validategltf;
+    });
+    // ************************************************************************ //
     // PAGE UTILTITIES - General Page Utility Funcitons                         //
     // ************************************************************************ //
     window.updateStatus = function(status, info, state) {
@@ -422,7 +428,7 @@
         var kilobyte = 1024;
         var megabyte = (kilobyte * kilobyte);
         var defaultDetails = "Loading scene content"; // DEPRECIATED: + name.toLowerCase();
-        window.updateStatus("Please wait", defaultDetails, 0);
+        window.updateStatus("Loading", defaultDetails, 0);
         var qlevel = (BABYLON.SceneManager && BABYLON.SceneManager.GetRenderQuality) ? BABYLON.SceneManager.GetRenderQuality() : 0;
         var qlabel = "High";
         if (qlevel === 1) qlabel = "Medium";
@@ -460,7 +466,7 @@
                 }
             });
         }, function(evt) {
-            var pstatus = "Please wait";
+            var pstatus = "Loading";
             var details = defaultDetails;
             var lstate = (BABYLON.Utilities != null) ? BABYLON.Utilities.GetLoadingState() : 0;
             switch (lstate) {
@@ -468,15 +474,19 @@
                     //pstatus = "Loading";
                     //details = defaultDetails;
                     break;
-                case 1:     // PARSE SCENE CONTENT
-                    //pstatus = "Parsing";
+                case 1:     // PARSE NODE TRANSFORMS
+                    //pstatus = "Loading";
                     //details = defaultDetails;
                     break;
-                case 2:     // START PRELOAD WARMUP
+                case 2:     // PARSE SCENE METADATA
+                    //pstatus = "Parsing";
+                    //details = "Parsing scene content";
+                    break;
+                case 3:     // START ASSET PRELOADER
                     //pstatus = "Preload";
                     //details = "Preload scene content";
                     break;
-                case 3:     // ON PRELOADER COMPLETE
+                case 4:     // PREPARE SCENE CONTENT
                     //pstatus = "Ready";
                     //details = "Preparing scene content";
                     break;

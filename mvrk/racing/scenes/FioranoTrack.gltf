@@ -5008,7 +5008,7 @@
   },
   "buffers": [
     {
-      "uri": "FioranoTrack.bin",
+      "uri": "fioranotrack.bin",
       "byteLength": 18389208
     }
   ],
@@ -6707,67 +6707,67 @@
       "name": "tr04"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_Rotor_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_rotor_shdr.png",
       "name": "U_MC02_Rotor_shdr"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_Rotor_nm.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_rotor_nm.png",
       "name": "U_MC02_Rotor_nm"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_wheel_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_wheel_shdr.png",
       "name": "U_MC02_wheel_shdr"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_Tire_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_tire_shdr.png",
       "name": "U_MC02_Tire_shdr"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_Tire_nm.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_tire_nm.png",
       "name": "U_MC02_Tire_nm"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_Lights_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_lights_shdr.png",
       "name": "U_MC02_Lights_shdr"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_interior_low_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_interior_low_shdr.png",
       "name": "U_MC02_interior_low_shdr"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_CarBody_CustomBody_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_carbody_custombody_shdr.png",
       "name": "U_MC02_CarBody_CustomBody_shdr"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_carbonfiber_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_carbonfiber_shdr.png",
       "name": "U_MC02_carbonfiber_shdr"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_carbonfiber_nm.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_carbonfiber_nm.png",
       "name": "U_MC02_carbonfiber_nm"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_carBottom_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_carbottom_shdr.png",
       "name": "U_MC02_carBottom_shdr"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_carBottom_nm.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_carbottom_nm.png",
       "name": "U_MC02_carBottom_nm"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_cardetails_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_cardetails_shdr.png",
       "name": "U_MC02_cardetails_shdr"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_cardetails_nm.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_cardetails_nm.png",
       "name": "U_MC02_cardetails_nm"
     },
     {
-      "uri": "assets/racing/mustang/driver/Driver_Difuse.png",
+      "uri": "assets/racing/mustang/driver/driver_difuse.png",
       "name": "Driver_Difuse"
     },
     {
-      "uri": "assets/racing/mustang/models/textures/U_MC02_LightsON_shdr.png",
+      "uri": "assets/racing/mustang/models/textures/u_mc02_lightson_shdr.png",
       "name": "U_MC02_LightsON_shdr"
     }
   ],
@@ -10140,7 +10140,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "20cce1fa-c1c6-45c5-9fb0-3cbb7813596c",
+                "id": "85ac805c-390c-4119-9df2-a347a1123155",
                 "key": "KEY_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31",
                 "name": "MM_FIORANO",
                 "materials": [
@@ -10285,7 +10285,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "0a6469f3-20ca-48a2-a358-5a43a2f3d8a7",
+                "id": "f493d438-aa78-4fef-b9f5-428861bd62bc",
                 "key": "KEY_38_39_40",
                 "name": "MM_Wheel_FL",
                 "materials": [
@@ -10338,7 +10338,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "c9530947-d91d-4f6b-b6c9-b01998819b29",
+                "id": "a4af459a-2649-4910-ae89-bb708d0fb1a1",
                 "key": "KEY_38_39_40",
                 "name": "MM_Wheel_FR",
                 "materials": [
@@ -10391,7 +10391,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "2eb8a26d-3856-4207-8849-cdeeea4e7eb0",
+                "id": "7800dba6-6ca1-4e70-b2b5-a0799768e331",
                 "key": "KEY_38_39_40",
                 "name": "MM_Wheel_RL",
                 "materials": [
@@ -10444,7 +10444,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "d7846743-d3a3-461b-9466-b1bf9e381233",
+                "id": "432e6e99-325a-4af1-8f4c-d2badf0f0f67",
                 "key": "KEY_38_39_40",
                 "name": "MM_Wheel_RR",
                 "materials": [
@@ -10617,7 +10617,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "56f3d446-2518-4dee-8e15-a8c9f9a888cf",
+                "id": "715beacf-39ea-489b-baa6-36068c41b43e",
                 "key": "KEY_41_42_43_44_45_46_47_48_49_50_51",
                 "name": "MM_U_MC02_BodyLow_Mesh",
                 "materials": [
@@ -10694,7 +10694,7 @@
       "name": "Scene Controller",
       "extras": {
         "metadata": {
-          "guid": "f4559bbb-8e15-4d4d-b93f-667c539143fe",
+          "guid": "0e6e8fdd-9617-49bc-bbaa-9a96f0dab5a9",
           "components": [
             {
               "alias": "script",
@@ -10728,7 +10728,7 @@
                   "name": "Skidmark",
                   "width": 64,
                   "height": 64,
-                  "filename": "assets/babylon/images/Skidmark.png",
+                  "filename": "assets/babylon/images/skidmark.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -10825,7 +10825,7 @@
                   {
                     "type": "UnityEngine.AudioClip",
                     "name": "beepGo",
-                    "filename": "assets/racing/startup/beepGo.wav",
+                    "filename": "assets/racing/startup/beepgo.wav",
                     "length": 0.6578458,
                     "channels": 2,
                     "frequency": 44100,
@@ -10860,7 +10860,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "guid": "ce6fdeb6-49fe-4d84-9820-b7c46626946f",
+          "guid": "93eb8e11-df2e-44aa-a207-c7e6bc63c82e",
           "components": [
             {
               "alias": "light",
@@ -10950,7 +10950,7 @@
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "guid": "f1f5d7ca-165a-433b-9243-091ef7cd1d63",
+          "guid": "9a6eceeb-4a61-482a-b623-2fdc3ec466db",
           "group": "MainCamera",
           "tags": "MainCamera Layer0",
           "components": [
@@ -11124,7 +11124,7 @@
       "name": "Fiorano Track",
       "extras": {
         "metadata": {
-          "guid": "ab3b79b7-0f38-4ca7-8cca-2e92b73100d7"
+          "guid": "289d38bd-e809-4f05-abe4-781b6262a731"
         }
       }
     },
@@ -11151,7 +11151,7 @@
       "name": "Mesh Colliders",
       "extras": {
         "metadata": {
-          "guid": "8c10f314-618f-488b-98f6-4e03e46ffeef"
+          "guid": "93fcb029-f832-412d-8858-8a227f51babf"
         }
       }
     },
@@ -11174,7 +11174,7 @@
       "name": "GI - Pit lane entrance blocker",
       "extras": {
         "metadata": {
-          "guid": "09b93bbe-9e89-4089-aaf6-f237b5a3782d",
+          "guid": "0f87d21a-1c86-46ae-be9c-505e47e85b20",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11276,7 +11276,7 @@
       "name": "GI - Pit lane entrance blocker.Detail",
       "extras": {
         "metadata": {
-          "guid": "09b93bbe-9e89-4089-aaf6-f237b5a3782d",
+          "guid": "0f87d21a-1c86-46ae-be9c-505e47e85b20",
           "navigation": {
             "area": 0,
             "links": null
@@ -11326,7 +11326,7 @@
       "name": "astro",
       "extras": {
         "metadata": {
-          "guid": "b2c1fc7e-ee3c-43f4-89c6-2a73bed3a280",
+          "guid": "d3c43b8e-acd9-4413-8c59-f1c1e4d3d891",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11428,7 +11428,7 @@
       "name": "astro.Detail",
       "extras": {
         "metadata": {
-          "guid": "b2c1fc7e-ee3c-43f4-89c6-2a73bed3a280",
+          "guid": "d3c43b8e-acd9-4413-8c59-f1c1e4d3d891",
           "navigation": {
             "area": 0,
             "links": null
@@ -11478,7 +11478,7 @@
       "name": "bara",
       "extras": {
         "metadata": {
-          "guid": "6174268f-66e0-4f06-9cf3-61499fe28f8b",
+          "guid": "3acb35d4-82bb-45bc-8c49-7d0882d37393",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11580,7 +11580,7 @@
       "name": "bara.Detail",
       "extras": {
         "metadata": {
-          "guid": "6174268f-66e0-4f06-9cf3-61499fe28f8b",
+          "guid": "3acb35d4-82bb-45bc-8c49-7d0882d37393",
           "navigation": {
             "area": 0,
             "links": null
@@ -11630,7 +11630,7 @@
       "name": "bldg 3",
       "extras": {
         "metadata": {
-          "guid": "83b34e76-5835-4668-b10f-4ea1ec3f4479",
+          "guid": "5b31b681-9e10-49a1-847e-ec903d5ff24a",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11732,7 +11732,7 @@
       "name": "bldg 3.Detail",
       "extras": {
         "metadata": {
-          "guid": "83b34e76-5835-4668-b10f-4ea1ec3f4479",
+          "guid": "5b31b681-9e10-49a1-847e-ec903d5ff24a",
           "navigation": {
             "area": 0,
             "links": null
@@ -11782,7 +11782,7 @@
       "name": "bldg 2",
       "extras": {
         "metadata": {
-          "guid": "47cf5223-04bb-4bf5-87f7-6a8906038cbb",
+          "guid": "21fc9d39-cdde-4d60-9f12-f764f0ff9284",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11884,7 +11884,7 @@
       "name": "bldg 2.Detail",
       "extras": {
         "metadata": {
-          "guid": "47cf5223-04bb-4bf5-87f7-6a8906038cbb",
+          "guid": "21fc9d39-cdde-4d60-9f12-f764f0ff9284",
           "navigation": {
             "area": 0,
             "links": null
@@ -11934,7 +11934,7 @@
       "name": "bldg gs",
       "extras": {
         "metadata": {
-          "guid": "a6656b46-4e8d-4fe4-b908-4cf86bae7379",
+          "guid": "d7138799-b9d4-4578-925e-fb789d43ef08",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12036,7 +12036,7 @@
       "name": "bldg gs.Detail",
       "extras": {
         "metadata": {
-          "guid": "a6656b46-4e8d-4fe4-b908-4cf86bae7379",
+          "guid": "d7138799-b9d4-4578-925e-fb789d43ef08",
           "navigation": {
             "area": 0,
             "links": null
@@ -12086,7 +12086,7 @@
       "name": "fence a",
       "extras": {
         "metadata": {
-          "guid": "b22faa87-5a91-4781-a18e-6a9614f74c9b",
+          "guid": "fb86ab32-4e04-44bf-a06e-4a4d05cdea06",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12188,7 +12188,7 @@
       "name": "fence a.Detail",
       "extras": {
         "metadata": {
-          "guid": "b22faa87-5a91-4781-a18e-6a9614f74c9b",
+          "guid": "fb86ab32-4e04-44bf-a06e-4a4d05cdea06",
           "navigation": {
             "area": 0,
             "links": null
@@ -12238,7 +12238,7 @@
       "name": "gfloor",
       "extras": {
         "metadata": {
-          "guid": "754d73e8-1aea-4f68-8649-59631b216593",
+          "guid": "cd52e18c-e2d6-4dc7-aca1-95885b0cc34e",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12340,7 +12340,7 @@
       "name": "gfloor.Detail",
       "extras": {
         "metadata": {
-          "guid": "754d73e8-1aea-4f68-8649-59631b216593",
+          "guid": "cd52e18c-e2d6-4dc7-aca1-95885b0cc34e",
           "navigation": {
             "area": 0,
             "links": null
@@ -12390,7 +12390,7 @@
       "name": "grass",
       "extras": {
         "metadata": {
-          "guid": "875690f2-2803-4df2-8929-e5bcbebcef2d",
+          "guid": "52a690cf-5743-4e5d-b93d-0f5b07e61072",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12492,7 +12492,7 @@
       "name": "grass.Detail",
       "extras": {
         "metadata": {
-          "guid": "875690f2-2803-4df2-8929-e5bcbebcef2d",
+          "guid": "52a690cf-5743-4e5d-b93d-0f5b07e61072",
           "navigation": {
             "area": 0,
             "links": null
@@ -12542,7 +12542,7 @@
       "name": "kerb",
       "extras": {
         "metadata": {
-          "guid": "e349b99a-999d-46e7-b3e5-c858b91378ac",
+          "guid": "319a3002-1c98-43b6-9fdb-fd5e2fc237a9",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12644,7 +12644,7 @@
       "name": "kerb.Detail",
       "extras": {
         "metadata": {
-          "guid": "e349b99a-999d-46e7-b3e5-c858b91378ac",
+          "guid": "319a3002-1c98-43b6-9fdb-fd5e2fc237a9",
           "navigation": {
             "area": 0,
             "links": null
@@ -12694,7 +12694,7 @@
       "name": "road",
       "extras": {
         "metadata": {
-          "guid": "203cd0b1-c0f7-460e-b582-4dd3c0cbe250",
+          "guid": "98e71658-3441-4e48-817a-7a35673dd902",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12796,7 +12796,7 @@
       "name": "road.Detail",
       "extras": {
         "metadata": {
-          "guid": "203cd0b1-c0f7-460e-b582-4dd3c0cbe250",
+          "guid": "98e71658-3441-4e48-817a-7a35673dd902",
           "navigation": {
             "area": 0,
             "links": null
@@ -12846,7 +12846,7 @@
       "name": "road r",
       "extras": {
         "metadata": {
-          "guid": "73b392bb-f3f0-4a90-83cb-44dd560564f5",
+          "guid": "c3a6d34d-5e41-4d1f-9266-afbe80713b6e",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12948,7 +12948,7 @@
       "name": "road r.Detail",
       "extras": {
         "metadata": {
-          "guid": "73b392bb-f3f0-4a90-83cb-44dd560564f5",
+          "guid": "c3a6d34d-5e41-4d1f-9266-afbe80713b6e",
           "navigation": {
             "area": 0,
             "links": null
@@ -12998,7 +12998,7 @@
       "name": "sand",
       "extras": {
         "metadata": {
-          "guid": "dc060a2d-0f04-4f57-a7a8-a8e44a8a0fa8",
+          "guid": "fc89b737-d5e8-4c3b-939e-75f0f2a7443f",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13100,7 +13100,7 @@
       "name": "sand.Detail",
       "extras": {
         "metadata": {
-          "guid": "dc060a2d-0f04-4f57-a7a8-a8e44a8a0fa8",
+          "guid": "fc89b737-d5e8-4c3b-939e-75f0f2a7443f",
           "navigation": {
             "area": 0,
             "links": null
@@ -13150,7 +13150,7 @@
       "name": "track",
       "extras": {
         "metadata": {
-          "guid": "7cad49d7-a74d-4a38-ab52-64648cc4e4ba",
+          "guid": "f7219fa7-27aa-4676-949d-80a4bebba1a7",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13252,7 +13252,7 @@
       "name": "track.Detail",
       "extras": {
         "metadata": {
-          "guid": "7cad49d7-a74d-4a38-ab52-64648cc4e4ba",
+          "guid": "f7219fa7-27aa-4676-949d-80a4bebba1a7",
           "navigation": {
             "area": 0,
             "links": null
@@ -13302,7 +13302,7 @@
       "name": "tyres",
       "extras": {
         "metadata": {
-          "guid": "eb0f0b14-ee8a-41ca-9114-84de86059587",
+          "guid": "673e913a-1e6f-4331-8d9d-520750f2e6bf",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13404,7 +13404,7 @@
       "name": "tyres.Detail",
       "extras": {
         "metadata": {
-          "guid": "eb0f0b14-ee8a-41ca-9114-84de86059587",
+          "guid": "673e913a-1e6f-4331-8d9d-520750f2e6bf",
           "navigation": {
             "area": 0,
             "links": null
@@ -13454,7 +13454,7 @@
       "name": "chevrons",
       "extras": {
         "metadata": {
-          "guid": "c299fddd-3ac6-4e99-a0b3-4aeb191fe853",
+          "guid": "1c64033f-2fd9-4cfa-9a1b-1a11ddec5758",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13556,7 +13556,7 @@
       "name": "chevrons.Detail",
       "extras": {
         "metadata": {
-          "guid": "c299fddd-3ac6-4e99-a0b3-4aeb191fe853",
+          "guid": "1c64033f-2fd9-4cfa-9a1b-1a11ddec5758",
           "navigation": {
             "area": 0,
             "links": null
@@ -13606,7 +13606,7 @@
       "name": "track start",
       "extras": {
         "metadata": {
-          "guid": "60863806-93e0-4a09-9e1c-de2e22a192f6",
+          "guid": "93ca5e6d-24ab-4053-ba7b-ac420d6578b0",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13708,7 +13708,7 @@
       "name": "track start.Detail",
       "extras": {
         "metadata": {
-          "guid": "60863806-93e0-4a09-9e1c-de2e22a192f6",
+          "guid": "93ca5e6d-24ab-4053-ba7b-ac420d6578b0",
           "navigation": {
             "area": 0,
             "links": null
@@ -13746,7 +13746,7 @@
       "name": "Static Baked",
       "extras": {
         "metadata": {
-          "guid": "96bbc331-f6a3-4761-9f54-5ac4607a2016"
+          "guid": "5129652e-dd3f-4295-a885-20432a2f9ad5"
         }
       }
     },
@@ -13755,7 +13755,7 @@
       "name": "FIORANO",
       "extras": {
         "metadata": {
-          "guid": "ae46a845-ee18-4ca9-9923-1ca4d649ea6d",
+          "guid": "301b2e6a-8ee7-433a-90d4-c4079bb1815a",
           "navigation": {
             "area": 0,
             "links": null
@@ -13793,7 +13793,7 @@
       "name": "Glass Objects",
       "extras": {
         "metadata": {
-          "guid": "44939b98-4f86-4cc2-9201-a54623172845"
+          "guid": "d0c03583-86cf-4de2-b568-17930f56a6a6"
         }
       }
     },
@@ -13813,7 +13813,7 @@
       "name": "glass",
       "extras": {
         "metadata": {
-          "guid": "7535391b-b558-4520-a0c6-f202955a524d",
+          "guid": "0869779b-432d-4972-a69b-ae5213ed59fa",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -13849,7 +13849,7 @@
       "name": "Tree Meshes",
       "extras": {
         "metadata": {
-          "guid": "63747494-49ec-4963-b51a-1c9560f39039"
+          "guid": "db23129b-faf3-4ef6-9c89-8ccc2eab51e0"
         }
       }
     },
@@ -13869,7 +13869,7 @@
       "name": "tree 1",
       "extras": {
         "metadata": {
-          "guid": "c9ca1a84-4b84-4536-903a-09610ff88e93",
+          "guid": "830d34bc-851d-4c87-ad17-2540156a83be",
           "navigation": {
             "area": 0,
             "links": null
@@ -13916,7 +13916,7 @@
       "name": "tree 2",
       "extras": {
         "metadata": {
-          "guid": "c6fdfe14-a0ec-4ea9-9518-a57c2fb8c569",
+          "guid": "9a8b1fea-278e-48a6-8dc0-845a7500ea92",
           "navigation": {
             "area": 0,
             "links": null
@@ -13963,7 +13963,7 @@
       "name": "tree 3",
       "extras": {
         "metadata": {
-          "guid": "27ecc8a6-bb39-4cdd-92ad-2c2a32ad80bb",
+          "guid": "5aa07071-dccc-475f-a407-9987de7c4e2e",
           "navigation": {
             "area": 0,
             "links": null
@@ -14010,7 +14010,7 @@
       "name": "tree 4",
       "extras": {
         "metadata": {
-          "guid": "2aeec6ea-1008-4240-9448-9d29c3e841a3",
+          "guid": "0fc7c64b-dfb1-4a95-8a38-7237a4e5c4b1",
           "navigation": {
             "area": 0,
             "links": null
@@ -14073,7 +14073,7 @@
       "name": "Mustang",
       "extras": {
         "metadata": {
-          "guid": "12af6de6-b61c-46b6-817f-35e6ad2560a0",
+          "guid": "f802f370-0032-465b-b0b3-20970ab83fbd",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -14121,7 +14121,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "Mustang",
-                "file": "assets/racing/mustang/audio/Engine.wav",
+                "file": "assets/racing/mustang/audio/engine.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -14149,7 +14149,7 @@
               "properties": {
                 "mainBodyTransform": {
                   "type": "UnityEngine.Transform",
-                  "id": "0267965d-ea62-4cbe-97ae-4bc2d92f85d7",
+                  "id": "b6f31480-be52-405f-9edb-e6938b1f8c0e",
                   "tag": "Untagged",
                   "name": "U_MC02_BodyLow_Mesh",
                   "layer": 31
@@ -14174,7 +14174,7 @@
                   "name": "Shadow",
                   "width": 512,
                   "height": 512,
-                  "filename": "assets/babylon/images/Shadow.png",
+                  "filename": "assets/babylon/images/shadow.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
@@ -14318,77 +14318,77 @@
                   "name": "Smoke",
                   "width": 64,
                   "height": 64,
-                  "filename": "assets/babylon/images/Smoke.png",
+                  "filename": "assets/babylon/images/smoke.png",
                   "wrapmode": "repeat",
                   "filtermode": "bilinear",
                   "anisolevel": 1
                 },
                 "brakeLightsMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "7f732277-117f-42bd-bcaa-232a0cbc9ac3",
+                  "id": "a86fa2dd-ad62-4ab0-a8c2-ac3db3481f28",
                   "tag": "Untagged",
                   "name": "U_MC02_BrakeLight_Mesh",
                   "layer": 31
                 },
                 "reverseLightsMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "d2a4bfd5-e955-4149-8767-3a2b9d4c7bd2",
+                  "id": "155a925e-5982-4319-9c16-d6dde7ae24bd",
                   "tag": "Untagged",
                   "name": "U_MC02_ReverseLight_Mesh",
                   "layer": 31
                 },
                 "frontLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "7d27c7cc-a36f-4db5-8776-1b4e72399505",
+                  "id": "47d9bfcf-54d8-492a-a447-1398ee48f398",
                   "tag": "Untagged",
                   "name": "FrontLeftWheel",
                   "layer": 31
                 },
                 "frontRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "0d31bce6-6735-4093-a7f4-ed9436d5429d",
+                  "id": "7565bdd9-f220-4d91-b7a1-4244b202c894",
                   "tag": "Untagged",
                   "name": "FrontRightWheel",
                   "layer": 31
                 },
                 "rearLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "1ae3a46e-91b8-4e48-b8a7-8158b17e5a6a",
+                  "id": "6e1a0af1-9aec-4d58-95af-db6de7111b6d",
                   "tag": "Untagged",
                   "name": "RearLeftWheel",
                   "layer": 31
                 },
                 "rearRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "c303394d-b6d1-478f-80c6-4d8467addf8d",
+                  "id": "c31b2689-d68b-41bf-bb42-b992d36616d1",
                   "tag": "Untagged",
                   "name": "RearRightWheel",
                   "layer": 31
                 },
                 "frontLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "0ba60126-f2fc-4d27-a980-ba8be20d55a9",
+                  "id": "ededb2ff-8c21-426e-a4be-a4ed47aec4e0",
                   "tag": "Untagged",
                   "name": "WheelHub_FL",
                   "layer": 31
                 },
                 "frontRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "726684cc-de60-47f6-a105-10bc9bd2d384",
+                  "id": "76ed17af-abbb-4401-b402-6e3743d6f796",
                   "tag": "Untagged",
                   "name": "WheelHub_FR",
                   "layer": 31
                 },
                 "rearLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "2378f80b-10db-47ff-8daa-82fab4dd0f2d",
+                  "id": "80b4e63b-3bd9-4815-b894-d1e8a2510023",
                   "tag": "Untagged",
                   "name": "WheelHub_RL",
                   "layer": 31
                 },
                 "rearRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "a8eee87c-3114-44ed-992e-1910af3b9b1c",
+                  "id": "02884576-fc13-4958-bddb-ec2a949dca95",
                   "tag": "Untagged",
                   "name": "WheelHub_RR",
                   "layer": 31
@@ -14483,7 +14483,7 @@
       "name": "Wheel Meshes",
       "extras": {
         "metadata": {
-          "guid": "24a40c6a-746d-4a02-8c2c-590100278030",
+          "guid": "e2bce50f-c387-4f37-a09d-0ecf60ef10ec",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -14502,7 +14502,7 @@
       "name": "WheelHub_FL",
       "extras": {
         "metadata": {
-          "guid": "0ba60126-f2fc-4d27-a980-ba8be20d55a9",
+          "guid": "ededb2ff-8c21-426e-a4be-a4ed47aec4e0",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -14514,7 +14514,7 @@
       "name": "Wheel_FL",
       "extras": {
         "metadata": {
-          "guid": "ec5da3b1-2783-4850-b0af-84961817004f",
+          "guid": "eb03cb80-1fc1-4272-9f9e-2ba3dde53a6b",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14555,7 +14555,7 @@
       "name": "WheelHub_FR",
       "extras": {
         "metadata": {
-          "guid": "726684cc-de60-47f6-a105-10bc9bd2d384",
+          "guid": "76ed17af-abbb-4401-b402-6e3743d6f796",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -14567,7 +14567,7 @@
       "name": "Wheel_FR",
       "extras": {
         "metadata": {
-          "guid": "e73a18dc-1185-48b4-89b2-704f86560f0c",
+          "guid": "7ff362ce-753f-49de-a830-b905a1754bcf",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14608,7 +14608,7 @@
       "name": "WheelHub_RL",
       "extras": {
         "metadata": {
-          "guid": "2378f80b-10db-47ff-8daa-82fab4dd0f2d",
+          "guid": "80b4e63b-3bd9-4815-b894-d1e8a2510023",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -14620,7 +14620,7 @@
       "name": "Wheel_RL",
       "extras": {
         "metadata": {
-          "guid": "d74c3282-91a5-45db-a12d-6630d659f383",
+          "guid": "d9208b07-ea10-42c7-82b1-e86b14c4d269",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14662,7 +14662,7 @@
       "name": "WheelHub_RR",
       "extras": {
         "metadata": {
-          "guid": "a8eee87c-3114-44ed-992e-1910af3b9b1c",
+          "guid": "02884576-fc13-4958-bddb-ec2a949dca95",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -14675,7 +14675,7 @@
               "klass": "BABYLON.AudioSource",
               "properties": {
                 "name": "WheelHub_RR",
-                "file": "assets/racing/mustang/audio/Skidding.wav",
+                "file": "assets/racing/mustang/audio/skidding.wav",
                 "mute": false,
                 "loop": true,
                 "volume": 0.2,
@@ -14705,7 +14705,7 @@
       "name": "Wheel_RR",
       "extras": {
         "metadata": {
-          "guid": "a686d9de-7f7a-4c6e-b454-7c50a6028139",
+          "guid": "7333e331-61a1-44e3-b6f1-e13069380cc1",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14749,7 +14749,7 @@
       "name": "TopFrame",
       "extras": {
         "metadata": {
-          "guid": "2ce96211-d521-4e3e-b744-173abd66cec5",
+          "guid": "f3c6152e-43c0-418b-bf8e-96945185b71b",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -14801,7 +14801,7 @@
       "name": "MiddleFrame",
       "extras": {
         "metadata": {
-          "guid": "e6c05e6d-1f93-40ad-b10d-cbae7dd2cf04",
+          "guid": "17c37115-0841-4d73-98e8-311f5b004707",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -14853,7 +14853,7 @@
       "name": "BottomFrame",
       "extras": {
         "metadata": {
-          "guid": "1d399f25-d0b4-4fc0-8e59-e18a8c0f1f61",
+          "guid": "16b728f2-354f-4afd-9d61-2699e7b21d49",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -14899,7 +14899,7 @@
       "name": "FrontLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "7d27c7cc-a36f-4db5-8776-1b4e72399505",
+          "guid": "47d9bfcf-54d8-492a-a447-1398ee48f398",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14930,7 +14930,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "7d27c7cc-a36f-4db5-8776-1b4e72399505",
+              "id": "47d9bfcf-54d8-492a-a447-1398ee48f398",
               "name": "FrontLeftWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -14968,7 +14968,7 @@
       "name": "FrontRightWheel",
       "extras": {
         "metadata": {
-          "guid": "0d31bce6-6735-4093-a7f4-ed9436d5429d",
+          "guid": "7565bdd9-f220-4d91-b7a1-4244b202c894",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14999,7 +14999,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "0d31bce6-6735-4093-a7f4-ed9436d5429d",
+              "id": "7565bdd9-f220-4d91-b7a1-4244b202c894",
               "name": "FrontRightWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -15037,7 +15037,7 @@
       "name": "RearLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "1ae3a46e-91b8-4e48-b8a7-8158b17e5a6a",
+          "guid": "6e1a0af1-9aec-4d58-95af-db6de7111b6d",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15068,7 +15068,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "1ae3a46e-91b8-4e48-b8a7-8158b17e5a6a",
+              "id": "6e1a0af1-9aec-4d58-95af-db6de7111b6d",
               "name": "RearLeftWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -15106,7 +15106,7 @@
       "name": "RearRightWheel",
       "extras": {
         "metadata": {
-          "guid": "c303394d-b6d1-478f-80c6-4d8467addf8d",
+          "guid": "c31b2689-d68b-41bf-bb42-b992d36616d1",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15137,7 +15137,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "c303394d-b6d1-478f-80c6-4d8467addf8d",
+              "id": "c31b2689-d68b-41bf-bb42-b992d36616d1",
               "name": "RearRightWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -15175,7 +15175,7 @@
       "name": "U_MC02_LOW",
       "extras": {
         "metadata": {
-          "guid": "505a128a-f43d-4074-9e9b-57a9fc4f0956",
+          "guid": "c55a4b15-d3d8-428d-b557-7f6b2253b5cc",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -15192,7 +15192,7 @@
       "name": "U_MC02_BodyLow_Mesh",
       "extras": {
         "metadata": {
-          "guid": "0267965d-ea62-4cbe-97ae-4bc2d92f85d7",
+          "guid": "b6f31480-be52-405f-9edb-e6938b1f8c0e",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15231,7 +15231,7 @@
       "name": "U_MC02_BrakeLight_Mesh",
       "extras": {
         "metadata": {
-          "guid": "7f732277-117f-42bd-bcaa-232a0cbc9ac3",
+          "guid": "a86fa2dd-ad62-4ab0-a8c2-ac3db3481f28",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15270,7 +15270,7 @@
       "name": "U_MC02_ReverseLight_Mesh",
       "extras": {
         "metadata": {
-          "guid": "d2a4bfd5-e955-4149-8767-3a2b9d4c7bd2",
+          "guid": "155a925e-5982-4319-9c16-d6dde7ae24bd",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15459,7 +15459,7 @@
         3,
         48
       ],
-      "name": "FioranoTrack",
+      "name": "fioranotrack",
       "extras": {
         "metadata": {
           "gltf": true,
@@ -15471,15 +15471,14 @@
           "rendergroups": 4,
           "rawmaterials": [],
           "script": "araceproject",
-          "project": "ARaceProject.js",
+          "project": "araceproject.js",
           "filename": "FioranoTrack",
           "prewarmup": 1.0,
-          "postwarmup": 1.0,
           "hideloader": true,
           "exposure": 1,
           "tonemapping": 0,
           "gammacorrection": 1,
-          "deltaworldstep": true,
+          "deltatimestep": 0.01666667,
           "subtimestep": 0.0,
           "pointerlock": false,
           "preventdefault": false,
@@ -15640,7 +15639,7 @@
             "skysize": 10000.0,
             "skysrgb": false,
             "skyfaces": "png",
-            "basename": "assets/Default-Skybox",
+            "basename": "assets/default-skybox",
             "anisolevel": 2,
             "exposure": 1.3,
             "rotation": 0.0,

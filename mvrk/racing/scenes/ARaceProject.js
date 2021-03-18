@@ -1,4 +1,4 @@
-﻿// ARaceProject.js
+﻿// araceproject.js
 var PROJECT;
 (function (PROJECT) {
     /**
