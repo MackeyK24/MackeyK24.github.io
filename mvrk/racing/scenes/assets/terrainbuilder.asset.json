@@ -1,0 +1,104 @@
+{
+  "id": "2faab774-1b28-498b-87b6-f0195b855872",
+  "res": 257,
+  "size": [
+    1450.0,
+    300.0,
+    1450.0
+  ],
+  "label": "Terrain Builder",
+  "layers": 4,
+  "detail": 256,
+  "basemap": 1024,
+  "alphamap": 512,
+  "splatmapCount": 1,
+  "splatmapAtlas": [
+    512.0,
+    512.0,
+    512.0,
+    9.0
+  ],
+  "splatmapAsset": "assets/terrain builder.splatmaps.png",
+  "splatmapRect0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "textureCount": 4,
+  "textureAtlas": [
+    2048.0,
+    2048.0,
+    1024.0,
+    10.0
+  ],
+  "textureAsset": "assets/terrain builder.layers.png",
+  "textureTag0": "Grass01",
+  "textureRect0": [
+    0.0,
+    1.0,
+    0.5,
+    0.5
+  ],
+  "textureInfo0": [
+    145.0,
+    145.0,
+    0.0,
+    0.0
+  ],
+  "textureTag1": "Groundplants",
+  "textureRect1": [
+    1.0,
+    1.0,
+    0.5,
+    0.5
+  ],
+  "textureInfo1": [
+    72.5,
+    72.5,
+    0.0,
+    0.0
+  ],
+  "textureTag2": "Moss 01",
+  "textureRect2": [
+    0.0,
+    0.0,
+    0.5,
+    0.5
+  ],
+  "textureInfo2": [
+    48.3333321,
+    48.3333321,
+    0.0,
+    0.0
+  ],
+  "textureTag3": "RockLayered",
+  "textureRect3": [
+    1.0,
+    0.0,
+    0.5,
+    0.5
+  ],
+  "textureInfo3": [
+    36.25,
+    36.25,
+    0.0,
+    0.0
+  ],
+  "normalsCount": 4,
+  "normalsAtlas": [
+    2048.0,
+    2048.0,
+    1024.0,
+    10.0
+  ],
+  "normalsAsset": "assets/terrain builder.normals.png",
+  "normalsTag0": "None",
+  "normalsScale0": 1.0,
+  "normalsTag1": "None",
+  "normalsScale1": 1.0,
+  "normalsTag2": "None",
+  "normalsScale2": 1.0,
+  "normalsTag3": "None",
+  "normalsScale3": 1.0
+}
