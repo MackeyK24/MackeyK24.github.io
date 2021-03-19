@@ -3095,6 +3095,7 @@ var PROJECT;
             this.raceCar2 = "F1_BlueVariant";
             this.raceCar3 = "F1_RedVariant";
             this.raceCar4 = "F1_GreenVariant";
+            //private updateTimeStep:boolean = true;
             this.raceOneVehicle = null;
             this.raceTwoVehicle = null;
             this.raceThreeVehicle = null;
@@ -3109,9 +3110,19 @@ var PROJECT;
             this.raceCar2 = this.getProperty("raceCar2", this.raceCar2);
             this.raceCar3 = this.getProperty("raceCar3", this.raceCar3);
             this.raceCar4 = this.getProperty("raceCar4", this.raceCar4);
+            //this.updateTimeStep = this.getProperty("updateTimeStep", this.updateTimeStep);
             this.startCountdownVolume = this.getProperty("startVolume", this.startCountdownVolume);
         }
         initRaceController() {
+            /* WORK - IN - PROGRESS
+            if (this.updateTimeStep === true) {
+                const defaultStep:number = 1 / 60;
+                const animRatio:number = SM.GetAnimationRatio(this.scene);
+                const timeStep:number = defaultStep * animRatio;
+                this.scene.getPhysicsEngine().setTimeStep(timeStep);
+                console.log("System Animation Ratio: " + animRatio);
+                console.log("Using Fixed Time Step: " + timeStep);
+            }*/
             const rootUrl = BABYLON.SceneManager.GetRootUrl(this.scene);
             const countdownImages = this.getProperty("countdownImages");
             const advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI", true, this.scene);
