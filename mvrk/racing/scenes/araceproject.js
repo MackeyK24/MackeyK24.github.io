@@ -4196,10 +4196,11 @@ var PROJECT;
             this.highSpeedAngle = 1;
             this.lowSpeedTurning = 0.015;
             this.highSpeedTurning = 0.005;
-            this.rayTestingType = 0;
+            // DEPRECIATED: public rayTestingType:number = 0;
+            // DEPRECIATED: public testPointCount:number = 32;
+            this.triangleNormals = true;
             this.stableDownImpulse = 5;
             this.roadConnectAccel = 5;
-            this.testPointCount = 32;
             this.sweepPenetration = 0.0;
             this.smoothFlyingForce = 250;
             this.transmissionRatio = 0.75;
@@ -4306,8 +4307,9 @@ var PROJECT;
             this.visualSteerAngle = 0;
             this.physicsSteerAngle = 0;
             this.m_physicsWorld = BABYLON.SceneManager.GetPhysicsWorld(this.scene);
-            this.rayTestingType = this.getProperty("rayTestingType", this.rayTestingType);
-            this.testPointCount = this.getProperty("testPointCount", this.testPointCount);
+            // DEPRECIATED: this.rayTestingType = this.getProperty("rayTestingType", this.rayTestingType);
+            // DEPRECIATED: this.testPointCount = this.getProperty("testPointCount", this.testPointCount);
+            // ALWAYS: this.triangleNormals = this.getProperty("triangleNormals", this.triangleNormals);
             this.sweepPenetration = this.getProperty("sweepPenetration", this.sweepPenetration);
             this.skidThreashold = this.getProperty("skidThreashold", this.skidThreashold);
             this.skidDrawVelocity = this.getProperty("skidDrawVelocity", this.skidDrawVelocity);
@@ -4365,8 +4367,6 @@ var PROJECT;
                 this.maxTurnAngle = 20;
             if (this.maxBurnAngle <= 0)
                 this.maxBurnAngle = 40;
-            if (this.testPointCount <= 0)
-                this.testPointCount = 32;
             if (this.sweepPenetration <= 0)
                 this.sweepPenetration = 0;
             if (this.stableDownImpulse <= 0)
@@ -4543,9 +4543,10 @@ var PROJECT;
                         // ..
                         // Setup Raycasting
                         // ..
-                        this.raycastVehicle.setShapeTestingMode(this.rayTestingType === 1);
-                        this.raycastVehicle.setShapeTestingSize(this.wheelRadius * 0.5);
-                        this.raycastVehicle.setShapeTestingCount(this.testPointCount);
+                        // DEPRECIATED: this.raycastVehicle.setShapeTestingMode(this.rayTestingType === 1);
+                        // DEPRECIATED: this.raycastVehicle.setShapeTestingSize(this.wheelRadius * 0.5);
+                        // DEPRECIATED: this.raycastVehicle.setShapeTestingCount(this.testPointCount);
+                        this.raycastVehicle.setUseTriangleNormals(this.triangleNormals);
                         this.raycastVehicle.setSweepPenetration(this.sweepPenetration);
                         this.raycastVehicle.setEnableMultiRaycast(true);
                         this.raycastVehicle.setInterpolateNormals(true);
@@ -9618,6 +9619,20 @@ var BABYLON;
                 this.m_vehicleRaycaster.set_m_interpolateNormals(flag);
             }
         }
+        /** Gets vehicle interpolate mesh normals flag using physics raycaster object. (Advanved Use Only) */
+        getUseTriangleNormals() {
+            let result = false;
+            if (this.m_vehicleRaycaster != null && this.m_vehicleRaycaster.get_m_useTriangleNormals) {
+                result = this.m_vehicleRaycaster.get_m_useTriangleNormals();
+            }
+            return result;
+        }
+        /** Sets the vehicle interpolate mesh normals using physics raycaster object. (Advanved Use Only) */
+        setUseTriangleNormals(flag) {
+            if (this.m_vehicleRaycaster != null && this.m_vehicleRaycaster.set_m_useTriangleNormals) {
+                this.m_vehicleRaycaster.set_m_useTriangleNormals(flag);
+            }
+        }
         /** Gets vehicle shape testing mode using physics raycaster object. (Advanved Use Only) */
         getShapeTestingMode() {
             let result = false;
@@ -10914,20 +10929,20 @@ var BABYLON;
                     const colobj = Ammo.castObject(body, Ammo.btCollisionObject);
                     colobj.entity = entity;
                     // ..
-                    // Setup Edge Contact
+                    // Setup Edge Contact (DEPRECIATED - KEEP FOR REFERENCE)
                     // ..
-                    const world = BABYLON.SceneManager.GetPhysicsWorld(scene);
-                    if (world != null && world.generateInternalEdgeInfo) {
-                        const collisionShape = colobj.getCollisionShape();
-                        if (collisionShape != null && collisionShape.getShapeType) {
-                            const shapeType = collisionShape.getShapeType();
-                            if (shapeType === 21) { // TRIANGLE_MESH_SHAPE_PROXYTYPE
-                                const triangleShape = Ammo.castObject(collisionShape, Ammo.btBvhTriangleMeshShape);
-                                colobj.triangleMapInfo = new Ammo.btTriangleInfoMap();
-                                world.generateInternalEdgeInfo(triangleShape, colobj.triangleMapInfo);
-                            }
-                        }
-                    }
+                    // const world:any = BABYLON.SceneManager.GetPhysicsWorld(scene);
+                    // if (world != null && world.generateInternalEdgeInfo) {
+                    //    const collisionShape:any = colobj.getCollisionShape();
+                    //    if (collisionShape != null && collisionShape.getShapeType) {
+                    //        const shapeType:number = collisionShape.getShapeType();
+                    //        if (shapeType === 21) { // TRIANGLE_MESH_SHAPE_PROXYTYPE
+                    //            const triangleShape:any = Ammo.castObject(collisionShape, Ammo.btBvhTriangleMeshShape);
+                    //            colobj.triangleMapInfo = new Ammo.btTriangleInfoMap();
+                    //            world.generateInternalEdgeInfo(triangleShape, colobj.triangleMapInfo);
+                    //        }
+                    //    }
+                    // }
                     // ..
                     // Setup Main Gravity
                     // ..

@@ -1024,10 +1024,9 @@ declare module PROJECT {
         highSpeedAngle: number;
         lowSpeedTurning: number;
         highSpeedTurning: number;
-        rayTestingType: number;
+        triangleNormals: boolean;
         stableDownImpulse: number;
         roadConnectAccel: number;
-        testPointCount: number;
         sweepPenetration: number;
         smoothFlyingForce: number;
         transmissionRatio: number;
@@ -2053,6 +2052,10 @@ declare module BABYLON {
         getInterpolateNormals(): boolean;
         /** Sets the vehicle interpolate mesh normals using physics raycaster object. (Advanved Use Only) */
         setInterpolateNormals(flag: boolean): void;
+        /** Gets vehicle interpolate mesh normals flag using physics raycaster object. (Advanved Use Only) */
+        getUseTriangleNormals(): boolean;
+        /** Sets the vehicle interpolate mesh normals using physics raycaster object. (Advanved Use Only) */
+        setUseTriangleNormals(flag: boolean): void;
         /** Gets vehicle shape testing mode using physics raycaster object. (Advanved Use Only) */
         getShapeTestingMode(): boolean;
         /** Sets the vehicle shape testing mode using physics raycaster object. (Advanved Use Only) */

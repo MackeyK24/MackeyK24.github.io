@@ -189,7 +189,7 @@
     ///////////////////////////////////////////////////////////
     // Babylon Service Worker Hooks
     ///////////////////////////////////////////////////////////
-    window.versionStamp = '3a2ae6b9-e92c-480b-a3a2-9763c2f08e0b';
+    window.versionStamp = '386feae8-324a-45e9-b350-ce46de8803ec';
     window.autoStartLoader = false;
     window.useServiceWorker = false;
     window.onServiceWorker = () => {
@@ -438,6 +438,9 @@
             window.scene = newscene;
             window.scene.executeWhenReady(function() {
                 loaded = true;
+                //if (BABYLON.SceneManager && BABYLON.SceneManager.GetAnimationRatio) {
+                //    BABYLON.Tools.Log("Delta time animation ratio: " + BABYLON.SceneManager.GetAnimationRatio(window.scene).toFixed(2));
+                //}
                 if (window.scene.cameras == null || window.scene.cameras.length <= 0) {
                     BABYLON.Tools.Warn("Adding default camera to scene");
                     var zposition = (BABYLON.SceneManager && BABYLON.SceneManager.GetRightHanded && BABYLON.SceneManager.GetRightHanded(window.scene) === true) ? 10 : -10;
