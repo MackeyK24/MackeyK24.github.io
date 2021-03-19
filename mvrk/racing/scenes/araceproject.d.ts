@@ -1024,10 +1024,8 @@ declare module PROJECT {
         highSpeedAngle: number;
         lowSpeedTurning: number;
         highSpeedTurning: number;
-        triangleNormals: boolean;
         stableDownImpulse: number;
         roadConnectAccel: number;
-        sweepPenetration: number;
         smoothFlyingForce: number;
         transmissionRatio: number;
         differentialRatio: number;

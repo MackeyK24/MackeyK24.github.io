@@ -4209,10 +4209,9 @@ var PROJECT;
             this.highSpeedTurning = 0.005;
             // DEPRECIATED: public rayTestingType:number = 0;
             // DEPRECIATED: public testPointCount:number = 32;
-            this.triangleNormals = true;
+            // DEPRECIATED: public sweepPenetration:number = 0.0;
             this.stableDownImpulse = 5;
             this.roadConnectAccel = 5;
-            this.sweepPenetration = 0.0;
             this.smoothFlyingForce = 250;
             this.transmissionRatio = 0.75;
             this.differentialRatio = 3.55;
@@ -4320,8 +4319,7 @@ var PROJECT;
             this.m_physicsWorld = BABYLON.SceneManager.GetPhysicsWorld(this.scene);
             // DEPRECIATED: this.rayTestingType = this.getProperty("rayTestingType", this.rayTestingType);
             // DEPRECIATED: this.testPointCount = this.getProperty("testPointCount", this.testPointCount);
-            // ALWAYS: this.triangleNormals = this.getProperty("triangleNormals", this.triangleNormals);
-            this.sweepPenetration = this.getProperty("sweepPenetration", this.sweepPenetration);
+            // DEPRECIATED: this.sweepPenetration = this.getProperty("sweepPenetration", this.sweepPenetration);
             this.skidThreashold = this.getProperty("skidThreashold", this.skidThreashold);
             this.skidDrawVelocity = this.getProperty("skidDrawVelocity", this.skidDrawVelocity);
             this.smokeIntensity = this.getProperty("smokeIntensity", this.smokeIntensity);
@@ -4378,8 +4376,6 @@ var PROJECT;
                 this.maxTurnAngle = 20;
             if (this.maxBurnAngle <= 0)
                 this.maxBurnAngle = 40;
-            if (this.sweepPenetration <= 0)
-                this.sweepPenetration = 0;
             if (this.stableDownImpulse <= 0)
                 this.stableDownImpulse = 0;
             if (this.roadConnectAccel <= 0)
@@ -4557,10 +4553,10 @@ var PROJECT;
                         // DEPRECIATED: this.raycastVehicle.setShapeTestingMode(this.rayTestingType === 1);
                         // DEPRECIATED: this.raycastVehicle.setShapeTestingSize(this.wheelRadius * 0.5);
                         // DEPRECIATED: this.raycastVehicle.setShapeTestingCount(this.testPointCount);
-                        this.raycastVehicle.setUseTriangleNormals(this.triangleNormals);
-                        this.raycastVehicle.setSweepPenetration(this.sweepPenetration);
+                        // DEPRECIATED: this.raycastVehicle.setSweepPenetration(this.sweepPenetration);
                         this.raycastVehicle.setEnableMultiRaycast(true);
                         this.raycastVehicle.setInterpolateNormals(true);
+                        this.raycastVehicle.setUseTriangleNormals(false);
                         // ..
                         // Setup Stabilzation
                         // ..
