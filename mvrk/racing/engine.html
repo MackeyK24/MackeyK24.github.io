@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>A Race Project</title>
+    <title>MVRK Racing 3D</title>
     <!-- Policy -->
     <meta http-equiv="Content-Security-Policy" content="default-src * ws: wss: gap: data: file: http: https: blob:; style-src * 'unsafe-inline' ws: wss: gap: data: file: http: https: blob:; script-src * 'unsafe-inline' 'unsafe-eval' ws: wss: gap: data: file: http: https: blob:" />
     <!-- Caches -->
@@ -14,7 +14,7 @@
     <meta name="edge" content="IE=edge" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
     <meta name="browsermode" content="application">
-    <meta name="description" content="A Race Project">
+    <meta name="description" content="MVRK Racing 3D">
     <meta name="theme-color" content="#2A2342">
     <!-- Apple -->
     <meta name="apple-mobile-web-app-title" content="A Race Proje">
@@ -23,9 +23,9 @@
     <!-- Android  -->
     <meta name="mobile-web-app-capable" content="yes">
     <!-- Windows  -->
-    <meta name="application-name" content="A Race Project">
+    <meta name="application-name" content="MVRK Racing 3D">
     <meta name="msapplication-navbutton-color" content="#2A2342">
-    <meta name="msapplication-tooltip" content="A Race Project">
+    <meta name="msapplication-tooltip" content="MVRK Racing 3D">
     <meta name="msapplication-starturl" content=".">
     <meta name="msapplication-TileColor" content="#2A2342">
     <meta name="msapplication-tap-highlight" content="no">
@@ -135,7 +135,7 @@
             100% { transform: rotate(360deg); }
         }
         #babylonUnmuteIconBtn {
-            display: block !important;
+            display: none !important;
         }        
     </style>
     <script type="text/javascript" nonce="none">
@@ -144,7 +144,7 @@
 <body touch-action="none">
     <div id="panel">
         <center>
-            <div id="proj">A Race Project</div>
+            <div id="proj">MVRK Racing 3D</div>
             <div id="load" class="load"></div>
             <div id="status">Loading</div>
             <div id="details">Loading script files</div>
@@ -176,7 +176,7 @@
     <script type="text/javascript" src="scripts/babylon.materials.js"></script>
 
     <!-- Project Script Bundle -->
-    <script type="text/javascript" src="scenes/araceproject.js"></script>
+    <script type="text/javascript" src="scenes/mvrkracing3d.js"></script>
 
     <!-- Default Scene Loader -->
     <script type="text/javascript" nonce="none">
@@ -189,7 +189,7 @@
     ///////////////////////////////////////////////////////////
     // Babylon Service Worker Hooks
     ///////////////////////////////////////////////////////////
-    window.versionStamp = '2e60f457-117e-47e5-9db2-9048b1a20949';
+    window.versionStamp = '936bf4cf-55ee-4198-818e-cdb6dd716f05';
     window.autoStartLoader = false;
     window.useServiceWorker = false;
     window.onServiceWorker = () => {
@@ -212,7 +212,7 @@
     window.scene = null;
     window.toolkit = true;
     var engine = null;
-    var pagetype = "project", defaultscene= "samplescene.gltf", autohide = true, percent = false, offline = true, validategltf = false, handlecontext = true, physics = true, navmesh = true, renderengine = 0, antialias = true, adaptive = false, datax = "#00FF00", folder = "scenes/", title = "A Race Project";
+    var pagetype = "project", defaultscene= "samplescene.gltf", autohide = true, percent = false, offline = true, validategltf = false, handlecontext = true, physics = true, navmesh = true, renderengine = 0, antialias = true, adaptive = false, datax = "#00FF00", folder = "scenes/", title = "MVRK Racing 3D";
     var loaded = false, paused = false, reloader = false, downloaded = 0;
     var proj = document.getElementById("proj");
     var panel = document.getElementById("panel");

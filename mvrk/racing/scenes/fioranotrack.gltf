@@ -10140,7 +10140,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "0ca8717c-b34e-4c31-8642-254491d239e4",
+                "id": "dc0622b9-a3fc-4503-ae6c-b51fc3fa1a5f",
                 "key": "KEY_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31",
                 "name": "MM_FIORANO",
                 "materials": [
@@ -10285,7 +10285,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "0bc2f3be-0048-4a3f-8658-6c37908d1d2d",
+                "id": "adee84de-1047-4d88-ad83-8874a54e21b4",
                 "key": "KEY_38_39_40",
                 "name": "MM_Wheel_FL",
                 "materials": [
@@ -10338,7 +10338,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "e2cf0ef7-0841-42e5-bf9d-ea0d6140f9c5",
+                "id": "c6eabb4e-fa92-420f-b710-e30c1f531299",
                 "key": "KEY_38_39_40",
                 "name": "MM_Wheel_FR",
                 "materials": [
@@ -10391,7 +10391,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "9a9a2dc2-805f-456c-9e04-4d886dbedddc",
+                "id": "31dc2ba9-ab1c-43c0-bbce-45fcee2986f2",
                 "key": "KEY_38_39_40",
                 "name": "MM_Wheel_RL",
                 "materials": [
@@ -10444,7 +10444,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "adb74c17-615d-4166-8324-e16105bb91b8",
+                "id": "92ee9075-4dd9-4ca3-91d3-cf190a241ede",
                 "key": "KEY_38_39_40",
                 "name": "MM_Wheel_RR",
                 "materials": [
@@ -10617,7 +10617,7 @@
                 }
               ],
               "multimaterial": {
-                "id": "56466514-d23e-41df-a6ec-c9d250f7d6c3",
+                "id": "bd717e82-f79b-4a69-aa63-7dcfafb34cfe",
                 "key": "KEY_41_42_43_44_45_46_47_48_49_50_51",
                 "name": "MM_U_MC02_BodyLow_Mesh",
                 "materials": [
@@ -10694,7 +10694,7 @@
       "name": "Scene Controller",
       "extras": {
         "metadata": {
-          "guid": "c5335d32-6e1a-4266-850b-0bcc912cfe77",
+          "guid": "13f2c560-814b-495c-acef-7098a2f4f185",
           "components": [
             {
               "alias": "script",
@@ -10860,7 +10860,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "guid": "ef2ddfad-1a0c-4c71-846f-01a0c955cc17",
+          "guid": "12f5fec0-9b75-4f30-853d-9862f35d268b",
           "components": [
             {
               "alias": "light",
@@ -10932,25 +10932,25 @@
     },
     {
       "rotation": [
-        0.08210552,
-        -0.6933262,
-        0.0800141245,
-        0.7114459
+        -0.08761721,
+        0.696255267,
+        -0.086263,
+        -0.70718503
       ],
       "scale": [
-        1.00000012,
-        1.0,
-        1.00000012
+        1.00000036,
+        0.99999994,
+        1.00000024
       ],
       "translation": [
-        974.079,
-        2.731801,
-        -3.66780281
+        969.8891,
+        1.85864234,
+        -3.49441862
       ],
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "guid": "35347ffb-e42a-464c-9692-5c2e59ee2336",
+          "guid": "2c345dfd-dc34-4bba-b94b-69abfc44284a",
           "group": "MainCamera",
           "tags": "MainCamera Layer0",
           "components": [
@@ -10962,7 +10962,7 @@
               "renderlist": null,
               "maincamera": true,
               "perspectiveyfov": 1.04719758,
-              "perspectiveaspect": 1.47174764,
+              "perspectiveaspect": 1.13255572,
               "perspectivezfar": 10017,
               "perspectiveznear": 0.299999982
             },
@@ -11124,7 +11124,7 @@
       "name": "Fiorano Track",
       "extras": {
         "metadata": {
-          "guid": "41b638fd-e519-426c-ab12-93c4d772489e"
+          "guid": "efe3065f-b9f3-464f-a776-be968fbb1c7b"
         }
       }
     },
@@ -11151,7 +11151,7 @@
       "name": "Mesh Colliders",
       "extras": {
         "metadata": {
-          "guid": "297ac3af-43ce-4856-a04a-14691d9bd119"
+          "guid": "3d802ca6-9c35-4a93-ad29-bcd57df7ec71"
         }
       }
     },
@@ -11174,7 +11174,7 @@
       "name": "GI - Pit lane entrance blocker",
       "extras": {
         "metadata": {
-          "guid": "d3d36b66-bf52-4bf2-a65f-302bd2c79eac",
+          "guid": "aa731bc7-ecca-4bc4-a8d1-d9ca75efc7d9",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11276,7 +11276,7 @@
       "name": "GI - Pit lane entrance blocker.Detail",
       "extras": {
         "metadata": {
-          "guid": "d3d36b66-bf52-4bf2-a65f-302bd2c79eac",
+          "guid": "aa731bc7-ecca-4bc4-a8d1-d9ca75efc7d9",
           "navigation": {
             "area": 0,
             "links": null
@@ -11326,7 +11326,7 @@
       "name": "astro",
       "extras": {
         "metadata": {
-          "guid": "6ab55c75-c796-416c-8283-19f2eb39561a",
+          "guid": "2815b4f7-473c-4df5-b36e-aed6c89c2054",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11428,7 +11428,7 @@
       "name": "astro.Detail",
       "extras": {
         "metadata": {
-          "guid": "6ab55c75-c796-416c-8283-19f2eb39561a",
+          "guid": "2815b4f7-473c-4df5-b36e-aed6c89c2054",
           "navigation": {
             "area": 0,
             "links": null
@@ -11478,7 +11478,7 @@
       "name": "bara",
       "extras": {
         "metadata": {
-          "guid": "f001fb60-e8a3-4123-81e4-4757e80a684d",
+          "guid": "1a0e4d00-fb7a-4019-91f7-433429d58a14",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11580,7 +11580,7 @@
       "name": "bara.Detail",
       "extras": {
         "metadata": {
-          "guid": "f001fb60-e8a3-4123-81e4-4757e80a684d",
+          "guid": "1a0e4d00-fb7a-4019-91f7-433429d58a14",
           "navigation": {
             "area": 0,
             "links": null
@@ -11630,7 +11630,7 @@
       "name": "bldg 3",
       "extras": {
         "metadata": {
-          "guid": "50bfef4b-df7a-4b0f-8e07-b283e62f1a1c",
+          "guid": "5c5413bc-118a-4a16-8dbb-4ecd21f549d3",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11732,7 +11732,7 @@
       "name": "bldg 3.Detail",
       "extras": {
         "metadata": {
-          "guid": "50bfef4b-df7a-4b0f-8e07-b283e62f1a1c",
+          "guid": "5c5413bc-118a-4a16-8dbb-4ecd21f549d3",
           "navigation": {
             "area": 0,
             "links": null
@@ -11782,7 +11782,7 @@
       "name": "bldg 2",
       "extras": {
         "metadata": {
-          "guid": "075335b4-5fe0-4c5f-9536-f4e63d5ec435",
+          "guid": "82a71a53-f62c-4939-ab7d-19179d922ccb",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -11884,7 +11884,7 @@
       "name": "bldg 2.Detail",
       "extras": {
         "metadata": {
-          "guid": "075335b4-5fe0-4c5f-9536-f4e63d5ec435",
+          "guid": "82a71a53-f62c-4939-ab7d-19179d922ccb",
           "navigation": {
             "area": 0,
             "links": null
@@ -11934,7 +11934,7 @@
       "name": "bldg gs",
       "extras": {
         "metadata": {
-          "guid": "170e7d77-d604-4673-b736-d9fde705fc42",
+          "guid": "e50dad43-60fd-479d-aab1-0e8291f4d0d3",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12036,7 +12036,7 @@
       "name": "bldg gs.Detail",
       "extras": {
         "metadata": {
-          "guid": "170e7d77-d604-4673-b736-d9fde705fc42",
+          "guid": "e50dad43-60fd-479d-aab1-0e8291f4d0d3",
           "navigation": {
             "area": 0,
             "links": null
@@ -12086,7 +12086,7 @@
       "name": "fence a",
       "extras": {
         "metadata": {
-          "guid": "e5ddd313-b1ba-4c66-ac2d-19f5a7716fc3",
+          "guid": "53ca3e78-73c4-453e-9ca1-6fb399c299d1",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12188,7 +12188,7 @@
       "name": "fence a.Detail",
       "extras": {
         "metadata": {
-          "guid": "e5ddd313-b1ba-4c66-ac2d-19f5a7716fc3",
+          "guid": "53ca3e78-73c4-453e-9ca1-6fb399c299d1",
           "navigation": {
             "area": 0,
             "links": null
@@ -12238,7 +12238,7 @@
       "name": "gfloor",
       "extras": {
         "metadata": {
-          "guid": "6e402d84-0e1f-4edc-b295-e631561a72a8",
+          "guid": "afcd0eb8-2751-4820-ba7b-90dc3751e193",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12340,7 +12340,7 @@
       "name": "gfloor.Detail",
       "extras": {
         "metadata": {
-          "guid": "6e402d84-0e1f-4edc-b295-e631561a72a8",
+          "guid": "afcd0eb8-2751-4820-ba7b-90dc3751e193",
           "navigation": {
             "area": 0,
             "links": null
@@ -12390,7 +12390,7 @@
       "name": "grass",
       "extras": {
         "metadata": {
-          "guid": "d9d9417a-9181-467a-8f9e-3c63f1dacd89",
+          "guid": "f0920efe-a829-4229-b0ff-a0aa693f7d62",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12492,7 +12492,7 @@
       "name": "grass.Detail",
       "extras": {
         "metadata": {
-          "guid": "d9d9417a-9181-467a-8f9e-3c63f1dacd89",
+          "guid": "f0920efe-a829-4229-b0ff-a0aa693f7d62",
           "navigation": {
             "area": 0,
             "links": null
@@ -12542,7 +12542,7 @@
       "name": "kerb",
       "extras": {
         "metadata": {
-          "guid": "0eaf81cf-526b-476a-ad54-c4688c6dbaa3",
+          "guid": "ae2655f4-3197-455d-9036-4ddc2c76eed1",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12644,7 +12644,7 @@
       "name": "kerb.Detail",
       "extras": {
         "metadata": {
-          "guid": "0eaf81cf-526b-476a-ad54-c4688c6dbaa3",
+          "guid": "ae2655f4-3197-455d-9036-4ddc2c76eed1",
           "navigation": {
             "area": 0,
             "links": null
@@ -12694,7 +12694,7 @@
       "name": "road",
       "extras": {
         "metadata": {
-          "guid": "3ebb2b1a-ef74-4e25-b7ba-b517d6437aad",
+          "guid": "15d32f2a-e924-4b04-882b-488a32a7c947",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12796,7 +12796,7 @@
       "name": "road.Detail",
       "extras": {
         "metadata": {
-          "guid": "3ebb2b1a-ef74-4e25-b7ba-b517d6437aad",
+          "guid": "15d32f2a-e924-4b04-882b-488a32a7c947",
           "navigation": {
             "area": 0,
             "links": null
@@ -12846,7 +12846,7 @@
       "name": "road r",
       "extras": {
         "metadata": {
-          "guid": "fedc72c3-6410-4b55-9518-96379f8bf0cc",
+          "guid": "4ca0179d-7214-4c10-9b7a-9ae2e3ab1a1e",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -12948,7 +12948,7 @@
       "name": "road r.Detail",
       "extras": {
         "metadata": {
-          "guid": "fedc72c3-6410-4b55-9518-96379f8bf0cc",
+          "guid": "4ca0179d-7214-4c10-9b7a-9ae2e3ab1a1e",
           "navigation": {
             "area": 0,
             "links": null
@@ -12998,7 +12998,7 @@
       "name": "sand",
       "extras": {
         "metadata": {
-          "guid": "4cbcf643-8df9-41dd-a998-dfc7929546e3",
+          "guid": "b4689a89-437e-4027-9024-20d180f66ed7",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13100,7 +13100,7 @@
       "name": "sand.Detail",
       "extras": {
         "metadata": {
-          "guid": "4cbcf643-8df9-41dd-a998-dfc7929546e3",
+          "guid": "b4689a89-437e-4027-9024-20d180f66ed7",
           "navigation": {
             "area": 0,
             "links": null
@@ -13150,7 +13150,7 @@
       "name": "track",
       "extras": {
         "metadata": {
-          "guid": "e4f319c8-c8ea-497c-91ee-3eea9ad56ccf",
+          "guid": "71884a2d-57cf-473a-9fd2-fd97be42229d",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13252,7 +13252,7 @@
       "name": "track.Detail",
       "extras": {
         "metadata": {
-          "guid": "e4f319c8-c8ea-497c-91ee-3eea9ad56ccf",
+          "guid": "71884a2d-57cf-473a-9fd2-fd97be42229d",
           "navigation": {
             "area": 0,
             "links": null
@@ -13302,7 +13302,7 @@
       "name": "tyres",
       "extras": {
         "metadata": {
-          "guid": "dc2b1354-aa28-4eee-9866-204aaecb8f40",
+          "guid": "5fb08ce6-fd38-4ad9-9104-511774ddcf2d",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13404,7 +13404,7 @@
       "name": "tyres.Detail",
       "extras": {
         "metadata": {
-          "guid": "dc2b1354-aa28-4eee-9866-204aaecb8f40",
+          "guid": "5fb08ce6-fd38-4ad9-9104-511774ddcf2d",
           "navigation": {
             "area": 0,
             "links": null
@@ -13454,7 +13454,7 @@
       "name": "chevrons",
       "extras": {
         "metadata": {
-          "guid": "5e569ea9-a599-43e6-8f16-dbb7cb00f838",
+          "guid": "8a08b3be-d570-4ed9-959e-873e4b40b75b",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13556,7 +13556,7 @@
       "name": "chevrons.Detail",
       "extras": {
         "metadata": {
-          "guid": "5e569ea9-a599-43e6-8f16-dbb7cb00f838",
+          "guid": "8a08b3be-d570-4ed9-959e-873e4b40b75b",
           "navigation": {
             "area": 0,
             "links": null
@@ -13606,7 +13606,7 @@
       "name": "track start",
       "extras": {
         "metadata": {
-          "guid": "c7ceff14-0e82-46b4-9a4c-476364e46814",
+          "guid": "6af385e4-61ab-44c5-8fcd-308878d39990",
           "visible": false,
           "visibility": 0.5,
           "navigation": {
@@ -13708,7 +13708,7 @@
       "name": "track start.Detail",
       "extras": {
         "metadata": {
-          "guid": "c7ceff14-0e82-46b4-9a4c-476364e46814",
+          "guid": "6af385e4-61ab-44c5-8fcd-308878d39990",
           "navigation": {
             "area": 0,
             "links": null
@@ -13746,7 +13746,7 @@
       "name": "Static Baked",
       "extras": {
         "metadata": {
-          "guid": "2b9e63a1-9cb0-46dd-9aab-1abe6f4493a8"
+          "guid": "138e3ace-6b34-423b-8f9f-ba152d47297e"
         }
       }
     },
@@ -13755,7 +13755,7 @@
       "name": "FIORANO",
       "extras": {
         "metadata": {
-          "guid": "b382091a-4cc4-4ef5-8a3d-45eda07bd230",
+          "guid": "b0b625ec-985a-4053-ad7d-fdefa698024d",
           "navigation": {
             "area": 0,
             "links": null
@@ -13793,7 +13793,7 @@
       "name": "Glass Objects",
       "extras": {
         "metadata": {
-          "guid": "05035b15-4482-427c-9e14-1882b633e38d"
+          "guid": "c01c0219-770f-4636-9c21-b0a681988b7b"
         }
       }
     },
@@ -13813,7 +13813,7 @@
       "name": "glass",
       "extras": {
         "metadata": {
-          "guid": "942c3304-2566-42cf-86bb-b454a73be6a8",
+          "guid": "0d9efb74-a585-4463-8458-1594dd37b0df",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -13849,7 +13849,7 @@
       "name": "Tree Meshes",
       "extras": {
         "metadata": {
-          "guid": "26aab7b7-2253-4730-9d9a-680a3be15cef"
+          "guid": "6d797358-72b6-43bc-8899-3fd219604c02"
         }
       }
     },
@@ -13869,7 +13869,7 @@
       "name": "tree 1",
       "extras": {
         "metadata": {
-          "guid": "b9a6d1f8-1894-428a-84a1-2f6b152f6c89",
+          "guid": "cf6737fb-a336-42fe-aaee-327a557bb822",
           "navigation": {
             "area": 0,
             "links": null
@@ -13916,7 +13916,7 @@
       "name": "tree 2",
       "extras": {
         "metadata": {
-          "guid": "3d8f427e-505f-4617-9e90-a34c7f34098e",
+          "guid": "750a894f-1e65-4003-8b02-c574aff424d1",
           "navigation": {
             "area": 0,
             "links": null
@@ -13963,7 +13963,7 @@
       "name": "tree 3",
       "extras": {
         "metadata": {
-          "guid": "d78f500e-d1cd-43e2-b5ec-aa4fd48d539a",
+          "guid": "22df00e0-89b0-4d94-8269-aa7be4eeef9c",
           "navigation": {
             "area": 0,
             "links": null
@@ -14010,7 +14010,7 @@
       "name": "tree 4",
       "extras": {
         "metadata": {
-          "guid": "deb07945-4d41-4ef4-ac85-3484da18a8cc",
+          "guid": "e8ddee53-f439-41b8-ac7e-c6ec01779db5",
           "navigation": {
             "area": 0,
             "links": null
@@ -14066,14 +14066,14 @@
         1.00000024
       ],
       "translation": [
-        962.89,
+        962.91,
         0.15,
         -3.8
       ],
       "name": "Mustang",
       "extras": {
         "metadata": {
-          "guid": "64682306-64c1-4506-a531-ef19d6eb27a2",
+          "guid": "e1b48427-2aac-4bad-870b-e3884e51a02f",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -14149,7 +14149,7 @@
               "properties": {
                 "mainBodyTransform": {
                   "type": "UnityEngine.Transform",
-                  "id": "4ac467ab-79fb-4011-b121-2d53588f8054",
+                  "id": "fae8e5ae-98e6-43d4-ad1e-ac8bd11c8cec",
                   "tag": "Untagged",
                   "name": "U_MC02_BodyLow_Mesh",
                   "layer": 31
@@ -14322,70 +14322,70 @@
                 },
                 "brakeLightsMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "c76bcda0-a3f5-4157-aeca-d5dfa42b9333",
+                  "id": "40763f76-3d2e-4c99-b154-e36b30a21b69",
                   "tag": "Untagged",
                   "name": "U_MC02_BrakeLight_Mesh",
                   "layer": 31
                 },
                 "reverseLightsMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "f5e66e75-3094-480a-accc-a9bd13e6bd80",
+                  "id": "31039b50-3cb8-4a8c-91fb-18e6129a3749",
                   "tag": "Untagged",
                   "name": "U_MC02_ReverseLight_Mesh",
                   "layer": 31
                 },
                 "frontLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "51a864d1-b9ce-4387-9827-c51e38e2c0fe",
+                  "id": "1fe168ed-45b8-46cf-bdca-3faebd3598ea",
                   "tag": "Untagged",
                   "name": "FrontLeftWheel",
                   "layer": 31
                 },
                 "frontRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "16879eee-c047-4b83-9ab1-5fcf34ccda90",
+                  "id": "72d942ec-9e50-4573-aa2e-4d64c184ec4e",
                   "tag": "Untagged",
                   "name": "FrontRightWheel",
                   "layer": 31
                 },
                 "rearLeftWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "b47f9701-e384-45b2-bcef-9abf3e3e1bb1",
+                  "id": "a470d4e7-49b2-42e9-bde5-bec0f8816c83",
                   "tag": "Untagged",
                   "name": "RearLeftWheel",
                   "layer": 31
                 },
                 "rearRightWheelCollider": {
                   "type": "UnityEngine.Transform",
-                  "id": "aaa7490f-67e3-40e8-9178-3147c44f2580",
+                  "id": "aec0ba13-b344-4415-9d8a-0cf5147a3a60",
                   "tag": "Untagged",
                   "name": "RearRightWheel",
                   "layer": 31
                 },
                 "frontLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "fd8a4754-ec6e-49c8-b441-23a216b4c321",
+                  "id": "c14cf89f-172a-4617-a06f-0df282669304",
                   "tag": "Untagged",
                   "name": "WheelHub_FL",
                   "layer": 31
                 },
                 "frontRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "3857ae21-5c44-4e72-ad8f-5f9b8efcd092",
+                  "id": "84167772-3d2b-4c8a-9ce3-4ec7bb0fd2f6",
                   "tag": "Untagged",
                   "name": "WheelHub_FR",
                   "layer": 31
                 },
                 "rearLeftWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "97b26005-df6d-4002-a95c-06e66823148e",
+                  "id": "659d4c3a-9211-459a-b27d-cd0765a7d83b",
                   "tag": "Untagged",
                   "name": "WheelHub_RL",
                   "layer": 31
                 },
                 "rearRightWheelMesh": {
                   "type": "UnityEngine.Transform",
-                  "id": "c6676864-44d9-42f3-88e5-2c8995b9a5be",
+                  "id": "8e218b61-30f2-4ab9-8406-7330fa0678de",
                   "tag": "Untagged",
                   "name": "WheelHub_RR",
                   "layer": 31
@@ -14480,7 +14480,7 @@
       "name": "Wheel Meshes",
       "extras": {
         "metadata": {
-          "guid": "7e79d5b2-e55c-47d7-810c-7ab1c46bcb93",
+          "guid": "419435ee-765b-4922-b735-f698c55f9577",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -14499,7 +14499,7 @@
       "name": "WheelHub_FL",
       "extras": {
         "metadata": {
-          "guid": "fd8a4754-ec6e-49c8-b441-23a216b4c321",
+          "guid": "c14cf89f-172a-4617-a06f-0df282669304",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -14511,7 +14511,7 @@
       "name": "Wheel_FL",
       "extras": {
         "metadata": {
-          "guid": "92ff35cf-33f2-43cc-8947-9de7d749cac2",
+          "guid": "a87cefb8-5771-4c6b-adc6-a3dbbf7d94c2",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14552,7 +14552,7 @@
       "name": "WheelHub_FR",
       "extras": {
         "metadata": {
-          "guid": "3857ae21-5c44-4e72-ad8f-5f9b8efcd092",
+          "guid": "84167772-3d2b-4c8a-9ce3-4ec7bb0fd2f6",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -14564,7 +14564,7 @@
       "name": "Wheel_FR",
       "extras": {
         "metadata": {
-          "guid": "cc55feef-5fdb-430e-95d4-7adf0ea34966",
+          "guid": "886d8035-37f3-46ae-9443-229cd4e7fcc3",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14605,7 +14605,7 @@
       "name": "WheelHub_RL",
       "extras": {
         "metadata": {
-          "guid": "97b26005-df6d-4002-a95c-06e66823148e",
+          "guid": "659d4c3a-9211-459a-b27d-cd0765a7d83b",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -14617,7 +14617,7 @@
       "name": "Wheel_RL",
       "extras": {
         "metadata": {
-          "guid": "fd022d00-2b7a-4166-9ca6-de05b1ea8c8b",
+          "guid": "1bc580c8-46de-472a-be33-febee2048b81",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14659,7 +14659,7 @@
       "name": "WheelHub_RR",
       "extras": {
         "metadata": {
-          "guid": "c6676864-44d9-42f3-88e5-2c8995b9a5be",
+          "guid": "8e218b61-30f2-4ab9-8406-7330fa0678de",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
@@ -14702,7 +14702,7 @@
       "name": "Wheel_RR",
       "extras": {
         "metadata": {
-          "guid": "84fe417d-fc8c-4af5-a0c0-fdf60ca9b91c",
+          "guid": "02b6df8e-b4cc-4e75-9761-d819c1e8207b",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14746,12 +14746,12 @@
       "name": "TopFrame",
       "extras": {
         "metadata": {
-          "guid": "3c49a62b-1600-49e6-8cea-8eb6534986cd",
+          "guid": "b90bbefc-edef-435d-a5ee-1eb24e43f98e",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
           "layername": "Babylon Prefab",
-          "tags": "Untagged Layer31 Trigger",
+          "tags": "Untagged Layer31",
           "collision": {
             "type": "BoxCollider",
             "entity": "TopFrame",
@@ -14760,7 +14760,7 @@
               "y": 2.38418579E-07,
               "z": -5.96046448E-08
             },
-            "trigger": true,
+            "trigger": false,
             "boxsize": {
               "x": 1.00000012,
               "y": 0.99999994,
@@ -14798,12 +14798,12 @@
       "name": "MiddleFrame",
       "extras": {
         "metadata": {
-          "guid": "210b308d-a283-4906-804e-e0981f18e3da",
+          "guid": "787d5d03-2289-4851-870b-f970b2999dbe",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
           "layername": "Babylon Prefab",
-          "tags": "Untagged Layer31 Trigger",
+          "tags": "Untagged Layer31",
           "collision": {
             "type": "BoxCollider",
             "entity": "MiddleFrame",
@@ -14812,7 +14812,7 @@
               "y": 2.38418579E-07,
               "z": -5.96046448E-08
             },
-            "trigger": true,
+            "trigger": false,
             "boxsize": {
               "x": 1.00000012,
               "y": 0.99999994,
@@ -14850,12 +14850,12 @@
       "name": "BottomFrame",
       "extras": {
         "metadata": {
-          "guid": "088d9bbb-47a5-4a6c-95be-05241445c4ba",
+          "guid": "c9181624-2c5d-42f6-8e72-e232a57c1126",
           "visible": false,
           "visibility": 0.5,
           "layer": 31,
           "layername": "Babylon Prefab",
-          "tags": "Untagged Layer31 Trigger",
+          "tags": "Untagged Layer31",
           "collision": {
             "type": "BoxCollider",
             "entity": "BottomFrame",
@@ -14864,7 +14864,7 @@
               "y": 0.0,
               "z": 0.0
             },
-            "trigger": true,
+            "trigger": false,
             "boxsize": {
               "x": 1.00000024,
               "y": 1.0,
@@ -14896,7 +14896,7 @@
       "name": "FrontLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "51a864d1-b9ce-4387-9827-c51e38e2c0fe",
+          "guid": "1fe168ed-45b8-46cf-bdca-3faebd3598ea",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14927,7 +14927,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "51a864d1-b9ce-4387-9827-c51e38e2c0fe",
+              "id": "1fe168ed-45b8-46cf-bdca-3faebd3598ea",
               "name": "FrontLeftWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -14944,13 +14944,13 @@
               ],
               "frictionslip": 9.0,
               "rollinfluence": 0.2,
-              "dampingcompression": 3.5,
+              "dampingcompression": 2.5,
               "dampingrelaxation": 4.5,
-              "suspensiontravelcm": 10,
-              "suspensionstiffness": 100,
+              "suspensiontravelcm": 10.0,
+              "suspensionstiffness": 100.0,
               "wheelconnectionpoint": 0.5,
-              "suspensionrestlength": 0.285,
-              "totalsuspensionforces": 1000000
+              "suspensionrestlength": 0.3,
+              "totalsuspensionforces": 25000
             }
           }
         }
@@ -14965,7 +14965,7 @@
       "name": "FrontRightWheel",
       "extras": {
         "metadata": {
-          "guid": "16879eee-c047-4b83-9ab1-5fcf34ccda90",
+          "guid": "72d942ec-9e50-4573-aa2e-4d64c184ec4e",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -14996,7 +14996,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "16879eee-c047-4b83-9ab1-5fcf34ccda90",
+              "id": "72d942ec-9e50-4573-aa2e-4d64c184ec4e",
               "name": "FrontRightWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -15013,13 +15013,13 @@
               ],
               "frictionslip": 9.0,
               "rollinfluence": 0.2,
-              "dampingcompression": 3.5,
+              "dampingcompression": 2.5,
               "dampingrelaxation": 4.5,
-              "suspensiontravelcm": 10,
-              "suspensionstiffness": 100,
+              "suspensiontravelcm": 10.0,
+              "suspensionstiffness": 100.0,
               "wheelconnectionpoint": 0.5,
-              "suspensionrestlength": 0.285,
-              "totalsuspensionforces": 1000000
+              "suspensionrestlength": 0.3,
+              "totalsuspensionforces": 25000
             }
           }
         }
@@ -15034,7 +15034,7 @@
       "name": "RearLeftWheel",
       "extras": {
         "metadata": {
-          "guid": "b47f9701-e384-45b2-bcef-9abf3e3e1bb1",
+          "guid": "a470d4e7-49b2-42e9-bde5-bec0f8816c83",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15065,7 +15065,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "b47f9701-e384-45b2-bcef-9abf3e3e1bb1",
+              "id": "a470d4e7-49b2-42e9-bde5-bec0f8816c83",
               "name": "RearLeftWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -15082,13 +15082,13 @@
               ],
               "frictionslip": 10.0,
               "rollinfluence": 0.2,
-              "dampingcompression": 3.5,
+              "dampingcompression": 2.5,
               "dampingrelaxation": 4.5,
-              "suspensiontravelcm": 10,
-              "suspensionstiffness": 100,
+              "suspensiontravelcm": 10.0,
+              "suspensionstiffness": 100.0,
               "wheelconnectionpoint": 0.5,
-              "suspensionrestlength": 0.285,
-              "totalsuspensionforces": 1000000
+              "suspensionrestlength": 0.3,
+              "totalsuspensionforces": 25000
             }
           }
         }
@@ -15103,7 +15103,7 @@
       "name": "RearRightWheel",
       "extras": {
         "metadata": {
-          "guid": "aaa7490f-67e3-40e8-9178-3147c44f2580",
+          "guid": "aec0ba13-b344-4415-9d8a-0cf5147a3a60",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15134,7 +15134,7 @@
             "dynamicfriction": 0.6,
             "staticfriction": 0.6,
             "wheelinformation": {
-              "id": "aaa7490f-67e3-40e8-9178-3147c44f2580",
+              "id": "aec0ba13-b344-4415-9d8a-0cf5147a3a60",
               "name": "RearRightWheel",
               "mass": 20.0,
               "radius": 0.344,
@@ -15151,13 +15151,13 @@
               ],
               "frictionslip": 10.0,
               "rollinfluence": 0.2,
-              "dampingcompression": 3.5,
+              "dampingcompression": 2.5,
               "dampingrelaxation": 4.5,
-              "suspensiontravelcm": 10,
-              "suspensionstiffness": 100,
+              "suspensiontravelcm": 10.0,
+              "suspensionstiffness": 100.0,
               "wheelconnectionpoint": 0.5,
-              "suspensionrestlength": 0.285,
-              "totalsuspensionforces": 1000000
+              "suspensionrestlength": 0.3,
+              "totalsuspensionforces": 25000
             }
           }
         }
@@ -15172,7 +15172,7 @@
       "name": "U_MC02_LOW",
       "extras": {
         "metadata": {
-          "guid": "0d7d7ee9-1721-4418-bf52-39419859f620",
+          "guid": "6a1a4c6f-b51d-4ac8-a2bb-1010605457c8",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31"
@@ -15189,7 +15189,7 @@
       "name": "U_MC02_BodyLow_Mesh",
       "extras": {
         "metadata": {
-          "guid": "4ac467ab-79fb-4011-b121-2d53588f8054",
+          "guid": "fae8e5ae-98e6-43d4-ad1e-ac8bd11c8cec",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15228,7 +15228,7 @@
       "name": "U_MC02_BrakeLight_Mesh",
       "extras": {
         "metadata": {
-          "guid": "c76bcda0-a3f5-4157-aeca-d5dfa42b9333",
+          "guid": "40763f76-3d2e-4c99-b154-e36b30a21b69",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15267,7 +15267,7 @@
       "name": "U_MC02_ReverseLight_Mesh",
       "extras": {
         "metadata": {
-          "guid": "f5e66e75-3094-480a-accc-a9bd13e6bd80",
+          "guid": "31039b50-3cb8-4a8c-91fb-18e6129a3749",
           "layer": 31,
           "layername": "Babylon Prefab",
           "tags": "Untagged Layer31",
@@ -15467,21 +15467,22 @@
           "ktxtextures": false,
           "rendergroups": 4,
           "rawmaterials": [],
-          "script": "araceproject",
-          "project": "araceproject.js",
+          "script": "mvrkracing3d",
+          "project": "mvrkracing3d.js",
           "filename": "FioranoTrack",
           "prewarmup": 1.0,
           "hideloader": true,
           "exposure": 1,
           "tonemapping": 0,
           "gammacorrection": 1,
+          "trianglenormals": true,
           "deltaworldstep": true,
           "subtimestep": 0.0,
           "pointerlock": false,
           "preventdefault": false,
           "ccdpenetration": 0.0,
           "ccdenabled": true,
-          "maxworldsweep": 0,
+          "maxworldsweep": 1000,
           "enableinput": true,
           "usecapture": false,
           "userinput": {
