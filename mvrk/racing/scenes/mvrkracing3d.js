@@ -4329,6 +4329,7 @@ var PROJECT;
             this.raceCar4 = this.getProperty("raceCar4", this.raceCar4);
             //this.updateTimeStep = this.getProperty("updateTimeStep", this.updateTimeStep);
             this.startCountdownVolume = this.getProperty("startVolume", this.startCountdownVolume);
+            console.warn("F1SceneController: Build 03-21-2021-A1");
         }
         initRaceController() {
             /* WORK - IN - PROGRESS
@@ -4568,6 +4569,7 @@ var PROJECT;
         awakeRaceController() {
             this.raceCar1 = this.getProperty("raceCar1", this.raceCar1);
             this.startCountdownVolume = this.getProperty("startVolume", this.startCountdownVolume);
+            console.warn("F1SceneController: Build 03-21-2021-A1");
         }
         initRaceController() {
             const rootUrl = BABYLON.SceneManager.GetRootUrl(this.scene);
